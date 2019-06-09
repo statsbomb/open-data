@@ -15,7 +15,7 @@ By using this repository, you are agreeing to the [user agreement](LICENSE.pdf).
 
 If you publish, share or distribute any research, analysis or insights based on this data, please state the data source as StatsBomb and use our logo:
 
-![StatsBomb Logo](img/statsbomb-logo.jpg)
+![StatsBomb Logo](stats-bomb-logo.png)
 
 ## Getting Started
 
