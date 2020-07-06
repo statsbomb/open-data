@@ -13,9 +13,7 @@ Whilst we are keen to share data and facilitate research, we also urge you to be
 
 By using this repository, you are agreeing to the [user agreement](LICENSE.pdf).
 
-If you publish, share or distribute any research, analysis or insights based on this data, please state the data source as StatsBomb and use our logo:
-
-![StatsBomb Logo](stats-bomb-logo.png)
+If you publish, share or distribute any research, analysis or insights based on this data, please state the data source as StatsBomb and use our logo, available in our [`Media Pack`](https://statsbomb.com/media-pack/).
 
 ## Getting Started
 
