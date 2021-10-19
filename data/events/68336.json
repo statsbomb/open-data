@@ -3323,11 +3323,11 @@
   "related_events" : [ "1c5cc7c8-3e6b-4698-9424-d7a67cb51910", "ecbb1ca9-4f03-410a-b72e-532dd0cf0ef5" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "34b6943d-9d24-4220-88c8-18a4df0ac6bc",
@@ -9317,11 +9317,11 @@
   "under_pressure" : true,
   "related_events" : [ "532ca2e6-cc93-40a9-aa09-48a261fd918e" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "723eaba8-fcb9-43fa-b871-6e4b8b9df93a",
@@ -15307,11 +15307,11 @@
   "under_pressure" : true,
   "related_events" : [ "7fd1ed44-bff7-4723-9c58-b128b1b5d9b0" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "2c8aa0a6-1370-45fd-9aeb-ca36a9612e0f",
@@ -15368,11 +15368,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
-    }
+    },
+    "outswinging" : true
   }
 }, {
   "id" : "4faac52e-91f8-42b5-a421-b19357d0f418",
@@ -15411,11 +15411,11 @@
   "under_pressure" : true,
   "related_events" : [ "2c8aa0a6-1370-45fd-9aeb-ca36a9612e0f" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "763b986c-6ae7-4e1c-b7d1-5478f59810d4",
@@ -18255,17 +18255,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 102.7, 37.0 ],
-      "player" : {
-        "id" : 26043,
-        "name" : "David Generelo Miranda"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 97.9, 33.0 ],
       "player" : {
         "id" : 26049,
@@ -18277,36 +18266,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 105.5, 37.7 ],
+      "location" : [ 119.2, 36.9 ],
       "player" : {
-        "id" : 15071,
-        "name" : "Lilian Thuram"
+        "id" : 20176,
+        "name" : "Víctor Valdés Arribas"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.0, 31.3 ],
-      "player" : {
-        "id" : 5216,
-        "name" : "Andrés Iniesta Luján"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.1, 32.3 ],
-      "player" : {
-        "id" : 20125,
-        "name" : "Carles Puyol i Saforcada"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -18321,6 +18288,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 105.5, 37.7 ],
+      "player" : {
+        "id" : 15071,
+        "name" : "Lilian Thuram"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 103.0, 16.8 ],
       "player" : {
         "id" : 15774,
@@ -18332,14 +18310,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 119.2, 36.9 ],
+      "location" : [ 105.1, 32.3 ],
       "player" : {
-        "id" : 20176,
-        "name" : "Víctor Valdés Arribas"
+        "id" : 20125,
+        "name" : "Carles Puyol i Saforcada"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.7, 37.0 ],
+      "player" : {
+        "id" : 26043,
+        "name" : "David Generelo Miranda"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.0, 31.3 ],
+      "player" : {
+        "id" : 5216,
+        "name" : "Andrés Iniesta Luján"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -18755,16 +18755,27 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 92.7, 49.4 ],
+      "location" : [ 103.7, 42.4 ],
       "player" : {
-        "id" : 26045,
-        "name" : "David Cuéllar Tainta"
+        "id" : 26048,
+        "name" : "Sebastien Chabaud"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 107.3, 41.0 ],
+      "player" : {
+        "id" : 19757,
+        "name" : "Anderson Luís de Souza"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 95.5, 27.6 ],
       "player" : {
@@ -18777,14 +18788,58 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 95.2, 29.4 ],
+      "location" : [ 101.3, 42.7 ],
       "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 95.5, 28.5 ],
+      "player" : {
+        "id" : 26050,
+        "name" : "Javier García Portillo"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.0, 28.7 ],
+      "player" : {
+        "id" : 19298,
+        "name" : "Samuel Eto\"o Fils"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.2, 39.2 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.7, 49.4 ],
+      "player" : {
+        "id" : 26045,
+        "name" : "David Cuéllar Tainta"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -18799,25 +18854,80 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 95.5, 28.5 ],
+      "location" : [ 107.3, 36.0 ],
       "player" : {
-        "id" : 26050,
-        "name" : "Javier García Portillo"
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.9, 40.4 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 103.7, 42.4 ],
+      "location" : [ 95.2, 29.4 ],
       "player" : {
-        "id" : 26048,
-        "name" : "Sebastien Chabaud"
+        "id" : 26042,
+        "name" : "José María Calvo"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 88.8, 46.0 ],
+      "player" : {
+        "id" : 15774,
+        "name" : "Gianluca Zambrotta"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 105.9, 29.8 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.3, 46.5 ],
+      "player" : {
+        "id" : 17797,
+        "name" : "Giovanni van Bronckhorst"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.7, 45.4 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -18832,105 +18942,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 105.9, 29.8 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.9, 40.4 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.7, 45.4 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.3, 36.0 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 104.0, 28.7 ],
-      "player" : {
-        "id" : 19298,
-        "name" : "Samuel Eto\"o Fils"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.3, 42.7 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.3, 41.0 ],
-      "player" : {
-        "id" : 19757,
-        "name" : "Anderson Luís de Souza"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.3, 46.5 ],
-      "player" : {
-        "id" : 17797,
-        "name" : "Giovanni van Bronckhorst"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 88.8, 46.0 ],
-      "player" : {
-        "id" : 15774,
-        "name" : "Gianluca Zambrotta"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 85.4, 38.3 ],
       "player" : {
         "id" : 5216,
@@ -18941,17 +18952,6 @@
         "name" : "Center Defensive Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 119.2, 39.2 ],
-      "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -21456,17 +21456,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 82.4, 54.3 ],
-      "player" : {
-        "id" : 26045,
-        "name" : "David Cuéllar Tainta"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 75.8, 49.1 ],
       "player" : {
         "id" : 26048,
@@ -21475,72 +21464,6 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 80.5, 45.9 ],
-      "player" : {
-        "id" : 26043,
-        "name" : "David Generelo Miranda"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 86.7, 20.2 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 88.7, 35.4 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 88.1, 47.8 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 87.8, 61.8 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.5, 40.1 ],
-      "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -21555,16 +21478,38 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 70.0, 65.0 ],
+      "location" : [ 83.1, 75.6 ],
       "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
+    }, {
+      "location" : [ 117.5, 40.1 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 82.4, 54.3 ],
+      "player" : {
+        "id" : 26045,
+        "name" : "David Cuéllar Tainta"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
     }, {
       "location" : [ 83.1, 12.9 ],
       "player" : {
@@ -21577,6 +21522,72 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 70.0, 65.0 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 88.7, 35.4 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 86.7, 20.2 ],
+      "player" : {
+        "id" : 26042,
+        "name" : "José María Calvo"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 87.8, 61.8 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 88.1, 47.8 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 80.5, 45.9 ],
+      "player" : {
+        "id" : 26043,
+        "name" : "David Generelo Miranda"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 78.2, 35.0 ],
       "player" : {
         "id" : 5216,
@@ -21585,17 +21596,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 83.1, 75.6 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
       },
       "teammate" : true
     } ]
@@ -23386,39 +23386,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 110.8, 46.8 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.4, 38.2 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.6, 45.4 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 107.1, 59.1 ],
       "player" : {
         "id" : 5503,
@@ -23438,6 +23405,39 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.4, 38.2 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.8, 46.8 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.6, 45.4 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -23626,11 +23626,11 @@
   "under_pressure" : true,
   "related_events" : [ "934b7b99-9593-4d56-b56b-969590478a50" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "02195acf-1532-483f-b68d-8ad25b4e04f9",
@@ -25984,11 +25984,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "e707db18-8122-453c-9251-22fae10e4af5",
@@ -27197,6 +27197,17 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
+      "location" : [ 108.1, 26.1 ],
+      "player" : {
+        "id" : 19757,
+        "name" : "Anderson Luís de Souza"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 110.7, 46.3 ],
       "player" : {
         "id" : 26049,
@@ -27218,6 +27229,50 @@
         "name" : "Center Forward"
       },
       "teammate" : true
+    }, {
+      "location" : [ 119.4, 36.9 ],
+      "player" : {
+        "id" : 20176,
+        "name" : "Víctor Valdés Arribas"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.2, 31.4 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.2, 36.1 ],
+      "player" : {
+        "id" : 15071,
+        "name" : "Lilian Thuram"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.9, 23.2 ],
+      "player" : {
+        "id" : 15774,
+        "name" : "Gianluca Zambrotta"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 112.8, 45.6 ],
       "player" : {
@@ -27241,17 +27296,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.2, 36.1 ],
-      "player" : {
-        "id" : 15071,
-        "name" : "Lilian Thuram"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 108.6, 37.3 ],
       "player" : {
         "id" : 5216,
@@ -27260,50 +27304,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.2, 31.4 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.1, 26.1 ],
-      "player" : {
-        "id" : 19757,
-        "name" : "Anderson Luís de Souza"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.9, 23.2 ],
-      "player" : {
-        "id" : 15774,
-        "name" : "Gianluca Zambrotta"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.4, 36.9 ],
-      "player" : {
-        "id" : 20176,
-        "name" : "Víctor Valdés Arribas"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     } ]
@@ -30656,6 +30656,50 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 113.3, 39.8 ],
+      "player" : {
+        "id" : 19757,
+        "name" : "Anderson Luís de Souza"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.4, 51.6 ],
+      "player" : {
+        "id" : 19298,
+        "name" : "Samuel Eto\"o Fils"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.0, 43.4 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.4, 58.5 ],
+      "player" : {
+        "id" : 26045,
+        "name" : "David Cuéllar Tainta"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 102.5, 44.8 ],
       "player" : {
         "id" : 26047,
@@ -30666,6 +30710,17 @@
         "name" : "Right Center Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 95.4, 58.5 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 117.4, 49.9 ],
       "player" : {
@@ -30689,17 +30744,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 109.9, 50.5 ],
-      "player" : {
-        "id" : 26043,
-        "name" : "David Generelo Miranda"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 112.1, 53.4 ],
       "player" : {
         "id" : 26046,
@@ -30711,60 +30755,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.4, 58.5 ],
+      "location" : [ 109.9, 50.5 ],
       "player" : {
-        "id" : 26045,
-        "name" : "David Cuéllar Tainta"
+        "id" : 26043,
+        "name" : "David Generelo Miranda"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 119.0, 43.4 ],
-      "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.4, 51.6 ],
-      "player" : {
-        "id" : 19298,
-        "name" : "Samuel Eto\"o Fils"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.3, 39.8 ],
-      "player" : {
-        "id" : 19757,
-        "name" : "Anderson Luís de Souza"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 95.4, 58.5 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -32932,36 +32932,14 @@
       "name" : "Post"
     },
     "freeze_frame" : [ {
-      "location" : [ 106.8, 33.6 ],
+      "location" : [ 118.6, 40.0 ],
       "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 40.2 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.5, 43.6 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -32976,14 +32954,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.6, 40.0 ],
+      "location" : [ 106.8, 33.6 ],
       "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
+        "id" : 26044,
+        "name" : "César González Navas"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.5, 43.6 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.0, 40.2 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -33070,11 +33070,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "034d9daa-e7a1-4aa6-b0f6-5fa10a1b6663",
@@ -33958,14 +33958,47 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 108.2, 30.0 ],
+      "location" : [ 108.8, 40.5 ],
       "player" : {
-        "id" : 26043,
-        "name" : "David Generelo Miranda"
+        "id" : 26048,
+        "name" : "Sebastien Chabaud"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.5, 48.9 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.2, 35.0 ],
+      "player" : {
+        "id" : 19298,
+        "name" : "Samuel Eto\"o Fils"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 116.3, 48.5 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -33991,16 +34024,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.8, 40.5 ],
+      "location" : [ 102.5, 47.6 ],
       "player" : {
-        "id" : 26048,
-        "name" : "Sebastien Chabaud"
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 113.5, 40.9 ],
       "player" : {
@@ -34024,17 +34057,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 116.3, 48.5 ],
-      "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 108.1, 44.6 ],
       "player" : {
         "id" : 26040,
@@ -34046,38 +34068,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.2, 35.0 ],
+      "location" : [ 108.2, 30.0 ],
       "player" : {
-        "id" : 19298,
-        "name" : "Samuel Eto\"o Fils"
+        "id" : 26043,
+        "name" : "David Generelo Miranda"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 102.5, 47.6 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 117.5, 48.9 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
+      "teammate" : false
     } ]
   }
 }, {
@@ -37695,11 +37695,11 @@
   "under_pressure" : true,
   "related_events" : [ "2cf778a0-d3d7-4ea8-b75c-37ce0e9ec0f3" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "ee297cae-79ad-4df1-b60f-24f1b9fdb798",
@@ -40551,14 +40551,25 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 92.6, 4.3 ],
+      "location" : [ 92.6, 37.0 ],
       "player" : {
-        "id" : 25879,
-        "name" : "Ronaldo de Assis Moreira"
+        "id" : 26048,
+        "name" : "Sebastien Chabaud"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 86.4, 52.3 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
@@ -40573,6 +40584,28 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 115.2, 38.6 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.6, 4.3 ],
+      "player" : {
+        "id" : 25879,
+        "name" : "Ronaldo de Assis Moreira"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 82.0, 43.6 ],
       "player" : {
         "id" : 20131,
@@ -40584,25 +40617,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 86.4, 52.3 ],
+      "location" : [ 98.4, 28.0 ],
       "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
+        "id" : 26044,
+        "name" : "César González Navas"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 92.6, 37.0 ],
-      "player" : {
-        "id" : 26048,
-        "name" : "Sebastien Chabaud"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -40617,28 +40639,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 98.4, 28.0 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.9, 33.3 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 96.9, 47.8 ],
       "player" : {
         "id" : 26046,
@@ -40650,14 +40650,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 115.2, 38.6 ],
+      "location" : [ 97.9, 33.3 ],
       "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -43182,11 +43182,11 @@
   "under_pressure" : true,
   "related_events" : [ "d515ba47-5b95-47c9-8569-cb49bc4414ad" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "7d4e7850-74ea-4441-b57c-ff50fdab9a78",
@@ -44596,80 +44596,14 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 107.6, 33.8 ],
+      "location" : [ 104.1, 35.6 ],
       "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
+        "id" : 19757,
+        "name" : "Anderson Luís de Souza"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.4, 30.1 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.2, 36.0 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.5, 36.8 ],
-      "player" : {
-        "id" : 26047,
-        "name" : "Ángel Morales Cuerva"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.9, 53.6 ],
-      "player" : {
-        "id" : 26045,
-        "name" : "David Cuéllar Tainta"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.5, 41.1 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.2, 42.4 ],
-      "player" : {
-        "id" : 19298,
-        "name" : "Samuel Eto\"o Fils"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : true
     }, {
@@ -44684,14 +44618,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 104.1, 35.6 ],
+      "location" : [ 113.2, 42.4 ],
       "player" : {
-        "id" : 19757,
-        "name" : "Anderson Luís de Souza"
+        "id" : 19298,
+        "name" : "Samuel Eto\"o Fils"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -44703,6 +44637,72 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.9, 53.6 ],
+      "player" : {
+        "id" : 26045,
+        "name" : "David Cuéllar Tainta"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.5, 36.8 ],
+      "player" : {
+        "id" : 26047,
+        "name" : "Ángel Morales Cuerva"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.2, 36.0 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.4, 30.1 ],
+      "player" : {
+        "id" : 26042,
+        "name" : "José María Calvo"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.5, 41.1 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.6, 33.8 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -52802,6 +52802,28 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
+      "location" : [ 106.7, 57.1 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 115.0, 41.1 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 107.1, 31.6 ],
       "player" : {
         "id" : 25879,
@@ -52813,16 +52835,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 106.7, 57.1 ],
+      "location" : [ 105.8, 45.6 ],
       "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
+        "id" : 26045,
+        "name" : "David Cuéllar Tainta"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 96.5, 48.0 ],
       "player" : {
@@ -52835,28 +52857,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 102.3, 45.2 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.2, 40.2 ],
-      "player" : {
-        "id" : 26043,
-        "name" : "David Generelo Miranda"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 102.1, 21.9 ],
       "player" : {
         "id" : 26047,
@@ -52865,17 +52865,6 @@
       "position" : {
         "id" : 13,
         "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.9, 47.0 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -52890,14 +52879,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 115.0, 41.1 ],
+      "location" : [ 102.3, 45.2 ],
       "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
+        "id" : 26042,
+        "name" : "José María Calvo"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.9, 47.0 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -52912,14 +52912,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 105.8, 45.6 ],
+      "location" : [ 101.2, 40.2 ],
       "player" : {
-        "id" : 26045,
-        "name" : "David Cuéllar Tainta"
+        "id" : 26043,
+        "name" : "David Generelo Miranda"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -55119,11 +55119,11 @@
   "under_pressure" : true,
   "related_events" : [ "2e73fa14-8e0a-4a87-86b3-5ac60b7471ca", "d6cef7a7-b1f6-4a0c-a9ff-511160c6d938" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -57068,39 +57068,6 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 93.3, 26.9 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.2, 29.5 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 91.7, 46.0 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 89.3, 37.9 ],
       "player" : {
         "id" : 5503,
@@ -57120,6 +57087,39 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 93.3, 26.9 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 91.7, 46.0 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.2, 29.5 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -57228,11 +57228,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 92.9, 52.0 ],
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -57677,11 +57677,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "3d3a08b8-ef34-403c-941d-a3bae9d57481",
@@ -58422,14 +58422,14 @@
       "name" : "Goal"
     },
     "freeze_frame" : [ {
-      "location" : [ 116.9, 42.0 ],
+      "location" : [ 99.0, 48.1 ],
       "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
+        "id" : 26048,
+        "name" : "Sebastien Chabaud"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : false
     }, {
@@ -58444,47 +58444,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 103.2, 52.4 ],
+      "location" : [ 116.9, 42.0 ],
       "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.0, 48.1 ],
-      "player" : {
-        "id" : 26048,
-        "name" : "Sebastien Chabaud"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.2, 39.8 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.1, 48.5 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -58499,6 +58466,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 105.2, 39.8 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 104.1, 28.9 ],
       "player" : {
         "id" : 26042,
@@ -58507,6 +58485,28 @@
       "position" : {
         "id" : 2,
         "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.2, 52.4 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.1, 48.5 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -61857,14 +61857,80 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 102.7, 35.0 ],
+      "location" : [ 102.7, 32.4 ],
       "player" : {
-        "id" : 26047,
-        "name" : "Ángel Morales Cuerva"
+        "id" : 26048,
+        "name" : "Sebastien Chabaud"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.5, 40.3 ],
+      "player" : {
+        "id" : 19757,
+        "name" : "Anderson Luís de Souza"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 98.1, 46.2 ],
+      "player" : {
+        "id" : 26049,
+        "name" : "Ismael Marchal Razquín"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.4, 53.7 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.7, 33.6 ],
+      "player" : {
+        "id" : 26050,
+        "name" : "Javier García Portillo"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.7, 35.5 ],
+      "player" : {
+        "id" : 19298,
+        "name" : "Samuel Eto\"o Fils"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.8, 40.1 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -61879,91 +61945,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.7, 33.6 ],
+      "location" : [ 102.7, 35.0 ],
       "player" : {
-        "id" : 26050,
-        "name" : "Javier García Portillo"
+        "id" : 26047,
+        "name" : "Ángel Morales Cuerva"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.7, 33.0 ],
-      "player" : {
-        "id" : 26043,
-        "name" : "David Generelo Miranda"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.7, 32.4 ],
-      "player" : {
-        "id" : 26048,
-        "name" : "Sebastien Chabaud"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.1, 46.2 ],
-      "player" : {
-        "id" : 26049,
-        "name" : "Ismael Marchal Razquín"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.0, 36.4 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.6, 41.4 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.5, 44.4 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.1, 52.4 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : false
     }, {
@@ -61978,27 +61967,60 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 105.7, 35.5 ],
+      "location" : [ 106.6, 41.4 ],
       "player" : {
-        "id" : 19298,
-        "name" : "Samuel Eto\"o Fils"
+        "id" : 26044,
+        "name" : "César González Navas"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 104.5, 40.3 ],
+      "location" : [ 107.0, 36.4 ],
       "player" : {
-        "id" : 19757,
-        "name" : "Anderson Luís de Souza"
+        "id" : 26042,
+        "name" : "José María Calvo"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 2,
+        "name" : "Right Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 107.1, 52.4 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.5, 44.4 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.7, 33.0 ],
+      "player" : {
+        "id" : 26043,
+        "name" : "David Generelo Miranda"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     }, {
       "location" : [ 88.4, 51.5 ],
       "player" : {
@@ -62010,28 +62032,6 @@
         "name" : "Center Defensive Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 107.4, 53.7 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 118.8, 40.1 ],
-      "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -76930,50 +76930,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 42.5, 22.2 ],
-      "player" : {
-        "id" : 17797,
-        "name" : "Giovanni van Bronckhorst"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 27.2, 46.2 ],
-      "player" : {
-        "id" : 15071,
-        "name" : "Lilian Thuram"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 33.8, 54.1 ],
-      "player" : {
-        "id" : 15774,
-        "name" : "Gianluca Zambrotta"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 42.7, 39.3 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 47.2, 46.1 ],
       "player" : {
         "id" : 19757,
@@ -76985,6 +76941,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 76.2, 25.9 ],
+      "player" : {
+        "id" : 26048,
+        "name" : "Sebastien Chabaud"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 61.6, 25.5 ],
       "player" : {
         "id" : 5503,
@@ -76995,6 +76962,39 @@
         "name" : "Right Wing"
       },
       "teammate" : true
+    }, {
+      "location" : [ 69.8, 40.6 ],
+      "player" : {
+        "id" : 26049,
+        "name" : "Ismael Marchal Razquín"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 68.9, 42.1 ],
+      "player" : {
+        "id" : 26050,
+        "name" : "Javier García Portillo"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.9, 39.9 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     }, {
       "location" : [ 60.1, 41.1 ],
       "player" : {
@@ -77018,38 +77018,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 110.9, 39.9 ],
+      "location" : [ 42.7, 39.3 ],
       "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 60.6, 30.6 ],
-      "player" : {
-        "id" : 26043,
-        "name" : "David Generelo Miranda"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 76.2, 25.9 ],
-      "player" : {
-        "id" : 26048,
-        "name" : "Sebastien Chabaud"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 60.1, 19.1 ],
       "player" : {
@@ -77062,6 +77040,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 27.2, 46.2 ],
+      "player" : {
+        "id" : 15071,
+        "name" : "Lilian Thuram"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 83.8, 39.2 ],
       "player" : {
         "id" : 26044,
@@ -77070,6 +77059,39 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 33.8, 54.1 ],
+      "player" : {
+        "id" : 15774,
+        "name" : "Gianluca Zambrotta"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 42.5, 22.2 ],
+      "player" : {
+        "id" : 17797,
+        "name" : "Giovanni van Bronckhorst"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 80.9, 68.1 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -77084,36 +77106,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 80.9, 68.1 ],
+      "location" : [ 60.6, 30.6 ],
       "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
+        "id" : 26043,
+        "name" : "David Generelo Miranda"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 69.8, 40.6 ],
-      "player" : {
-        "id" : 26049,
-        "name" : "Ismael Marchal Razquín"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 68.9, 42.1 ],
-      "player" : {
-        "id" : 26050,
-        "name" : "Javier García Portillo"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -84209,11 +84209,11 @@
   "under_pressure" : true,
   "related_events" : [ "25e81430-0c22-4cd1-a21d-eb80aed27a64" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "815b4eef-718e-4b30-95e9-857de8750a9f",
@@ -85201,11 +85201,11 @@
   "under_pressure" : true,
   "related_events" : [ "1483bf42-09e9-4097-b303-04c9501f8539" ],
   "clearance" : {
-    "other" : true,
     "body_part" : {
       "id" : 70,
       "name" : "Other"
-    }
+    },
+    "other" : true
   }
 }, {
   "id" : "70fdd902-16f4-4941-8ef0-3d56da719be2",
@@ -88297,28 +88297,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 110.7, 28.1 ],
-      "player" : {
-        "id" : 25879,
-        "name" : "Ronaldo de Assis Moreira"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.4, 54.1 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 108.6, 47.7 ],
       "player" : {
         "id" : 26048,
@@ -88329,17 +88307,6 @@
         "name" : "Left Center Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 111.1, 56.9 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
     }, {
       "location" : [ 112.6, 44.8 ],
       "player" : {
@@ -88363,28 +88330,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 115.9, 50.7 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.0, 51.1 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 116.8, 45.8 ],
       "player" : {
         "id" : 26041,
@@ -88396,6 +88341,39 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 110.7, 28.1 ],
+      "player" : {
+        "id" : 25879,
+        "name" : "Ronaldo de Assis Moreira"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 111.1, 56.9 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 115.9, 50.7 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 117.0, 43.1 ],
       "player" : {
         "id" : 26042,
@@ -88404,6 +88382,28 @@
       "position" : {
         "id" : 2,
         "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.4, 54.1 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.0, 51.1 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -88580,6 +88580,17 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
+      "location" : [ 119.0, 39.6 ],
+      "player" : {
+        "id" : 19757,
+        "name" : "Anderson Luís de Souza"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 115.5, 50.3 ],
       "player" : {
         "id" : 19298,
@@ -88591,6 +88602,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 117.2, 48.4 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 108.1, 27.6 ],
       "player" : {
         "id" : 25879,
@@ -88601,6 +88623,17 @@
         "name" : "Left Wing"
       },
       "teammate" : true
+    }, {
+      "location" : [ 118.3, 45.4 ],
+      "player" : {
+        "id" : 26042,
+        "name" : "José María Calvo"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 117.1, 50.6 ],
       "player" : {
@@ -88623,39 +88656,6 @@
         "name" : "Left Center Back"
       },
       "teammate" : false
-    }, {
-      "location" : [ 118.3, 45.4 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.2, 48.4 ],
-      "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.0, 39.6 ],
-      "player" : {
-        "id" : 19757,
-        "name" : "Anderson Luís de Souza"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -89260,16 +89260,38 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 105.5, 34.7 ],
+      "location" : [ 106.4, 32.2 ],
       "player" : {
-        "id" : 15774,
-        "name" : "Gianluca Zambrotta"
+        "id" : 26050,
+        "name" : "Javier García Portillo"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.4, 42.4 ],
+      "player" : {
+        "id" : 20176,
+        "name" : "Víctor Valdés Arribas"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
+    }, {
+      "location" : [ 93.6, 56.4 ],
+      "player" : {
+        "id" : 26047,
+        "name" : "Ángel Morales Cuerva"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 107.4, 43.5 ],
       "player" : {
@@ -89279,6 +89301,17 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.5, 34.7 ],
+      "player" : {
+        "id" : 15774,
+        "name" : "Gianluca Zambrotta"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -89314,39 +89347,6 @@
         "name" : "Center Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 114.4, 42.4 ],
-      "player" : {
-        "id" : 20176,
-        "name" : "Víctor Valdés Arribas"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.4, 32.2 ],
-      "player" : {
-        "id" : 26050,
-        "name" : "Javier García Portillo"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 93.6, 56.4 ],
-      "player" : {
-        "id" : 26047,
-        "name" : "Ángel Morales Cuerva"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -89588,11 +89588,11 @@
   "under_pressure" : true,
   "related_events" : [ "63f408be-c571-4b1d-851e-4234af1013a2" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "385b7807-a6e4-4b45-a716-5db0e59b8280",
@@ -92304,60 +92304,16 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 107.6, 29.8 ],
+      "location" : [ 104.8, 46.2 ],
       "player" : {
-        "id" : 26043,
-        "name" : "David Generelo Miranda"
+        "id" : 19757,
+        "name" : "Anderson Luís de Souza"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 111.5, 29.5 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.4, 34.4 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.8, 40.8 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.1, 17.5 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 100.8, 28.6 ],
       "player" : {
@@ -92381,17 +92337,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 104.8, 46.2 ],
-      "player" : {
-        "id" : 19757,
-        "name" : "Anderson Luís de Souza"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 116.9, 36.4 ],
       "player" : {
         "id" : 26041,
@@ -92400,6 +92345,61 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.5, 29.5 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.1, 17.5 ],
+      "player" : {
+        "id" : 26042,
+        "name" : "José María Calvo"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.8, 40.8 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.4, 34.4 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.6, 29.8 ],
+      "player" : {
+        "id" : 26043,
+        "name" : "David Generelo Miranda"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -92551,50 +92551,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 113.3, 46.4 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.1, 33.7 ],
-      "player" : {
-        "id" : 26043,
-        "name" : "David Generelo Miranda"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.7, 42.0 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.3, 35.8 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 111.4, 35.2 ],
       "player" : {
         "id" : 26048,
@@ -92603,39 +92559,6 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.4, 43.6 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.4, 40.4 ],
-      "player" : {
-        "id" : 26047,
-        "name" : "Ángel Morales Cuerva"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.5, 21.6 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -92658,6 +92581,83 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.3, 46.4 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.4, 40.4 ],
+      "player" : {
+        "id" : 26047,
+        "name" : "Ángel Morales Cuerva"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.3, 35.8 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.5, 21.6 ],
+      "player" : {
+        "id" : 26042,
+        "name" : "José María Calvo"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.4, 43.6 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.7, 42.0 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.1, 33.7 ],
+      "player" : {
+        "id" : 26043,
+        "name" : "David Generelo Miranda"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -92744,11 +92744,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "91d3f3fa-3f2b-44a6-b833-0ea78bfec00b",
@@ -96851,11 +96851,11 @@
   "under_pressure" : true,
   "related_events" : [ "655917e3-8348-4643-b8f4-b2aefe153799" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "d3579d31-3860-4a6c-9930-9af53908de24",
@@ -98521,6 +98521,28 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
+      "location" : [ 89.7, 52.9 ],
+      "player" : {
+        "id" : 19757,
+        "name" : "Anderson Luís de Souza"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 89.1, 49.7 ],
+      "player" : {
+        "id" : 26049,
+        "name" : "Ismael Marchal Razquín"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 118.1, 40.6 ],
       "player" : {
         "id" : 20176,
@@ -98529,6 +98551,28 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.1, 14.9 ],
+      "player" : {
+        "id" : 26045,
+        "name" : "David Cuéllar Tainta"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 87.1, 36.7 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : false
     }, {
@@ -98554,25 +98598,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 87.1, 36.7 ],
+      "location" : [ 98.3, 61.6 ],
       "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
+        "id" : 26042,
+        "name" : "José María Calvo"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 2,
+        "name" : "Right Back"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 94.6, 46.7 ],
+      "location" : [ 98.1, 55.0 ],
       "player" : {
-        "id" : 5216,
-        "name" : "Andrés Iniesta Luján"
+        "id" : 17797,
+        "name" : "Giovanni van Bronckhorst"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -98587,25 +98631,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 89.7, 52.9 ],
+      "location" : [ 94.6, 46.7 ],
       "player" : {
-        "id" : 19757,
-        "name" : "Anderson Luís de Souza"
+        "id" : 5216,
+        "name" : "Andrés Iniesta Luján"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.1, 55.0 ],
-      "player" : {
-        "id" : 17797,
-        "name" : "Giovanni van Bronckhorst"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -98617,39 +98650,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 98.3, 61.6 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 89.1, 49.7 ],
-      "player" : {
-        "id" : 26049,
-        "name" : "Ismael Marchal Razquín"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 97.1, 14.9 ],
-      "player" : {
-        "id" : 26045,
-        "name" : "David Cuéllar Tainta"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
       },
       "teammate" : true
     } ]
@@ -106454,11 +106454,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 51.4, 62.1 ],
-    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    }
+    },
+    "no_touch" : true
   }
 }, {
   "id" : "34ac397f-d584-47fe-b97f-a345a6300500",
@@ -110010,28 +110010,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 116.7, 41.5 ],
-      "player" : {
-        "id" : 20125,
-        "name" : "Carles Puyol i Saforcada"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.7, 33.2 ],
-      "player" : {
-        "id" : 15774,
-        "name" : "Gianluca Zambrotta"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 109.1, 40.5 ],
       "player" : {
         "id" : 19757,
@@ -110040,61 +110018,6 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.0, 39.7 ],
-      "player" : {
-        "id" : 19298,
-        "name" : "Samuel Eto\"o Fils"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.7, 47.3 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.5, 44.3 ],
-      "player" : {
-        "id" : 17797,
-        "name" : "Giovanni van Bronckhorst"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.9, 40.5 ],
-      "player" : {
-        "id" : 15071,
-        "name" : "Lilian Thuram"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 53.7 ],
-      "player" : {
-        "id" : 5216,
-        "name" : "Andrés Iniesta Luján"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -110109,6 +110032,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 101.0, 39.7 ],
+      "player" : {
+        "id" : 19298,
+        "name" : "Samuel Eto\"o Fils"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 118.0, 42.7 ],
       "player" : {
         "id" : 26050,
@@ -110117,17 +110051,6 @@
       "position" : {
         "id" : 23,
         "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.6, 41.2 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : true
     }, {
@@ -110141,6 +110064,83 @@
         "name" : "Left Wing"
       },
       "teammate" : true
+    }, {
+      "location" : [ 111.7, 47.3 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.9, 40.5 ],
+      "player" : {
+        "id" : 15071,
+        "name" : "Lilian Thuram"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.6, 41.2 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.7, 33.2 ],
+      "player" : {
+        "id" : 15774,
+        "name" : "Gianluca Zambrotta"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.5, 44.3 ],
+      "player" : {
+        "id" : 17797,
+        "name" : "Giovanni van Bronckhorst"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.7, 41.5 ],
+      "player" : {
+        "id" : 20125,
+        "name" : "Carles Puyol i Saforcada"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 53.7 ],
+      "player" : {
+        "id" : 5216,
+        "name" : "Andrés Iniesta Luján"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -110344,16 +110344,16 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 81.1, 45.4 ],
+      "location" : [ 75.6, 24.9 ],
       "player" : {
-        "id" : 26038,
-        "name" : "Tobias Grahn"
+        "id" : 19757,
+        "name" : "Anderson Luís de Souza"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 66.2, 18.7 ],
       "player" : {
@@ -110366,16 +110366,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 75.6, 24.9 ],
+      "location" : [ 91.9, 26.8 ],
       "player" : {
-        "id" : 19757,
-        "name" : "Anderson Luís de Souza"
+        "id" : 19298,
+        "name" : "Samuel Eto\"o Fils"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
+    }, {
+      "location" : [ 116.0, 41.1 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 81.1, 45.4 ],
+      "player" : {
+        "id" : 26038,
+        "name" : "Tobias Grahn"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
     }, {
       "location" : [ 84.2, 33.9 ],
       "player" : {
@@ -110385,28 +110407,6 @@
       "position" : {
         "id" : 13,
         "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 90.1, 51.7 ],
-      "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 89.9, 40.4 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -110432,25 +110432,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 91.9, 26.8 ],
+      "location" : [ 90.1, 51.7 ],
       "player" : {
-        "id" : 19298,
-        "name" : "Samuel Eto\"o Fils"
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 6,
+        "name" : "Left Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 116.0, 41.1 ],
+      "location" : [ 89.9, 40.4 ],
       "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -113153,11 +113153,11 @@
   "under_pressure" : true,
   "related_events" : [ "1370310c-2eff-489b-953a-b4b18f0e69dd" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "fab512d6-ce2f-4755-9e80-856239ec9e2c",
@@ -116870,11 +116870,11 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 120.0, 49.6 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -118760,11 +118760,11 @@
   "under_pressure" : true,
   "related_events" : [ "14b1ad39-41b6-4c76-86b1-136262a6dd7b" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "4bc4f338-2b68-4d8f-bb5e-b18e0123206c",
@@ -120082,14 +120082,14 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 106.9, 58.3 ],
+      "location" : [ 116.8, 46.5 ],
       "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -120115,17 +120115,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 116.8, 46.5 ],
-      "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 99.5, 31.6 ],
       "player" : {
         "id" : 26042,
@@ -120134,6 +120123,17 @@
       "position" : {
         "id" : 2,
         "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.9, 58.3 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -122555,11 +122555,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 101.6, 31.9 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -122787,11 +122787,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "2c5c2a60-c020-4a12-b7c5-93b76b5c6549",
@@ -126572,6 +126572,28 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
+      "location" : [ 100.5, 24.1 ],
+      "player" : {
+        "id" : 4325,
+        "name" : "Thiago Motta"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.2, 44.6 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 103.1, 44.0 ],
       "player" : {
         "id" : 26038,
@@ -126580,17 +126602,6 @@
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.7, 45.9 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -126604,17 +126615,6 @@
         "name" : "Right Center Back"
       },
       "teammate" : false
-    }, {
-      "location" : [ 100.5, 24.1 ],
-      "player" : {
-        "id" : 4325,
-        "name" : "Thiago Motta"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
     }, {
       "location" : [ 103.9, 26.7 ],
       "player" : {
@@ -126638,14 +126638,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 118.2, 44.6 ],
+      "location" : [ 113.7, 45.9 ],
       "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -129376,11 +129376,11 @@
   "under_pressure" : true,
   "related_events" : [ "73406eeb-1bb0-406e-bb33-ca6d9d2dde1d" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "737ee114-dbfd-445b-b6a3-7027de6cd59c",
@@ -131264,11 +131264,11 @@
   "under_pressure" : true,
   "related_events" : [ "e6e7c250-49bf-449d-b5bc-5bf9f8135d9e" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "bbd5e6c5-bb5a-4208-a244-8816217c21d4",
@@ -131716,11 +131716,11 @@
   "under_pressure" : true,
   "related_events" : [ "487b0c1b-6e18-4675-aa6f-49b244c04a39" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "73cfa4ab-54e6-4804-9cbc-4f99b40db27c",
@@ -132542,6 +132542,72 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 101.6, 30.8 ],
+      "player" : {
+        "id" : 26048,
+        "name" : "Sebastien Chabaud"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.1, 42.7 ],
+      "player" : {
+        "id" : 26049,
+        "name" : "Ismael Marchal Razquín"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 93.9, 51.8 ],
+      "player" : {
+        "id" : 26050,
+        "name" : "Javier García Portillo"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.8, 40.0 ],
+      "player" : {
+        "id" : 20176,
+        "name" : "Víctor Valdés Arribas"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 27.8 ],
+      "player" : {
+        "id" : 26038,
+        "name" : "Tobias Grahn"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 98.1, 45.3 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 105.4, 39.8 ],
       "player" : {
         "id" : 25873,
@@ -132553,6 +132619,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 107.7, 38.6 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 104.3, 29.2 ],
       "player" : {
         "id" : 15774,
@@ -132561,6 +132638,17 @@
       "position" : {
         "id" : 2,
         "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.6, 43.8 ],
+      "player" : {
+        "id" : 17797,
+        "name" : "Giovanni van Bronckhorst"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -132586,72 +132674,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.6, 43.8 ],
-      "player" : {
-        "id" : 17797,
-        "name" : "Giovanni van Bronckhorst"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.1, 45.3 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.6, 30.8 ],
-      "player" : {
-        "id" : 26048,
-        "name" : "Sebastien Chabaud"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.0, 27.8 ],
-      "player" : {
-        "id" : 26038,
-        "name" : "Tobias Grahn"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.7, 38.6 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.1, 42.7 ],
-      "player" : {
-        "id" : 26049,
-        "name" : "Ismael Marchal Razquín"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 97.4, 54.8 ],
       "player" : {
         "id" : 26039,
@@ -132662,28 +132684,6 @@
         "name" : "Center Defensive Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 93.9, 51.8 ],
-      "player" : {
-        "id" : 26050,
-        "name" : "Javier García Portillo"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 118.8, 40.0 ],
-      "player" : {
-        "id" : 20176,
-        "name" : "Víctor Valdés Arribas"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -132857,11 +132857,11 @@
       "id" : 61,
       "name" : "Corner"
     },
-    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
-    }
+    },
+    "straight" : true
   }
 }, {
   "id" : "c198fc3f-8666-4eb4-8f45-a17fc2d4688c",
@@ -133278,39 +133278,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 110.1, 42.2 ],
-      "player" : {
-        "id" : 26050,
-        "name" : "Javier García Portillo"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.0, 46.8 ],
-      "player" : {
-        "id" : 26049,
-        "name" : "Ismael Marchal Razquín"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.9, 43.8 ],
-      "player" : {
-        "id" : 20125,
-        "name" : "Carles Puyol i Saforcada"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 107.8, 41.4 ],
       "player" : {
         "id" : 4325,
@@ -133319,28 +133286,6 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.9, 39.2 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 118.8, 37.7 ],
-      "player" : {
-        "id" : 20176,
-        "name" : "Víctor Valdés Arribas"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -133355,6 +133300,72 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 108.0, 46.8 ],
+      "player" : {
+        "id" : 26049,
+        "name" : "Ismael Marchal Razquín"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.1, 42.2 ],
+      "player" : {
+        "id" : 26050,
+        "name" : "Javier García Portillo"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.8, 37.7 ],
+      "player" : {
+        "id" : 20176,
+        "name" : "Víctor Valdés Arribas"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.9, 18.7 ],
+      "player" : {
+        "id" : 26038,
+        "name" : "Tobias Grahn"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.7, 18.8 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.9, 39.2 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 108.6, 38.2 ],
       "player" : {
         "id" : 25873,
@@ -133363,39 +133374,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.9, 35.7 ],
-      "player" : {
-        "id" : 26039,
-        "name" : "Antonio Pinilla Miranda"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.5, 29.0 ],
-      "player" : {
-        "id" : 17797,
-        "name" : "Giovanni van Bronckhorst"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.3, 26.4 ],
-      "player" : {
-        "id" : 5216,
-        "name" : "Andrés Iniesta Luján"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -133410,27 +133388,49 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.7, 18.8 ],
+      "location" : [ 107.5, 29.0 ],
       "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
+        "id" : 17797,
+        "name" : "Giovanni van Bronckhorst"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 104.9, 18.7 ],
+      "location" : [ 107.9, 43.8 ],
       "player" : {
-        "id" : 26038,
-        "name" : "Tobias Grahn"
+        "id" : 20125,
+        "name" : "Carles Puyol i Saforcada"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.9, 35.7 ],
+      "player" : {
+        "id" : 26039,
+        "name" : "Antonio Pinilla Miranda"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 101.3, 26.4 ],
+      "player" : {
+        "id" : 5216,
+        "name" : "Andrés Iniesta Luján"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -135896,17 +135896,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 112.5, 52.1 ],
-      "player" : {
-        "id" : 17797,
-        "name" : "Giovanni van Bronckhorst"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 107.4, 46.7 ],
       "player" : {
         "id" : 4325,
@@ -135915,50 +135904,6 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.3, 40.3 ],
-      "player" : {
-        "id" : 20125,
-        "name" : "Carles Puyol i Saforcada"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.7, 37.6 ],
-      "player" : {
-        "id" : 25873,
-        "name" : "Oleguer Presas Renom"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 44.9 ],
-      "player" : {
-        "id" : 5216,
-        "name" : "Andrés Iniesta Luján"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.2, 31.8 ],
-      "player" : {
-        "id" : 15774,
-        "name" : "Gianluca Zambrotta"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -135973,27 +135918,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 111.8, 40.5 ],
+      "location" : [ 117.4, 36.0 ],
       "player" : {
-        "id" : 26039,
-        "name" : "Antonio Pinilla Miranda"
+        "id" : 20176,
+        "name" : "Víctor Valdés Arribas"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 108.1, 44.1 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 96.5, 50.5 ],
       "player" : {
@@ -136006,16 +135940,82 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 117.4, 36.0 ],
+      "location" : [ 108.7, 37.6 ],
       "player" : {
-        "id" : 20176,
-        "name" : "Víctor Valdés Arribas"
+        "id" : 25873,
+        "name" : "Oleguer Presas Renom"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 110.2, 31.8 ],
+      "player" : {
+        "id" : 15774,
+        "name" : "Gianluca Zambrotta"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.1, 44.1 ],
+      "player" : {
+        "id" : 26042,
+        "name" : "José María Calvo"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.5, 52.1 ],
+      "player" : {
+        "id" : 17797,
+        "name" : "Giovanni van Bronckhorst"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.3, 40.3 ],
+      "player" : {
+        "id" : 20125,
+        "name" : "Carles Puyol i Saforcada"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 44.9 ],
+      "player" : {
+        "id" : 5216,
+        "name" : "Andrés Iniesta Luján"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.8, 40.5 ],
+      "player" : {
+        "id" : 26039,
+        "name" : "Antonio Pinilla Miranda"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -136311,11 +136311,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
-    }
+    },
+    "straight" : true
   }
 }, {
   "id" : "4513d9f4-f436-4b79-aa39-6715952d3a48",
@@ -136354,11 +136354,11 @@
   "under_pressure" : true,
   "related_events" : [ "09dc86d8-6631-4b31-9040-b9071d52b94e" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "10e5acda-46d7-49ac-9e4e-499b325bb96d",
@@ -136487,17 +136487,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 109.7, 40.2 ],
-      "player" : {
-        "id" : 25949,
-        "name" : "Santiago Ezquerro Marín"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 89.0, 21.7 ],
       "player" : {
         "id" : 4325,
@@ -136506,50 +136495,6 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.2, 45.8 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.2, 48.5 ],
-      "player" : {
-        "id" : 25879,
-        "name" : "Ronaldo de Assis Moreira"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.0, 46.8 ],
-      "player" : {
-        "id" : 20125,
-        "name" : "Carles Puyol i Saforcada"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.2, 37.0 ],
-      "player" : {
-        "id" : 25873,
-        "name" : "Oleguer Presas Renom"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : true
     }, {
@@ -136564,71 +136509,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.7, 45.1 ],
+      "location" : [ 109.7, 40.2 ],
       "player" : {
-        "id" : 26046,
-        "name" : "Marco Antonio Ortega Cotano"
+        "id" : 25949,
+        "name" : "Santiago Ezquerro Marín"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 108.4, 42.5 ],
-      "player" : {
-        "id" : 26040,
-        "name" : "Aníbal Samuel Matellán"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.8, 31.9 ],
-      "player" : {
-        "id" : 26038,
-        "name" : "Tobias Grahn"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.8, 36.2 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 95.3, 31.1 ],
-      "player" : {
-        "id" : 26037,
-        "name" : "Carlos Merino González"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.5, 24.3 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 102.6, 22.3 ],
       "player" : {
@@ -136649,6 +136539,116 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.2, 48.5 ],
+      "player" : {
+        "id" : 25879,
+        "name" : "Ronaldo de Assis Moreira"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.8, 31.9 ],
+      "player" : {
+        "id" : 26038,
+        "name" : "Tobias Grahn"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.2, 45.8 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 95.3, 31.1 ],
+      "player" : {
+        "id" : 26037,
+        "name" : "Carlos Merino González"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.2, 37.0 ],
+      "player" : {
+        "id" : 25873,
+        "name" : "Oleguer Presas Renom"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.8, 36.2 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.5, 24.3 ],
+      "player" : {
+        "id" : 26042,
+        "name" : "José María Calvo"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.7, 45.1 ],
+      "player" : {
+        "id" : 26046,
+        "name" : "Marco Antonio Ortega Cotano"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.0, 46.8 ],
+      "player" : {
+        "id" : 20125,
+        "name" : "Carles Puyol i Saforcada"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.4, 42.5 ],
+      "player" : {
+        "id" : 26040,
+        "name" : "Aníbal Samuel Matellán"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -136878,11 +136878,11 @@
   "under_pressure" : true,
   "related_events" : [ "be8eb11d-1244-43a5-84ae-19ccb55cde39", "fac600d1-d63e-4143-ace3-4d0df023cd91" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -137656,17 +137656,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 91.3, 53.7 ],
-      "player" : {
-        "id" : 26039,
-        "name" : "Antonio Pinilla Miranda"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 94.1, 57.3 ],
       "player" : {
         "id" : 26048,
@@ -137675,6 +137664,61 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 86.9, 42.8 ],
+      "player" : {
+        "id" : 4325,
+        "name" : "Thiago Motta"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 91.6, 30.0 ],
+      "player" : {
+        "id" : 26049,
+        "name" : "Ismael Marchal Razquín"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.0, 53.5 ],
+      "player" : {
+        "id" : 25949,
+        "name" : "Santiago Ezquerro Marín"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 99.9, 31.6 ],
+      "player" : {
+        "id" : 19298,
+        "name" : "Samuel Eto\"o Fils"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.0, 40.5 ],
+      "player" : {
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -137700,6 +137744,39 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 83.1, 58.4 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.6, 30.9 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.1, 31.3 ],
+      "player" : {
+        "id" : 26042,
+        "name" : "José María Calvo"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 102.6, 50.4 ],
       "player" : {
         "id" : 26046,
@@ -137722,61 +137799,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 91.6, 30.0 ],
-      "player" : {
-        "id" : 26049,
-        "name" : "Ismael Marchal Razquín"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.1, 31.3 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.6, 30.9 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.0, 40.5 ],
-      "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.0, 53.5 ],
-      "player" : {
-        "id" : 25949,
-        "name" : "Santiago Ezquerro Marín"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 104.0, 29.6 ],
       "player" : {
         "id" : 20125,
@@ -137788,27 +137810,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 99.9, 31.6 ],
+      "location" : [ 91.3, 53.7 ],
       "player" : {
-        "id" : 19298,
-        "name" : "Samuel Eto\"o Fils"
+        "id" : 26039,
+        "name" : "Antonio Pinilla Miranda"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 83.1, 58.4 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 77.8, 52.6 ],
       "player" : {
@@ -137818,17 +137829,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 86.9, 42.8 ],
-      "player" : {
-        "id" : 4325,
-        "name" : "Thiago Motta"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
       },
       "teammate" : true
     } ]
@@ -140382,25 +140382,14 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 118.9, 36.8 ],
+      "location" : [ 107.1, 45.8 ],
       "player" : {
-        "id" : 20176,
-        "name" : "Víctor Valdés Arribas"
+        "id" : 4325,
+        "name" : "Thiago Motta"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.4, 32.3 ],
-      "player" : {
-        "id" : 15774,
-        "name" : "Gianluca Zambrotta"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : false
     }, {
@@ -140415,69 +140404,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 113.9, 37.7 ],
+      "location" : [ 118.9, 36.8 ],
       "player" : {
-        "id" : 25873,
-        "name" : "Oleguer Presas Renom"
+        "id" : 20176,
+        "name" : "Víctor Valdés Arribas"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.4, 41.5 ],
-      "player" : {
-        "id" : 26039,
-        "name" : "Antonio Pinilla Miranda"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 94.2, 51.2 ],
-      "player" : {
-        "id" : 26037,
-        "name" : "Carlos Merino González"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.5, 43.3 ],
-      "player" : {
-        "id" : 5216,
-        "name" : "Andrés Iniesta Luján"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.1, 45.8 ],
-      "player" : {
-        "id" : 4325,
-        "name" : "Thiago Motta"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.5, 49.5 ],
-      "player" : {
-        "id" : 20125,
-        "name" : "Carles Puyol i Saforcada"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -140492,6 +140426,39 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 94.2, 51.2 ],
+      "player" : {
+        "id" : 26037,
+        "name" : "Carlos Merino González"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.9, 37.7 ],
+      "player" : {
+        "id" : 25873,
+        "name" : "Oleguer Presas Renom"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.4, 32.3 ],
+      "player" : {
+        "id" : 15774,
+        "name" : "Gianluca Zambrotta"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 106.3, 57.0 ],
       "player" : {
         "id" : 17797,
@@ -140500,6 +140467,39 @@
       "position" : {
         "id" : 6,
         "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.5, 49.5 ],
+      "player" : {
+        "id" : 20125,
+        "name" : "Carles Puyol i Saforcada"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.4, 41.5 ],
+      "player" : {
+        "id" : 26039,
+        "name" : "Antonio Pinilla Miranda"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.5, 43.3 ],
+      "player" : {
+        "id" : 5216,
+        "name" : "Andrés Iniesta Luján"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -142279,6 +142279,28 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
+      "location" : [ 93.2, 31.9 ],
+      "player" : {
+        "id" : 4325,
+        "name" : "Thiago Motta"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.6, 37.9 ],
+      "player" : {
+        "id" : 26049,
+        "name" : "Ismael Marchal Razquín"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 108.2, 51.2 ],
       "player" : {
         "id" : 26050,
@@ -142289,6 +142311,50 @@
         "name" : "Center Forward"
       },
       "teammate" : true
+    }, {
+      "location" : [ 116.7, 37.0 ],
+      "player" : {
+        "id" : 20176,
+        "name" : "Víctor Valdés Arribas"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.5, 25.2 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.9, 38.9 ],
+      "player" : {
+        "id" : 25873,
+        "name" : "Oleguer Presas Renom"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.9, 23.9 ],
+      "player" : {
+        "id" : 15774,
+        "name" : "Gianluca Zambrotta"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 107.8, 44.4 ],
       "player" : {
@@ -142312,39 +142378,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 93.2, 31.9 ],
-      "player" : {
-        "id" : 4325,
-        "name" : "Thiago Motta"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.5, 25.2 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.9, 23.9 ],
-      "player" : {
-        "id" : 15774,
-        "name" : "Gianluca Zambrotta"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 102.9, 36.9 ],
       "player" : {
         "id" : 5216,
@@ -142353,17 +142386,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.9, 38.9 ],
-      "player" : {
-        "id" : 25873,
-        "name" : "Oleguer Presas Renom"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -142377,28 +142399,6 @@
         "name" : "Center Defensive Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 107.6, 37.9 ],
-      "player" : {
-        "id" : 26049,
-        "name" : "Ismael Marchal Razquín"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 116.7, 37.0 ],
-      "player" : {
-        "id" : 20176,
-        "name" : "Víctor Valdés Arribas"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -144991,28 +144991,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 114.6, 36.6 ],
-      "player" : {
-        "id" : 25873,
-        "name" : "Oleguer Presas Renom"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.3, 38.1 ],
-      "player" : {
-        "id" : 20125,
-        "name" : "Carles Puyol i Saforcada"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 114.1, 43.6 ],
       "player" : {
         "id" : 4325,
@@ -145024,27 +145002,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.5, 34.1 ],
+      "location" : [ 112.5, 47.4 ],
       "player" : {
-        "id" : 15774,
-        "name" : "Gianluca Zambrotta"
+        "id" : 26048,
+        "name" : "Sebastien Chabaud"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 103.3, 39.4 ],
-      "player" : {
-        "id" : 17797,
-        "name" : "Giovanni van Bronckhorst"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 119.3, 39.7 ],
       "player" : {
@@ -145068,6 +145035,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 114.6, 36.6 ],
+      "player" : {
+        "id" : 25873,
+        "name" : "Oleguer Presas Renom"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 113.4, 37.4 ],
       "player" : {
         "id" : 26044,
@@ -145079,16 +145057,38 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 112.5, 47.4 ],
+      "location" : [ 113.5, 34.1 ],
       "player" : {
-        "id" : 26048,
-        "name" : "Sebastien Chabaud"
+        "id" : 15774,
+        "name" : "Gianluca Zambrotta"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 2,
+        "name" : "Right Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 103.3, 39.4 ],
+      "player" : {
+        "id" : 17797,
+        "name" : "Giovanni van Bronckhorst"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.3, 38.1 ],
+      "player" : {
+        "id" : 20125,
+        "name" : "Carles Puyol i Saforcada"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -145217,11 +145217,11 @@
   "related_events" : [ "f48184d4-5105-4196-bc55-c35f16fba417" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "782b7020-896f-47d4-b126-8fe4144c892c",
@@ -145259,11 +145259,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "bb382426-965b-4a81-96d6-0dd9be61a788",
@@ -146585,6 +146585,28 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
+      "location" : [ 104.1, 44.5 ],
+      "player" : {
+        "id" : 25949,
+        "name" : "Santiago Ezquerro Marín"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 99.9, 29.7 ],
+      "player" : {
+        "id" : 26049,
+        "name" : "Ismael Marchal Razquín"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 109.4, 35.9 ],
       "player" : {
         "id" : 19298,
@@ -146596,16 +146618,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 104.1, 44.5 ],
+      "location" : [ 116.4, 46.2 ],
       "player" : {
-        "id" : 25949,
-        "name" : "Santiago Ezquerro Marín"
+        "id" : 26041,
+        "name" : "Rubén Pérez Chueca"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 105.5, 41.5 ],
       "player" : {
@@ -146629,6 +146651,28 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 108.3, 44.1 ],
+      "player" : {
+        "id" : 26044,
+        "name" : "César González Navas"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.0, 41.8 ],
+      "player" : {
+        "id" : 26042,
+        "name" : "José María Calvo"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 107.6, 53.6 ],
       "player" : {
         "id" : 26046,
@@ -146648,50 +146692,6 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.9, 29.7 ],
-      "player" : {
-        "id" : 26049,
-        "name" : "Ismael Marchal Razquín"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.0, 41.8 ],
-      "player" : {
-        "id" : 26042,
-        "name" : "José María Calvo"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.3, 44.1 ],
-      "player" : {
-        "id" : 26044,
-        "name" : "César González Navas"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.4, 46.2 ],
-      "player" : {
-        "id" : 26041,
-        "name" : "Rubén Pérez Chueca"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     } ]

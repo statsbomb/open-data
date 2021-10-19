@@ -2219,11 +2219,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 76,
       "name" : "Pass Offside"
@@ -2730,11 +2730,11 @@
   "under_pressure" : true,
   "related_events" : [ "8f82eabc-3a0f-49d5-8c8b-0925ff74133b", "b13c83ca-b3dd-49b6-8b30-fd103040723b" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -5102,11 +5102,11 @@
   "related_events" : [ "ac7d2699-c16e-4d6d-8f20-c6bd96913c40", "d550f98b-218c-4fb6-8b29-398b6f99f01f" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "b8c1deaa-355c-4c74-961b-e86c27a3a468",
@@ -6639,11 +6639,11 @@
   "under_pressure" : true,
   "related_events" : [ "a19e0ff7-67ce-4f10-a444-92b8a0229a18" ],
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "55227a15-5dcc-446d-b57e-b725ccfffd03",
@@ -8461,11 +8461,11 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 110.0, 15.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -12773,25 +12773,25 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 101.5, 26.0 ],
+      "location" : [ 107.3, 29.0 ],
       "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
+        "id" : 18157,
+        "name" : "Brianna Visalli"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 94.3, 14.6 ],
+      "location" : [ 105.1, 44.0 ],
       "player" : {
-        "id" : 15569,
-        "name" : "Kerys Harrop"
+        "id" : 10193,
+        "name" : "Chloe Arthur"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
     }, {
@@ -12806,25 +12806,25 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 105.1, 44.0 ],
+      "location" : [ 119.0, 37.9 ],
       "player" : {
-        "id" : 10193,
-        "name" : "Chloe Arthur"
+        "id" : 22027,
+        "name" : "Anne Moorhouse"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 87.2, 31.1 ],
+      "location" : [ 101.5, 26.0 ],
       "player" : {
-        "id" : 15565,
-        "name" : "Marisa Ewers"
+        "id" : 15563,
+        "name" : "Charlie Wellings"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : true
     }, {
@@ -12839,6 +12839,50 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 87.2, 31.1 ],
+      "player" : {
+        "id" : 15565,
+        "name" : "Marisa Ewers"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.8, 28.4 ],
+      "player" : {
+        "id" : 18151,
+        "name" : "Gilly Louise Scarlett Flaherty"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.0, 29.6 ],
+      "player" : {
+        "id" : 18155,
+        "name" : "Erin Simon"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 94.3, 14.6 ],
+      "player" : {
+        "id" : 15569,
+        "name" : "Kerys Harrop"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 106.1, 47.8 ],
       "player" : {
         "id" : 18156,
@@ -12847,17 +12891,6 @@
       "position" : {
         "id" : 6,
         "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.6, 43.4 ],
-      "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -12872,47 +12905,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 119.0, 37.9 ],
+      "location" : [ 105.6, 43.4 ],
       "player" : {
-        "id" : 22027,
-        "name" : "Anne Moorhouse"
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.8, 28.4 ],
-      "player" : {
-        "id" : 18151,
-        "name" : "Gilly Louise Scarlett Flaherty"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.3, 29.0 ],
-      "player" : {
-        "id" : 18157,
-        "name" : "Brianna Visalli"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.0, 29.6 ],
-      "player" : {
-        "id" : 18155,
-        "name" : "Erin Simon"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -13088,16 +13088,16 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 101.4, 17.7 ],
+      "location" : [ 102.9, 28.1 ],
       "player" : {
-        "id" : 15569,
-        "name" : "Kerys Harrop"
+        "id" : 18157,
+        "name" : "Brianna Visalli"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 107.7, 27.1 ],
       "player" : {
@@ -13107,17 +13107,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.7, 32.3 ],
-      "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -13132,14 +13121,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 88.9, 33.1 ],
+      "location" : [ 110.7, 32.3 ],
       "player" : {
-        "id" : 15565,
-        "name" : "Marisa Ewers"
+        "id" : 10180,
+        "name" : "Ellen White"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -13165,16 +13154,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 109.5, 26.0 ],
+      "location" : [ 88.9, 33.1 ],
       "player" : {
-        "id" : 18155,
-        "name" : "Erin Simon"
+        "id" : 15565,
+        "name" : "Marisa Ewers"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 108.3, 26.3 ],
       "player" : {
@@ -13187,14 +13176,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.9, 28.1 ],
+      "location" : [ 109.5, 26.0 ],
       "player" : {
-        "id" : 18157,
-        "name" : "Brianna Visalli"
+        "id" : 18155,
+        "name" : "Erin Simon"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.4, 17.7 ],
+      "player" : {
+        "id" : 15569,
+        "name" : "Kerys Harrop"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.1, 43.9 ],
+      "player" : {
+        "id" : 18156,
+        "name" : "Claire Lauren Rafferty"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -13217,17 +13228,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.1, 43.9 ],
-      "player" : {
-        "id" : 18156,
-        "name" : "Claire Lauren Rafferty"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : false
     } ]
@@ -13370,11 +13370,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    }
+    },
+    "inswinging" : true
   }
 }, {
   "id" : "72e11456-757d-45b8-a0fc-23da34212019",
@@ -13510,17 +13510,6 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.3, 40.5 ],
-      "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 118.6, 40.4 ],
       "player" : {
         "id" : 18157,
@@ -13532,25 +13521,58 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 119.1, 37.6 ],
+      "location" : [ 113.7, 51.8 ],
       "player" : {
-        "id" : 18151,
-        "name" : "Gilly Louise Scarlett Flaherty"
+        "id" : 15557,
+        "name" : "Emma Follis"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.1, 36.8 ],
+      "player" : {
+        "id" : 8297,
+        "name" : "Adriana Kristina Leon"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
-      "location" : [ 120.0, 38.4 ],
+      "location" : [ 116.4, 42.9 ],
       "player" : {
-        "id" : 18156,
-        "name" : "Claire Lauren Rafferty"
+        "id" : 10193,
+        "name" : "Chloe Arthur"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.3, 40.5 ],
+      "player" : {
+        "id" : 10180,
+        "name" : "Ellen White"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.7, 45.4 ],
+      "player" : {
+        "id" : 18146,
+        "name" : "Leanne Kiernan"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : false
     }, {
@@ -13565,28 +13587,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 115.7, 42.1 ],
-      "player" : {
-        "id" : 15569,
-        "name" : "Kerys Harrop"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 116.4, 42.9 ],
-      "player" : {
-        "id" : 10193,
-        "name" : "Chloe Arthur"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 102.6, 45.4 ],
       "player" : {
         "id" : 15563,
@@ -13595,28 +13595,6 @@
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.7, 48.9 ],
-      "player" : {
-        "id" : 15565,
-        "name" : "Marisa Ewers"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.7, 51.8 ],
-      "player" : {
-        "id" : 15557,
-        "name" : "Emma Follis"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
@@ -13631,16 +13609,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.5, 42.6 ],
+      "location" : [ 107.7, 48.9 ],
       "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
+        "id" : 15565,
+        "name" : "Marisa Ewers"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 115.1, 39.9 ],
       "player" : {
@@ -13653,14 +13631,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 110.1, 36.8 ],
+      "location" : [ 119.1, 37.6 ],
       "player" : {
-        "id" : 8297,
-        "name" : "Adriana Kristina Leon"
+        "id" : 18151,
+        "name" : "Gilly Louise Scarlett Flaherty"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -13675,16 +13653,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.7, 45.4 ],
+      "location" : [ 120.0, 38.4 ],
       "player" : {
-        "id" : 18146,
-        "name" : "Leanne Kiernan"
+        "id" : 18156,
+        "name" : "Claire Lauren Rafferty"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 115.7, 42.1 ],
+      "player" : {
+        "id" : 15569,
+        "name" : "Kerys Harrop"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 117.0, 43.2 ],
       "player" : {
@@ -13694,6 +13683,17 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.5, 42.6 ],
+      "player" : {
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -13943,6 +13943,39 @@
       "name" : "Half Volley"
     },
     "freeze_frame" : [ {
+      "location" : [ 117.2, 42.5 ],
+      "player" : {
+        "id" : 18157,
+        "name" : "Brianna Visalli"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.2, 58.7 ],
+      "player" : {
+        "id" : 15557,
+        "name" : "Emma Follis"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.6, 35.9 ],
+      "player" : {
+        "id" : 8297,
+        "name" : "Adriana Kristina Leon"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 109.3, 40.7 ],
       "player" : {
         "id" : 10193,
@@ -13951,17 +13984,6 @@
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.7, 42.9 ],
-      "player" : {
-        "id" : 15569,
-        "name" : "Kerys Harrop"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : true
     }, {
@@ -13976,25 +13998,25 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 108.4, 45.2 ],
+      "location" : [ 104.0, 50.8 ],
       "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
+        "id" : 18146,
+        "name" : "Leanne Kiernan"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 104.9, 47.1 ],
+      "location" : [ 114.7, 42.0 ],
       "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
+        "id" : 22027,
+        "name" : "Anne Moorhouse"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -14020,39 +14042,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 108.2, 58.7 ],
-      "player" : {
-        "id" : 15557,
-        "name" : "Emma Follis"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 87.3, 46.2 ],
-      "player" : {
-        "id" : 19503,
-        "name" : "Aoife Mannion"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.6, 35.9 ],
-      "player" : {
-        "id" : 8297,
-        "name" : "Adriana Kristina Leon"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 107.0, 40.5 ],
       "player" : {
         "id" : 18147,
@@ -14061,6 +14050,28 @@
       "position" : {
         "id" : 13,
         "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.4, 45.2 ],
+      "player" : {
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.8, 38.6 ],
+      "player" : {
+        "id" : 18151,
+        "name" : "Gilly Louise Scarlett Flaherty"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -14075,38 +14086,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.0, 50.8 ],
+      "location" : [ 108.7, 42.9 ],
       "player" : {
-        "id" : 18146,
-        "name" : "Leanne Kiernan"
+        "id" : 15569,
+        "name" : "Kerys Harrop"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.1, 40.1 ],
+      "player" : {
+        "id" : 18156,
+        "name" : "Claire Lauren Rafferty"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 114.7, 42.0 ],
+      "location" : [ 87.3, 46.2 ],
       "player" : {
-        "id" : 22027,
-        "name" : "Anne Moorhouse"
+        "id" : 19503,
+        "name" : "Aoife Mannion"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 118.8, 38.6 ],
-      "player" : {
-        "id" : 18151,
-        "name" : "Gilly Louise Scarlett Flaherty"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 118.9, 41.7 ],
       "player" : {
@@ -14119,25 +14130,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 117.2, 42.5 ],
+      "location" : [ 104.9, 47.1 ],
       "player" : {
-        "id" : 18157,
-        "name" : "Brianna Visalli"
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.1, 40.1 ],
-      "player" : {
-        "id" : 18156,
-        "name" : "Claire Lauren Rafferty"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -14366,11 +14366,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "f81a6f23-4567-4c9b-962b-ec34ea1b41d0",
@@ -16298,11 +16298,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "3b357fe1-eace-4004-8b37-788d6af6acc1",
@@ -20014,11 +20014,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "9f512cc2-2bd9-44eb-b182-ec4dce09e66d",
@@ -25286,11 +25286,11 @@
   "under_pressure" : true,
   "related_events" : [ "c96e1e58-87c7-4a9f-8f40-b93d8fa831a4" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "b6024178-6d84-4fb6-92c2-bcbff409e15c",
@@ -28557,11 +28557,11 @@
   "under_pressure" : true,
   "related_events" : [ "1de6a731-9096-493e-9c82-c52d5cdf9314" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "05cef4b7-ae49-4bf1-aca2-45af618bef4e",
@@ -33154,11 +33154,11 @@
   "under_pressure" : true,
   "related_events" : [ "2ab0b793-ce02-4100-9786-4f7c9b75c130" ],
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "16448aa1-3df6-4b11-877c-e77e66558b42",
@@ -34400,11 +34400,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 93.0, 63.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -34492,11 +34492,11 @@
   "under_pressure" : true,
   "related_events" : [ "d45e5c4f-6047-4a4f-87af-734be8c72829" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "f2eae59b-0857-4f35-b749-705144622377",
@@ -36915,11 +36915,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "4a71d07a-6501-4f7c-8749-8ec73dcf1a08",
@@ -38575,11 +38575,11 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 110.0, 75.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -38956,11 +38956,11 @@
   "under_pressure" : true,
   "related_events" : [ "6553e39d-1011-4a1e-b0a4-91107b795fa8" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "db713e22-7c21-4cb4-937e-214f175b2a63",
@@ -39229,11 +39229,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "2577ecc3-5e28-4dff-a886-abcbc5206990",
@@ -40630,11 +40630,11 @@
   "under_pressure" : true,
   "related_events" : [ "8b40c060-cb6f-4b2e-9ca1-cf0667b276c9" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "8d5d956c-2a71-4a8b-96ff-a7dbd8847dbb",
@@ -40915,11 +40915,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 90.0, 42.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -42207,61 +42207,6 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 112.3, 34.1 ],
-      "player" : {
-        "id" : 19501,
-        "name" : "Hayley Ladd"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.6, 39.1 ],
-      "player" : {
-        "id" : 15569,
-        "name" : "Kerys Harrop"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.8, 38.0 ],
-      "player" : {
-        "id" : 19503,
-        "name" : "Aoife Mannion"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.3, 20.1 ],
-      "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.6, 17.1 ],
-      "player" : {
-        "id" : 18147,
-        "name" : "Kate Longhurst"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 113.0, 32.8 ],
       "player" : {
         "id" : 18157,
@@ -42292,6 +42237,61 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.6, 17.1 ],
+      "player" : {
+        "id" : 18147,
+        "name" : "Kate Longhurst"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.3, 20.1 ],
+      "player" : {
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.6, 39.1 ],
+      "player" : {
+        "id" : 15569,
+        "name" : "Kerys Harrop"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.8, 38.0 ],
+      "player" : {
+        "id" : 19503,
+        "name" : "Aoife Mannion"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.3, 34.1 ],
+      "player" : {
+        "id" : 19501,
+        "name" : "Hayley Ladd"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -44685,11 +44685,11 @@
   "related_events" : [ "0ab65ab6-dcc1-4a83-ae40-eaad7dff07f4", "b2a6265b-217e-4eb1-b8fa-e9713c524965" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "f0130c4b-df2c-453f-a96f-bb4b4a05b66b",
@@ -45713,11 +45713,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -47603,11 +47603,11 @@
   "under_pressure" : true,
   "related_events" : [ "4b32fcf7-f6af-4705-9aab-d773326f8952" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "d1fa8318-8ded-49f1-93c9-4e2300fe62ba",
@@ -47646,11 +47646,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "ba6a5cbe-9840-4594-a81e-ea9d14ba96bc",
@@ -48935,11 +48935,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "b53721ca-bbf2-4775-80c2-50af29464c8e",
@@ -50341,11 +50341,11 @@
       "name" : "Right Foot"
     },
     "miscommunication" : true,
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -50883,11 +50883,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 114.0, 60.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -51383,11 +51383,11 @@
   "under_pressure" : true,
   "related_events" : [ "708b2d1e-3971-4a96-8099-ec36c57eeea1" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "9960fbfa-7774-4924-8382-c94cc3233202",
@@ -51479,27 +51479,16 @@
       "name" : "Half Volley"
     },
     "freeze_frame" : [ {
-      "location" : [ 110.9, 42.5 ],
+      "location" : [ 105.5, 46.7 ],
       "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
+        "id" : 18157,
+        "name" : "Brianna Visalli"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 102.1, 43.2 ],
-      "player" : {
-        "id" : 15565,
-        "name" : "Marisa Ewers"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 107.9, 28.9 ],
       "player" : {
@@ -51512,27 +51501,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 102.8, 39.3 ],
+      "location" : [ 110.9, 42.5 ],
       "player" : {
-        "id" : 18147,
-        "name" : "Kate Longhurst"
+        "id" : 10180,
+        "name" : "Ellen White"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 108.5, 42.0 ],
-      "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 119.3, 42.9 ],
       "player" : {
@@ -51542,6 +51520,28 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.1, 43.2 ],
+      "player" : {
+        "id" : 15565,
+        "name" : "Marisa Ewers"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.8, 39.3 ],
+      "player" : {
+        "id" : 18147,
+        "name" : "Kate Longhurst"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : false
     }, {
@@ -51578,17 +51578,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 105.5, 46.7 ],
-      "player" : {
-        "id" : 18157,
-        "name" : "Brianna Visalli"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 108.6, 60.7 ],
       "player" : {
         "id" : 18159,
@@ -51597,6 +51586,17 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.5, 42.0 ],
+      "player" : {
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -53983,11 +53983,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 96.0, 5.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -58970,11 +58970,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 100.0, 53.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -61539,11 +61539,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 101.0, 31.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -61958,38 +61958,16 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 107.9, 39.8 ],
+      "location" : [ 108.1, 41.0 ],
       "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
+        "id" : 8297,
+        "name" : "Adriana Kristina Leon"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 107.3, 31.8 ],
-      "player" : {
-        "id" : 15569,
-        "name" : "Kerys Harrop"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.7, 43.0 ],
-      "player" : {
-        "id" : 15565,
-        "name" : "Marisa Ewers"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 106.6, 46.3 ],
       "player" : {
@@ -62002,6 +61980,39 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 107.9, 39.8 ],
+      "player" : {
+        "id" : 10180,
+        "name" : "Ellen White"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.5, 38.9 ],
+      "player" : {
+        "id" : 18146,
+        "name" : "Leanne Kiernan"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.9, 40.7 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 108.0, 47.7 ],
       "player" : {
         "id" : 15563,
@@ -62013,14 +62024,25 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 98.6, 38.9 ],
+      "location" : [ 107.7, 44.2 ],
       "player" : {
-        "id" : 19503,
-        "name" : "Aoife Mannion"
+        "id" : 18153,
+        "name" : "Alisha Lehmann"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.7, 43.0 ],
+      "player" : {
+        "id" : 15565,
+        "name" : "Marisa Ewers"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : true
     }, {
@@ -62046,17 +62068,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.5, 38.4 ],
-      "player" : {
-        "id" : 18159,
-        "name" : "Brooke Hendrix"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 108.5, 34.4 ],
       "player" : {
         "id" : 18155,
@@ -62068,27 +62079,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.9, 40.7 ],
+      "location" : [ 107.3, 31.8 ],
       "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
+        "id" : 15569,
+        "name" : "Kerys Harrop"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 6,
+        "name" : "Left Back"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 107.7, 44.2 ],
-      "player" : {
-        "id" : 18153,
-        "name" : "Alisha Lehmann"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 107.1, 45.9 ],
       "player" : {
@@ -62101,14 +62101,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.1, 41.0 ],
+      "location" : [ 98.6, 38.9 ],
       "player" : {
-        "id" : 8297,
-        "name" : "Adriana Kristina Leon"
+        "id" : 19503,
+        "name" : "Aoife Mannion"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.5, 38.4 ],
+      "player" : {
+        "id" : 18159,
+        "name" : "Brooke Hendrix"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -62120,17 +62131,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.5, 38.9 ],
-      "player" : {
-        "id" : 18146,
-        "name" : "Leanne Kiernan"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
       },
       "teammate" : false
     } ]
@@ -62525,11 +62525,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 106.0, 51.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -63364,11 +63364,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "0260d6c5-8f7f-4f69-9571-04e62091b95c",
@@ -65564,11 +65564,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 76,
       "name" : "Pass Offside"
@@ -67263,11 +67263,11 @@
   "under_pressure" : true,
   "related_events" : [ "2acb0b97-800e-4d8c-8f39-4eedb28b38bc" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "2551bff3-a0b8-4dab-b411-9e2b15787f89",
@@ -71240,11 +71240,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 93.0, 45.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -71366,11 +71366,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "c3a0fe93-2527-4a02-b8cd-bd8d6b5671aa",
@@ -71999,11 +71999,11 @@
   "under_pressure" : true,
   "related_events" : [ "e53cca31-8b2c-421b-aed5-4243c3d320d5" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "f10bcd39-cd0a-48e1-8732-93fa60c87819",
@@ -72095,28 +72095,6 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 95.4, 49.4 ],
-      "player" : {
-        "id" : 10193,
-        "name" : "Chloe Arthur"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.0, 51.1 ],
-      "player" : {
-        "id" : 19592,
-        "name" : "Harriet Scott"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 106.1, 58.6 ],
       "player" : {
         "id" : 15557,
@@ -72125,6 +72103,28 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 93.7, 38.0 ],
+      "player" : {
+        "id" : 8297,
+        "name" : "Adriana Kristina Leon"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 95.4, 49.4 ],
+      "player" : {
+        "id" : 10193,
+        "name" : "Chloe Arthur"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
     }, {
@@ -72139,27 +72139,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 108.4, 37.9 ],
+      "location" : [ 108.5, 30.5 ],
       "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
+        "id" : 18146,
+        "name" : "Leanne Kiernan"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 108.9, 28.9 ],
-      "player" : {
-        "id" : 15569,
-        "name" : "Kerys Harrop"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 119.0, 38.2 ],
       "player" : {
@@ -72172,36 +72161,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 93.7, 38.0 ],
+      "location" : [ 108.4, 37.9 ],
       "player" : {
-        "id" : 8297,
-        "name" : "Adriana Kristina Leon"
+        "id" : 15563,
+        "name" : "Charlie Wellings"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 108.5, 30.5 ],
+      "location" : [ 102.1, 56.6 ],
       "player" : {
-        "id" : 18146,
-        "name" : "Leanne Kiernan"
+        "id" : 18153,
+        "name" : "Alisha Lehmann"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.4, 39.8 ],
-      "player" : {
-        "id" : 18155,
-        "name" : "Erin Simon"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -72227,27 +72205,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.1, 56.6 ],
+      "location" : [ 112.0, 51.1 ],
       "player" : {
-        "id" : 18153,
-        "name" : "Alisha Lehmann"
+        "id" : 19592,
+        "name" : "Harriet Scott"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.4, 39.8 ],
+      "player" : {
+        "id" : 18155,
+        "name" : "Erin Simon"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 106.0, 54.4 ],
+      "location" : [ 108.9, 28.9 ],
       "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
+        "id" : 15569,
+        "name" : "Kerys Harrop"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 6,
+        "name" : "Left Back"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 111.1, 58.0 ],
       "player" : {
@@ -72268,6 +72257,17 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 54.4 ],
+      "player" : {
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -73258,11 +73258,11 @@
   "under_pressure" : true,
   "related_events" : [ "c8961d24-cf1e-4d45-bde4-321165ba4e99" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "8c481f81-fc06-4367-9abc-a10f23a0198d",
@@ -79918,11 +79918,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 93.0, 24.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -81189,11 +81189,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -81411,11 +81411,11 @@
   "under_pressure" : true,
   "related_events" : [ "8f1c1cd4-88bf-493b-a0f2-78fe9e7dfaef" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "397c6548-d34d-4caa-84ca-5c91defa11b6",
@@ -82559,11 +82559,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "8fbe693d-269f-4966-984d-f73a85bdeb37",
@@ -83255,11 +83255,11 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 17.0, 50.0 ],
-    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    }
+    },
+    "no_touch" : true
   }
 }, {
   "id" : "e875dde3-5cac-40e6-aa4f-c8eac22b8bd2",
@@ -87299,11 +87299,11 @@
   "under_pressure" : true,
   "related_events" : [ "36068985-bda6-49c7-b08d-233cd02c7f3d", "47be4f5b-0f54-4ef9-8d10-204161dd71af" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -88605,11 +88605,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "6f5a8e01-143c-44f1-8774-acd227363477",
@@ -88735,16 +88735,16 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 116.2, 39.1 ],
+      "location" : [ 114.1, 42.4 ],
       "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
+        "id" : 8297,
+        "name" : "Adriana Kristina Leon"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 116.9, 42.5 ],
       "player" : {
@@ -88757,25 +88757,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 119.8, 49.2 ],
+      "location" : [ 116.2, 39.1 ],
       "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
+        "id" : 10180,
+        "name" : "Ellen White"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.1, 36.5 ],
-      "player" : {
-        "id" : 15569,
-        "name" : "Kerys Harrop"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -88790,14 +88779,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.4, 37.0 ],
+      "location" : [ 118.9, 47.9 ],
       "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
+        "id" : 18147,
+        "name" : "Kate Longhurst"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.8, 49.2 ],
+      "player" : {
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.6, 39.0 ],
+      "player" : {
+        "id" : 18151,
+        "name" : "Gilly Louise Scarlett Flaherty"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -88812,16 +88823,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.6, 39.0 ],
+      "location" : [ 114.1, 36.5 ],
       "player" : {
-        "id" : 18151,
-        "name" : "Gilly Louise Scarlett Flaherty"
+        "id" : 15569,
+        "name" : "Kerys Harrop"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 6,
+        "name" : "Left Back"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 118.5, 41.0 ],
       "player" : {
@@ -88834,25 +88845,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.1, 42.4 ],
+      "location" : [ 113.4, 37.0 ],
       "player" : {
-        "id" : 8297,
-        "name" : "Adriana Kristina Leon"
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.9, 47.9 ],
-      "player" : {
-        "id" : 18147,
-        "name" : "Kate Longhurst"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -90336,60 +90336,16 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 88.4, 39.3 ],
+      "location" : [ 95.4, 32.2 ],
       "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
+        "id" : 10193,
+        "name" : "Chloe Arthur"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 92.5, 46.1 ],
-      "player" : {
-        "id" : 18159,
-        "name" : "Brooke Hendrix"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.2, 41.4 ],
-      "player" : {
-        "id" : 18151,
-        "name" : "Gilly Louise Scarlett Flaherty"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.9, 53.6 ],
-      "player" : {
-        "id" : 18156,
-        "name" : "Claire Lauren Rafferty"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.0, 30.1 ],
-      "player" : {
-        "id" : 18155,
-        "name" : "Erin Simon"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 95.8, 17.2 ],
       "player" : {
@@ -90424,17 +90380,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 95.4, 32.2 ],
-      "player" : {
-        "id" : 10193,
-        "name" : "Chloe Arthur"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 97.3, 29.1 ],
       "player" : {
         "id" : 15563,
@@ -90446,6 +90391,50 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 96.2, 41.4 ],
+      "player" : {
+        "id" : 18151,
+        "name" : "Gilly Louise Scarlett Flaherty"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.0, 30.1 ],
+      "player" : {
+        "id" : 18155,
+        "name" : "Erin Simon"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.9, 53.6 ],
+      "player" : {
+        "id" : 18156,
+        "name" : "Claire Lauren Rafferty"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.5, 46.1 ],
+      "player" : {
+        "id" : 18159,
+        "name" : "Brooke Hendrix"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 87.4, 30.7 ],
       "player" : {
         "id" : 19501,
@@ -90456,6 +90445,17 @@
         "name" : "Right Defensive Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 88.4, 39.3 ],
+      "player" : {
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -92036,11 +92036,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 87.0, 23.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -97893,11 +97893,11 @@
   "under_pressure" : true,
   "related_events" : [ "3c13405e-6cc6-42ee-8cb9-3bb6e04d8449", "6d28aa3c-ec17-4b4d-9026-97ebcaa0acef" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -98027,16 +98027,16 @@
       "name" : "Half Volley"
     },
     "freeze_frame" : [ {
-      "location" : [ 106.7, 40.8 ],
+      "location" : [ 105.4, 28.5 ],
       "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
+        "id" : 18146,
+        "name" : "Leanne Kiernan"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 118.4, 42.3 ],
       "player" : {
@@ -98049,16 +98049,49 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 105.4, 28.5 ],
+      "location" : [ 107.1, 38.2 ],
       "player" : {
-        "id" : 18146,
-        "name" : "Leanne Kiernan"
+        "id" : 4653,
+        "name" : "Jane Ross"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : true
+    }, {
+      "location" : [ 101.1, 46.6 ],
+      "player" : {
+        "id" : 15565,
+        "name" : "Marisa Ewers"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.7, 40.8 ],
+      "player" : {
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.6, 37.5 ],
+      "player" : {
+        "id" : 19592,
+        "name" : "Harriet Scott"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 106.6, 41.7 ],
       "player" : {
@@ -98082,17 +98115,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 106.6, 37.5 ],
-      "player" : {
-        "id" : 19592,
-        "name" : "Harriet Scott"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 100.7, 46.0 ],
       "player" : {
         "id" : 22798,
@@ -98101,28 +98123,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.1, 46.6 ],
-      "player" : {
-        "id" : 15565,
-        "name" : "Marisa Ewers"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.1, 38.2 ],
-      "player" : {
-        "id" : 4653,
-        "name" : "Jane Ross"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
       },
       "teammate" : true
     } ]
@@ -101629,28 +101629,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 101.3, 61.1 ],
-      "player" : {
-        "id" : 19592,
-        "name" : "Harriet Scott"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.6, 54.3 ],
-      "player" : {
-        "id" : 15562,
-        "name" : "Lucy Staniforth"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 112.9, 44.5 ],
       "player" : {
         "id" : 10180,
@@ -101662,14 +101640,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 112.0, 61.9 ],
+      "location" : [ 107.4, 53.9 ],
       "player" : {
-        "id" : 18156,
-        "name" : "Claire Lauren Rafferty"
+        "id" : 18146,
+        "name" : "Leanne Kiernan"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : false
     }, {
@@ -101684,6 +101662,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 113.6, 54.3 ],
+      "player" : {
+        "id" : 15562,
+        "name" : "Lucy Staniforth"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 114.1, 49.9 ],
       "player" : {
         "id" : 18147,
@@ -101692,17 +101681,6 @@
       "position" : {
         "id" : 13,
         "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.4, 44.7 ],
-      "player" : {
-        "id" : 18159,
-        "name" : "Brooke Hendrix"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -101717,27 +101695,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 109.4, 59.2 ],
+      "location" : [ 101.3, 61.1 ],
       "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
+        "id" : 19592,
+        "name" : "Harriet Scott"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 2,
+        "name" : "Right Back"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 107.4, 53.9 ],
-      "player" : {
-        "id" : 18146,
-        "name" : "Leanne Kiernan"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 110.5, 32.4 ],
       "player" : {
@@ -101747,6 +101714,39 @@
       "position" : {
         "id" : 2,
         "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.0, 61.9 ],
+      "player" : {
+        "id" : 18156,
+        "name" : "Claire Lauren Rafferty"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.4, 44.7 ],
+      "player" : {
+        "id" : 18159,
+        "name" : "Brooke Hendrix"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.4, 59.2 ],
+      "player" : {
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -101901,11 +101901,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "181e0ee9-ad89-49ac-8ff9-eda04b3be0c8",
@@ -102154,11 +102154,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -103122,11 +103122,11 @@
   "under_pressure" : true,
   "related_events" : [ "87740baa-7454-4298-a361-1948a326aeea" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "ec707e74-bac5-425c-84c5-d7d992b63760",
@@ -103164,11 +103164,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "7f72497b-e422-4fe3-a9e3-7ad8f8ce2a88",
@@ -103867,11 +103867,11 @@
   "under_pressure" : true,
   "related_events" : [ "7b7af9f2-e080-4e61-92f0-c1122a2ae961" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "ac407580-0539-4c37-af99-f24045e46794",
@@ -104226,11 +104226,11 @@
   "under_pressure" : true,
   "related_events" : [ "6e4c86ef-fdd3-4521-97c7-eebeaffe1825", "a77784d5-c239-4196-bbdc-48f82a0b32a0" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -104605,11 +104605,11 @@
       "name" : "Right Foot"
     },
     "miscommunication" : true,
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -105438,11 +105438,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 100.0, 27.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 76,
       "name" : "Pass Offside"
@@ -107484,11 +107484,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "a203cf40-eea9-4356-baad-4f1e7ece699f",
@@ -109723,11 +109723,11 @@
     },
     "end_location" : [ 116.0, 48.0 ],
     "switch" : true,
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
+    "inswinging" : true,
     "type" : {
       "id" : 61,
       "name" : "Corner"
@@ -109871,93 +109871,16 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 114.5, 44.4 ],
+      "location" : [ 109.4, 37.8 ],
       "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
+        "id" : 15580,
+        "name" : "Claudia Walker"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 113.9, 47.2 ],
-      "player" : {
-        "id" : 4653,
-        "name" : "Jane Ross"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.0, 44.6 ],
-      "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.5, 43.4 ],
-      "player" : {
-        "id" : 18155,
-        "name" : "Erin Simon"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.2, 42.4 ],
-      "player" : {
-        "id" : 18159,
-        "name" : "Brooke Hendrix"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.3, 40.9 ],
-      "player" : {
-        "id" : 18151,
-        "name" : "Gilly Louise Scarlett Flaherty"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.4, 41.4 ],
-      "player" : {
-        "id" : 18156,
-        "name" : "Claire Lauren Rafferty"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.3, 39.6 ],
-      "player" : {
-        "id" : 18147,
-        "name" : "Kate Longhurst"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 113.6, 43.3 ],
       "player" : {
@@ -109981,6 +109904,72 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 114.5, 44.4 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.9, 47.2 ],
+      "player" : {
+        "id" : 4653,
+        "name" : "Jane Ross"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.3, 39.6 ],
+      "player" : {
+        "id" : 18147,
+        "name" : "Kate Longhurst"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.3, 40.9 ],
+      "player" : {
+        "id" : 18151,
+        "name" : "Gilly Louise Scarlett Flaherty"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.5, 43.4 ],
+      "player" : {
+        "id" : 18155,
+        "name" : "Erin Simon"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.4, 41.4 ],
+      "player" : {
+        "id" : 18156,
+        "name" : "Claire Lauren Rafferty"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 115.0, 33.6 ],
       "player" : {
         "id" : 15569,
@@ -109992,16 +109981,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 109.4, 37.8 ],
+      "location" : [ 115.2, 42.4 ],
       "player" : {
-        "id" : 15580,
-        "name" : "Claudia Walker"
+        "id" : 18159,
+        "name" : "Brooke Hendrix"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 113.0, 44.6 ],
+      "player" : {
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -110189,6 +110189,39 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 115.2, 48.2 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.3, 49.6 ],
+      "player" : {
+        "id" : 4653,
+        "name" : "Jane Ross"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.0, 41.0 ],
+      "player" : {
+        "id" : 18147,
+        "name" : "Kate Longhurst"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 117.5, 44.5 ],
       "player" : {
         "id" : 19502,
@@ -110199,6 +110232,28 @@
         "name" : "Right Center Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 118.9, 42.5 ],
+      "player" : {
+        "id" : 18151,
+        "name" : "Gilly Louise Scarlett Flaherty"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.6, 45.3 ],
+      "player" : {
+        "id" : 18155,
+        "name" : "Erin Simon"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 114.6, 36.2 ],
       "player" : {
@@ -110222,50 +110277,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.0, 41.0 ],
-      "player" : {
-        "id" : 18147,
-        "name" : "Kate Longhurst"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.3, 49.1 ],
-      "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.2, 48.2 ],
-      "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.6, 45.3 ],
-      "player" : {
-        "id" : 18155,
-        "name" : "Erin Simon"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 119.4, 43.7 ],
       "player" : {
         "id" : 18159,
@@ -110277,25 +110288,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.9, 42.5 ],
+      "location" : [ 113.3, 49.1 ],
       "player" : {
-        "id" : 18151,
-        "name" : "Gilly Louise Scarlett Flaherty"
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.3, 49.6 ],
-      "player" : {
-        "id" : 4653,
-        "name" : "Jane Ross"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -110691,11 +110691,11 @@
   "under_pressure" : true,
   "related_events" : [ "7fa9b492-c11e-4659-9ed0-333824f082fd", "eef8a87a-58b3-4614-87ea-4b29f8eee1c8" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -111204,11 +111204,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "65dc5b4c-d4d5-443b-b1da-b27713dcac6b",
@@ -113553,6 +113553,50 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
+      "location" : [ 116.4, 37.7 ],
+      "player" : {
+        "id" : 22027,
+        "name" : "Anne Moorhouse"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 120.0, 58.6 ],
+      "player" : {
+        "id" : 15580,
+        "name" : "Claudia Walker"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.4, 47.3 ],
+      "player" : {
+        "id" : 10180,
+        "name" : "Ellen White"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.1, 42.4 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 118.9, 54.5 ],
       "player" : {
         "id" : 19896,
@@ -113561,6 +113605,39 @@
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 85.5, 61.6 ],
+      "player" : {
+        "id" : 15562,
+        "name" : "Lucy Staniforth"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 115.3, 39.4 ],
+      "player" : {
+        "id" : 18147,
+        "name" : "Kate Longhurst"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.3, 44.0 ],
+      "player" : {
+        "id" : 18151,
+        "name" : "Gilly Louise Scarlett Flaherty"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -113586,94 +113663,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.3, 48.6 ],
-      "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.3, 44.0 ],
-      "player" : {
-        "id" : 18151,
-        "name" : "Gilly Louise Scarlett Flaherty"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.3, 39.4 ],
-      "player" : {
-        "id" : 18147,
-        "name" : "Kate Longhurst"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.4, 37.7 ],
-      "player" : {
-        "id" : 22027,
-        "name" : "Anne Moorhouse"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.1, 42.4 ],
-      "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 85.5, 61.6 ],
-      "player" : {
-        "id" : 15562,
-        "name" : "Lucy Staniforth"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.4, 47.3 ],
-      "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 120.0, 58.6 ],
-      "player" : {
-        "id" : 15580,
-        "name" : "Claudia Walker"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 115.9, 38.0 ],
       "player" : {
         "id" : 19501,
@@ -113684,6 +113673,17 @@
         "name" : "Right Defensive Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 112.3, 48.6 ],
+      "player" : {
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -114552,11 +114552,11 @@
   "under_pressure" : true,
   "related_events" : [ "5f618358-8e0c-4e89-b000-52e1e0cebd81" ],
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "ff29f139-b11f-4cd5-856f-a9ecf73bfa14",
@@ -116495,17 +116495,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 98.2, 45.9 ],
-      "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 88.6, 60.8 ],
       "player" : {
         "id" : 15580,
@@ -116517,16 +116506,38 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 100.8, 62.1 ],
+      "location" : [ 81.5, 17.2 ],
       "player" : {
-        "id" : 19592,
-        "name" : "Harriet Scott"
+        "id" : 18153,
+        "name" : "Alisha Lehmann"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.2, 45.9 ],
+      "player" : {
+        "id" : 10180,
+        "name" : "Ellen White"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
+    }, {
+      "location" : [ 118.8, 40.8 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     }, {
       "location" : [ 92.7, 39.0 ],
       "player" : {
@@ -116539,6 +116550,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 95.5, 58.8 ],
+      "player" : {
+        "id" : 19896,
+        "name" : "Rosie Kmita"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 86.6, 24.6 ],
       "player" : {
         "id" : 15562,
@@ -116549,17 +116571,6 @@
         "name" : "Left Defensive Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 83.5, 46.8 ],
-      "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
     }, {
       "location" : [ 87.4, 29.5 ],
       "player" : {
@@ -116572,14 +116583,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 95.5, 58.8 ],
+      "location" : [ 96.1, 40.4 ],
       "player" : {
-        "id" : 19896,
-        "name" : "Rosie Kmita"
+        "id" : 18151,
+        "name" : "Gilly Louise Scarlett Flaherty"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.8, 62.1 ],
+      "player" : {
+        "id" : 19592,
+        "name" : "Harriet Scott"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 94.8, 31.1 ],
+      "player" : {
+        "id" : 18155,
+        "name" : "Erin Simon"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -116605,47 +116638,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 96.1, 40.4 ],
+      "location" : [ 83.5, 46.8 ],
       "player" : {
-        "id" : 18151,
-        "name" : "Gilly Louise Scarlett Flaherty"
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 94.8, 31.1 ],
-      "player" : {
-        "id" : 18155,
-        "name" : "Erin Simon"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 81.5, 17.2 ],
-      "player" : {
-        "id" : 18153,
-        "name" : "Alisha Lehmann"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.8, 40.8 ],
-      "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -119519,11 +119519,11 @@
   "under_pressure" : true,
   "related_events" : [ "abc30ff8-d3f4-4d32-997e-11833306198e" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "edd1df5e-cbc1-4612-b937-b176df3474d9",
@@ -119569,11 +119569,11 @@
     },
     "end_location" : [ 108.0, 35.0 ],
     "switch" : true,
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -119624,11 +119624,11 @@
   "under_pressure" : true,
   "related_events" : [ "edd1df5e-cbc1-4612-b937-b176df3474d9" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "2b804453-5529-4ecc-9ae5-e4c3eab930a5",
@@ -120230,11 +120230,11 @@
   "under_pressure" : true,
   "related_events" : [ "2dd0c378-a84f-465e-b191-64549e07bbe9", "3e472617-ca47-47fe-bdc0-c89be66e5453" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -120316,11 +120316,11 @@
   "under_pressure" : true,
   "related_events" : [ "b241face-125a-440a-bd1a-85243da7f5e7" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -120914,17 +120914,6 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 102.3, 34.9 ],
-      "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 94.8, 31.2 ],
       "player" : {
         "id" : 15580,
@@ -120933,17 +120922,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 95.5, 17.1 ],
-      "player" : {
-        "id" : 15569,
-        "name" : "Kerys Harrop"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : true
     }, {
@@ -120958,14 +120936,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 91.0, 38.3 ],
+      "location" : [ 102.3, 34.9 ],
       "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
+        "id" : 10180,
+        "name" : "Ellen White"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.1, 39.0 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -120991,17 +120980,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.7, 40.2 ],
-      "player" : {
-        "id" : 18159,
-        "name" : "Brooke Hendrix"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 102.6, 37.2 ],
       "player" : {
         "id" : 18151,
@@ -121024,6 +121002,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 95.5, 17.1 ],
+      "player" : {
+        "id" : 15569,
+        "name" : "Kerys Harrop"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 102.1, 54.4 ],
       "player" : {
         "id" : 18156,
@@ -121035,14 +121024,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 119.1, 39.0 ],
+      "location" : [ 102.7, 40.2 ],
       "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
+        "id" : 18159,
+        "name" : "Brooke Hendrix"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 91.0, 38.3 ],
+      "player" : {
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -122091,11 +122091,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 107.0, 47.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -122182,11 +122182,11 @@
   "under_pressure" : true,
   "related_events" : [ "84d321dd-4590-4966-8a3f-1e7038c76bed" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "a5ecf846-3b98-481f-9058-823150ee01ee",
@@ -122323,39 +122323,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 104.8, 42.4 ],
-      "player" : {
-        "id" : 19501,
-        "name" : "Hayley Ladd"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.2, 53.9 ],
-      "player" : {
-        "id" : 18156,
-        "name" : "Claire Lauren Rafferty"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.4, 60.1 ],
-      "player" : {
-        "id" : 19896,
-        "name" : "Rosie Kmita"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 118.7, 42.6 ],
       "player" : {
         "id" : 18158,
@@ -122367,14 +122334,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 106.4, 43.1 ],
+      "location" : [ 98.4, 60.1 ],
       "player" : {
-        "id" : 18159,
-        "name" : "Brooke Hendrix"
+        "id" : 19896,
+        "name" : "Rosie Kmita"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -122399,6 +122366,39 @@
         "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 105.2, 53.9 ],
+      "player" : {
+        "id" : 18156,
+        "name" : "Claire Lauren Rafferty"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.4, 43.1 ],
+      "player" : {
+        "id" : 18159,
+        "name" : "Brooke Hendrix"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.8, 42.4 ],
+      "player" : {
+        "id" : 19501,
+        "name" : "Hayley Ladd"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -122626,11 +122626,11 @@
   "under_pressure" : true,
   "related_events" : [ "78f2a2b2-ff95-4348-8baa-6970f12f66f5", "f4fdd02c-6d46-4c1a-b7b2-c00691369278" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -123340,11 +123340,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "a8cbcf71-805a-40ce-9937-6e9827d5433b",
@@ -129600,11 +129600,11 @@
   "under_pressure" : true,
   "related_events" : [ "d4ae49b7-6678-4923-a668-7054f88ebbcb" ],
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "73597dab-6187-417c-a11e-224208d162d1",
@@ -129650,11 +129650,11 @@
     },
     "end_location" : [ 113.0, 37.0 ],
     "switch" : true,
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -131002,27 +131002,38 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 80.8, 50.6 ],
+      "location" : [ 102.3, 49.2 ],
       "player" : {
-        "id" : 19592,
-        "name" : "Harriet Scott"
+        "id" : 15580,
+        "name" : "Claudia Walker"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
-      "location" : [ 102.6, 30.4 ],
+      "location" : [ 82.8, 33.4 ],
       "player" : {
-        "id" : 19501,
-        "name" : "Hayley Ladd"
+        "id" : 4653,
+        "name" : "Jane Ross"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 119.0, 37.4 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     }, {
       "location" : [ 104.7, 40.8 ],
       "player" : {
@@ -131035,16 +131046,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 102.3, 49.2 ],
+      "location" : [ 94.7, 49.9 ],
       "player" : {
-        "id" : 15580,
-        "name" : "Claudia Walker"
+        "id" : 19896,
+        "name" : "Rosie Kmita"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 102.5, 12.2 ],
       "player" : {
@@ -131054,17 +131065,6 @@
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 95.5, 8.9 ],
-      "player" : {
-        "id" : 15569,
-        "name" : "Kerys Harrop"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : true
     }, {
@@ -131090,60 +131090,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 106.6, 39.2 ],
+      "location" : [ 80.8, 50.6 ],
       "player" : {
-        "id" : 18159,
-        "name" : "Brooke Hendrix"
+        "id" : 19592,
+        "name" : "Harriet Scott"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 2,
+        "name" : "Right Back"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 94.7, 49.9 ],
-      "player" : {
-        "id" : 19896,
-        "name" : "Rosie Kmita"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.4, 49.6 ],
-      "player" : {
-        "id" : 18156,
-        "name" : "Claire Lauren Rafferty"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.0, 37.4 ],
-      "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.0, 16.4 ],
-      "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 102.0, 18.6 ],
       "player" : {
@@ -131156,14 +131112,58 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 82.8, 33.4 ],
+      "location" : [ 95.5, 8.9 ],
       "player" : {
-        "id" : 4653,
-        "name" : "Jane Ross"
+        "id" : 15569,
+        "name" : "Kerys Harrop"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.4, 49.6 ],
+      "player" : {
+        "id" : 18156,
+        "name" : "Claire Lauren Rafferty"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.6, 39.2 ],
+      "player" : {
+        "id" : 18159,
+        "name" : "Brooke Hendrix"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.6, 30.4 ],
+      "player" : {
+        "id" : 19501,
+        "name" : "Hayley Ladd"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.0, 16.4 ],
+      "player" : {
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -131393,11 +131393,11 @@
   "under_pressure" : true,
   "related_events" : [ "0c911460-b6f9-4a7c-a4ce-c2d1390094cd", "f79a74b1-d477-4d47-941c-4142e89724ae" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -131617,11 +131617,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "1bcd9b8c-6581-45b4-a12a-119b46fd4a7e",
@@ -132338,17 +132338,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 98.0, 28.7 ],
-      "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 103.2, 31.4 ],
       "player" : {
         "id" : 21556,
@@ -132382,36 +132371,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 94.6, 20.4 ],
+      "location" : [ 118.4, 39.4 ],
       "player" : {
-        "id" : 18155,
-        "name" : "Erin Simon"
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 94.5, 36.3 ],
+      "location" : [ 98.0, 28.7 ],
       "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
+        "id" : 15563,
+        "name" : "Charlie Wellings"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 99.6, 31.5 ],
+      "location" : [ 94.7, 58.8 ],
       "player" : {
-        "id" : 18151,
-        "name" : "Gilly Louise Scarlett Flaherty"
+        "id" : 19896,
+        "name" : "Rosie Kmita"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -132426,14 +132415,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 98.3, 37.6 ],
+      "location" : [ 99.6, 31.5 ],
       "player" : {
-        "id" : 18159,
-        "name" : "Brooke Hendrix"
+        "id" : 18151,
+        "name" : "Gilly Louise Scarlett Flaherty"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 94.6, 20.4 ],
+      "player" : {
+        "id" : 18155,
+        "name" : "Erin Simon"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -132448,25 +132448,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 94.7, 58.8 ],
+      "location" : [ 98.3, 37.6 ],
       "player" : {
-        "id" : 19896,
-        "name" : "Rosie Kmita"
+        "id" : 18159,
+        "name" : "Brooke Hendrix"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 118.4, 39.4 ],
+      "location" : [ 94.5, 36.3 ],
       "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -135118,11 +135118,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "0150f818-ba00-4267-bba6-70ae0416d449",
@@ -135174,11 +135174,11 @@
     "switch" : true,
     "assisted_shot_id" : "b35f7483-734c-44ce-871e-90bd913a0f0b",
     "shot_assist" : true,
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "type" : {
       "id" : 61,
       "name" : "Corner"
@@ -135316,17 +135316,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 101.4, 35.7 ],
-      "player" : {
-        "id" : 15562,
-        "name" : "Lucy Staniforth"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 100.1, 46.3 ],
       "player" : {
         "id" : 18153,
@@ -135335,94 +135324,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.6, 28.3 ],
-      "player" : {
-        "id" : 4653,
-        "name" : "Jane Ross"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.1, 31.7 ],
-      "player" : {
-        "id" : 18155,
-        "name" : "Erin Simon"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.2, 37.3 ],
-      "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.8, 39.1 ],
-      "player" : {
-        "id" : 18151,
-        "name" : "Gilly Louise Scarlett Flaherty"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.8, 35.8 ],
-      "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 117.6, 36.4 ],
-      "player" : {
-        "id" : 18156,
-        "name" : "Claire Lauren Rafferty"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.6, 37.6 ],
-      "player" : {
-        "id" : 22798,
-        "name" : "So-Hyun Cho"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.7, 61.9 ],
-      "player" : {
-        "id" : 19896,
-        "name" : "Rosie Kmita"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -135437,16 +135338,49 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 114.8, 60.4 ],
+      "location" : [ 106.6, 28.3 ],
       "player" : {
-        "id" : 19501,
-        "name" : "Hayley Ladd"
+        "id" : 4653,
+        "name" : "Jane Ross"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.8, 35.8 ],
+      "player" : {
+        "id" : 10180,
+        "name" : "Ellen White"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
+    }, {
+      "location" : [ 119.2, 37.3 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.7, 61.9 ],
+      "player" : {
+        "id" : 19896,
+        "name" : "Rosie Kmita"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
     }, {
       "location" : [ 102.9, 50.5 ],
       "player" : {
@@ -135458,6 +135392,50 @@
         "name" : "Left Wing"
       },
       "teammate" : true
+    }, {
+      "location" : [ 101.4, 35.7 ],
+      "player" : {
+        "id" : 15562,
+        "name" : "Lucy Staniforth"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.8, 39.1 ],
+      "player" : {
+        "id" : 18151,
+        "name" : "Gilly Louise Scarlett Flaherty"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.1, 31.7 ],
+      "player" : {
+        "id" : 18155,
+        "name" : "Erin Simon"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.6, 36.4 ],
+      "player" : {
+        "id" : 18156,
+        "name" : "Claire Lauren Rafferty"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 113.7, 37.0 ],
       "player" : {
@@ -135480,6 +135458,28 @@
         "name" : "Left Center Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 114.8, 60.4 ],
+      "player" : {
+        "id" : 19501,
+        "name" : "Hayley Ladd"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.6, 37.6 ],
+      "player" : {
+        "id" : 22798,
+        "name" : "So-Hyun Cho"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -135564,11 +135564,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "0f9d188d-abb7-4b33-b752-1b4c19884732",
@@ -136288,11 +136288,11 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 106.0, 34.0 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -138083,11 +138083,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "1a5cf58e-70fe-411b-8a07-d59cf9114fc3",

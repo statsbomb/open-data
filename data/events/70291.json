@@ -4586,11 +4586,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "6e19374c-b9a5-40c0-a441-67679fbaa95b",
@@ -8401,11 +8401,11 @@
   "under_pressure" : true,
   "related_events" : [ "32e53c9b-4ab5-40bf-be7a-4058bd954ca7" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "0f1f3af6-b0a9-4e4e-98fd-94656782b52b",
@@ -10718,11 +10718,11 @@
     "end_location" : [ 109.9, 52.9 ],
     "assisted_shot_id" : "08a01b65-3d6b-4989-bc8f-a5aec2e3e32e",
     "shot_assist" : true,
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -10857,16 +10857,49 @@
       "name" : "Post"
     },
     "freeze_frame" : [ {
-      "location" : [ 109.5, 41.0 ],
+      "location" : [ 115.7, 48.3 ],
       "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
+    }, {
+      "location" : [ 107.4, 50.8 ],
+      "player" : {
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.6, 38.8 ],
+      "player" : {
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.8, 37.4 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 111.2, 39.3 ],
       "player" : {
@@ -10890,16 +10923,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.8, 45.7 ],
+      "location" : [ 112.8, 54.6 ],
       "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 2,
+        "name" : "Right Back"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 106.1, 48.3 ],
       "player" : {
@@ -10912,60 +10945,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.4, 50.8 ],
+      "location" : [ 102.8, 45.7 ],
       "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 115.7, 48.3 ],
+      "location" : [ 109.5, 41.0 ],
       "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 104.8, 37.4 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.6, 38.8 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.8, 54.6 ],
-      "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -11399,17 +11399,6 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 106.4, 15.3 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 113.2, 48.5 ],
       "player" : {
         "id" : 3478,
@@ -11420,61 +11409,6 @@
         "name" : "Left Center Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 111.1, 40.0 ],
-      "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.7, 38.1 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 111.7, 37.2 ],
-      "player" : {
-        "id" : 3385,
-        "name" : "Alexis Alejandro Sánchez Sánchez"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.8, 34.6 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 119.4, 38.9 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
     }, {
       "location" : [ 110.4, 35.4 ],
       "player" : {
@@ -11487,6 +11421,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 111.7, 37.2 ],
+      "player" : {
+        "id" : 3385,
+        "name" : "Alexis Alejandro Sánchez Sánchez"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 101.1, 24.9 ],
       "player" : {
         "id" : 6695,
@@ -11495,6 +11440,61 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.4, 15.3 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.0, 40.7 ],
+      "player" : {
+        "id" : 26783,
+        "name" : "Roque Luis Santa Cruz Cantero"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.4, 38.9 ],
+      "player" : {
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.8, 34.6 ],
+      "player" : {
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.0, 26.2 ],
+      "player" : {
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -11508,6 +11508,17 @@
         "name" : "Right Center Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 111.1, 40.0 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 112.7, 41.6 ],
       "player" : {
@@ -11542,17 +11553,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.3, 38.9 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 112.4, 47.1 ],
       "player" : {
         "id" : 27182,
@@ -11564,25 +11564,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.0, 26.2 ],
+      "location" : [ 113.7, 38.1 ],
       "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 107.0, 40.7 ],
+      "location" : [ 114.3, 38.9 ],
       "player" : {
-        "id" : 26783,
-        "name" : "Roque Luis Santa Cruz Cantero"
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -15598,71 +15598,27 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 119.2, 39.7 ],
+      "location" : [ 101.8, 47.9 ],
       "player" : {
-        "id" : 20176,
-        "name" : "Víctor Valdés Arribas"
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : false
     }, {
-      "location" : [ 85.9, 39.5 ],
+      "location" : [ 83.9, 40.9 ],
       "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
+        "id" : 19431,
+        "name" : "Fernando Damián Tissone"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 103.7, 29.2 ],
-      "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.1, 40.6 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.4, 31.9 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.9, 37.1 ],
-      "player" : {
-        "id" : 5506,
-        "name" : "Javier Alejandro Mascherano"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 102.0, 43.9 ],
       "player" : {
@@ -15675,36 +15631,47 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 101.8, 47.9 ],
+      "location" : [ 104.3, 28.0 ],
       "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 85.9, 39.5 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : false
     }, {
-      "location" : [ 101.9, 48.8 ],
+      "location" : [ 103.1, 30.9 ],
       "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
+        "id" : 26783,
+        "name" : "Roque Luis Santa Cruz Cantero"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 101.9, 49.6 ],
+      "location" : [ 119.2, 39.7 ],
       "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
+        "id" : 20176,
+        "name" : "Víctor Valdés Arribas"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -15719,60 +15686,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.4, 46.6 ],
+      "location" : [ 101.9, 49.6 ],
       "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 103.5, 38.1 ],
-      "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 104.2, 36.3 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 104.3, 28.0 ],
-      "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.1, 30.9 ],
-      "player" : {
-        "id" : 26783,
-        "name" : "Roque Luis Santa Cruz Cantero"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 89.7, 32.5 ],
       "player" : {
@@ -15785,14 +15708,91 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 83.9, 40.9 ],
+      "location" : [ 101.9, 48.8 ],
       "player" : {
-        "id" : 19431,
-        "name" : "Fernando Damián Tissone"
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.4, 46.6 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.7, 29.2 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.5, 38.1 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.1, 40.6 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.9, 37.1 ],
+      "player" : {
+        "id" : 5506,
+        "name" : "Javier Alejandro Mascherano"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.4, 31.9 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.2, 36.3 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : true
     } ]
@@ -19652,11 +19652,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -19699,11 +19699,11 @@
   "under_pressure" : true,
   "related_events" : [ "34697405-b730-4bbb-8efb-bac546eead6c" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "d545dd18-a220-4c5f-a889-4948574a0f32",
@@ -21633,11 +21633,11 @@
   "under_pressure" : true,
   "related_events" : [ "a050782c-92c4-4cc9-a27e-fd3e0e1f24ee" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "04b82bb7-173c-4ab9-8bb1-790b3b4be9c9",
@@ -24139,11 +24139,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 104.9, 3.5 ],
-    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    }
+    },
+    "no_touch" : true
   }
 }, {
   "id" : "5488e30c-a77a-4b53-ad2d-bcd6f67d19e4",
@@ -27310,11 +27310,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 111.7, 35.8 ],
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
+    "inswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -27405,11 +27405,11 @@
   "under_pressure" : true,
   "related_events" : [ "c9a9587f-f69e-4aed-8718-2508a9b03d7c" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "93255984-a577-4f39-a50d-0f457f73974e",
@@ -28999,11 +28999,11 @@
   "under_pressure" : true,
   "related_events" : [ "cbcd5dd9-d1b7-4d9a-a7aa-5aabb1b8151a" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "834a44d9-ac45-4b0b-bfe6-868c00d4664a",
@@ -33877,11 +33877,11 @@
   "related_events" : [ "b029f080-a106-4da7-91fe-d26dcc93d274", "d0d952e4-8a02-43c6-8a49-a044a342ad59" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "d060a833-a622-4104-a867-cd555e344fdb",
@@ -38076,11 +38076,11 @@
   "under_pressure" : true,
   "related_events" : [ "c6fb06ed-4f3a-45ba-af88-a9ff36473ac9" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "de48b6f9-6283-4695-8da7-fc7cfd5d304d",
@@ -39467,50 +39467,6 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 101.0, 49.5 ],
-      "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.1, 30.3 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.8, 29.5 ],
-      "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.2, 35.8 ],
-      "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 93.3, 36.9 ],
       "player" : {
         "id" : 19431,
@@ -39522,6 +39478,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 98.7, 46.7 ],
+      "player" : {
+        "id" : 3385,
+        "name" : "Alexis Alejandro Sánchez Sánchez"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 112.0, 35.2 ],
       "player" : {
         "id" : 3659,
@@ -39530,17 +39497,6 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.5, 18.6 ],
-      "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -39555,16 +39511,60 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 98.7, 46.7 ],
+      "location" : [ 103.8, 29.5 ],
       "player" : {
-        "id" : 3385,
-        "name" : "Alexis Alejandro Sánchez Sánchez"
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 106.5, 18.6 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.0, 49.5 ],
+      "player" : {
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.2, 35.8 ],
+      "player" : {
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.1, 30.3 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -39793,11 +39793,11 @@
   "related_events" : [ "6911beeb-e679-4d81-83af-59d423f07916", "ae8b09a0-3eb4-4cc6-bc22-c601d3a631aa" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "224e8ba1-bf2b-4512-b67c-b76bb47ccc25",
@@ -42136,11 +42136,11 @@
   "under_pressure" : true,
   "related_events" : [ "3f21aa65-82b1-4d35-b1c1-fc445f733727" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "5ac389d4-e155-4201-b740-566a4bec2b2e",
@@ -44857,27 +44857,16 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 103.6, 29.9 ],
+      "location" : [ 99.6, 31.7 ],
       "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
+        "id" : 19431,
+        "name" : "Fernando Damián Tissone"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 103.2, 47.5 ],
-      "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 107.5, 46.5 ],
       "player" : {
@@ -44890,16 +44879,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 105.8, 45.5 ],
+      "location" : [ 102.9, 28.5 ],
       "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
+    }, {
+      "location" : [ 103.6, 29.9 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
     }, {
       "location" : [ 118.0, 37.2 ],
       "player" : {
@@ -44909,39 +44909,6 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.5, 28.4 ],
-      "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.9, 29.8 ],
-      "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.7, 30.9 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -44956,6 +44923,50 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 103.2, 47.5 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 106.9, 29.8 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.5, 28.4 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.8, 45.5 ],
+      "player" : {
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 108.6, 40.4 ],
       "player" : {
         "id" : 27182,
@@ -44967,25 +44978,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 99.6, 31.7 ],
+      "location" : [ 104.7, 30.9 ],
       "player" : {
-        "id" : 19431,
-        "name" : "Fernando Damián Tissone"
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.9, 28.5 ],
-      "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -48555,11 +48555,11 @@
   "under_pressure" : true,
   "related_events" : [ "b4326727-46be-4dab-8529-e64c33e34a33" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "573da263-c1c0-4391-bb8b-579cd94d5ae9",
@@ -49861,11 +49861,11 @@
   "related_events" : [ "234d05ad-516e-4c33-8e14-dd8530855a14", "e2515ba3-1b7c-4fed-89d4-72ea9495bb1f" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "282c0fe5-e3b5-4a12-8e17-1ba0e4267cf6",
@@ -52363,36 +52363,25 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 104.0, 16.3 ],
+      "location" : [ 112.0, 32.2 ],
       "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 110.9, 43.4 ],
+      "location" : [ 110.0, 20.7 ],
       "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
+        "id" : 3385,
+        "name" : "Alexis Alejandro Sánchez Sánchez"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 119.2, 39.1 ],
-      "player" : {
-        "id" : 20176,
-        "name" : "Víctor Valdés Arribas"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
@@ -52407,6 +52396,50 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 108.8, 21.6 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.2, 39.1 ],
+      "player" : {
+        "id" : 20176,
+        "name" : "Víctor Valdés Arribas"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.0, 16.3 ],
+      "player" : {
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.4, 41.9 ],
+      "player" : {
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 113.0, 36.6 ],
       "player" : {
         "id" : 27183,
@@ -52417,6 +52450,61 @@
         "name" : "Right Center Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 114.1, 31.5 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.9, 43.4 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.9, 34.0 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.0, 37.3 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.1, 48.9 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 112.8, 50.4 ],
       "player" : {
@@ -52437,94 +52525,6 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.8, 21.6 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 20.7 ],
-      "player" : {
-        "id" : 3385,
-        "name" : "Alexis Alejandro Sánchez Sánchez"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.4, 41.9 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.1, 48.9 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.9, 34.0 ],
-      "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.1, 31.5 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.0, 32.2 ],
-      "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 37.3 ],
-      "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -52644,11 +52644,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "cae3745d-ad29-4edd-9360-d3923e3c492c",
@@ -55971,6 +55971,39 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
+      "location" : [ 100.6, 52.1 ],
+      "player" : {
+        "id" : 19431,
+        "name" : "Fernando Damián Tissone"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.0, 28.4 ],
+      "player" : {
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.3, 41.2 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 118.1, 38.2 ],
       "player" : {
         "id" : 3659,
@@ -55993,6 +56026,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 113.2, 38.7 ],
+      "player" : {
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 98.3, 43.8 ],
       "player" : {
         "id" : 27183,
@@ -56004,16 +56048,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.2, 36.2 ],
+      "location" : [ 104.4, 49.7 ],
       "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 110.7, 37.9 ],
       "player" : {
@@ -56026,14 +56070,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 100.6, 52.1 ],
+      "location" : [ 113.2, 36.2 ],
       "player" : {
-        "id" : 19431,
-        "name" : "Fernando Damián Tissone"
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -56069,50 +56113,6 @@
         "name" : "Center Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 111.0, 28.4 ],
-      "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.4, 49.7 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.3, 41.2 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.2, 38.7 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -56208,11 +56208,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "6bfbbf8f-4df5-4e08-a0bf-37fa67a21c30",
@@ -57470,11 +57470,11 @@
   "under_pressure" : true,
   "related_events" : [ "345b82bf-228e-494e-8551-3179b81996e2", "5b570de1-e7ee-4d29-b767-9d90d9ec11a9" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -60796,16 +60796,27 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 114.5, 39.3 ],
+      "location" : [ 111.5, 50.5 ],
       "player" : {
-        "id" : 27183,
-        "name" : "Pablo Javier Pérez"
+        "id" : 19431,
+        "name" : "Fernando Damián Tissone"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 111.4, 38.8 ],
+      "player" : {
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 119.7, 58.5 ],
       "player" : {
@@ -60818,17 +60829,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 118.9, 57.2 ],
-      "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 110.4, 34.9 ],
       "player" : {
         "id" : 6695,
@@ -60840,6 +60840,61 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 117.1, 50.2 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.8, 40.9 ],
+      "player" : {
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.9, 57.2 ],
+      "player" : {
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.5, 39.3 ],
+      "player" : {
+        "id" : 27183,
+        "name" : "Pablo Javier Pérez"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.3, 45.9 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 118.1, 50.8 ],
       "player" : {
         "id" : 6904,
@@ -60848,39 +60903,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.5, 42.9 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.5, 50.5 ],
-      "player" : {
-        "id" : 19431,
-        "name" : "Fernando Damián Tissone"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.4, 44.0 ],
-      "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -60895,17 +60917,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.8, 40.9 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 104.2, 60.9 ],
       "player" : {
         "id" : 4324,
@@ -60917,38 +60928,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 117.1, 50.2 ],
+      "location" : [ 116.4, 44.0 ],
       "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 101.3, 45.9 ],
+      "location" : [ 114.5, 42.9 ],
       "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 111.4, 38.8 ],
-      "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
+      "teammate" : false
     } ]
   }
 }, {
@@ -61466,6 +61466,28 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
+      "location" : [ 96.5, 36.2 ],
+      "player" : {
+        "id" : 19431,
+        "name" : "Fernando Damián Tissone"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.5, 3.5 ],
+      "player" : {
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 103.6, 51.4 ],
       "player" : {
         "id" : 3385,
@@ -61477,25 +61499,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 102.9, 49.8 ],
+      "location" : [ 105.7, 13.7 ],
       "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.7, 37.6 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
@@ -61510,58 +61521,25 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 103.1, 35.7 ],
+      "location" : [ 117.7, 37.6 ],
       "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 101.9, 41.4 ],
+      "location" : [ 102.9, 49.8 ],
       "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.5, 36.2 ],
-      "player" : {
-        "id" : 19431,
-        "name" : "Fernando Damián Tissone"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.4, 21.1 ],
-      "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.2, 25.2 ],
-      "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -61576,6 +61554,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 104.4, 21.1 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 102.3, 10.9 ],
       "player" : {
         "id" : 27184,
@@ -61587,14 +61576,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 105.7, 13.7 ],
+      "location" : [ 101.9, 41.4 ],
       "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -61609,16 +61598,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 101.5, 3.5 ],
+      "location" : [ 103.2, 25.2 ],
       "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 103.1, 35.7 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -62718,11 +62718,11 @@
   "under_pressure" : true,
   "related_events" : [ "5436614e-2e8c-4b17-b4e9-835858ccf0bd" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "22f76c08-0929-4104-a1a1-974b4786efe4",
@@ -63002,11 +63002,11 @@
   "under_pressure" : true,
   "related_events" : [ "5ba6d793-b739-49df-8cd7-28b9525ff0ea" ],
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "c1b62729-527c-4885-9e70-295b4b095578",
@@ -66688,11 +66688,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "062cb073-85ba-4afd-a7f6-628e0e8ef811",
@@ -66785,6 +66785,28 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
+      "location" : [ 104.1, 49.2 ],
+      "player" : {
+        "id" : 3385,
+        "name" : "Alexis Alejandro Sánchez Sánchez"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 111.0, 28.2 ],
+      "player" : {
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 114.9, 30.5 ],
       "player" : {
         "id" : 3659,
@@ -66807,58 +66829,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 104.1, 49.2 ],
+      "location" : [ 95.4, 54.1 ],
       "player" : {
-        "id" : 3385,
-        "name" : "Alexis Alejandro Sánchez Sánchez"
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.5, 50.9 ],
-      "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.6, 28.4 ],
-      "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 28.2 ],
-      "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.7, 41.2 ],
-      "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -66873,6 +66851,39 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 100.6, 28.4 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.5, 50.9 ],
+      "player" : {
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.7, 41.2 ],
+      "player" : {
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 101.0, 35.1 ],
       "player" : {
         "id" : 8234,
@@ -66881,17 +66892,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 95.4, 54.1 ],
-      "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
       },
       "teammate" : false
     } ]
@@ -67004,11 +67004,11 @@
     "switch" : true,
     "assisted_shot_id" : "adfe9615-ef81-4097-8008-ec0e59fd0dc4",
     "shot_assist" : true,
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -67108,16 +67108,16 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 113.4, 32.1 ],
+      "location" : [ 113.1, 35.9 ],
       "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
+        "id" : 19431,
+        "name" : "Fernando Damián Tissone"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 111.6, 50.0 ],
       "player" : {
@@ -67127,28 +67127,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.7, 40.9 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.8, 41.0 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
       },
       "teammate" : true
     }, {
@@ -67163,16 +67141,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.7, 48.4 ],
+      "location" : [ 113.4, 32.1 ],
       "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.3, 51.1 ],
+      "player" : {
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
+    }, {
+      "location" : [ 102.8, 41.0 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 110.4, 46.8 ],
       "player" : {
@@ -67185,25 +67185,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.2, 45.7 ],
+      "location" : [ 108.7, 48.4 ],
       "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.1, 35.9 ],
-      "player" : {
-        "id" : 19431,
-        "name" : "Fernando Damián Tissone"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -67218,14 +67207,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.3, 51.1 ],
+      "location" : [ 113.7, 40.9 ],
       "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.2, 45.7 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -67369,11 +67369,11 @@
       "id" : 61,
       "name" : "Corner"
     },
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
-    }
+    },
+    "outswinging" : true
   }
 }, {
   "id" : "6d2a5749-dc66-4121-a984-57ab61c4c133",
@@ -67509,39 +67509,6 @@
       "name" : "Wayward"
     },
     "freeze_frame" : [ {
-      "location" : [ 103.7, 37.6 ],
-      "player" : {
-        "id" : 27183,
-        "name" : "Pablo Javier Pérez"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.7, 43.0 ],
-      "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.5, 45.9 ],
-      "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 113.7, 45.0 ],
       "player" : {
         "id" : 19431,
@@ -67550,6 +67517,28 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.9, 44.0 ],
+      "player" : {
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.4, 35.0 ],
+      "player" : {
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
@@ -67564,36 +67553,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.1, 47.0 ],
+      "location" : [ 118.9, 40.9 ],
       "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.4, 35.0 ],
-      "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.5, 40.2 ],
-      "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -67608,6 +67575,50 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 114.0, 46.1 ],
+      "player" : {
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.7, 37.6 ],
+      "player" : {
+        "id" : 27183,
+        "name" : "Pablo Javier Pérez"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.5, 40.2 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.9, 36.7 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 111.2, 43.3 ],
       "player" : {
         "id" : 27184,
@@ -67619,14 +67630,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.9, 40.9 ],
+      "location" : [ 116.5, 45.9 ],
       "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -67641,38 +67652,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 100.9, 44.0 ],
+      "location" : [ 103.7, 43.0 ],
       "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 111.9, 36.7 ],
+      "location" : [ 112.1, 47.0 ],
       "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 114.0, 46.1 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 113.2, 50.1 ],
       "player" : {
@@ -67859,17 +67859,6 @@
       "name" : "Goal"
     },
     "freeze_frame" : [ {
-      "location" : [ 116.3, 45.2 ],
-      "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 115.5, 42.9 ],
       "player" : {
         "id" : 19431,
@@ -67881,71 +67870,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.0, 45.7 ],
+      "location" : [ 100.4, 45.8 ],
       "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 112.0, 48.0 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.2, 50.2 ],
-      "player" : {
-        "id" : 8000,
-        "name" : "Bartlomiej Pawłowski"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.2, 49.9 ],
-      "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.2, 43.9 ],
-      "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.5, 37.4 ],
-      "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 111.9, 34.7 ],
       "player" : {
@@ -67955,17 +67889,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.0, 37.0 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -67980,6 +67903,50 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 111.2, 50.2 ],
+      "player" : {
+        "id" : 8000,
+        "name" : "Bartlomiej Pawłowski"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.7, 30.4 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.0, 37.0 ],
+      "player" : {
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.2, 49.9 ],
+      "player" : {
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 115.3, 44.2 ],
       "player" : {
         "id" : 3958,
@@ -67991,6 +67958,61 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 112.5, 37.4 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.0, 45.7 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.3, 45.2 ],
+      "player" : {
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.2, 43.9 ],
+      "player" : {
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.0, 48.0 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 113.3, 50.0 ],
       "player" : {
         "id" : 5203,
@@ -67999,28 +68021,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 100.4, 45.8 ],
-      "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.7, 30.4 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
       },
       "teammate" : true
     } ]
@@ -73094,11 +73094,11 @@
       "id" : 30,
       "name" : "Punch"
     },
-    "punched_out" : true,
     "outcome" : {
       "id" : 117,
       "name" : "Punched out"
-    }
+    },
+    "punched_out" : true
   }
 }, {
   "id" : "417aa252-e0ae-46f4-a417-bcb77640557c",
@@ -73530,11 +73530,11 @@
   "under_pressure" : true,
   "related_events" : [ "719c498f-75f2-4bbd-8cca-4b6cf0be4b1e" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "f029a4b0-5c27-4910-a248-2ca2a7e8a7cc",
@@ -76519,83 +76519,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 103.1, 39.3 ],
-      "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.8, 35.1 ],
-      "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.1, 37.6 ],
-      "player" : {
-        "id" : 27183,
-        "name" : "Pablo Javier Pérez"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.3, 48.8 ],
-      "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.4, 47.9 ],
-      "player" : {
-        "id" : 8000,
-        "name" : "Bartlomiej Pawłowski"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.4, 50.6 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.4, 49.7 ],
-      "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 104.1, 48.0 ],
       "player" : {
         "id" : 19431,
@@ -76604,39 +76527,6 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.9, 32.1 ],
-      "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.5, 54.9 ],
-      "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.0, 39.2 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -76651,38 +76541,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 93.3, 31.2 ],
+      "location" : [ 103.8, 35.1 ],
       "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 104.9, 48.9 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 104.7, 45.9 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 102.1, 35.9 ],
       "player" : {
@@ -76695,6 +76563,94 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 102.4, 47.9 ],
+      "player" : {
+        "id" : 8000,
+        "name" : "Bartlomiej Pawłowski"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.0, 39.2 ],
+      "player" : {
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.1, 39.3 ],
+      "player" : {
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.9, 48.9 ],
+      "player" : {
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.1, 37.6 ],
+      "player" : {
+        "id" : 27183,
+        "name" : "Pablo Javier Pérez"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 90.8, 48.8 ],
+      "player" : {
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.3, 48.8 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.4, 49.7 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 103.3, 56.4 ],
       "player" : {
         "id" : 4324,
@@ -76706,14 +76662,58 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 90.8, 48.8 ],
+      "location" : [ 103.5, 54.9 ],
       "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 93.3, 31.2 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 96.9, 32.1 ],
+      "player" : {
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.4, 50.6 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.7, 45.9 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : true
     } ]
@@ -76847,11 +76847,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 111.6, 40.6 ],
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -77103,27 +77103,27 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 91.3, 57.3 ],
+      "location" : [ 108.8, 48.5 ],
       "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : true
     }, {
-      "location" : [ 113.4, 35.2 ],
+      "location" : [ 111.7, 36.0 ],
       "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
+        "id" : 19431,
+        "name" : "Fernando Damián Tissone"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 117.3, 46.7 ],
       "player" : {
@@ -77136,58 +77136,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 108.8, 48.5 ],
+      "location" : [ 97.9, 31.2 ],
       "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.3, 41.1 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.9, 31.2 ],
-      "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 117.7, 40.7 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.2, 47.6 ],
-      "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
@@ -77202,58 +77158,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.9, 40.3 ],
+      "location" : [ 117.7, 40.7 ],
       "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 109.6, 45.6 ],
+      "location" : [ 113.4, 35.2 ],
       "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 104.5, 46.5 ],
+      "location" : [ 101.2, 47.6 ],
       "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.9, 31.2 ],
-      "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.7, 36.0 ],
-      "player" : {
-        "id" : 19431,
-        "name" : "Fernando Damián Tissone"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -77268,6 +77202,50 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 109.9, 31.2 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.9, 40.3 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 91.3, 57.3 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.6, 45.6 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 107.0, 51.2 ],
       "player" : {
         "id" : 6619,
@@ -77278,6 +77256,28 @@
         "name" : "Left Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 104.5, 46.5 ],
+      "player" : {
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.3, 41.1 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 109.9, 42.1 ],
       "player" : {
@@ -77417,11 +77417,11 @@
     },
     "end_location" : [ 110.9, 42.4 ],
     "switch" : true,
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -77472,11 +77472,11 @@
   "under_pressure" : true,
   "related_events" : [ "10f0ec3f-0935-419d-a25a-b46fd79072cc" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "1a00300c-03ab-4372-9992-7e6dd02801c6",
@@ -80085,11 +80085,11 @@
     },
     "end_location" : [ 120.6, 60.7 ],
     "switch" : true,
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
+    "inswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -84136,11 +84136,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "31dea353-2f9d-4b2f-9a26-28f9a8bd5b75",
@@ -90636,6 +90636,61 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
+      "location" : [ 103.3, 42.5 ],
+      "player" : {
+        "id" : 19431,
+        "name" : "Fernando Damián Tissone"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.8, 28.1 ],
+      "player" : {
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 97.9, 26.9 ],
+      "player" : {
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.3, 35.3 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.6, 43.9 ],
+      "player" : {
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 106.4, 52.9 ],
       "player" : {
         "id" : 25859,
@@ -90647,14 +90702,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.3, 42.5 ],
+      "location" : [ 109.6, 42.8 ],
       "player" : {
-        "id" : 19431,
-        "name" : "Fernando Damián Tissone"
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 106.2, 41.0 ],
+      "player" : {
+        "id" : 27183,
+        "name" : "Pablo Javier Pérez"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : false
     }, {
@@ -90680,6 +90746,28 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 112.3, 54.6 ],
+      "player" : {
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.5, 28.7 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 112.3, 43.5 ],
       "player" : {
         "id" : 27182,
@@ -90701,94 +90789,6 @@
         "name" : "Center Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 112.3, 54.6 ],
-      "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.6, 43.9 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.2, 41.0 ],
-      "player" : {
-        "id" : 27183,
-        "name" : "Pablo Javier Pérez"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.9, 26.9 ],
-      "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.5, 28.7 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.3, 35.3 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.8, 28.1 ],
-      "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.6, 42.8 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -90885,11 +90885,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "2ce0195e-e7d6-4a32-bf13-853140c2c69c",
@@ -96369,17 +96369,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 119.0, 43.8 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 111.2, 41.2 ],
       "player" : {
         "id" : 5503,
@@ -96390,6 +96379,17 @@
         "name" : "Center Forward"
       },
       "teammate" : true
+    }, {
+      "location" : [ 119.0, 43.8 ],
+      "player" : {
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     }, {
       "location" : [ 110.7, 35.3 ],
       "player" : {
@@ -96402,17 +96402,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 108.0, 40.2 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 107.0, 42.5 ],
       "player" : {
         "id" : 6904,
@@ -96421,6 +96410,17 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.6, 36.1 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -96435,14 +96435,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.6, 36.1 ],
+      "location" : [ 108.0, 40.2 ],
       "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -96558,11 +96558,11 @@
       "id" : 61,
       "name" : "Corner"
     },
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -96702,39 +96702,6 @@
       "name" : "Post"
     },
     "freeze_frame" : [ {
-      "location" : [ 114.7, 44.0 ],
-      "player" : {
-        "id" : 27183,
-        "name" : "Pablo Javier Pérez"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.7, 45.1 ],
-      "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.4, 34.9 ],
-      "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 115.0, 48.1 ],
       "player" : {
         "id" : 19431,
@@ -96743,72 +96710,6 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.1, 43.1 ],
-      "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.6, 39.6 ],
-      "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.3, 47.2 ],
-      "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.4, 39.1 ],
-      "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.2, 33.9 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.2, 39.9 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -96823,6 +96724,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 101.4, 34.9 ],
+      "player" : {
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 113.9, 48.9 ],
       "player" : {
         "id" : 3385,
@@ -96831,17 +96743,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.2, 50.0 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
       },
       "teammate" : true
     }, {
@@ -96856,6 +96757,50 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 119.2, 39.9 ],
+      "player" : {
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.1, 43.1 ],
+      "player" : {
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.2, 50.0 ],
+      "player" : {
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.7, 44.0 ],
+      "player" : {
+        "id" : 27183,
+        "name" : "Pablo Javier Pérez"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 118.1, 79.2 ],
       "player" : {
         "id" : 20131,
@@ -96866,6 +96811,61 @@
         "name" : "Right Center Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 111.4, 39.1 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.3, 47.2 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.7, 45.1 ],
+      "player" : {
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.6, 39.6 ],
+      "player" : {
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.2, 33.9 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     }, {
       "location" : [ 108.9, 32.8 ],
       "player" : {
@@ -96961,11 +96961,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "eeea100a-527b-4b6d-ba0e-5e591582963b",
@@ -97003,11 +97003,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "cf536879-86d0-4cac-9a49-5a1430482401",
@@ -97045,11 +97045,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "93f938cb-7614-4bcd-8630-4ff1334a7614",
@@ -97488,11 +97488,11 @@
   "under_pressure" : true,
   "related_events" : [ "b5a0bd2f-6bdc-4bdf-969a-21940f405a7c" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "b3687c4d-e096-4da4-95a3-aa997999f9d3",
@@ -97738,14 +97738,25 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 111.8, 23.7 ],
+      "location" : [ 107.3, 40.8 ],
       "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
+        "id" : 19431,
+        "name" : "Fernando Damián Tissone"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.7, 38.3 ],
+      "player" : {
+        "id" : 3385,
+        "name" : "Alexis Alejandro Sánchez Sánchez"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
@@ -97760,28 +97771,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 111.7, 33.6 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.7, 38.3 ],
-      "player" : {
-        "id" : 3385,
-        "name" : "Alexis Alejandro Sánchez Sánchez"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 118.3, 35.5 ],
       "player" : {
         "id" : 3659,
@@ -97793,16 +97782,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.3, 40.8 ],
+      "location" : [ 111.7, 33.6 ],
       "player" : {
-        "id" : 19431,
-        "name" : "Fernando Damián Tissone"
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 112.5, 44.2 ],
       "player" : {
@@ -97815,16 +97804,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.3, 42.1 ],
+      "location" : [ 115.0, 34.2 ],
       "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
+        "id" : 27183,
+        "name" : "Pablo Javier Pérez"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 111.8, 23.7 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 110.5, 29.6 ],
       "player" : {
@@ -97848,25 +97848,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 115.0, 34.2 ],
+      "location" : [ 111.3, 42.1 ],
       "player" : {
-        "id" : 27183,
-        "name" : "Pablo Javier Pérez"
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.0, 24.1 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -97878,6 +97867,17 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.0, 24.1 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -98000,11 +98000,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "e5c3120f-3242-4edd-91cf-c55cdb674460",
@@ -98222,11 +98222,11 @@
   "related_events" : [ "1b22364c-fa58-411e-9b9b-921d3382414a", "4c2ac380-3760-4bd5-98a3-271cfea3edb4" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "6f99097b-8694-4490-b8b3-5a5481e1ab66",
@@ -99744,28 +99744,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 106.3, 40.3 ],
-      "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.2, 31.5 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 112.2, 41.8 ],
       "player" : {
         "id" : 3478,
@@ -99776,6 +99754,17 @@
         "name" : "Left Center Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 106.8, 32.1 ],
+      "player" : {
+        "id" : 19431,
+        "name" : "Fernando Damián Tissone"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
     }, {
       "location" : [ 111.0, 47.7 ],
       "player" : {
@@ -99788,17 +99777,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 106.9, 28.9 ],
-      "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 104.6, 28.6 ],
       "player" : {
         "id" : 6695,
@@ -99809,6 +99787,17 @@
         "name" : "Right Wing"
       },
       "teammate" : false
+    }, {
+      "location" : [ 107.2, 31.5 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
     }, {
       "location" : [ 115.0, 36.0 ],
       "player" : {
@@ -99821,14 +99810,47 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.4, 35.8 ],
+      "location" : [ 102.2, 33.9 ],
       "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
+        "id" : 27183,
+        "name" : "Pablo Javier Pérez"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.9, 28.9 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.3, 40.3 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.7, 30.5 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -99843,36 +99865,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 109.7, 30.5 ],
+      "location" : [ 111.4, 35.8 ],
       "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.8, 32.1 ],
-      "player" : {
-        "id" : 19431,
-        "name" : "Fernando Damián Tissone"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.2, 33.9 ],
-      "player" : {
-        "id" : 27183,
-        "name" : "Pablo Javier Pérez"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -101269,11 +101269,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "3381d3a3-ccaa-47e6-99d3-f1b3a5139235",
@@ -103469,11 +103469,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "2df5d192-0533-41bd-8498-acd81e8deeaf",
@@ -104530,11 +104530,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "f696fa80-5a6a-44a7-b200-f2195c3eb4cf",
@@ -107088,39 +107088,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 112.8, 35.4 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.5, 29.6 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 115.1, 26.3 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 114.3, 44.4 ],
       "player" : {
         "id" : 3478,
@@ -107132,16 +107099,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 110.9, 41.7 ],
+      "location" : [ 106.9, 22.2 ],
       "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
+    }, {
+      "location" : [ 112.8, 35.4 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
     }, {
       "location" : [ 117.8, 39.3 ],
       "player" : {
@@ -107154,25 +107132,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.7, 36.6 ],
+      "location" : [ 110.5, 29.6 ],
       "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 112.1, 32.1 ],
+      "location" : [ 107.8, 32.3 ],
       "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
+        "id" : 27183,
+        "name" : "Pablo Javier Pérez"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : false
     }, {
@@ -107187,25 +107165,47 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.8, 32.3 ],
+      "location" : [ 112.1, 32.1 ],
       "player" : {
-        "id" : 27183,
-        "name" : "Pablo Javier Pérez"
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 106.9, 22.2 ],
+      "location" : [ 115.1, 26.3 ],
       "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.9, 41.7 ],
+      "player" : {
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.7, 36.6 ],
+      "player" : {
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -109834,11 +109834,11 @@
   "under_pressure" : true,
   "related_events" : [ "1282deb2-0367-41b6-bf40-62d29fd6deb3" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "14ba7fbc-fe44-486f-96e7-03862361f213",
@@ -112976,11 +112976,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "12925f6f-46c7-4888-b995-86f722103059",
@@ -119204,50 +119204,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 102.8, 43.9 ],
-      "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.3, 40.6 ],
-      "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.6, 37.4 ],
-      "player" : {
-        "id" : 27181,
-        "name" : "Pedro Andrés Morales Flores"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.7, 33.8 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 103.7, 34.4 ],
       "player" : {
         "id" : 19431,
@@ -119259,60 +119215,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.0, 32.7 ],
+      "location" : [ 94.3, 42.3 ],
       "player" : {
-        "id" : 25859,
-        "name" : "Sérgio Paulo Barbosa Valente"
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 31.9 ],
-      "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 30.9 ],
-      "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 30.0 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.1, 40.3 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 103.1, 27.2 ],
       "player" : {
@@ -119336,16 +119248,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 94.3, 42.3 ],
+      "location" : [ 119.1, 40.3 ],
       "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 32.7 ],
+      "player" : {
+        "id" : 25859,
+        "name" : "Sérgio Paulo Barbosa Valente"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
     }, {
       "location" : [ 103.7, 25.4 ],
       "player" : {
@@ -119358,6 +119281,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 102.6, 37.4 ],
+      "player" : {
+        "id" : 27181,
+        "name" : "Pedro Andrés Morales Flores"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 92.5, 27.2 ],
       "player" : {
         "id" : 20131,
@@ -119368,6 +119302,72 @@
         "name" : "Right Center Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 103.0, 31.9 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 30.9 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.8, 43.9 ],
+      "player" : {
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.3, 40.6 ],
+      "player" : {
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.7, 33.8 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.0, 30.0 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -121880,11 +121880,11 @@
   "under_pressure" : true,
   "related_events" : [ "611ecc3f-f243-4dd3-8b79-de6cffbcb100" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "6866811b-2c57-4d5c-8541-432f8295e0d0",
@@ -127589,11 +127589,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "939833c7-6faf-483f-9491-504b0e8dbcc1",
@@ -128332,58 +128332,25 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 102.1, 55.2 ],
+      "location" : [ 108.6, 38.2 ],
       "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
+        "id" : 19431,
+        "name" : "Fernando Damián Tissone"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 97.9, 36.9 ],
+      "location" : [ 109.4, 39.1 ],
       "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 98.0, 39.3 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 97.8, 30.1 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.1, 28.7 ],
-      "player" : {
-        "id" : 6658,
-        "name" : "Cristian Tello Herrera"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : true
     }, {
@@ -128398,16 +128365,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 119.3, 40.9 ],
+      "location" : [ 108.8, 30.9 ],
       "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
+        "id" : 6695,
+        "name" : "Juan Miguel Jiménez López"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
+    }, {
+      "location" : [ 97.9, 36.9 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
     }, {
       "location" : [ 99.9, 41.7 ],
       "player" : {
@@ -128420,60 +128398,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.8, 30.9 ],
+      "location" : [ 119.3, 40.9 ],
       "player" : {
-        "id" : 6695,
-        "name" : "Juan Miguel Jiménez López"
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 109.4, 42.2 ],
+      "location" : [ 108.1, 28.7 ],
       "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
+        "id" : 6658,
+        "name" : "Cristian Tello Herrera"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 108.6, 38.2 ],
-      "player" : {
-        "id" : 19431,
-        "name" : "Fernando Damián Tissone"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.5, 36.3 ],
-      "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.5, 35.3 ],
-      "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 108.4, 39.3 ],
       "player" : {
@@ -128483,28 +128428,6 @@
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.4, 34.4 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.5, 43.9 ],
-      "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -128519,16 +128442,93 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 109.4, 39.1 ],
+      "location" : [ 108.5, 36.3 ],
       "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.1, 55.2 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 108.5, 35.3 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.8, 30.1 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.5, 43.9 ],
+      "player" : {
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.4, 42.2 ],
+      "player" : {
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.0, 39.3 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.4, 34.4 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -130523,11 +130523,11 @@
   "under_pressure" : true,
   "related_events" : [ "0d26243d-3f7a-40c2-a293-5e7ef755f460" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "1cc7871b-2fcc-4d8e-9733-b06dae7859ba",
@@ -132679,11 +132679,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "46fbfde3-d9ce-496a-8a96-4852e71d07ee",
@@ -136677,11 +136677,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -136768,11 +136768,11 @@
   "under_pressure" : true,
   "related_events" : [ "03275a8d-fdab-4cb4-9ad3-31cc1728d4fb" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "43b66ba1-7e1d-406f-b48a-65163f45af58",
@@ -145010,11 +145010,11 @@
   "related_events" : [ "e95fce9f-6e21-41d0-9333-4e690b82d3b5", "ff9e183e-bfb4-4c30-9872-29d43a824006" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "6a20031a-0feb-4f8a-9f5d-077d7faab762",
@@ -145071,11 +145071,11 @@
       "id" : 61,
       "name" : "Corner"
     },
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    }
+    },
+    "inswinging" : true
   }
 }, {
   "id" : "d12b46bb-bae9-4d85-9323-deb5639ac355",
@@ -145239,11 +145239,11 @@
   "under_pressure" : true,
   "related_events" : [ "0c3e0c01-d9c0-44c8-87ed-1ba361485a5a" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "bce48f9b-f596-491c-b638-af68aed2f06d",
@@ -145281,11 +145281,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "f8fe9c9c-8e25-40bb-923d-df08102d1940",
@@ -147493,11 +147493,11 @@
   "under_pressure" : true,
   "related_events" : [ "ef48be90-a933-46c9-a5f3-a689cf4e5b3a" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "cbdc8ee9-79f3-42be-b861-5c2849abbc05",
@@ -155322,11 +155322,11 @@
   "under_pressure" : true,
   "related_events" : [ "129acf4c-af72-48f1-baf0-275ca5e23dda" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "0cec68f6-e96a-4288-85e4-6f4e5d1c97fa",
@@ -155975,28 +155975,6 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 97.7, 54.7 ],
-      "player" : {
-        "id" : 27181,
-        "name" : "Pedro Andrés Morales Flores"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.5, 40.9 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 96.8, 44.1 ],
       "player" : {
         "id" : 3236,
@@ -156008,69 +155986,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 101.2, 51.4 ],
+      "location" : [ 106.2, 49.5 ],
       "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.3, 45.6 ],
-      "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.2, 39.2 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.4, 35.2 ],
-      "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 94.0, 30.4 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 94.4, 51.2 ],
-      "player" : {
-        "id" : 6379,
-        "name" : "Sergi Roberto Carnicer"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : true
     }, {
@@ -156085,14 +156008,36 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 106.2, 49.5 ],
+      "location" : [ 114.2, 39.2 ],
       "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.7, 54.7 ],
+      "player" : {
+        "id" : 27181,
+        "name" : "Pedro Andrés Morales Flores"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 94.4, 51.2 ],
+      "player" : {
+        "id" : 6379,
+        "name" : "Sergi Roberto Carnicer"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : true
     }, {
@@ -156104,6 +156049,61 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.4, 35.2 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.2, 51.4 ],
+      "player" : {
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 94.0, 30.4 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 105.3, 45.6 ],
+      "player" : {
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.5, 40.9 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -158224,11 +158224,11 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 102.2, 25.5 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -158557,80 +158557,14 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 103.5, 30.1 ],
+      "location" : [ 106.7, 36.3 ],
       "player" : {
-        "id" : 6904,
-        "name" : "Sergio Sánchez Ortega"
+        "id" : 3478,
+        "name" : "Francesc Fàbregas i Soler"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.4, 39.5 ],
-      "player" : {
-        "id" : 6619,
-        "name" : "Vitorino Gabriel Pacheco Antunes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.8, 35.1 ],
-      "player" : {
-        "id" : 27182,
-        "name" : "Flávio Nunes Ferreira"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.2, 30.7 ],
-      "player" : {
-        "id" : 27184,
-        "name" : "Marcos Alberto Angeleri"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.2, 28.5 ],
-      "player" : {
-        "id" : 8234,
-        "name" : "Ignacio Camacho Barnola"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.7, 36.4 ],
-      "player" : {
-        "id" : 3659,
-        "name" : "Wilfredo Daniel Caballero"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.4, 19.7 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : true
     }, {
@@ -158645,16 +158579,82 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 106.7, 36.3 ],
+      "location" : [ 117.7, 36.4 ],
       "player" : {
-        "id" : 3478,
-        "name" : "Francesc Fàbregas i Soler"
+        "id" : 3659,
+        "name" : "Wilfredo Daniel Caballero"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.5, 30.1 ],
+      "player" : {
+        "id" : 6904,
+        "name" : "Sergio Sánchez Ortega"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.2, 30.7 ],
+      "player" : {
+        "id" : 27184,
+        "name" : "Marcos Alberto Angeleri"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.4, 39.5 ],
+      "player" : {
+        "id" : 6619,
+        "name" : "Vitorino Gabriel Pacheco Antunes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.4, 19.7 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 107.8, 35.1 ],
+      "player" : {
+        "id" : 27182,
+        "name" : "Flávio Nunes Ferreira"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.2, 28.5 ],
+      "player" : {
+        "id" : 8234,
+        "name" : "Ignacio Camacho Barnola"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     }, {
       "location" : [ 107.1, 27.6 ],
       "player" : {
@@ -159347,6 +159347,17 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
+      "location" : [ 110.5, 22.5 ],
+      "player" : {
+        "id" : 3236,
+        "name" : "Sergi Darder Moll"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 101.1, 27.0 ],
       "player" : {
         "id" : 6695,
@@ -159357,50 +159368,6 @@
         "name" : "Right Wing"
       },
       "teammate" : true
-    }, {
-      "location" : [ 108.2, 19.3 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.8, 24.2 ],
-      "player" : {
-        "id" : 5506,
-        "name" : "Javier Alejandro Mascherano"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.3, 31.3 ],
-      "player" : {
-        "id" : 6379,
-        "name" : "Sergi Roberto Carnicer"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.9, 30.2 ],
-      "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
     }, {
       "location" : [ 117.6, 36.1 ],
       "player" : {
@@ -159424,16 +159391,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 110.5, 22.5 ],
+      "location" : [ 102.3, 31.3 ],
       "player" : {
-        "id" : 3236,
-        "name" : "Sergi Darder Moll"
+        "id" : 6379,
+        "name" : "Sergi Roberto Carnicer"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 107.9, 30.2 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 111.3, 32.6 ],
       "player" : {
@@ -159443,6 +159421,28 @@
       "position" : {
         "id" : 6,
         "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.8, 24.2 ],
+      "player" : {
+        "id" : 5506,
+        "name" : "Javier Alejandro Mascherano"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.2, 19.3 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -159573,11 +159573,11 @@
     },
     "end_location" : [ 112.0, 44.9 ],
     "switch" : true,
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
+    "inswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -159631,11 +159631,11 @@
       "id" : 30,
       "name" : "Punch"
     },
-    "punched_out" : true,
     "outcome" : {
       "id" : 117,
       "name" : "Punched out"
-    }
+    },
+    "punched_out" : true
   }
 }, {
   "id" : "1b47699d-bb81-484b-b292-7d5d37ec8629",
@@ -160169,11 +160169,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "d22662da-4f70-44d9-9789-736df0f4236a",

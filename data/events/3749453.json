@@ -3084,11 +3084,11 @@
   "under_pressure" : true,
   "related_events" : [ "6f7d3849-e767-4c84-813e-15904c51e4f9" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "53bb31dc-629c-4e55-84b8-a2662647a614",
@@ -3941,11 +3941,11 @@
   "under_pressure" : true,
   "related_events" : [ "83d9b4c7-5ba6-4096-843b-1589e276c456" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "ddba16a4-c9ce-4eaa-b0a4-9c2be50cb95b",
@@ -5972,11 +5972,11 @@
   "under_pressure" : true,
   "related_events" : [ "d6151a6b-07d6-4ac0-af81-8834b60f3242" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "02458bba-7b7e-4240-9d14-3b758cd37f38",
@@ -8743,16 +8743,38 @@
       "name" : "Wayward"
     },
     "freeze_frame" : [ {
-      "location" : [ 96.1, 51.0 ],
+      "location" : [ 112.6, 33.5 ],
       "player" : {
-        "id" : 40222,
-        "name" : "Laureano Bisan-Etame Mayer"
+        "id" : 39847,
+        "name" : "Dominic Matteo"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 118.9, 36.9 ],
+      "player" : {
+        "id" : 40132,
+        "name" : "Paul Robinson"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.6, 30.1 ],
+      "player" : {
+        "id" : 40371,
+        "name" : "Michael Duberry"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
     }, {
       "location" : [ 100.7, 50.5 ],
       "player" : {
@@ -8765,14 +8787,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.6, 33.5 ],
+      "location" : [ 119.1, 24.7 ],
       "player" : {
-        "id" : 39847,
-        "name" : "Dominic Matteo"
+        "id" : 19312,
+        "name" : "Robert Pirès "
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 96.1, 51.0 ],
+      "player" : {
+        "id" : 40222,
+        "name" : "Laureano Bisan-Etame Mayer"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.8, 24.7 ],
+      "player" : {
+        "id" : 40270,
+        "name" : "Gary Oliver Kelly"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -8795,50 +8839,6 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.6, 30.1 ],
-      "player" : {
-        "id" : 40371,
-        "name" : "Michael Duberry"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.1, 24.7 ],
-      "player" : {
-        "id" : 19312,
-        "name" : "Robert Pirès "
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 117.8, 24.7 ],
-      "player" : {
-        "id" : 40270,
-        "name" : "Gary Oliver Kelly"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.9, 36.9 ],
-      "player" : {
-        "id" : 40132,
-        "name" : "Paul Robinson"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     } ]
@@ -8926,11 +8926,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "f1739400-724c-4e96-9371-ef71f6281138",
@@ -11529,11 +11529,11 @@
     "end_location" : [ 98.4, 28.2 ],
     "assisted_shot_id" : "019d9224-c746-49d0-8878-e01d5275866a",
     "goal_assist" : true,
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -11630,6 +11630,17 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
+      "location" : [ 113.9, 36.6 ],
+      "player" : {
+        "id" : 40132,
+        "name" : "Paul Robinson"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 89.4, 47.0 ],
       "player" : {
         "id" : 40221,
@@ -11638,17 +11649,6 @@
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.0, 47.1 ],
-      "player" : {
-        "id" : 15512,
-        "name" : "Sylvain Wiltord"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
       },
       "teammate" : true
     }, {
@@ -11663,16 +11663,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.9, 36.6 ],
+      "location" : [ 101.0, 47.1 ],
       "player" : {
-        "id" : 40132,
-        "name" : "Paul Robinson"
+        "id" : 15512,
+        "name" : "Sylvain Wiltord"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 12,
+        "name" : "Right Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     } ]
   }
 }, {
@@ -18748,11 +18748,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -19015,11 +19015,11 @@
   "under_pressure" : true,
   "related_events" : [ "7f2d585b-d833-419c-994a-f89421d0c9c1" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "d556ff46-d358-4c43-8c82-a614fff73b6c",
@@ -19189,11 +19189,11 @@
   "under_pressure" : true,
   "related_events" : [ "531e8842-1244-4ebf-a8b5-44f56320be53", "77fcd36d-109d-4673-8e3e-04677838c183" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "b6fe9c39-4845-4d0d-a753-099f076ab50c",
@@ -21087,49 +21087,16 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 98.9, 64.6 ],
+      "location" : [ 90.1, 49.6 ],
       "player" : {
-        "id" : 40222,
-        "name" : "Laureano Bisan-Etame Mayer"
+        "id" : 39847,
+        "name" : "Dominic Matteo"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 100.6, 62.5 ],
-      "player" : {
-        "id" : 3473,
-        "name" : "James Philip Milner"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 100.8, 56.3 ],
-      "player" : {
-        "id" : 40368,
-        "name" : "Ian Harte"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 82.5, 59.6 ],
-      "player" : {
-        "id" : 15512,
-        "name" : "Sylvain Wiltord"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
     }, {
       "location" : [ 82.0, 50.1 ],
       "player" : {
@@ -21142,6 +21109,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 118.5, 42.5 ],
+      "player" : {
+        "id" : 40132,
+        "name" : "Paul Robinson"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 99.8, 45.5 ],
       "player" : {
         "id" : 40371,
@@ -21150,28 +21128,6 @@
       "position" : {
         "id" : 13,
         "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 90.1, 49.6 ],
-      "player" : {
-        "id" : 39847,
-        "name" : "Dominic Matteo"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.0, 48.3 ],
-      "player" : {
-        "id" : 40369,
-        "name" : "Steven Caldwell"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -21186,6 +21142,28 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 100.6, 62.5 ],
+      "player" : {
+        "id" : 3473,
+        "name" : "James Philip Milner"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.9, 64.6 ],
+      "player" : {
+        "id" : 40222,
+        "name" : "Laureano Bisan-Etame Mayer"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 100.1, 24.1 ],
       "player" : {
         "id" : 40270,
@@ -21197,16 +21175,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.5, 42.5 ],
+      "location" : [ 100.8, 56.3 ],
       "player" : {
-        "id" : 40132,
-        "name" : "Paul Robinson"
+        "id" : 40368,
+        "name" : "Ian Harte"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 100.0, 48.3 ],
+      "player" : {
+        "id" : 40369,
+        "name" : "Steven Caldwell"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 82.5, 59.6 ],
+      "player" : {
+        "id" : 15512,
+        "name" : "Sylvain Wiltord"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -21593,61 +21593,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 100.1, 26.0 ],
-      "player" : {
-        "id" : 3473,
-        "name" : "James Philip Milner"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 94.7, 34.1 ],
-      "player" : {
-        "id" : 40221,
-        "name" : "Gilberto Aparecido da Silva"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.9, 38.4 ],
-      "player" : {
-        "id" : 15637,
-        "name" : "Sulzeer Jeremiah \"Sol\" Campbell"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.1, 34.1 ],
-      "player" : {
-        "id" : 40222,
-        "name" : "Laureano Bisan-Etame Mayer"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.2, 31.5 ],
-      "player" : {
-        "id" : 38412,
-        "name" : "Kolo Habib Touré"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 104.4, 31.9 ],
       "player" : {
         "id" : 40373,
@@ -21667,6 +21612,61 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 94.7, 34.1 ],
+      "player" : {
+        "id" : 40221,
+        "name" : "Gilberto Aparecido da Silva"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.2, 31.5 ],
+      "player" : {
+        "id" : 38412,
+        "name" : "Kolo Habib Touré"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.1, 26.0 ],
+      "player" : {
+        "id" : 3473,
+        "name" : "James Philip Milner"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.1, 34.1 ],
+      "player" : {
+        "id" : 40222,
+        "name" : "Laureano Bisan-Etame Mayer"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.9, 38.4 ],
+      "player" : {
+        "id" : 15637,
+        "name" : "Sulzeer Jeremiah \"Sol\" Campbell"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -28928,11 +28928,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    }
+    },
+    "inswinging" : true
   }
 }, {
   "id" : "d7cd5e5c-0c94-41f4-acee-3cc29d14062c",
@@ -29015,11 +29015,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "283cefb2-bcdd-4700-82cc-5a48b01b3c8b",
@@ -29057,11 +29057,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "9cb0975a-e448-43a4-bb10-b6009572b325",
@@ -29673,11 +29673,11 @@
   "related_events" : [ "91a06451-01a7-4b48-aad2-ff2c63f11020", "bed73a68-64b1-4c73-b79e-e6ec4043e66a" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "dbbae1d6-d175-40b6-9997-6310cc2a2cd1",
@@ -30945,11 +30945,11 @@
   "under_pressure" : true,
   "related_events" : [ "0a96e2d7-7f90-4356-a15f-773e73e1ee6a", "f0f77304-2372-4e39-a06f-44d5cbe7f0be" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -30989,11 +30989,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "9a0b1993-0eca-4b2e-a082-d2b21fdd7b5c",
@@ -33744,11 +33744,11 @@
   "under_pressure" : true,
   "related_events" : [ "b7a4d057-6455-4481-bc2a-2af900e9e953" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "b194fa6e-d1c9-4e01-9a1f-06241eb32e53",
@@ -35631,36 +35631,14 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 86.7, 23.6 ],
+      "location" : [ 115.1, 43.2 ],
       "player" : {
-        "id" : 3473,
-        "name" : "James Philip Milner"
+        "id" : 20015,
+        "name" : "Jens Lehmann"
       },
       "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.0, 27.2 ],
-      "player" : {
-        "id" : 40222,
-        "name" : "Laureano Bisan-Etame Mayer"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 90.8, 48.7 ],
-      "player" : {
-        "id" : 15515,
-        "name" : "Patrick Vieira"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -35686,14 +35664,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 115.1, 43.2 ],
+      "location" : [ 86.7, 23.6 ],
       "player" : {
-        "id" : 20015,
-        "name" : "Jens Lehmann"
+        "id" : 3473,
+        "name" : "James Philip Milner"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 101.0, 27.2 ],
+      "player" : {
+        "id" : 40222,
+        "name" : "Laureano Bisan-Etame Mayer"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.2, 56.4 ],
+      "player" : {
+        "id" : 20302,
+        "name" : "Gaël Clichy"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -35708,14 +35708,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 100.2, 56.4 ],
+      "location" : [ 90.8, 48.7 ],
       "player" : {
-        "id" : 20302,
-        "name" : "Gaël Clichy"
+        "id" : 15515,
+        "name" : "Patrick Vieira"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -38351,11 +38351,11 @@
   "under_pressure" : true,
   "related_events" : [ "e238541c-274a-4e7b-8e27-7fb3979104bf" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "d0df5168-9171-4e1f-a536-2e6acc8942e7",
@@ -38404,11 +38404,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 104.9, 40.4 ],
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -39987,11 +39987,11 @@
   "under_pressure" : true,
   "related_events" : [ "0e9c1162-13a0-4904-b6e9-5cd2bb83d29a" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "95c54104-8d15-4225-830e-523efd77dcb4",
@@ -40439,11 +40439,11 @@
   "under_pressure" : true,
   "related_events" : [ "640f71ee-4ca5-4823-aef4-f13e5b0943fd" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "c8c7d1d9-5d11-4e8d-98e0-5275bdd9e18a",
@@ -47027,11 +47027,11 @@
     "end_location" : [ 87.6, 51.2 ],
     "assisted_shot_id" : "3a22f5d3-21ed-47ab-b617-7799a025e15a",
     "goal_assist" : true,
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -47203,14 +47203,14 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 90.0, 54.1 ],
+      "location" : [ 114.0, 44.1 ],
       "player" : {
-        "id" : 40368,
-        "name" : "Ian Harte"
+        "id" : 40132,
+        "name" : "Paul Robinson"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -47225,14 +47225,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.0, 44.1 ],
+      "location" : [ 90.0, 54.1 ],
       "player" : {
-        "id" : 40132,
-        "name" : "Paul Robinson"
+        "id" : 40368,
+        "name" : "Ian Harte"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     } ]
@@ -47517,11 +47517,11 @@
   "under_pressure" : true,
   "related_events" : [ "dfff1eee-2cd9-4b71-ae45-e61f92b28eb7" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "70ae2272-266b-4d34-892a-b8d969bc1e67",
@@ -48055,11 +48055,11 @@
   "under_pressure" : true,
   "related_events" : [ "3fc4bd6f-683a-45a0-b651-9824620eb800" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "8f7f2ddf-43ab-4195-989b-8327a522192c",
@@ -48188,105 +48188,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 100.5, 32.2 ],
-      "player" : {
-        "id" : 38412,
-        "name" : "Kolo Habib Touré"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.8, 29.8 ],
-      "player" : {
-        "id" : 40222,
-        "name" : "Laureano Bisan-Etame Mayer"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.0, 35.0 ],
-      "player" : {
-        "id" : 40221,
-        "name" : "Gilberto Aparecido da Silva"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 89.3, 30.8 ],
-      "player" : {
-        "id" : 15512,
-        "name" : "Sylvain Wiltord"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 87.5, 50.0 ],
-      "player" : {
-        "id" : 15042,
-        "name" : "Dennis Bergkamp"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 90.7, 40.8 ],
-      "player" : {
-        "id" : 15515,
-        "name" : "Patrick Vieira"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.8, 41.3 ],
-      "player" : {
-        "id" : 15637,
-        "name" : "Sulzeer Jeremiah \"Sol\" Campbell"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.8, 47.7 ],
-      "player" : {
-        "id" : 20302,
-        "name" : "Gaël Clichy"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.0, 50.3 ],
-      "player" : {
-        "id" : 19312,
-        "name" : "Robert Pirès "
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 93.6, 35.6 ],
       "player" : {
         "id" : 39847,
@@ -48298,27 +48199,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 103.3, 49.2 ],
+      "location" : [ 87.5, 50.0 ],
       "player" : {
-        "id" : 26649,
-        "name" : "Jermaine Pennant"
+        "id" : 15042,
+        "name" : "Dennis Bergkamp"
       },
       "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
+        "id" : 22,
+        "name" : "Right Center Forward"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 101.0, 49.8 ],
-      "player" : {
-        "id" : 40267,
-        "name" : "Alan Smith"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 100.6, 29.9 ],
       "player" : {
@@ -48341,6 +48231,116 @@
         "name" : "Goalkeeper"
       },
       "teammate" : false
+    }, {
+      "location" : [ 97.0, 35.0 ],
+      "player" : {
+        "id" : 40221,
+        "name" : "Gilberto Aparecido da Silva"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.0, 49.8 ],
+      "player" : {
+        "id" : 40267,
+        "name" : "Alan Smith"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.5, 32.2 ],
+      "player" : {
+        "id" : 38412,
+        "name" : "Kolo Habib Touré"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.0, 50.3 ],
+      "player" : {
+        "id" : 19312,
+        "name" : "Robert Pirès "
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.8, 29.8 ],
+      "player" : {
+        "id" : 40222,
+        "name" : "Laureano Bisan-Etame Mayer"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.8, 47.7 ],
+      "player" : {
+        "id" : 20302,
+        "name" : "Gaël Clichy"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.8, 41.3 ],
+      "player" : {
+        "id" : 15637,
+        "name" : "Sulzeer Jeremiah \"Sol\" Campbell"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 90.7, 40.8 ],
+      "player" : {
+        "id" : 15515,
+        "name" : "Patrick Vieira"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 89.3, 30.8 ],
+      "player" : {
+        "id" : 15512,
+        "name" : "Sylvain Wiltord"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.3, 49.2 ],
+      "player" : {
+        "id" : 26649,
+        "name" : "Jermaine Pennant"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -55549,25 +55549,14 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 98.8, 39.3 ],
+      "location" : [ 103.3, 32.2 ],
       "player" : {
-        "id" : 15512,
-        "name" : "Sylvain Wiltord"
+        "id" : 39847,
+        "name" : "Dominic Matteo"
       },
       "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.8, 39.9 ],
-      "player" : {
-        "id" : 3473,
-        "name" : "James Philip Milner"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : true
     }, {
@@ -55582,14 +55571,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 98.9, 42.9 ],
+      "location" : [ 103.1, 40.5 ],
       "player" : {
-        "id" : 19312,
-        "name" : "Robert Pirès "
+        "id" : 40373,
+        "name" : "Mark Viduka"
       },
       "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.2, 42.3 ],
+      "player" : {
+        "id" : 20015,
+        "name" : "Jens Lehmann"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -55604,25 +55604,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 98.9, 41.5 ],
+      "location" : [ 105.0, 28.6 ],
       "player" : {
-        "id" : 15515,
-        "name" : "Patrick Vieira"
+        "id" : 40371,
+        "name" : "Michael Duberry"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 51.4 ],
-      "player" : {
-        "id" : 40270,
-        "name" : "Gary Oliver Kelly"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : true
     }, {
@@ -55648,6 +55637,61 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 105.1, 32.2 ],
+      "player" : {
+        "id" : 38412,
+        "name" : "Kolo Habib Touré"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.8, 39.9 ],
+      "player" : {
+        "id" : 3473,
+        "name" : "James Philip Milner"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 98.9, 42.9 ],
+      "player" : {
+        "id" : 19312,
+        "name" : "Robert Pirès "
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 51.4 ],
+      "player" : {
+        "id" : 40270,
+        "name" : "Gary Oliver Kelly"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 105.1, 30.0 ],
+      "player" : {
+        "id" : 40222,
+        "name" : "Laureano Bisan-Etame Mayer"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 104.0, 48.1 ],
       "player" : {
         "id" : 20302,
@@ -55670,60 +55714,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.1, 40.5 ],
+      "location" : [ 98.9, 41.5 ],
       "player" : {
-        "id" : 40373,
-        "name" : "Mark Viduka"
+        "id" : 15515,
+        "name" : "Patrick Vieira"
       },
       "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.0, 28.6 ],
-      "player" : {
-        "id" : 40371,
-        "name" : "Michael Duberry"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.1, 30.0 ],
-      "player" : {
-        "id" : 40222,
-        "name" : "Laureano Bisan-Etame Mayer"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     }, {
-      "location" : [ 105.1, 32.2 ],
+      "location" : [ 98.8, 39.3 ],
       "player" : {
-        "id" : 38412,
-        "name" : "Kolo Habib Touré"
+        "id" : 15512,
+        "name" : "Sylvain Wiltord"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 12,
+        "name" : "Right Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 103.3, 32.2 ],
-      "player" : {
-        "id" : 39847,
-        "name" : "Dominic Matteo"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
     }, {
       "location" : [ 86.6, 33.1 ],
       "player" : {
@@ -55735,17 +55746,6 @@
         "name" : "Right Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 119.2, 42.3 ],
-      "player" : {
-        "id" : 20015,
-        "name" : "Jens Lehmann"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -57171,11 +57171,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "7fbe5834-7469-4fe6-addf-cc58037168a6",
@@ -60180,11 +60180,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
-    }
+    },
+    "outswinging" : true
   }
 }, {
   "id" : "be01e317-04f2-4278-8564-712b3550952c",
@@ -60266,11 +60266,11 @@
   "related_events" : [ "be01e317-04f2-4278-8564-712b3550952c", "e7aa8100-9703-4474-b799-2af8b2e8689f" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "fb2ddc53-a071-430f-91f9-87cf573a5903",
@@ -60489,39 +60489,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 107.1, 26.3 ],
-      "player" : {
-        "id" : 40369,
-        "name" : "Steven Caldwell"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.6, 27.3 ],
-      "player" : {
-        "id" : 26649,
-        "name" : "Jermaine Pennant"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.9, 37.0 ],
-      "player" : {
-        "id" : 40371,
-        "name" : "Michael Duberry"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 113.1, 39.7 ],
       "player" : {
         "id" : 39847,
@@ -60533,14 +60500,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.0, 41.3 ],
+      "location" : [ 119.1, 37.1 ],
       "player" : {
-        "id" : 40267,
-        "name" : "Alan Smith"
+        "id" : 40132,
+        "name" : "Paul Robinson"
       },
       "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -60555,6 +60522,39 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 113.0, 41.3 ],
+      "player" : {
+        "id" : 40267,
+        "name" : "Alan Smith"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.9, 37.0 ],
+      "player" : {
+        "id" : 40371,
+        "name" : "Michael Duberry"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.5, 44.4 ],
+      "player" : {
+        "id" : 38412,
+        "name" : "Kolo Habib Touré"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 99.4, 47.0 ],
       "player" : {
         "id" : 40368,
@@ -60563,6 +60563,17 @@
       "position" : {
         "id" : 6,
         "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.1, 26.3 ],
+      "player" : {
+        "id" : 40369,
+        "name" : "Steven Caldwell"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -60577,25 +60588,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 111.5, 44.4 ],
+      "location" : [ 115.6, 27.3 ],
       "player" : {
-        "id" : 38412,
-        "name" : "Kolo Habib Touré"
+        "id" : 26649,
+        "name" : "Jermaine Pennant"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 119.1, 37.1 ],
-      "player" : {
-        "id" : 40132,
-        "name" : "Paul Robinson"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 12,
+        "name" : "Right Midfield"
       },
       "teammate" : false
     } ]
@@ -61519,11 +61519,11 @@
   "under_pressure" : true,
   "related_events" : [ "e43d0a86-14de-446f-b631-a3c6b59c7c1b" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "2ffa6dea-f828-43f6-817d-d64b10cfd76b",
@@ -63076,11 +63076,11 @@
   "related_events" : [ "0e9bf00b-2d1d-4727-a43d-693521122588", "5286e5f0-2972-487b-8c98-2bc38d05bfe3" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "6aaf0cf7-de8a-4f36-b585-afa3562e31a6",
@@ -66938,11 +66938,11 @@
   "under_pressure" : true,
   "related_events" : [ "720fe2e6-7a68-41ee-b69c-3f5991b92ab8" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "12503573-b3ba-4ee7-808a-b0e7fbab04f8",
@@ -66991,11 +66991,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
+    "inswinging" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -67042,11 +67042,11 @@
   "under_pressure" : true,
   "related_events" : [ "12503573-b3ba-4ee7-808a-b0e7fbab04f8" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "cee1c874-f9c5-4add-b164-d4d276b9b461",
@@ -70883,11 +70883,11 @@
   "under_pressure" : true,
   "related_events" : [ "5bee18c8-f15c-4d2b-a9dd-9a0053486b65" ],
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "87ba4d29-8aa2-4bcc-a1ba-ecc464c4f309",
@@ -71986,11 +71986,11 @@
       "id" : 61,
       "name" : "Corner"
     },
-    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
-    }
+    },
+    "straight" : true
   }
 }, {
   "id" : "5888b426-47f7-4212-b6ab-52c83b7980ff",
@@ -72120,61 +72120,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 101.9, 46.3 ],
-      "player" : {
-        "id" : 3473,
-        "name" : "James Philip Milner"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.9, 37.9 ],
-      "player" : {
-        "id" : 40270,
-        "name" : "Gary Oliver Kelly"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.6, 48.8 ],
-      "player" : {
-        "id" : 26649,
-        "name" : "Jermaine Pennant"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.3, 41.2 ],
-      "player" : {
-        "id" : 40370,
-        "name" : "Lucas Radebe"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.1, 36.2 ],
-      "player" : {
-        "id" : 40369,
-        "name" : "Steven Caldwell"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 103.7, 37.8 ],
       "player" : {
         "id" : 39847,
@@ -72197,17 +72142,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.1, 33.7 ],
-      "player" : {
-        "id" : 40368,
-        "name" : "Ian Harte"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 96.8, 49.7 ],
       "player" : {
         "id" : 15042,
@@ -72216,61 +72150,6 @@
       "position" : {
         "id" : 22,
         "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.9, 40.0 ],
-      "player" : {
-        "id" : 15637,
-        "name" : "Sulzeer Jeremiah \"Sol\" Campbell"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.0, 42.1 ],
-      "player" : {
-        "id" : 38412,
-        "name" : "Kolo Habib Touré"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 111.2, 37.4 ],
-      "player" : {
-        "id" : 15515,
-        "name" : "Patrick Vieira"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.2, 28.9 ],
-      "player" : {
-        "id" : 40221,
-        "name" : "Gilberto Aparecido da Silva"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.2, 39.5 ],
-      "player" : {
-        "id" : 20302,
-        "name" : "Gaël Clichy"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : true
     }, {
@@ -72285,6 +72164,28 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 101.2, 28.9 ],
+      "player" : {
+        "id" : 40221,
+        "name" : "Gilberto Aparecido da Silva"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.3, 41.2 ],
+      "player" : {
+        "id" : 40370,
+        "name" : "Lucas Radebe"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 109.3, 44.1 ],
       "player" : {
         "id" : 40267,
@@ -72293,6 +72194,105 @@
       "position" : {
         "id" : 24,
         "name" : "Left Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 42.1 ],
+      "player" : {
+        "id" : 38412,
+        "name" : "Kolo Habib Touré"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 101.9, 46.3 ],
+      "player" : {
+        "id" : 3473,
+        "name" : "James Philip Milner"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.9, 37.9 ],
+      "player" : {
+        "id" : 40270,
+        "name" : "Gary Oliver Kelly"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.1, 33.7 ],
+      "player" : {
+        "id" : 40368,
+        "name" : "Ian Harte"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.2, 39.5 ],
+      "player" : {
+        "id" : 20302,
+        "name" : "Gaël Clichy"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.1, 36.2 ],
+      "player" : {
+        "id" : 40369,
+        "name" : "Steven Caldwell"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.9, 40.0 ],
+      "player" : {
+        "id" : 15637,
+        "name" : "Sulzeer Jeremiah \"Sol\" Campbell"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 111.2, 37.4 ],
+      "player" : {
+        "id" : 15515,
+        "name" : "Patrick Vieira"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.6, 48.8 ],
+      "player" : {
+        "id" : 26649,
+        "name" : "Jermaine Pennant"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
       },
       "teammate" : false
     } ]
@@ -73693,11 +73693,11 @@
   "under_pressure" : true,
   "related_events" : [ "3347b02d-89e1-4d82-8db6-64cbcd88b9d8" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "301c7b37-8bfb-4186-a3dc-feeef16a5668",
@@ -77072,11 +77072,11 @@
   "under_pressure" : true,
   "related_events" : [ "2339aaed-de87-4a5c-8b64-da17d67c6755" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "fd63bee8-5aa9-4233-af52-53e3b767bedc",
@@ -77816,11 +77816,11 @@
   "under_pressure" : true,
   "related_events" : [ "a5a24230-cc4d-4b1f-ba61-1284482c62cd" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "b4b6e33b-7558-467e-8958-309ba82f00a6",
@@ -78479,11 +78479,11 @@
   "under_pressure" : true,
   "related_events" : [ "4ca0df83-f951-40f2-a92a-c6605ff0d278" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "51341f7d-cf01-407d-bda9-6b92580c285f",
@@ -78867,11 +78867,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "22301f32-4334-4801-91f3-ba0335311a96",
@@ -79002,17 +79002,6 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 101.6, 32.6 ],
-      "player" : {
-        "id" : 40371,
-        "name" : "Michael Duberry"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 111.9, 35.8 ],
       "player" : {
         "id" : 40132,
@@ -79021,6 +79010,17 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.6, 32.6 ],
+      "player" : {
+        "id" : 40371,
+        "name" : "Michael Duberry"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     } ]
@@ -81623,11 +81623,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "ff07e867-9d46-4925-b7cd-e65c5d70deae",
@@ -81794,6 +81794,17 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
+      "location" : [ 115.2, 39.1 ],
+      "player" : {
+        "id" : 40132,
+        "name" : "Paul Robinson"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 93.3, 31.6 ],
       "player" : {
         "id" : 15516,
@@ -81824,17 +81835,6 @@
       "position" : {
         "id" : 2,
         "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.2, 39.1 ],
-      "player" : {
-        "id" : 40132,
-        "name" : "Paul Robinson"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     } ]
@@ -84064,11 +84064,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 69.8, 74.0 ],
-    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    }
+    },
+    "no_touch" : true
   }
 }, {
   "id" : "207fe1f5-0af8-4c2a-bf80-fdcb9d29a1e6",
@@ -89112,11 +89112,11 @@
   "under_pressure" : true,
   "related_events" : [ "bdda539b-5354-49b2-944d-d6c1d6aef054" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "7c942d6d-ca63-4fe4-a94e-72f528945132",
@@ -89435,11 +89435,11 @@
   "under_pressure" : true,
   "related_events" : [ "339ac707-ca26-4b78-bb8f-2674ee5ec7bd" ],
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "41c4a6f5-ab87-4f70-aee6-03acb63a390a",
@@ -104230,11 +104230,11 @@
   "related_events" : [ "ab8a0d26-78fe-4c71-9949-4a04a7986b5f", "f5150373-9f15-4220-9422-d436e21a6b9e" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "74b8d216-2adb-4ad8-90ad-30dfd8819c5b",
@@ -113370,6 +113370,17 @@
       "name" : "Goal"
     },
     "freeze_frame" : [ {
+      "location" : [ 115.3, 36.2 ],
+      "player" : {
+        "id" : 40132,
+        "name" : "Paul Robinson"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 100.7, 31.9 ],
       "player" : {
         "id" : 40371,
@@ -113378,17 +113389,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.5, 36.4 ],
-      "player" : {
-        "id" : 40369,
-        "name" : "Steven Caldwell"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -113403,14 +113403,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 115.3, 36.2 ],
+      "location" : [ 110.5, 36.4 ],
       "player" : {
-        "id" : 40132,
-        "name" : "Paul Robinson"
+        "id" : 40369,
+        "name" : "Steven Caldwell"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -116012,11 +116012,11 @@
   "under_pressure" : true,
   "related_events" : [ "3ff389b5-31b6-4021-a6b6-50651253c6fa" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "e5162c07-fb4a-4723-a465-b1c9ed237b35",
@@ -123758,6 +123758,61 @@
       "name" : "Free Kick"
     },
     "freeze_frame" : [ {
+      "location" : [ 109.4, 47.0 ],
+      "player" : {
+        "id" : 39847,
+        "name" : "Dominic Matteo"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.4, 37.7 ],
+      "player" : {
+        "id" : 40373,
+        "name" : "Mark Viduka"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 120.0, 40.2 ],
+      "player" : {
+        "id" : 40132,
+        "name" : "Paul Robinson"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.4, 43.7 ],
+      "player" : {
+        "id" : 40371,
+        "name" : "Michael Duberry"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.1, 24.1 ],
+      "player" : {
+        "id" : 40270,
+        "name" : "Gary Oliver Kelly"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 108.8, 43.0 ],
       "player" : {
         "id" : 40368,
@@ -123780,28 +123835,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 110.4, 43.7 ],
-      "player" : {
-        "id" : 40371,
-        "name" : "Michael Duberry"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.7, 48.9 ],
-      "player" : {
-        "id" : 15515,
-        "name" : "Patrick Vieira"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 109.2, 45.0 ],
       "player" : {
         "id" : 15637,
@@ -123813,49 +123846,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 106.4, 37.7 ],
+      "location" : [ 110.7, 48.9 ],
       "player" : {
-        "id" : 40373,
-        "name" : "Mark Viduka"
+        "id" : 15515,
+        "name" : "Patrick Vieira"
       },
       "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 109.4, 47.0 ],
-      "player" : {
-        "id" : 39847,
-        "name" : "Dominic Matteo"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 120.0, 40.2 ],
-      "player" : {
-        "id" : 40132,
-        "name" : "Paul Robinson"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.1, 24.1 ],
-      "player" : {
-        "id" : 40270,
-        "name" : "Gary Oliver Kelly"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 106.6, 23.4 ],
       "player" : {
@@ -124163,11 +124163,11 @@
   "under_pressure" : true,
   "related_events" : [ "2ee5bf94-a2e1-475e-8da2-9227813d0319" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "a9200de1-658d-497d-97a9-57dbe9515e3a",
@@ -125184,11 +125184,11 @@
   "under_pressure" : true,
   "related_events" : [ "42527c3c-9931-4dbd-8304-6c5843b81d6e", "ddc43357-cc5b-4c70-894a-314ab07ec394" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -126043,11 +126043,11 @@
   "under_pressure" : true,
   "related_events" : [ "2a150fb1-3eb9-422e-b615-7302735dae02" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "43cea581-f962-4e88-b4dc-d5719393e6f4",
@@ -126404,11 +126404,11 @@
   "under_pressure" : true,
   "related_events" : [ "3f28bef4-12ad-4092-b93c-be97f3e7903b" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "870b27bd-45df-4c85-88a7-1ba322d61a71",
@@ -126465,11 +126465,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
-    }
+    },
+    "straight" : true
   }
 }, {
   "id" : "39c1e9dc-8a97-433c-af02-c20c590fa546",
@@ -126508,11 +126508,11 @@
   "under_pressure" : true,
   "related_events" : [ "870b27bd-45df-4c85-88a7-1ba322d61a71" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "1e1bf175-7127-4d96-9973-696706e6d4b3",
@@ -128000,11 +128000,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "a001fc69-b372-40a1-9c32-bd49ba1178e9",
@@ -132398,14 +132398,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.3, 33.7 ],
+      "location" : [ 101.6, 28.5 ],
       "player" : {
-        "id" : 40369,
-        "name" : "Steven Caldwell"
+        "id" : 40270,
+        "name" : "Gary Oliver Kelly"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -132420,14 +132420,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 101.6, 28.5 ],
+      "location" : [ 103.3, 33.7 ],
       "player" : {
-        "id" : 40270,
-        "name" : "Gary Oliver Kelly"
+        "id" : 40369,
+        "name" : "Steven Caldwell"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -132572,11 +132572,11 @@
       "id" : 61,
       "name" : "Corner"
     },
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
-    }
+    },
+    "outswinging" : true
   }
 }, {
   "id" : "bf3d4e5b-b3a8-46b4-bea3-a9407008510a",
@@ -132712,6 +132712,17 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
+      "location" : [ 118.4, 46.1 ],
+      "player" : {
+        "id" : 39847,
+        "name" : "Dominic Matteo"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 111.6, 42.2 ],
       "player" : {
         "id" : 23816,
@@ -132723,16 +132734,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 111.3, 46.0 ],
+      "location" : [ 120.0, 39.6 ],
       "player" : {
-        "id" : 15515,
-        "name" : "Patrick Vieira"
+        "id" : 40132,
+        "name" : "Paul Robinson"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 107.5, 43.1 ],
       "player" : {
@@ -132745,14 +132756,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.4, 46.1 ],
+      "location" : [ 113.7, 37.7 ],
       "player" : {
-        "id" : 39847,
-        "name" : "Dominic Matteo"
+        "id" : 40371,
+        "name" : "Michael Duberry"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.5, 30.1 ],
+      "player" : {
+        "id" : 15512,
+        "name" : "Sylvain Wiltord"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.5, 35.5 ],
+      "player" : {
+        "id" : 40270,
+        "name" : "Gary Oliver Kelly"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -132778,47 +132811,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.5, 35.5 ],
+      "location" : [ 111.3, 46.0 ],
       "player" : {
-        "id" : 40270,
-        "name" : "Gary Oliver Kelly"
+        "id" : 15515,
+        "name" : "Patrick Vieira"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.7, 37.7 ],
-      "player" : {
-        "id" : 40371,
-        "name" : "Michael Duberry"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 120.0, 39.6 ],
-      "player" : {
-        "id" : 40132,
-        "name" : "Paul Robinson"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.5, 30.1 ],
-      "player" : {
-        "id" : 15512,
-        "name" : "Sylvain Wiltord"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : true
     } ]
@@ -133190,11 +133190,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "b92f7d49-da84-4dd6-9ff7-4b97d7e6866d",
@@ -133362,17 +133362,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 101.1, 28.9 ],
-      "player" : {
-        "id" : 15512,
-        "name" : "Sylvain Wiltord"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 101.7, 38.7 ],
       "player" : {
         "id" : 23816,
@@ -133383,6 +133372,17 @@
         "name" : "Right Center Forward"
       },
       "teammate" : true
+    }, {
+      "location" : [ 118.9, 37.7 ],
+      "player" : {
+        "id" : 40132,
+        "name" : "Paul Robinson"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     }, {
       "location" : [ 104.2, 37.0 ],
       "player" : {
@@ -133395,16 +133395,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.1, 34.3 ],
+      "location" : [ 101.1, 28.9 ],
       "player" : {
-        "id" : 40369,
-        "name" : "Steven Caldwell"
+        "id" : 15512,
+        "name" : "Sylvain Wiltord"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 16,
+        "name" : "Left Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 105.0, 31.1 ],
       "player" : {
@@ -133417,14 +133417,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.9, 37.7 ],
+      "location" : [ 107.1, 34.3 ],
       "player" : {
-        "id" : 40132,
-        "name" : "Paul Robinson"
+        "id" : 40369,
+        "name" : "Steven Caldwell"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -138642,11 +138642,11 @@
   "under_pressure" : true,
   "related_events" : [ "7325f38d-aff1-41df-bf84-34cc02779d9c" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "e39a409f-2261-4313-94eb-25588874bb54",
@@ -139226,11 +139226,11 @@
   "under_pressure" : true,
   "related_events" : [ "0fe08199-b103-483b-8409-b4323b5450b8" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "fa330cf2-141a-4e49-a65d-b7d95b4f7fc3",
@@ -139974,11 +139974,11 @@
   "under_pressure" : true,
   "related_events" : [ "43ea512f-536a-407f-a644-27888dc5f614" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "4818d169-de10-4f36-873b-96fadeecdba0",
@@ -140053,11 +140053,11 @@
   "under_pressure" : true,
   "related_events" : [ "4818d169-de10-4f36-873b-96fadeecdba0" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "12d7a6da-6c6e-49fc-8d09-efd73ff96ca7",
@@ -144840,11 +144840,11 @@
   "under_pressure" : true,
   "related_events" : [ "83407700-390e-43f0-a794-828ea1c68109" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "7a5132fd-1456-477f-a1c6-074e5e547c5f",
@@ -145147,11 +145147,11 @@
   "under_pressure" : true,
   "related_events" : [ "54193f7c-6d91-468b-b13e-fa1355884965" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "a0706148-3568-4c0a-ad0f-95363e2147db",
@@ -145505,17 +145505,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 92.5, 19.5 ],
-      "player" : {
-        "id" : 40371,
-        "name" : "Michael Duberry"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 94.9, 14.1 ],
       "player" : {
         "id" : 26014,
@@ -145526,6 +145515,28 @@
         "name" : "Left Defensive Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 91.5, 39.5 ],
+      "player" : {
+        "id" : 15400,
+        "name" : "Nick Barmby"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.5, 19.5 ],
+      "player" : {
+        "id" : 40371,
+        "name" : "Michael Duberry"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 100.5, 31.7 ],
       "player" : {
@@ -145546,17 +145557,6 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 91.5, 39.5 ],
-      "player" : {
-        "id" : 15400,
-        "name" : "Nick Barmby"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
       },
       "teammate" : false
     } ]
@@ -145799,6 +145799,39 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
+      "location" : [ 103.2, 30.9 ],
+      "player" : {
+        "id" : 39847,
+        "name" : "Dominic Matteo"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 101.0, 33.3 ],
+      "player" : {
+        "id" : 23816,
+        "name" : "José Antonio Reyes Calderón"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.8, 29.2 ],
+      "player" : {
+        "id" : 40372,
+        "name" : "Simon Johnson"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 119.0, 41.0 ],
       "player" : {
         "id" : 20015,
@@ -145807,6 +145840,17 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.4, 28.4 ],
+      "player" : {
+        "id" : 26014,
+        "name" : "Eduardo César Daude Gaspar"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -145832,72 +145876,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 103.5, 39.4 ],
-      "player" : {
-        "id" : 20302,
-        "name" : "Gaël Clichy"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.9, 31.1 ],
-      "player" : {
-        "id" : 15637,
-        "name" : "Sulzeer Jeremiah \"Sol\" Campbell"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.4, 28.4 ],
-      "player" : {
-        "id" : 26014,
-        "name" : "Eduardo César Daude Gaspar"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 95.0, 32.4 ],
-      "player" : {
-        "id" : 40368,
-        "name" : "Ian Harte"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.0, 35.4 ],
-      "player" : {
-        "id" : 38412,
-        "name" : "Kolo Habib Touré"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.0, 34.8 ],
-      "player" : {
-        "id" : 24972,
-        "name" : "Ray Parlour"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 101.0, 34.0 ],
       "player" : {
         "id" : 15516,
@@ -145909,14 +145887,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 101.0, 33.3 ],
+      "location" : [ 101.0, 35.4 ],
       "player" : {
-        "id" : 23816,
-        "name" : "José Antonio Reyes Calderón"
+        "id" : 38412,
+        "name" : "Kolo Habib Touré"
       },
       "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -145931,16 +145909,71 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 103.2, 30.9 ],
+      "location" : [ 103.0, 27.5 ],
       "player" : {
-        "id" : 39847,
-        "name" : "Dominic Matteo"
+        "id" : 3473,
+        "name" : "James Philip Milner"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 16,
+        "name" : "Left Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 103.4, 29.7 ],
+      "player" : {
+        "id" : 15512,
+        "name" : "Sylvain Wiltord"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 46.5 ],
+      "player" : {
+        "id" : 40222,
+        "name" : "Laureano Bisan-Etame Mayer"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.5, 39.4 ],
+      "player" : {
+        "id" : 20302,
+        "name" : "Gaël Clichy"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 95.0, 32.4 ],
+      "player" : {
+        "id" : 40368,
+        "name" : "Ian Harte"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.9, 31.1 ],
+      "player" : {
+        "id" : 15637,
+        "name" : "Sulzeer Jeremiah \"Sol\" Campbell"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 105.3, 39.0 ],
       "player" : {
@@ -145964,47 +145997,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.0, 27.5 ],
+      "location" : [ 101.0, 34.8 ],
       "player" : {
-        "id" : 3473,
-        "name" : "James Philip Milner"
+        "id" : 24972,
+        "name" : "Ray Parlour"
       },
       "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.8, 29.2 ],
-      "player" : {
-        "id" : 40372,
-        "name" : "Simon Johnson"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.0, 46.5 ],
-      "player" : {
-        "id" : 40222,
-        "name" : "Laureano Bisan-Etame Mayer"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.4, 29.7 ],
-      "player" : {
-        "id" : 15512,
-        "name" : "Sylvain Wiltord"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
+        "id" : 12,
+        "name" : "Right Midfield"
       },
       "teammate" : false
     } ]
@@ -149649,11 +149649,11 @@
     "end_location" : [ 94.4, 55.8 ],
     "assisted_shot_id" : "8160172b-e630-44b5-a472-c53176575e8d",
     "shot_assist" : true,
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -149976,6 +149976,17 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
+      "location" : [ 111.0, 45.5 ],
+      "player" : {
+        "id" : 40132,
+        "name" : "Paul Robinson"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 104.5, 45.5 ],
       "player" : {
         "id" : 15516,
@@ -149987,17 +149998,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 106.2, 49.2 ],
-      "player" : {
-        "id" : 40369,
-        "name" : "Steven Caldwell"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 113.1, 48.3 ],
       "player" : {
         "id" : 40371,
@@ -150006,17 +150006,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.3, 38.4 ],
-      "player" : {
-        "id" : 40270,
-        "name" : "Gary Oliver Kelly"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -150031,14 +150020,25 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 111.0, 45.5 ],
+      "location" : [ 113.3, 38.4 ],
       "player" : {
-        "id" : 40132,
-        "name" : "Paul Robinson"
+        "id" : 40270,
+        "name" : "Gary Oliver Kelly"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.2, 49.2 ],
+      "player" : {
+        "id" : 40369,
+        "name" : "Steven Caldwell"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]

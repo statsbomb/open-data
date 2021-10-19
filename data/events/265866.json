@@ -1760,11 +1760,11 @@
   "under_pressure" : true,
   "related_events" : [ "09515223-e1dc-481e-8d3a-e64899acdec1" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "2a938f5f-818e-4f0a-bec0-0c1139388915",
@@ -2090,11 +2090,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "725221b3-70ef-4892-bbf3-bd7644071630",
@@ -4678,6 +4678,39 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 112.3, 43.0 ],
+      "player" : {
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.2, 39.9 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.8, 70.1 ],
+      "player" : {
+        "id" : 23825,
+        "name" : "Fidel Chaves de la Torre"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 107.8, 46.8 ],
       "player" : {
         "id" : 24811,
@@ -4700,6 +4733,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 112.9, 40.3 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 102.1, 73.6 ],
       "player" : {
         "id" : 4324,
@@ -4711,14 +4755,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 105.8, 70.1 ],
+      "location" : [ 112.3, 35.7 ],
       "player" : {
-        "id" : 23825,
-        "name" : "Fidel Chaves de la Torre"
+        "id" : 18404,
+        "name" : "José Ángel Crespo Rincón"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -4744,28 +4788,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.9, 40.3 ],
-      "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.2, 39.9 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 110.8, 38.2 ],
       "player" : {
         "id" : 3160,
@@ -4776,28 +4798,6 @@
         "name" : "Right Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 112.3, 35.7 ],
-      "player" : {
-        "id" : 18404,
-        "name" : "José Ángel Crespo Rincón"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.3, 43.0 ],
-      "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -5749,11 +5749,11 @@
   "related_events" : [ "33d28456-5514-43e3-975a-07d9ce49ba14", "8c90d1e8-44e5-4852-8b2c-db5c3a0565be" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "67783ee3-9c52-489d-9a36-4cc70bbf6df3",
@@ -10026,11 +10026,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 110.0, 20.9 ],
-    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    }
+    },
+    "no_touch" : true
   }
 }, {
   "id" : "24f2499d-3dd0-4222-af50-4c7ba89721cf",
@@ -10498,61 +10498,6 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 107.6, 48.7 ],
-      "player" : {
-        "id" : 23825,
-        "name" : "Fidel Chaves de la Torre"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.4, 37.9 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.7, 28.8 ],
-      "player" : {
-        "id" : 5506,
-        "name" : "Javier Alejandro Mascherano"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.5, 19.2 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.4, 52.7 ],
-      "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 103.7, 24.7 ],
       "player" : {
         "id" : 7900,
@@ -10564,58 +10509,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.2, 23.0 ],
+      "location" : [ 103.4, 35.9 ],
       "player" : {
-        "id" : 18404,
-        "name" : "José Ángel Crespo Rincón"
+        "id" : 24139,
+        "name" : "Luis Eduardo Delgado Pacheco"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.6, 28.8 ],
-      "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.3, 32.5 ],
-      "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.0, 38.0 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.9, 44.9 ],
-      "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
     }, {
@@ -10630,6 +10531,28 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 118.4, 37.9 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.6, 48.7 ],
+      "player" : {
+        "id" : 23825,
+        "name" : "Fidel Chaves de la Torre"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 111.5, 40.3 ],
       "player" : {
         "id" : 4320,
@@ -10641,17 +10564,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 103.4, 35.9 ],
-      "player" : {
-        "id" : 24139,
-        "name" : "Luis Eduardo Delgado Pacheco"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 108.1, 34.2 ],
       "player" : {
         "id" : 24811,
@@ -10660,6 +10572,94 @@
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.3, 32.5 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.4, 52.7 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.2, 23.0 ],
+      "player" : {
+        "id" : 18404,
+        "name" : "José Ángel Crespo Rincón"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.5, 19.2 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.9, 44.9 ],
+      "player" : {
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.7, 28.8 ],
+      "player" : {
+        "id" : 5506,
+        "name" : "Javier Alejandro Mascherano"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.0, 38.0 ],
+      "player" : {
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.6, 28.8 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -12037,11 +12037,11 @@
   "under_pressure" : true,
   "related_events" : [ "938c764c-37bc-426a-8e61-b07c59c387f2" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "b8af4b2f-0a06-4a78-b809-d98497dd84ed",
@@ -12606,6 +12606,17 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
+      "location" : [ 96.9, 47.3 ],
+      "player" : {
+        "id" : 24139,
+        "name" : "Luis Eduardo Delgado Pacheco"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 119.2, 41.2 ],
       "player" : {
         "id" : 4691,
@@ -12614,72 +12625,6 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.0, 16.7 ],
-      "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.4, 41.1 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.3, 42.0 ],
-      "player" : {
-        "id" : 5506,
-        "name" : "Javier Alejandro Mascherano"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.4, 39.0 ],
-      "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.3, 52.9 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.9, 27.0 ],
-      "player" : {
-        "id" : 5470,
-        "name" : "Ivan Rakitić"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
       },
       "teammate" : false
     }, {
@@ -12694,6 +12639,50 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 102.9, 27.0 ],
+      "player" : {
+        "id" : 5470,
+        "name" : "Ivan Rakitić"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.4, 39.0 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.0, 16.7 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.3, 52.9 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 106.2, 8.0 ],
       "player" : {
         "id" : 27238,
@@ -12705,16 +12694,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 96.9, 47.3 ],
+      "location" : [ 112.3, 42.0 ],
       "player" : {
-        "id" : 24139,
-        "name" : "Luis Eduardo Delgado Pacheco"
+        "id" : 5506,
+        "name" : "Javier Alejandro Mascherano"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 100.4, 41.1 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -13483,11 +13483,11 @@
   "under_pressure" : true,
   "related_events" : [ "f6498a54-221b-4063-8358-cbd0dc3636e9" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "399474ce-3cbc-4ad9-af5b-8cfd2f236e2c",
@@ -15217,11 +15217,11 @@
   "under_pressure" : true,
   "related_events" : [ "560f2a4f-a8b8-4413-885a-6474c60467c0" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "b6868084-a632-4ca2-9594-14738240cfbb",
@@ -15521,11 +15521,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "9b93d6ca-ae72-4a6e-9e0c-9782cae2d645",
@@ -17955,11 +17955,11 @@
   "under_pressure" : true,
   "related_events" : [ "0be5f55d-1487-4bac-9165-b7cfab20ab83" ],
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "50d75886-3854-4ff9-ac55-41d0a2b18e56",
@@ -19027,11 +19027,11 @@
   "under_pressure" : true,
   "related_events" : [ "5634881b-f443-4521-a1d0-82c39ffa0c3d" ],
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "c5874840-bf97-484c-ae62-14bb7a8fcef3",
@@ -22773,11 +22773,11 @@
   "under_pressure" : true,
   "related_events" : [ "c153bd5f-9098-464f-a06f-e19e472adf61" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "6ac52259-414e-49a3-be3b-516c1cab9230",
@@ -22834,11 +22834,11 @@
       "id" : 75,
       "name" : "Out"
     },
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    }
+    },
+    "inswinging" : true
   }
 }, {
   "id" : "602f9447-c3fb-4383-ba62-51c95a3fbf51",
@@ -24358,25 +24358,47 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 98.8, 62.4 ],
+      "location" : [ 115.6, 37.1 ],
       "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
-      "location" : [ 104.2, 63.2 ],
+      "location" : [ 118.8, 40.5 ],
       "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.6, 30.2 ],
+      "player" : {
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.1, 46.3 ],
+      "player" : {
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -24391,39 +24413,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 114.6, 57.0 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.8, 40.5 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.1, 46.3 ],
-      "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 115.1, 38.2 ],
       "player" : {
         "id" : 26573,
@@ -24435,6 +24424,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 98.8, 62.4 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 110.8, 39.1 ],
       "player" : {
         "id" : 18404,
@@ -24443,6 +24443,28 @@
       "position" : {
         "id" : 2,
         "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.2, 63.2 ],
+      "player" : {
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.6, 57.0 ],
+      "player" : {
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -24456,28 +24478,6 @@
         "name" : "Right Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 115.6, 37.1 ],
-      "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.6, 30.2 ],
-      "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -24605,11 +24605,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 111.9, 47.0 ],
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
+    "inswinging" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -24660,11 +24660,11 @@
   "under_pressure" : true,
   "related_events" : [ "da833184-bf8c-4dee-9382-e27a3563106b" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "8fa78c40-219d-4edc-b283-71db83d2fb18",
@@ -24703,11 +24703,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "0816e1be-dac7-42d5-ba17-3471b1484d4e",
@@ -31581,11 +31581,11 @@
   "under_pressure" : true,
   "related_events" : [ "27d5fe41-2061-420f-b645-39b5f0281832" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "85336736-a59d-41fb-8917-cff1d967294a",
@@ -32029,11 +32029,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "23204fb0-1a50-4a02-ba65-128e4994f349",
@@ -32106,11 +32106,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "e57ac71e-0ce9-4478-b93d-4e8ce24cb2ad",
@@ -35513,11 +35513,11 @@
   "under_pressure" : true,
   "related_events" : [ "eb3bc3c9-d7c2-4be4-8c83-7dc93f94a02f" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "1cb2cc77-18d0-4446-9d5e-ef2dcddd155f",
@@ -35574,11 +35574,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    }
+    },
+    "inswinging" : true
   }
 }, {
   "id" : "f7236072-16a7-4e62-ab43-08ab0460c8bb",
@@ -35661,11 +35661,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "d73bb9f8-18ff-49f5-b63c-b924763549a9",
@@ -37003,11 +37003,11 @@
   "under_pressure" : true,
   "related_events" : [ "e658a5b9-01b7-4409-8ee3-3a4e82c56e0c" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "3cf6f236-a17a-40e2-b4cf-81f100fa302b",
@@ -39002,94 +39002,6 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 100.5, 47.7 ],
-      "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.5, 44.5 ],
-      "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.7, 40.0 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.8, 40.8 ],
-      "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.9, 39.9 ],
-      "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.3, 39.0 ],
-      "player" : {
-        "id" : 18404,
-        "name" : "José Ángel Crespo Rincón"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.7, 47.6 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.3, 55.5 ],
-      "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 104.0, 63.5 ],
       "player" : {
         "id" : 7900,
@@ -39123,6 +39035,39 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 118.7, 40.0 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.9, 39.9 ],
+      "player" : {
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.5, 47.7 ],
+      "player" : {
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 100.7, 65.2 ],
       "player" : {
         "id" : 5470,
@@ -39134,6 +39079,28 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 103.5, 44.5 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.3, 39.0 ],
+      "player" : {
+        "id" : 18404,
+        "name" : "José Ángel Crespo Rincón"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 86.7, 64.6 ],
       "player" : {
         "id" : 4324,
@@ -39144,6 +39111,39 @@
         "name" : "Right Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 106.3, 55.5 ],
+      "player" : {
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.7, 47.6 ],
+      "player" : {
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.8, 40.8 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
     }, {
       "location" : [ 86.8, 55.6 ],
       "player" : {
@@ -39289,11 +39289,11 @@
     "switch" : true,
     "assisted_shot_id" : "fb657611-8dbe-45d5-9be1-55154104481e",
     "shot_assist" : true,
-    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
     },
+    "straight" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -39394,61 +39394,6 @@
       "name" : "Volley"
     },
     "freeze_frame" : [ {
-      "location" : [ 112.0, 34.9 ],
-      "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.1, 39.7 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.5, 0.7 ],
-      "player" : {
-        "id" : 5470,
-        "name" : "Ivan Rakitić"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 104.0, 29.5 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.0, 26.9 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 110.5, 34.6 ],
       "player" : {
         "id" : 5503,
@@ -39460,16 +39405,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 108.9, 37.2 ],
+      "location" : [ 104.3, 41.1 ],
       "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
+        "id" : 7900,
+        "name" : "Tiago Manuel Dias Correia"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 108.4, 38.6 ],
+      "player" : {
+        "id" : 24139,
+        "name" : "Luis Eduardo Delgado Pacheco"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
     }, {
       "location" : [ 112.0, 39.1 ],
       "player" : {
@@ -39482,16 +39438,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 111.7, 41.5 ],
+      "location" : [ 101.5, 24.7 ],
       "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
+        "id" : 6731,
+        "name" : "Florin Andone"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 118.8, 39.8 ],
       "player" : {
@@ -39504,16 +39460,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 101.5, 24.7 ],
+      "location" : [ 111.7, 41.5 ],
       "player" : {
-        "id" : 6731,
-        "name" : "Florin Andone"
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 108.3, 22.0 ],
       "player" : {
@@ -39537,16 +39493,60 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.3, 41.1 ],
+      "location" : [ 119.5, 0.7 ],
       "player" : {
-        "id" : 7900,
-        "name" : "Tiago Manuel Dias Correia"
+        "id" : 5470,
+        "name" : "Ivan Rakitić"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.0, 34.9 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 108.9, 37.2 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 106.4, 38.5 ],
+      "player" : {
+        "id" : 18404,
+        "name" : "José Ángel Crespo Rincón"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.0, 26.9 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 111.7, 43.8 ],
       "player" : {
@@ -39559,25 +39559,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.4, 38.6 ],
+      "location" : [ 109.1, 39.7 ],
       "player" : {
-        "id" : 24139,
-        "name" : "Luis Eduardo Delgado Pacheco"
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.4, 38.5 ],
-      "player" : {
-        "id" : 18404,
-        "name" : "José Ángel Crespo Rincón"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -39591,6 +39580,17 @@
         "name" : "Right Defensive Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 104.0, 29.5 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -39732,11 +39732,11 @@
   "under_pressure" : true,
   "related_events" : [ "67604576-544a-4aa4-86f5-f8fc23f5a5d5" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "665b6e19-d501-4a1d-b809-3fa228396960",
@@ -40660,11 +40660,11 @@
   "under_pressure" : true,
   "related_events" : [ "8f3deda3-bb5e-4a6a-bf67-96e0f2e88b69" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "81cd2f11-9920-489d-9b74-e4d4dddeffaa",
@@ -41196,11 +41196,11 @@
   "under_pressure" : true,
   "related_events" : [ "7ba0cc4a-d143-4a44-9733-5a9219435d0e" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "cd9293cd-9483-49de-99e6-712f6c5994ce",
@@ -42333,6 +42333,17 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 109.3, 49.2 ],
+      "player" : {
+        "id" : 6731,
+        "name" : "Florin Andone"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 119.2, 38.7 ],
       "player" : {
         "id" : 4691,
@@ -42341,50 +42352,6 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.1, 33.1 ],
-      "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.8, 43.0 ],
-      "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.4, 59.0 ],
-      "player" : {
-        "id" : 5506,
-        "name" : "Javier Alejandro Mascherano"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.7, 57.1 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -42399,6 +42366,28 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 112.8, 43.0 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.1, 33.1 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 119.7, 66.2 ],
       "player" : {
         "id" : 18404,
@@ -42410,16 +42399,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 109.3, 49.2 ],
+      "location" : [ 116.7, 57.1 ],
       "player" : {
-        "id" : 6731,
-        "name" : "Florin Andone"
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 6,
+        "name" : "Left Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 108.4, 59.0 ],
+      "player" : {
+        "id" : 5506,
+        "name" : "Javier Alejandro Mascherano"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -45621,11 +45621,11 @@
   "under_pressure" : true,
   "related_events" : [ "bca437b2-8386-4d2a-a988-ef835e8aedd8" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "6985e1d6-df02-4439-96ed-93ebbfd1e89f",
@@ -50330,6 +50330,28 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
+      "location" : [ 98.0, 60.5 ],
+      "player" : {
+        "id" : 7900,
+        "name" : "Tiago Manuel Dias Correia"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.8, 47.5 ],
+      "player" : {
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 116.9, 40.3 ],
       "player" : {
         "id" : 24255,
@@ -50341,6 +50363,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 104.8, 35.0 ],
+      "player" : {
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 103.8, 43.9 ],
       "player" : {
         "id" : 24811,
@@ -50349,28 +50382,6 @@
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.2, 36.0 ],
-      "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.0, 60.5 ],
-      "player" : {
-        "id" : 7900,
-        "name" : "Tiago Manuel Dias Correia"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
@@ -50384,39 +50395,6 @@
         "name" : "Right Center Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 109.8, 47.5 ],
-      "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.3, 45.0 ],
-      "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.6, 40.8 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
     }, {
       "location" : [ 108.9, 42.0 ],
       "player" : {
@@ -50440,16 +50418,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.8, 35.0 ],
+      "location" : [ 109.3, 45.0 ],
       "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 6,
+        "name" : "Left Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 103.6, 40.8 ],
+      "player" : {
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.2, 36.0 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -52312,11 +52312,11 @@
   "under_pressure" : true,
   "related_events" : [ "6bb98440-c6af-4977-8193-5ad9cf4367c2" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "46443e86-2351-463a-ae25-60a06431a654",
@@ -54877,11 +54877,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "54378978-9b63-48ed-83e7-2cf7c4a830d8",
@@ -54934,11 +54934,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
+    "inswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -54981,11 +54981,11 @@
   "under_pressure" : true,
   "related_events" : [ "54378978-9b63-48ed-83e7-2cf7c4a830d8" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "55d6b843-3018-4753-949d-db76cf986bdf",
@@ -55272,11 +55272,11 @@
   "under_pressure" : true,
   "related_events" : [ "c8a29c69-5c8b-4caa-ad3e-5a4004c8be80" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "07ceefb0-63e5-46a4-a79a-9032da39f942",
@@ -56734,39 +56734,6 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 112.5, 46.6 ],
-      "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.5, 41.3 ],
-      "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.0, 38.6 ],
-      "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 113.7, 37.1 ],
       "player" : {
         "id" : 5503,
@@ -56775,28 +56742,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.6, 20.8 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.0, 22.9 ],
-      "player" : {
-        "id" : 5470,
-        "name" : "Ivan Rakitić"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
       },
       "teammate" : true
     }, {
@@ -56811,16 +56756,93 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.0, 40.2 ],
+      "location" : [ 107.5, 39.0 ],
       "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
+        "id" : 24139,
+        "name" : "Luis Eduardo Delgado Pacheco"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 106.5, 41.3 ],
+      "player" : {
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.1, 40.1 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 38.6 ],
+      "player" : {
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.5, 21.0 ],
+      "player" : {
+        "id" : 23825,
+        "name" : "Fidel Chaves de la Torre"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.1, 40.7 ],
+      "player" : {
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.0, 22.9 ],
+      "player" : {
+        "id" : 5470,
+        "name" : "Ivan Rakitić"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.5, 46.6 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 110.5, 40.5 ],
       "player" : {
@@ -56855,6 +56877,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 113.0, 40.2 ],
+      "player" : {
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 109.2, 30.9 ],
       "player" : {
         "id" : 3160,
@@ -56866,49 +56899,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.1, 40.7 ],
+      "location" : [ 113.6, 20.8 ],
       "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 107.5, 39.0 ],
-      "player" : {
-        "id" : 24139,
-        "name" : "Luis Eduardo Delgado Pacheco"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.1, 40.1 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.5, 21.0 ],
-      "player" : {
-        "id" : 23825,
-        "name" : "Fidel Chaves de la Torre"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
+      "teammate" : true
     } ]
   }
 }, {
@@ -57044,11 +57044,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -57092,11 +57092,11 @@
   "under_pressure" : true,
   "related_events" : [ "6bd5b5f3-dbe1-48b6-a23f-ec6cb1513dd4" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "89328b02-dd97-4482-a745-bfd9ada7b209",
@@ -62821,11 +62821,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "dee97f0b-7a51-4ddd-a044-e99063852aee",
@@ -67290,16 +67290,16 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 113.8, 39.5 ],
+      "location" : [ 89.0, 31.6 ],
       "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
+        "id" : 5216,
+        "name" : "Andrés Iniesta Luján"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 99.9, 61.4 ],
       "player" : {
@@ -67312,25 +67312,58 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 99.9, 53.3 ],
+      "location" : [ 81.2, 55.3 ],
       "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 84.2, 51.0 ],
+      "player" : {
+        "id" : 24139,
+        "name" : "Luis Eduardo Delgado Pacheco"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
     }, {
-      "location" : [ 104.3, 45.3 ],
+      "location" : [ 108.3, 41.5 ],
       "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.8, 39.5 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 93.9, 28.9 ],
+      "player" : {
+        "id" : 23825,
+        "name" : "Fidel Chaves de la Torre"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -67367,14 +67400,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 93.9, 28.9 ],
+      "location" : [ 95.9, 74.2 ],
       "player" : {
-        "id" : 23825,
-        "name" : "Fidel Chaves de la Torre"
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 99.9, 53.3 ],
+      "player" : {
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.3, 45.3 ],
+      "player" : {
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -67388,61 +67443,6 @@
         "name" : "Right Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 84.2, 51.0 ],
-      "player" : {
-        "id" : 24139,
-        "name" : "Luis Eduardo Delgado Pacheco"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 81.2, 55.3 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.3, 41.5 ],
-      "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 89.0, 31.6 ],
-      "player" : {
-        "id" : 5216,
-        "name" : "Andrés Iniesta Luján"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 95.9, 74.2 ],
-      "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -67564,11 +67564,11 @@
   "under_pressure" : true,
   "related_events" : [ "ea06919f-99c2-4bdb-b933-292e8b8f7da4" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "fbfee392-e99f-45dc-9cd3-47ca6e2d0bb3",
@@ -68604,39 +68604,6 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.2, 39.4 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 85.7, 54.1 ],
-      "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 92.0, 39.8 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 100.4, 39.5 ],
       "player" : {
         "id" : 5503,
@@ -68645,17 +68612,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 100.9, 48.3 ],
-      "player" : {
-        "id" : 5470,
-        "name" : "Ivan Rakitić"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
       },
       "teammate" : true
     }, {
@@ -68670,25 +68626,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.9, 46.4 ],
+      "location" : [ 101.4, 42.1 ],
       "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
+        "id" : 24139,
+        "name" : "Luis Eduardo Delgado Pacheco"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.0, 38.3 ],
-      "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
     }, {
@@ -68703,36 +68648,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.5, 21.3 ],
+      "location" : [ 108.5, 37.1 ],
       "player" : {
-        "id" : 18404,
-        "name" : "José Ángel Crespo Rincón"
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.8, 12.4 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
-      "location" : [ 100.3, 30.1 ],
+      "location" : [ 118.2, 39.4 ],
       "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -68758,27 +68692,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 108.5, 37.1 ],
+      "location" : [ 100.3, 30.1 ],
       "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.4, 42.1 ],
-      "player" : {
-        "id" : 24139,
-        "name" : "Luis Eduardo Delgado Pacheco"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 100.9, 48.3 ],
+      "player" : {
+        "id" : 5470,
+        "name" : "Ivan Rakitić"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 107.7, 34.8 ],
       "player" : {
@@ -68791,6 +68725,50 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 85.7, 54.1 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 111.5, 21.3 ],
+      "player" : {
+        "id" : 18404,
+        "name" : "José Ángel Crespo Rincón"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.9, 46.4 ],
+      "player" : {
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.8, 12.4 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 110.1, 39.2 ],
       "player" : {
         "id" : 27239,
@@ -68801,6 +68779,28 @@
         "name" : "Left Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 104.0, 38.3 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.0, 39.8 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -70189,11 +70189,11 @@
   "under_pressure" : true,
   "related_events" : [ "5f6d0d33-c59a-4ece-88f8-7b3961f50e36" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "94f059dd-05a8-4422-9e35-6125b680a0d8",
@@ -71649,11 +71649,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "0a5b59cd-b57e-4b58-a6b3-7e9cc6220999",
@@ -73562,25 +73562,25 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.8, 41.3 ],
+      "location" : [ 105.7, 39.1 ],
       "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
+        "id" : 5216,
+        "name" : "Andrés Iniesta Luján"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 105.6, 34.6 ],
+      "location" : [ 105.3, 37.2 ],
       "player" : {
-        "id" : 23825,
-        "name" : "Fidel Chaves de la Torre"
+        "id" : 7900,
+        "name" : "Tiago Manuel Dias Correia"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
@@ -73606,25 +73606,47 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 105.3, 37.2 ],
+      "location" : [ 108.1, 44.9 ],
       "player" : {
-        "id" : 7900,
-        "name" : "Tiago Manuel Dias Correia"
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.8, 41.3 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 105.0, 26.9 ],
+      "location" : [ 105.6, 34.6 ],
       "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
+        "id" : 23825,
+        "name" : "Fidel Chaves de la Torre"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 91.9, 31.4 ],
+      "player" : {
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : true
     }, {
@@ -73639,47 +73661,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.2, 38.2 ],
+      "location" : [ 107.6, 38.2 ],
       "player" : {
-        "id" : 18404,
-        "name" : "José Ángel Crespo Rincón"
+        "id" : 5470,
+        "name" : "Ivan Rakitić"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.5, 39.2 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.7, 39.1 ],
-      "player" : {
-        "id" : 5216,
-        "name" : "Andrés Iniesta Luján"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.3, 35.7 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : true
     }, {
@@ -73694,16 +73683,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 91.9, 31.4 ],
+      "location" : [ 108.3, 42.2 ],
       "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 108.2, 38.2 ],
+      "player" : {
+        "id" : 18404,
+        "name" : "José Ángel Crespo Rincón"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 85.2, 50.1 ],
       "player" : {
@@ -73716,25 +73716,36 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 107.6, 38.2 ],
+      "location" : [ 105.0, 26.9 ],
       "player" : {
-        "id" : 5470,
-        "name" : "Ivan Rakitić"
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : true
     }, {
-      "location" : [ 108.3, 42.2 ],
+      "location" : [ 106.8, 44.2 ],
       "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.5, 39.2 ],
+      "player" : {
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -73749,25 +73760,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 106.8, 44.2 ],
+      "location" : [ 107.3, 35.7 ],
       "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.1, 44.9 ],
-      "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : true
     } ]
@@ -73913,11 +73913,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    }
+    },
+    "inswinging" : true
   }
 }, {
   "id" : "7cbfb85f-90e0-47e7-9b6a-40bbfd8852e9",
@@ -74039,11 +74039,11 @@
   "related_events" : [ "2268547d-13ce-4a71-890e-ce35f3bd81e8", "efb90d0a-2df1-43dc-b9f9-5fabd4349507" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "8488d039-f6b0-4599-8ff2-3fd3ad87f468",
@@ -74081,11 +74081,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "c237fdac-487d-474c-b48a-9ef23639f413",
@@ -74177,6 +74177,39 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
+      "location" : [ 88.2, 21.9 ],
+      "player" : {
+        "id" : 5216,
+        "name" : "Andrés Iniesta Luján"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 95.6, 51.2 ],
+      "player" : {
+        "id" : 7900,
+        "name" : "Tiago Manuel Dias Correia"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.0, 48.5 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 108.0, 45.5 ],
       "player" : {
         "id" : 24139,
@@ -74185,61 +74218,6 @@
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.4, 39.8 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.9, 38.3 ],
-      "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.7, 40.6 ],
-      "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.1, 36.1 ],
-      "player" : {
-        "id" : 18404,
-        "name" : "José Ángel Crespo Rincón"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.9, 34.9 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -74254,14 +74232,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.8, 36.0 ],
+      "location" : [ 107.3, 56.7 ],
       "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.4, 39.8 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -74276,38 +74265,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 110.0, 23.7 ],
+      "location" : [ 111.6, 36.0 ],
       "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 95.6, 51.2 ],
-      "player" : {
-        "id" : 7900,
-        "name" : "Tiago Manuel Dias Correia"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.6, 32.5 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : true
+    }, {
+      "location" : [ 102.8, 36.0 ],
+      "player" : {
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
     }, {
       "location" : [ 108.3, 6.3 ],
       "player" : {
@@ -74320,38 +74298,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 88.2, 21.9 ],
+      "location" : [ 108.9, 38.3 ],
       "player" : {
-        "id" : 5216,
-        "name" : "Andrés Iniesta Luján"
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 84.8, 32.3 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 111.6, 36.0 ],
-      "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 110.9, 42.9 ],
       "player" : {
@@ -74364,25 +74320,69 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 107.3, 56.7 ],
+      "location" : [ 105.1, 36.1 ],
       "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
+        "id" : 18404,
+        "name" : "José Ángel Crespo Rincón"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.7, 40.6 ],
+      "player" : {
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 84.8, 32.3 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : true
     }, {
-      "location" : [ 98.0, 48.5 ],
+      "location" : [ 108.9, 34.9 ],
       "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 23.7 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.6, 32.5 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : true
     } ]
@@ -74714,11 +74714,11 @@
     "end_location" : [ 111.9, 25.2 ],
     "assisted_shot_id" : "47db146a-2d39-4756-aad5-54108fc8f0cd",
     "goal_assist" : true,
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -74852,28 +74852,6 @@
       "name" : "Goal"
     },
     "freeze_frame" : [ {
-      "location" : [ 112.7, 47.8 ],
-      "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.9, 39.2 ],
-      "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 103.3, 40.8 ],
       "player" : {
         "id" : 5503,
@@ -74884,39 +74862,6 @@
         "name" : "Right Wing"
       },
       "teammate" : true
-    }, {
-      "location" : [ 97.5, 46.1 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.6, 31.5 ],
-      "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 118.3, 36.5 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
     }, {
       "location" : [ 99.3, 51.4 ],
       "player" : {
@@ -74937,6 +74882,83 @@
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.7, 47.8 ],
+      "player" : {
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.3, 36.5 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.9, 39.2 ],
+      "player" : {
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.9, 30.6 ],
+      "player" : {
+        "id" : 23825,
+        "name" : "Fidel Chaves de la Torre"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.6, 31.5 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.1, 32.9 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.8, 33.7 ],
+      "player" : {
+        "id" : 18404,
+        "name" : "José Ángel Crespo Rincón"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -74962,17 +74984,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.1, 32.9 ],
-      "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 104.4, 34.8 ],
       "player" : {
         "id" : 3160,
@@ -74984,27 +74995,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 110.9, 30.6 ],
+      "location" : [ 97.5, 46.1 ],
       "player" : {
-        "id" : 23825,
-        "name" : "Fidel Chaves de la Torre"
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 107.8, 33.7 ],
-      "player" : {
-        "id" : 18404,
-        "name" : "José Ángel Crespo Rincón"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
+      "teammate" : true
     } ]
   }
 }, {
@@ -78231,11 +78231,11 @@
   "related_events" : [ "212fb3f9-2dbb-49a4-9a6c-cf7e0db2493d", "7c5558ab-05b8-496e-ae0c-0abd50171971" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "9930fb8f-c0b3-4899-87be-3bc45be48a62",
@@ -80753,11 +80753,11 @@
   "related_events" : [ "3783332e-d8cd-43a7-8782-cef6ce1d2acc", "5068fa5f-6cb3-4aeb-adab-be33504be9f9" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "398f7974-68e2-4e63-b4fe-88d9b7205755",
@@ -83635,16 +83635,27 @@
       "name" : "Goal"
     },
     "freeze_frame" : [ {
-      "location" : [ 92.8, 65.0 ],
+      "location" : [ 96.5, 31.9 ],
       "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
+    }, {
+      "location" : [ 114.0, 40.9 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     }, {
       "location" : [ 100.1, 30.2 ],
       "player" : {
@@ -83654,17 +83665,6 @@
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 96.5, 31.9 ],
-      "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
@@ -83679,14 +83679,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 110.7, 39.1 ],
+      "location" : [ 97.3, 33.3 ],
       "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -83701,6 +83701,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 92.8, 65.0 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 101.0, 20.0 ],
       "player" : {
         "id" : 18404,
@@ -83709,28 +83720,6 @@
       "position" : {
         "id" : 2,
         "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.9, 23.9 ],
-      "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.3, 33.3 ],
-      "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -83745,14 +83734,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.0, 40.9 ],
+      "location" : [ 110.7, 39.1 ],
       "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.9, 23.9 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -86482,14 +86482,14 @@
       "name" : "Goal"
     },
     "freeze_frame" : [ {
-      "location" : [ 111.8, 69.9 ],
+      "location" : [ 105.7, 40.6 ],
       "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
+        "id" : 5216,
+        "name" : "Andrés Iniesta Luján"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : true
     }, {
@@ -86504,16 +86504,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 105.7, 40.6 ],
+      "location" : [ 119.2, 40.8 ],
       "player" : {
-        "id" : 5216,
-        "name" : "Andrés Iniesta Luján"
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 113.0, 37.6 ],
       "player" : {
@@ -86526,47 +86526,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 113.0, 36.4 ],
+      "location" : [ 111.0, 63.4 ],
       "player" : {
-        "id" : 27237,
-        "name" : "Adrián Javier Gunino Duque"
+        "id" : 23825,
+        "name" : "Fidel Chaves de la Torre"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.2, 38.7 ],
-      "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 42.8 ],
-      "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.4, 50.2 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -86581,14 +86548,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.0, 63.4 ],
+      "location" : [ 110.0, 42.8 ],
       "player" : {
-        "id" : 23825,
-        "name" : "Fidel Chaves de la Torre"
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.8, 69.9 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.0, 36.4 ],
+      "player" : {
+        "id" : 27237,
+        "name" : "Adrián Javier Gunino Duque"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -86603,14 +86592,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 119.2, 40.8 ],
+      "location" : [ 112.4, 50.2 ],
       "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.2, 38.7 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -90239,11 +90239,11 @@
   "related_events" : [ "6ec46ec0-1e39-4749-8b94-0753b3cb2713", "c69be8ff-7d14-4253-8bfa-8cbabb8c10f6" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "ea8fb5e1-54df-430e-b15d-a56106f1e54e",
@@ -93329,17 +93329,6 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 108.2, 23.8 ],
-      "player" : {
-        "id" : 27237,
-        "name" : "Adrián Javier Gunino Duque"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 105.5, 37.5 ],
       "player" : {
         "id" : 5503,
@@ -93361,6 +93350,28 @@
         "name" : "Center Forward"
       },
       "teammate" : true
+    }, {
+      "location" : [ 119.3, 38.4 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.7, 36.0 ],
+      "player" : {
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
     }, {
       "location" : [ 107.9, 49.1 ],
       "player" : {
@@ -93384,14 +93395,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.5, 36.1 ],
+      "location" : [ 108.2, 23.8 ],
       "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
+        "id" : 27237,
+        "name" : "Adrián Javier Gunino Duque"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -93406,6 +93417,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 113.5, 36.1 ],
+      "player" : {
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 103.4, 41.3 ],
       "player" : {
         "id" : 3160,
@@ -93414,28 +93436,6 @@
       "position" : {
         "id" : 9,
         "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.3, 38.4 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.7, 36.0 ],
-      "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -93558,11 +93558,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "685e01f3-52f7-401c-8285-11949a53add6",
@@ -93614,11 +93614,11 @@
     "switch" : true,
     "assisted_shot_id" : "01102fb5-d57c-46d4-85cf-e6032aceda46",
     "shot_assist" : true,
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
+    "inswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -93762,39 +93762,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 115.7, 77.4 ],
-      "player" : {
-        "id" : 5470,
-        "name" : "Ivan Rakitić"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.8, 33.7 ],
-      "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 92.4, 27.9 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 104.9, 38.8 ],
       "player" : {
         "id" : 5503,
@@ -93806,36 +93773,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 112.2, 40.0 ],
+      "location" : [ 104.5, 32.6 ],
       "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
+        "id" : 7900,
+        "name" : "Tiago Manuel Dias Correia"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.8, 47.8 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.6, 34.2 ],
-      "player" : {
-        "id" : 27237,
-        "name" : "Adrián Javier Gunino Duque"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
@@ -93850,14 +93795,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.1, 39.3 ],
+      "location" : [ 119.3, 39.5 ],
       "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.8, 33.7 ],
+      "player" : {
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.6, 57.1 ],
+      "player" : {
+        "id" : 23825,
+        "name" : "Fidel Chaves de la Torre"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -93872,14 +93839,69 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.5, 32.6 ],
+      "location" : [ 115.7, 77.4 ],
       "player" : {
-        "id" : 7900,
-        "name" : "Tiago Manuel Dias Correia"
+        "id" : 5470,
+        "name" : "Ivan Rakitić"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.2, 40.0 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.1, 39.3 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.6, 34.2 ],
+      "player" : {
+        "id" : 27237,
+        "name" : "Adrián Javier Gunino Duque"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.4, 27.9 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.6, 43.6 ],
+      "player" : {
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -93905,38 +93927,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.6, 43.6 ],
+      "location" : [ 112.8, 47.8 ],
       "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 110.6, 57.1 ],
-      "player" : {
-        "id" : 23825,
-        "name" : "Fidel Chaves de la Torre"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.3, 39.5 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
+      "teammate" : true
     } ]
   }
 }, {
@@ -95823,11 +95823,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "2eb5b4bd-1aa2-44ba-ac30-9136e32f4dab",
@@ -97502,69 +97502,25 @@
       "name" : "Goal"
     },
     "freeze_frame" : [ {
-      "location" : [ 112.8, 33.5 ],
+      "location" : [ 110.3, 35.7 ],
       "player" : {
-        "id" : 27237,
-        "name" : "Adrián Javier Gunino Duque"
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 112.0, 37.7 ],
+      "location" : [ 119.2, 41.6 ],
       "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.2, 41.4 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.4, 48.5 ],
-      "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.3, 34.2 ],
-      "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.0, 43.8 ],
-      "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -97590,16 +97546,38 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 110.3, 35.7 ],
+      "location" : [ 104.0, 43.8 ],
       "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 112.0, 37.7 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.8, 33.5 ],
+      "player" : {
+        "id" : 27237,
+        "name" : "Adrián Javier Gunino Duque"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 111.2, 72.3 ],
       "player" : {
@@ -97612,14 +97590,36 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 119.2, 41.6 ],
+      "location" : [ 113.4, 48.5 ],
       "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.2, 41.4 ],
+      "player" : {
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.3, 34.2 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -100069,28 +100069,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 96.8, 30.5 ],
-      "player" : {
-        "id" : 23825,
-        "name" : "Fidel Chaves de la Torre"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 94.2, 58.4 ],
-      "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 92.3, 56.7 ],
       "player" : {
         "id" : 7900,
@@ -100113,25 +100091,36 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 104.2, 35.5 ],
+      "location" : [ 118.8, 38.4 ],
       "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
+        "id" : 4691,
+        "name" : "Claudio Andrés Bravo Muñoz"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 109.1, 31.9 ],
+      "location" : [ 96.8, 30.5 ],
       "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
+        "id" : 23825,
+        "name" : "Fidel Chaves de la Torre"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 94.2, 58.4 ],
+      "player" : {
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -100146,14 +100135,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.5, 50.8 ],
+      "location" : [ 109.1, 31.9 ],
       "player" : {
-        "id" : 5506,
-        "name" : "Javier Alejandro Mascherano"
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -100168,14 +100157,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.8, 38.4 ],
+      "location" : [ 107.5, 50.8 ],
       "player" : {
-        "id" : 4691,
-        "name" : "Claudio Andrés Bravo Muñoz"
+        "id" : 5506,
+        "name" : "Javier Alejandro Mascherano"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.2, 35.5 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -103699,11 +103699,11 @@
   "related_events" : [ "4e278826-0ae3-4f9d-9995-ff9a8ae0c569", "568c152b-7073-4b82-ab59-c708666d296d" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "83a0eabc-8057-4e52-9d3d-bca94183559c",
@@ -104237,11 +104237,11 @@
     },
     "end_location" : [ 87.8, 1.6 ],
     "switch" : true,
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
+    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -107035,11 +107035,11 @@
   "under_pressure" : true,
   "related_events" : [ "71f20ef7-c603-47c9-be2f-d4f64ef9fdc1" ],
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "7dfa4b89-b5df-4dea-a99b-1fd6bab41fe9",
@@ -107363,11 +107363,11 @@
   "under_pressure" : true,
   "related_events" : [ "00b08221-769a-4090-a950-68bcf97add25" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "20a755be-1be2-4bb4-8bee-08590195cd36",
@@ -107989,72 +107989,6 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.6, 40.1 ],
-      "player" : {
-        "id" : 4691,
-        "name" : "Claudio Andrés Bravo Muñoz"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.4, 46.9 ],
-      "player" : {
-        "id" : 5506,
-        "name" : "Javier Alejandro Mascherano"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.4, 55.8 ],
-      "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.3, 38.6 ],
-      "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.6, 44.5 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.8, 37.2 ],
-      "player" : {
-        "id" : 5203,
-        "name" : "Sergio Busquets i Burgos"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 89.1, 32.1 ],
       "player" : {
         "id" : 5216,
@@ -108066,36 +108000,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 98.1, 32.7 ],
+      "location" : [ 101.0, 35.0 ],
       "player" : {
-        "id" : 5470,
-        "name" : "Ivan Rakitić"
+        "id" : 7900,
+        "name" : "Tiago Manuel Dias Correia"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.6, 28.0 ],
-      "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.2, 43.8 ],
-      "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
@@ -108110,25 +108022,36 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 101.0, 35.0 ],
+      "location" : [ 118.6, 40.1 ],
       "player" : {
-        "id" : 7900,
-        "name" : "Tiago Manuel Dias Correia"
+        "id" : 4691,
+        "name" : "Claudio Andrés Bravo Muñoz"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 95.6, 61.1 ],
+      "location" : [ 93.4, 55.8 ],
       "player" : {
-        "id" : 27237,
-        "name" : "Adrián Javier Gunino Duque"
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.0, 30.9 ],
+      "player" : {
+        "id" : 23825,
+        "name" : "Fidel Chaves de la Torre"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : true
     }, {
@@ -108143,16 +108066,93 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 100.0, 30.9 ],
+      "location" : [ 98.1, 32.7 ],
       "player" : {
-        "id" : 23825,
-        "name" : "Fidel Chaves de la Torre"
+        "id" : 5470,
+        "name" : "Ivan Rakitić"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.3, 38.6 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.6, 28.0 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 95.6, 61.1 ],
+      "player" : {
+        "id" : 27237,
+        "name" : "Adrián Javier Gunino Duque"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 105.6, 44.5 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.4, 46.9 ],
+      "player" : {
+        "id" : 5506,
+        "name" : "Javier Alejandro Mascherano"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.2, 43.8 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.8, 37.2 ],
+      "player" : {
+        "id" : 5203,
+        "name" : "Sergio Busquets i Burgos"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -108495,11 +108495,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 112.7, 37.5 ],
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
+    "inswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -108550,11 +108550,11 @@
   "under_pressure" : true,
   "related_events" : [ "63f1cdb8-81fc-4f3c-97aa-cbbde70223b1" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "ab19bc1d-c40c-4307-9ceb-3c0b1348ed47",
@@ -108592,11 +108592,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "a39edfe3-6fda-4bac-b921-31d02d5cd876",
@@ -109257,14 +109257,14 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 106.6, 30.3 ],
+      "location" : [ 102.2, 40.7 ],
       "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
@@ -109279,16 +109279,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.6, 40.5 ],
+      "location" : [ 118.9, 40.6 ],
       "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
+    }, {
+      "location" : [ 106.6, 30.3 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 105.7, 32.8 ],
       "player" : {
@@ -109298,17 +109309,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.9, 44.6 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -109323,27 +109323,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.9, 40.6 ],
+      "location" : [ 109.9, 44.6 ],
       "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 102.2, 40.7 ],
+      "location" : [ 112.6, 40.5 ],
       "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
+        "id" : 3160,
+        "name" : "Rene Krhin"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     } ]
   }
 }, {
@@ -109656,11 +109656,11 @@
   "under_pressure" : true,
   "related_events" : [ "e355089b-611f-4015-9890-0d36e1909922", "f7330cf4-fa74-43d7-8577-69be4ab2375a" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -110169,11 +110169,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 113.9, 40.1 ],
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
+    "inswinging" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -110224,11 +110224,11 @@
   "under_pressure" : true,
   "related_events" : [ "56f62c10-217b-4ab3-a7a3-a1473924181f" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "56db40b6-d994-4809-b7ef-91b276b8476d",
@@ -110267,11 +110267,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "71e12794-97da-4113-bd0a-e8d8778761f7",
@@ -110329,11 +110329,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    }
+    },
+    "inswinging" : true
   }
 }, {
   "id" : "18d8593b-faf6-4da8-99ea-f50c6472b1e9",
@@ -110715,11 +110715,11 @@
     "end_location" : [ 86.4, 49.4 ],
     "assisted_shot_id" : "856f709d-46ee-4a51-90b7-a6eb924b9ed4",
     "shot_assist" : true,
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -110902,28 +110902,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 86.0, 29.9 ],
-      "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 87.9, 48.9 ],
-      "player" : {
-        "id" : 27237,
-        "name" : "Adrián Javier Gunino Duque"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 75.6, 53.3 ],
       "player" : {
         "id" : 27236,
@@ -110935,6 +110913,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 86.0, 29.9 ],
+      "player" : {
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 115.2, 41.2 ],
       "player" : {
         "id" : 24255,
@@ -110943,6 +110932,17 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 87.9, 48.9 ],
+      "player" : {
+        "id" : 27237,
+        "name" : "Adrián Javier Gunino Duque"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     } ]
@@ -115650,11 +115650,11 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 106.3, 47.4 ],
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -115742,11 +115742,11 @@
   "under_pressure" : true,
   "related_events" : [ "e399d56e-9912-47c4-a9d3-b69e11ba9af1" ],
   "clearance" : {
-    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    }
+    },
+    "left_foot" : true
   }
 }, {
   "id" : "066159f4-530a-4127-8b91-d8f3da9a3390",
@@ -115805,11 +115805,11 @@
       "id" : 61,
       "name" : "Corner"
     },
-    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
-    }
+    },
+    "outswinging" : true
   }
 }, {
   "id" : "58814eaf-2b37-44c9-aa72-b8be59ad9494",
@@ -115945,39 +115945,6 @@
     },
     "aerial_won" : true,
     "freeze_frame" : [ {
-      "location" : [ 113.8, 42.4 ],
-      "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.6, 37.5 ],
-      "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.4, 38.1 ],
-      "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 107.3, 30.7 ],
       "player" : {
         "id" : 5503,
@@ -115989,36 +115956,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 105.0, 32.6 ],
+      "location" : [ 108.2, 61.8 ],
       "player" : {
-        "id" : 27237,
-        "name" : "Adrián Javier Gunino Duque"
+        "id" : 24136,
+        "name" : "Federico Vico Villegas"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.7, 45.1 ],
-      "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.0, 43.6 ],
-      "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
@@ -116033,16 +115978,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.2, 40.9 ],
+      "location" : [ 113.8, 42.4 ],
       "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 98.3, 45.2 ],
       "player" : {
@@ -116055,25 +116000,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.2, 61.8 ],
+      "location" : [ 119.0, 39.7 ],
       "player" : {
-        "id" : 24136,
-        "name" : "Federico Vico Villegas"
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 108.6, 38.5 ],
+      "location" : [ 113.4, 38.1 ],
       "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.0, 43.6 ],
+      "player" : {
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -116088,6 +116044,39 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 108.6, 38.5 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.0, 32.6 ],
+      "player" : {
+        "id" : 27237,
+        "name" : "Adrián Javier Gunino Duque"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.6, 37.5 ],
+      "player" : {
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 88.7, 26.8 ],
       "player" : {
         "id" : 5211,
@@ -116099,14 +116088,25 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 119.0, 39.7 ],
+      "location" : [ 104.2, 40.9 ],
       "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.7, 45.1 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -118562,11 +118562,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -118649,11 +118649,11 @@
   "under_pressure" : true,
   "related_events" : [ "172ab4b2-b7df-45a4-927b-744a7f9a68ff" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "bb1f843d-995f-46c5-a26b-e2c9c8be89dc",
@@ -121053,25 +121053,47 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 104.3, 41.5 ],
+      "location" : [ 102.0, 23.9 ],
       "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
+        "id" : 5246,
+        "name" : "Luis Alberto Suárez Díaz"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.9, 40.1 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 92.7, 35.3 ],
+      "location" : [ 103.1, 33.3 ],
       "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 93.9, 43.2 ],
+      "player" : {
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -121097,47 +121119,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.1, 33.3 ],
+      "location" : [ 104.3, 41.5 ],
       "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.0, 23.9 ],
-      "player" : {
-        "id" : 5246,
-        "name" : "Luis Alberto Suárez Díaz"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 93.9, 43.2 ],
-      "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 117.9, 40.1 ],
+      "location" : [ 92.7, 35.3 ],
       "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
+        "id" : 3160,
+        "name" : "Rene Krhin"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -121538,11 +121538,11 @@
   "related_events" : [ "c30cef1c-644f-42f1-a895-91d1507ba35a", "e0d9af96-a420-4fec-a302-69495e2b350c" ],
   "clearance" : {
     "aerial_won" : true,
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "db9bf1dc-e65c-4ab9-b218-0b36818bdec5",
@@ -123023,16 +123023,49 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 83.1, 69.2 ],
+      "location" : [ 105.0, 54.4 ],
       "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
+        "id" : 20131,
+        "name" : "Xavier Hernández Creus"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.9, 65.0 ],
+      "player" : {
+        "id" : 27236,
+        "name" : "Patrick Claude Ekeng Ekeng"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 111.4, 39.3 ],
+      "player" : {
+        "id" : 6731,
+        "name" : "Florin Andone"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.1, 41.5 ],
+      "player" : {
+        "id" : 4691,
+        "name" : "Claudio Andrés Bravo Muñoz"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     }, {
       "location" : [ 99.5, 64.2 ],
       "player" : {
@@ -123045,16 +123078,49 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 101.9, 65.0 ],
+      "location" : [ 97.7, 40.8 ],
       "player" : {
-        "id" : 27236,
-        "name" : "Patrick Claude Ekeng Ekeng"
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.8, 45.1 ],
+      "player" : {
+        "id" : 5213,
+        "name" : "Gerard Piqué Bernabéu"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.4, 57.3 ],
+      "player" : {
+        "id" : 27237,
+        "name" : "Adrián Javier Gunino Duque"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 111.3, 41.1 ],
+      "player" : {
+        "id" : 4324,
+        "name" : "Daniel Alves da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 104.7, 66.2 ],
       "player" : {
@@ -123078,82 +123144,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.4, 57.3 ],
+      "location" : [ 83.1, 69.2 ],
       "player" : {
-        "id" : 27237,
-        "name" : "Adrián Javier Gunino Duque"
+        "id" : 3160,
+        "name" : "Rene Krhin"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 105.0, 54.4 ],
-      "player" : {
-        "id" : 20131,
-        "name" : "Xavier Hernández Creus"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.8, 45.1 ],
-      "player" : {
-        "id" : 5213,
-        "name" : "Gerard Piqué Bernabéu"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.3, 41.1 ],
-      "player" : {
-        "id" : 4324,
-        "name" : "Daniel Alves da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.4, 39.3 ],
-      "player" : {
-        "id" : 6731,
-        "name" : "Florin Andone"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 97.7, 40.8 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.1, 41.5 ],
-      "player" : {
-        "id" : 4691,
-        "name" : "Claudio Andrés Bravo Muñoz"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
     }, {
       "location" : [ 99.2, 68.5 ],
       "player" : {
@@ -124661,11 +124661,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    }
+    },
+    "right_foot" : true
   }
 }, {
   "id" : "a0eced21-8742-4faf-b0db-6ca89f73ce01",
@@ -125284,11 +125284,11 @@
     "end_location" : [ 107.5, 53.2 ],
     "assisted_shot_id" : "7b2ecb48-1646-4644-937b-f3fbbfcdfcea",
     "shot_assist" : true,
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
+    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -125538,6 +125538,28 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 95.1, 48.2 ],
+      "player" : {
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.0, 42.6 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 102.8, 21.1 ],
       "player" : {
         "id" : 4320,
@@ -125549,16 +125571,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 95.1, 48.2 ],
+      "location" : [ 116.5, 51.3 ],
       "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 103.5, 26.7 ],
       "player" : {
@@ -125590,28 +125612,6 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.5, 51.3 ],
-      "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.0, 42.6 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     } ]
@@ -127102,11 +127102,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "0300b62f-f7fa-46eb-9c46-d3e9671ad296",
@@ -127284,6 +127284,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 111.9, 31.0 ],
+      "player" : {
+        "id" : 24136,
+        "name" : "Federico Vico Villegas"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 97.2, 52.3 ],
       "player" : {
         "id" : 27236,
@@ -127306,28 +127317,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.6, 53.6 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.6, 49.3 ],
-      "player" : {
-        "id" : 10609,
-        "name" : "Jérémy Mathieu"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 100.9, 43.6 ],
       "player" : {
         "id" : 23825,
@@ -127336,17 +127325,6 @@
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 104.0, 65.6 ],
-      "player" : {
-        "id" : 27237,
-        "name" : "Adrián Javier Gunino Duque"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
       },
       "teammate" : true
     }, {
@@ -127372,6 +127350,39 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 104.0, 65.6 ],
+      "player" : {
+        "id" : 27237,
+        "name" : "Adrián Javier Gunino Duque"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 111.6, 53.6 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.6, 49.3 ],
+      "player" : {
+        "id" : 10609,
+        "name" : "Jérémy Mathieu"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 111.5, 39.6 ],
       "player" : {
         "id" : 5203,
@@ -127382,17 +127393,6 @@
         "name" : "Center Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 111.9, 31.0 ],
-      "player" : {
-        "id" : 24136,
-        "name" : "Federico Vico Villegas"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -129989,11 +129989,11 @@
   "under_pressure" : true,
   "related_events" : [ "b34d5c34-1f31-497c-b71e-bd00235881d2" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "be0e5c2e-e22b-44bc-aa8f-831a7849cd7b",
@@ -130031,11 +130031,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "9def3f14-5549-428e-8802-5615d073cfae",
@@ -130317,11 +130317,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 14.9, 71.7 ],
-    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    }
+    },
+    "no_touch" : true
   }
 }, {
   "id" : "f8123eef-3fb7-490e-a744-8b2005fecf63",
@@ -136325,11 +136325,11 @@
   "under_pressure" : true,
   "related_events" : [ "0c23ea04-0ba6-4dc7-b455-fd924b1dd7c5" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "88104c96-579e-4c43-b8ee-4f84749464c3",
@@ -139502,27 +139502,16 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 120.0, 62.1 ],
+      "location" : [ 105.6, 40.1 ],
       "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
+        "id" : 27236,
+        "name" : "Patrick Claude Ekeng Ekeng"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 112.7, 39.4 ],
-      "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 116.5, 49.0 ],
       "player" : {
@@ -139532,6 +139521,28 @@
       "position" : {
         "id" : 23,
         "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.3, 40.3 ],
+      "player" : {
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.7, 39.4 ],
+      "player" : {
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : true
     }, {
@@ -139546,14 +139557,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.6, 45.8 ],
+      "location" : [ 107.5, 54.3 ],
       "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 120.0, 62.1 ],
+      "player" : {
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 115.0, 44.4 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -139568,14 +139601,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 115.0, 44.4 ],
+      "location" : [ 118.4, 58.4 ],
       "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -139590,47 +139623,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.4, 58.4 ],
+      "location" : [ 111.6, 45.8 ],
       "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
+        "id" : 3160,
+        "name" : "Rene Krhin"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.6, 40.1 ],
-      "player" : {
-        "id" : 27236,
-        "name" : "Patrick Claude Ekeng Ekeng"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.3, 40.3 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.5, 54.3 ],
-      "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -142778,11 +142778,11 @@
   "under_pressure" : true,
   "related_events" : [ "7749dd30-ad01-45a7-a998-32a6800d4ac7" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "9f2a646a-f933-4ec9-9c39-60e239b02b29",
@@ -144273,11 +144273,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "56deda35-114a-470b-9399-e48c9dc56690",
@@ -144649,25 +144649,14 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 101.7, 23.1 ],
+      "location" : [ 103.4, 31.7 ],
       "player" : {
-        "id" : 23825,
-        "name" : "Fidel Chaves de la Torre"
+        "id" : 27236,
+        "name" : "Patrick Claude Ekeng Ekeng"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.4, 40.0 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
     }, {
@@ -144682,47 +144671,58 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 118.7, 40.5 ],
+      "location" : [ 117.4, 40.0 ],
       "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 108.0, 38.2 ],
+      "location" : [ 101.7, 23.1 ],
       "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
+        "id" : 23825,
+        "name" : "Fidel Chaves de la Torre"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
-      "location" : [ 103.4, 31.7 ],
+      "location" : [ 118.4, 38.1 ],
       "player" : {
-        "id" : 27236,
-        "name" : "Patrick Claude Ekeng Ekeng"
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 107.0, 35.0 ],
+      "location" : [ 119.2, 37.2 ],
       "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 115.3, 34.2 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -144737,38 +144737,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 115.3, 34.2 ],
+      "location" : [ 118.7, 40.5 ],
       "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 119.2, 37.2 ],
+      "location" : [ 107.0, 35.0 ],
       "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 118.4, 38.1 ],
+      "location" : [ 108.0, 38.2 ],
       "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
+        "id" : 3160,
+        "name" : "Rene Krhin"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     } ]
   }
 }, {
@@ -146694,11 +146694,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
-    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    }
+    },
+    "through_ball" : true
   }
 }, {
   "id" : "a5ccdb60-1be3-4e8e-bbf4-1730f6b309a3",
@@ -154652,28 +154652,6 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 119.3, 40.0 ],
-      "player" : {
-        "id" : 24255,
-        "name" : "Juan Carlos Martín Corral"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.9, 43.0 ],
-      "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 99.2, 40.6 ],
       "player" : {
         "id" : 24136,
@@ -154685,36 +154663,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.8, 35.1 ],
+      "location" : [ 93.9, 43.7 ],
       "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
+        "id" : 5503,
+        "name" : "Lionel Andrés Messi Cuccittini"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 107.1, 32.1 ],
+      "location" : [ 84.2, 17.8 ],
       "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
+        "id" : 27236,
+        "name" : "Patrick Claude Ekeng Ekeng"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.3, 36.5 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
     }, {
@@ -154729,16 +154696,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 93.9, 43.7 ],
+      "location" : [ 119.3, 40.0 ],
       "player" : {
-        "id" : 5503,
-        "name" : "Lionel Andrés Messi Cuccittini"
+        "id" : 24255,
+        "name" : "Juan Carlos Martín Corral"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 106.8, 31.1 ],
       "player" : {
@@ -154751,50 +154718,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 110.7, 16.8 ],
-      "player" : {
-        "id" : 5211,
-        "name" : "Jordi Alba Ramos"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.1, 21.1 ],
-      "player" : {
-        "id" : 27237,
-        "name" : "Adrián Javier Gunino Duque"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.5, 25.3 ],
-      "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 84.2, 17.8 ],
-      "player" : {
-        "id" : 27236,
-        "name" : "Patrick Claude Ekeng Ekeng"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 92.0, 15.1 ],
       "player" : {
         "id" : 23825,
@@ -154803,6 +154726,17 @@
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.1, 32.1 ],
+      "player" : {
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -154816,6 +154750,72 @@
         "name" : "Right Center Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 106.5, 25.3 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.1, 21.1 ],
+      "player" : {
+        "id" : 27237,
+        "name" : "Adrián Javier Gunino Duque"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.9, 43.0 ],
+      "player" : {
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.7, 16.8 ],
+      "player" : {
+        "id" : 5211,
+        "name" : "Jordi Alba Ramos"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.3, 36.5 ],
+      "player" : {
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.8, 35.1 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -154989,28 +154989,6 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 105.5, 19.6 ],
-      "player" : {
-        "id" : 3958,
-        "name" : "Pedro Eliezer Rodríguez Ledesma"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.7, 32.6 ],
-      "player" : {
-        "id" : 4320,
-        "name" : "Neymar da Silva Santos Junior"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 96.4, 35.9 ],
       "player" : {
         "id" : 20131,
@@ -155033,61 +155011,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 107.2, 24.2 ],
-      "player" : {
-        "id" : 27237,
-        "name" : "Adrián Javier Gunino Duque"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.1, 27.6 ],
-      "player" : {
-        "id" : 26573,
-        "name" : "Íñigo López Montaña"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.1, 36.6 ],
-      "player" : {
-        "id" : 27239,
-        "name" : "Aleksandar Pantić"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.8, 34.2 ],
-      "player" : {
-        "id" : 24811,
-        "name" : "David Omar Rodríguez Barrera"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.6, 37.2 ],
-      "player" : {
-        "id" : 3160,
-        "name" : "Rene Krhin"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 100.2, 42.9 ],
       "player" : {
         "id" : 24136,
@@ -155096,17 +155019,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.2, 45.8 ],
-      "player" : {
-        "id" : 27238,
-        "name" : "Edimar Curitiba Fraga"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -155121,6 +155033,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 109.7, 32.6 ],
+      "player" : {
+        "id" : 4320,
+        "name" : "Neymar da Silva Santos Junior"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 91.9, 16.8 ],
       "player" : {
         "id" : 23825,
@@ -155129,6 +155052,83 @@
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.8, 34.2 ],
+      "player" : {
+        "id" : 24811,
+        "name" : "David Omar Rodríguez Barrera"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.5, 19.6 ],
+      "player" : {
+        "id" : 3958,
+        "name" : "Pedro Eliezer Rodríguez Ledesma"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 105.1, 27.6 ],
+      "player" : {
+        "id" : 26573,
+        "name" : "Íñigo López Montaña"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.2, 24.2 ],
+      "player" : {
+        "id" : 27237,
+        "name" : "Adrián Javier Gunino Duque"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.2, 45.8 ],
+      "player" : {
+        "id" : 27238,
+        "name" : "Edimar Curitiba Fraga"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.1, 36.6 ],
+      "player" : {
+        "id" : 27239,
+        "name" : "Aleksandar Pantić"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.6, 37.2 ],
+      "player" : {
+        "id" : 3160,
+        "name" : "Rene Krhin"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -160369,11 +160369,11 @@
   "under_pressure" : true,
   "related_events" : [ "d3e23b33-73c2-4261-a60c-25cd962131b6" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    }
+    },
+    "head" : true
   }
 }, {
   "id" : "48e97c81-9430-4207-84a1-d76a6e33fc35",
@@ -161082,11 +161082,11 @@
   "under_pressure" : true,
   "related_events" : [ "783d7d31-0138-447e-a4e6-a63ea7fa255b", "bc04b0b0-95cc-4e37-aa5c-cb0152c0fd36" ],
   "clearance" : {
-    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
+    "head" : true,
     "aerial_won" : true
   }
 }, {
