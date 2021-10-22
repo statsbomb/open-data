@@ -1002,11 +1002,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "86a30660-c42e-4c23-bd13-7ea77e796aef",
@@ -2767,11 +2767,11 @@
   "under_pressure" : true,
   "related_events" : [ "df9cfa49-d8f9-4d8e-ad4f-d2670e7c6882" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "aebf1733-1e44-4c82-8f9c-46959151572d",
@@ -3134,28 +3134,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 87.5, 58.3 ],
-      "player" : {
-        "id" : 26570,
-        "name" : "Amalie Vevle Eikeland"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.3, 41.9 ],
-      "player" : {
-        "id" : 10190,
-        "name" : "Jade Moore"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 90.1, 52.1 ],
       "player" : {
         "id" : 10251,
@@ -3167,80 +3145,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 92.3, 45.9 ],
+      "location" : [ 94.2, 54.3 ],
       "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
+        "id" : 16386,
+        "name" : "Lucy Graham"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.5, 38.2 ],
-      "player" : {
-        "id" : 15725,
-        "name" : "Natasha Harding"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.7, 47.5 ],
-      "player" : {
-        "id" : 31628,
-        "name" : "Kristine Leine"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.7, 45.8 ],
-      "player" : {
-        "id" : 15720,
-        "name" : "Sophie Howard"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.1, 53.0 ],
-      "player" : {
-        "id" : 19780,
-        "name" : "Rachel Rowe"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.4, 42.1 ],
-      "player" : {
-        "id" : 15719,
-        "name" : "Grace Moloney"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.0, 32.4 ],
-      "player" : {
-        "id" : 31564,
-        "name" : "Molly Pike"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
     }, {
@@ -3255,16 +3167,71 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 94.2, 54.3 ],
+      "location" : [ 117.4, 42.1 ],
       "player" : {
-        "id" : 16386,
-        "name" : "Lucy Graham"
+        "id" : 15719,
+        "name" : "Grace Moloney"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 87.5, 58.3 ],
+      "player" : {
+        "id" : 26570,
+        "name" : "Amalie Vevle Eikeland"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.3, 45.9 ],
+      "player" : {
+        "id" : 18149,
+        "name" : "Remi Allen"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.0, 32.4 ],
+      "player" : {
+        "id" : 31564,
+        "name" : "Molly Pike"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 98.7, 47.5 ],
+      "player" : {
+        "id" : 31628,
+        "name" : "Kristine Leine"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.5, 38.2 ],
+      "player" : {
+        "id" : 15725,
+        "name" : "Natasha Harding"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 101.0, 65.1 ],
       "player" : {
@@ -3276,6 +3243,39 @@
         "name" : "Right Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 102.1, 53.0 ],
+      "player" : {
+        "id" : 19780,
+        "name" : "Rachel Rowe"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.7, 45.8 ],
+      "player" : {
+        "id" : 15720,
+        "name" : "Sophie Howard"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.3, 41.9 ],
+      "player" : {
+        "id" : 10190,
+        "name" : "Jade Moore"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -4932,11 +4932,11 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 69.7, 65.3 ],
+    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    },
-    "no_touch" : true
+    }
   }
 }, {
   "id" : "4e7ef679-db50-4552-ba9f-293d0335611e",
@@ -7247,83 +7247,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 111.9, 39.9 ],
-      "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.6, 36.5 ],
-      "player" : {
-        "id" : 10651,
-        "name" : "Kika van Es"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.3, 31.9 ],
-      "player" : {
-        "id" : 31628,
-        "name" : "Kristine Leine"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.7, 34.9 ],
-      "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.9, 30.9 ],
-      "player" : {
-        "id" : 18254,
-        "name" : "Megan Finnigan"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.8, 38.4 ],
-      "player" : {
-        "id" : 15571,
-        "name" : "Danielle Turner"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.5, 32.0 ],
-      "player" : {
-        "id" : 15720,
-        "name" : "Sophie Howard"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 100.8, 41.8 ],
       "player" : {
         "id" : 15723,
@@ -7332,28 +7255,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.6, 38.2 ],
-      "player" : {
-        "id" : 24747,
-        "name" : "Millie Farrow"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.8, 41.0 ],
-      "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
       },
       "teammate" : true
     }, {
@@ -7368,16 +7269,49 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.1, 40.7 ],
+      "location" : [ 102.6, 38.2 ],
       "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
+        "id" : 24747,
+        "name" : "Millie Farrow"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.9, 38.3 ],
+      "player" : {
+        "id" : 15559,
+        "name" : "Simone Magill"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : false
+    }, {
+      "location" : [ 111.9, 39.9 ],
+      "player" : {
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.8, 41.0 ],
+      "player" : {
+        "id" : 18149,
+        "name" : "Remi Allen"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 109.3, 40.5 ],
       "player" : {
@@ -7390,14 +7324,80 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.9, 38.3 ],
+      "location" : [ 108.3, 31.9 ],
       "player" : {
-        "id" : 15559,
-        "name" : "Simone Magill"
+        "id" : 31628,
+        "name" : "Kristine Leine"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 105.9, 30.9 ],
+      "player" : {
+        "id" : 18254,
+        "name" : "Megan Finnigan"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.6, 36.5 ],
+      "player" : {
+        "id" : 10651,
+        "name" : "Kika van Es"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.8, 38.4 ],
+      "player" : {
+        "id" : 15571,
+        "name" : "Danielle Turner"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.7, 34.9 ],
+      "player" : {
+        "id" : 15575,
+        "name" : "Gabrielle George"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.5, 32.0 ],
+      "player" : {
+        "id" : 15720,
+        "name" : "Sophie Howard"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.1, 40.7 ],
+      "player" : {
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -8055,11 +8055,11 @@
   "under_pressure" : true,
   "related_events" : [ "04f57555-886a-4670-962f-b2f689256959" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "a70dd204-ad22-482a-aef8-670ad07f85bc",
@@ -10572,11 +10572,11 @@
   "under_pressure" : true,
   "related_events" : [ "96816b3d-8fe2-4ba6-8493-4d8599ffbf91" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "7abb4877-7c80-4da3-b6cc-f9efcca9b324",
@@ -10756,11 +10756,11 @@
   "under_pressure" : true,
   "related_events" : [ "d4c11010-c0d3-4b6d-9210-b877d7b54ebe" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "113c105f-880c-4f8c-8696-befa0fe905f4",
@@ -10901,11 +10901,11 @@
     "end_location" : [ 114.8, 39.4 ],
     "assisted_shot_id" : "32f9e1de-941c-4c8d-bfe4-b8dd1b0842e6",
     "shot_assist" : true,
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -11002,83 +11002,6 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 112.9, 37.7 ],
-      "player" : {
-        "id" : 15570,
-        "name" : "Chloe Kelly"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.1, 42.4 ],
-      "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 89.8, 54.5 ],
-      "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 96.5, 62.5 ],
-      "player" : {
-        "id" : 18254,
-        "name" : "Megan Finnigan"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 99.9, 60.3 ],
-      "player" : {
-        "id" : 19780,
-        "name" : "Rachel Rowe"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.4, 39.8 ],
-      "player" : {
-        "id" : 15719,
-        "name" : "Grace Moloney"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.6, 50.1 ],
-      "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 92.2, 51.5 ],
       "player" : {
         "id" : 15723,
@@ -11087,28 +11010,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 43.3 ],
-      "player" : {
-        "id" : 15720,
-        "name" : "Sophie Howard"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.0, 42.5 ],
-      "player" : {
-        "id" : 31628,
-        "name" : "Kristine Leine"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -11123,25 +11024,47 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 110.2, 38.7 ],
+      "location" : [ 103.8, 44.9 ],
       "player" : {
-        "id" : 15725,
-        "name" : "Natasha Harding"
+        "id" : 16386,
+        "name" : "Lucy Graham"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.4, 39.8 ],
+      "player" : {
+        "id" : 15719,
+        "name" : "Grace Moloney"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 112.8, 40.4 ],
+      "location" : [ 112.9, 37.7 ],
       "player" : {
-        "id" : 10190,
-        "name" : "Jade Moore"
+        "id" : 15570,
+        "name" : "Chloe Kelly"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 97.6, 50.1 ],
+      "player" : {
+        "id" : 18149,
+        "name" : "Remi Allen"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -11156,16 +11079,93 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 103.8, 44.9 ],
+      "location" : [ 96.5, 62.5 ],
       "player" : {
-        "id" : 16386,
-        "name" : "Lucy Graham"
+        "id" : 18254,
+        "name" : "Megan Finnigan"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 112.0, 42.5 ],
+      "player" : {
+        "id" : 31628,
+        "name" : "Kristine Leine"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.2, 38.7 ],
+      "player" : {
+        "id" : 15725,
+        "name" : "Natasha Harding"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.9, 60.3 ],
+      "player" : {
+        "id" : 19780,
+        "name" : "Rachel Rowe"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.1, 42.4 ],
+      "player" : {
+        "id" : 15575,
+        "name" : "Gabrielle George"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 111.0, 43.3 ],
+      "player" : {
+        "id" : 15720,
+        "name" : "Sophie Howard"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 89.8, 54.5 ],
+      "player" : {
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.8, 40.4 ],
+      "player" : {
+        "id" : 10190,
+        "name" : "Jade Moore"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -11316,16 +11316,60 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 116.6, 39.1 ],
+      "location" : [ 90.9, 50.7 ],
       "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
+        "id" : 15723,
+        "name" : "Brooke Chaplen"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.5, 42.6 ],
+      "player" : {
+        "id" : 16386,
+        "name" : "Lucy Graham"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 112.8, 32.8 ],
+      "player" : {
+        "id" : 10251,
+        "name" : "Fara Williams"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.6, 39.1 ],
+      "player" : {
+        "id" : 15559,
+        "name" : "Simone Magill"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.2, 38.9 ],
+      "player" : {
+        "id" : 15719,
+        "name" : "Grace Moloney"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     }, {
       "location" : [ 81.7, 59.9 ],
       "player" : {
@@ -11335,6 +11379,28 @@
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 95.9, 39.8 ],
+      "player" : {
+        "id" : 31564,
+        "name" : "Molly Pike"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 99.6, 49.0 ],
+      "player" : {
+        "id" : 18149,
+        "name" : "Remi Allen"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -11349,102 +11415,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 89.4, 51.3 ],
+      "location" : [ 114.7, 42.5 ],
       "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
+        "id" : 31628,
+        "name" : "Kristine Leine"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 95.9, 39.8 ],
-      "player" : {
-        "id" : 31564,
-        "name" : "Molly Pike"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.5, 42.6 ],
-      "player" : {
-        "id" : 16386,
-        "name" : "Lucy Graham"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 117.6, 39.1 ],
-      "player" : {
-        "id" : 15559,
-        "name" : "Simone Magill"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.0, 59.8 ],
-      "player" : {
-        "id" : 19780,
-        "name" : "Rachel Rowe"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.6, 49.0 ],
-      "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 90.9, 50.7 ],
-      "player" : {
-        "id" : 15723,
-        "name" : "Brooke Chaplen"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.2, 38.9 ],
-      "player" : {
-        "id" : 15719,
-        "name" : "Grace Moloney"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.5, 42.9 ],
-      "player" : {
-        "id" : 15720,
-        "name" : "Sophie Howard"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -11459,27 +11437,49 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.8, 32.8 ],
+      "location" : [ 102.0, 59.8 ],
       "player" : {
-        "id" : 10251,
-        "name" : "Fara Williams"
+        "id" : 19780,
+        "name" : "Rachel Rowe"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 114.7, 42.5 ],
+      "location" : [ 116.6, 39.1 ],
       "player" : {
-        "id" : 31628,
-        "name" : "Kristine Leine"
+        "id" : 15575,
+        "name" : "Gabrielle George"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.5, 42.9 ],
+      "player" : {
+        "id" : 15720,
+        "name" : "Sophie Howard"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 89.4, 51.3 ],
+      "player" : {
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 118.2, 37.0 ],
       "player" : {
@@ -12989,11 +12989,11 @@
   "under_pressure" : true,
   "related_events" : [ "7436a3ac-7aef-4a2d-8018-263e448e1cdd" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "0243e7d7-3d9f-47e8-b703-ba9dc4a8470b",
@@ -13588,11 +13588,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "cd99a41c-33fb-490e-923f-51d95194d04b",
@@ -14659,14 +14659,58 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 102.4, 24.0 ],
+      "location" : [ 92.5, 22.4 ],
       "player" : {
-        "id" : 10651,
-        "name" : "Kika van Es"
+        "id" : 15579,
+        "name" : "Inessa Kaagman"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.7, 43.3 ],
+      "player" : {
+        "id" : 15723,
+        "name" : "Brooke Chaplen"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 99.1, 31.3 ],
+      "player" : {
+        "id" : 16386,
+        "name" : "Lucy Graham"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.7, 29.1 ],
+      "player" : {
+        "id" : 10251,
+        "name" : "Fara Williams"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.4, 40.2 ],
+      "player" : {
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -14692,6 +14736,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 98.0, 40.1 ],
+      "player" : {
+        "id" : 31564,
+        "name" : "Molly Pike"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 103.4, 32.9 ],
       "player" : {
         "id" : 18254,
@@ -14703,58 +14758,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 99.1, 31.3 ],
+      "location" : [ 102.4, 24.0 ],
       "player" : {
-        "id" : 16386,
-        "name" : "Lucy Graham"
+        "id" : 10651,
+        "name" : "Kika van Es"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.1, 38.3 ],
-      "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.4, 40.2 ],
-      "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 94.3, 31.1 ],
-      "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.5, 22.4 ],
-      "player" : {
-        "id" : 15579,
-        "name" : "Inessa Kaagman"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -14780,25 +14791,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.7, 43.3 ],
+      "location" : [ 105.1, 38.3 ],
       "player" : {
-        "id" : 15723,
-        "name" : "Brooke Chaplen"
+        "id" : 15575,
+        "name" : "Gabrielle George"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 98.0, 40.1 ],
+      "location" : [ 94.3, 31.1 ],
       "player" : {
-        "id" : 31564,
-        "name" : "Molly Pike"
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -14810,17 +14821,6 @@
       "position" : {
         "id" : 9,
         "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 92.7, 29.1 ],
-      "player" : {
-        "id" : 10251,
-        "name" : "Fara Williams"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
     } ]
@@ -14954,11 +14954,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 117.5, 44.5 ],
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -15127,11 +15127,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "e03a700f-c968-4c75-91dd-31cd1e58988c",
@@ -15627,11 +15627,11 @@
   "under_pressure" : true,
   "related_events" : [ "9d7e9256-4663-4f16-a712-ba5d7d0e6dd1" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "048ee1d6-68f1-4e7e-9f6a-9c72ccd0e4c1",
@@ -15669,11 +15669,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "3c9af0aa-7ae5-4448-987b-c68610d9e545",
@@ -18482,11 +18482,11 @@
     "end_location" : [ 118.4, 39.0 ],
     "assisted_shot_id" : "4e1f2a0d-10df-4f56-886c-6007ce99cc32",
     "goal_assist" : true,
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -18587,126 +18587,27 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 116.8, 42.2 ],
+      "location" : [ 108.8, 17.2 ],
       "player" : {
-        "id" : 10651,
-        "name" : "Kika van Es"
+        "id" : 15723,
+        "name" : "Brooke Chaplen"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.2, 45.7 ],
-      "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.9, 20.3 ],
-      "player" : {
-        "id" : 15571,
-        "name" : "Danielle Turner"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.5, 37.0 ],
-      "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.9, 36.8 ],
-      "player" : {
-        "id" : 31564,
-        "name" : "Molly Pike"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.4, 39.4 ],
-      "player" : {
-        "id" : 18254,
-        "name" : "Megan Finnigan"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.7, 37.6 ],
-      "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.5, 36.2 ],
-      "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
-      "location" : [ 116.4, 46.7 ],
+      "location" : [ 118.7, 23.3 ],
       "player" : {
-        "id" : 15720,
-        "name" : "Sophie Howard"
+        "id" : 15579,
+        "name" : "Inessa Kaagman"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 114.2, 42.5 ],
-      "player" : {
-        "id" : 24747,
-        "name" : "Millie Farrow"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.4, 38.1 ],
-      "player" : {
-        "id" : 26570,
-        "name" : "Amalie Vevle Eikeland"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 119.2, 40.4 ],
       "player" : {
@@ -18716,39 +18617,6 @@
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 86.7, 22.2 ],
-      "player" : {
-        "id" : 19780,
-        "name" : "Rachel Rowe"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 100.2, 38.1 ],
-      "player" : {
-        "id" : 15559,
-        "name" : "Simone Magill"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.8, 17.2 ],
-      "player" : {
-        "id" : 15723,
-        "name" : "Brooke Chaplen"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
@@ -18763,14 +18631,146 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.7, 23.3 ],
+      "location" : [ 114.2, 42.5 ],
       "player" : {
-        "id" : 15579,
-        "name" : "Inessa Kaagman"
+        "id" : 24747,
+        "name" : "Millie Farrow"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.2, 38.1 ],
+      "player" : {
+        "id" : 15559,
+        "name" : "Simone Magill"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.7, 37.6 ],
+      "player" : {
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.4, 38.1 ],
+      "player" : {
+        "id" : 26570,
+        "name" : "Amalie Vevle Eikeland"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.9, 36.8 ],
+      "player" : {
+        "id" : 31564,
+        "name" : "Molly Pike"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.5, 36.2 ],
+      "player" : {
+        "id" : 18149,
+        "name" : "Remi Allen"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.4, 39.4 ],
+      "player" : {
+        "id" : 18254,
+        "name" : "Megan Finnigan"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.8, 42.2 ],
+      "player" : {
+        "id" : 10651,
+        "name" : "Kika van Es"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.9, 20.3 ],
+      "player" : {
+        "id" : 15571,
+        "name" : "Danielle Turner"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 86.7, 22.2 ],
+      "player" : {
+        "id" : 19780,
+        "name" : "Rachel Rowe"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.2, 45.7 ],
+      "player" : {
+        "id" : 15575,
+        "name" : "Gabrielle George"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.4, 46.7 ],
+      "player" : {
+        "id" : 15720,
+        "name" : "Sophie Howard"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 115.5, 37.0 ],
+      "player" : {
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -23377,11 +23377,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -23468,11 +23468,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "b64478aa-94ce-4a2f-8e19-549d6c984c45",
@@ -23588,11 +23588,11 @@
   "related_events" : [ "ff1bf9be-bfba-46ff-a366-0d50825d8a58" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "2881ff3a-8f2c-484c-8b15-7d4b0b2c9017",
@@ -24365,11 +24365,11 @@
   "under_pressure" : true,
   "related_events" : [ "2520355f-ea22-4497-9a5c-b943e927111c" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "4c4365c9-8366-4156-bc56-4cc67796068d",
@@ -25306,11 +25306,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 106.9, 45.6 ],
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -25609,11 +25609,11 @@
   "related_events" : [ "2ebc7421-3986-4f96-911b-910a743e8943", "7bda9bea-b488-4c90-b107-33cb4e75a441" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "73b678d7-33c7-4fc0-8e20-56cc8ee0da18",
@@ -25929,11 +25929,11 @@
   "related_events" : [ "851a793a-a3dc-4adb-a6c8-d0ac78157baa", "b8677d71-c6f5-4b5e-83d0-ab928811406f" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "d96f10b6-0998-40d7-b97c-7b4f6c83b231",
@@ -26453,17 +26453,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 118.9, 40.4 ],
-      "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 93.6, 25.3 ],
       "player" : {
         "id" : 10251,
@@ -26474,28 +26463,6 @@
         "name" : "Center Attacking Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 98.0, 26.3 ],
-      "player" : {
-        "id" : 10651,
-        "name" : "Kika van Es"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 36.0 ],
-      "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
     }, {
       "location" : [ 94.0, 35.8 ],
       "player" : {
@@ -26508,14 +26475,58 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 105.7, 37.0 ],
+      "location" : [ 118.9, 40.4 ],
       "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 93.8, 20.6 ],
+      "player" : {
+        "id" : 26570,
+        "name" : "Amalie Vevle Eikeland"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 95.7, 37.5 ],
+      "player" : {
+        "id" : 18149,
+        "name" : "Remi Allen"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.1, 38.1 ],
+      "player" : {
+        "id" : 18254,
+        "name" : "Megan Finnigan"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.0, 26.3 ],
+      "player" : {
+        "id" : 10651,
+        "name" : "Kika van Es"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -26530,36 +26541,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 95.7, 37.5 ],
+      "location" : [ 103.0, 36.0 ],
       "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
+        "id" : 15575,
+        "name" : "Gabrielle George"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 93.8, 20.6 ],
+      "location" : [ 105.7, 37.0 ],
       "player" : {
-        "id" : 26570,
-        "name" : "Amalie Vevle Eikeland"
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.1, 38.1 ],
-      "player" : {
-        "id" : 18254,
-        "name" : "Megan Finnigan"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -26735,11 +26735,11 @@
   "under_pressure" : true,
   "related_events" : [ "c3743f0e-54fb-41c6-be5f-59a65ba32ec2" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "bd7ff862-85e3-4608-9309-e5f643661be6",
@@ -26777,11 +26777,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "451c5c15-0cfa-4e6f-8634-ac2273662a1d",
@@ -30735,11 +30735,11 @@
   "under_pressure" : true,
   "related_events" : [ "14a4a34e-a3c4-41a4-8d8e-98cdb73917d1" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "341d5ca7-74b6-4aaa-a02c-f08047a81a35",
@@ -30777,11 +30777,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "655d57fe-b12b-4ca5-ad14-f202d7c46d07",
@@ -30819,11 +30819,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "9bcfcb29-e5a0-477f-8707-687b35921e7a",
@@ -30918,11 +30918,11 @@
   "under_pressure" : true,
   "related_events" : [ "9bcfcb29-e5a0-477f-8707-687b35921e7a" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "347491e7-5c47-43c4-96cd-b78b7f1955bc",
@@ -31204,11 +31204,11 @@
   "related_events" : [ "262578a6-7289-4a06-af67-21388fd519fd", "cdbe78db-08ea-4d53-9d7b-94d96fa9f73d" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "e0dee7d2-bd82-4193-8424-f976e60a4a3c",
@@ -32138,11 +32138,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "1f37c8b4-e2c1-4836-a39a-d85c5bc257d4",
@@ -33328,11 +33328,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "3f61dc32-f563-4f5f-b6b3-27085778f1d5",
@@ -39256,11 +39256,11 @@
   "under_pressure" : true,
   "related_events" : [ "9245465d-ac6a-4c46-bd9a-a85035e3d6fd" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "df1a9ee2-3f1e-48e9-bf71-62530193cc1e",
@@ -39591,11 +39591,11 @@
   "under_pressure" : true,
   "related_events" : [ "89b52c3b-7a68-4f87-811d-132e1a9af17d" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "87246735-3e8b-4f99-a8fa-2490e999e3c8",
@@ -40175,11 +40175,11 @@
   "under_pressure" : true,
   "related_events" : [ "93435abb-ef1a-4249-96ec-37266094f049" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "021ab4c4-3f34-4a80-b0ca-0501bcead6be",
@@ -40308,28 +40308,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 100.2, 27.2 ],
-      "player" : {
-        "id" : 10251,
-        "name" : "Fara Williams"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.3, 40.0 ],
-      "player" : {
-        "id" : 24747,
-        "name" : "Millie Farrow"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 110.9, 36.4 ],
       "player" : {
         "id" : 15723,
@@ -40341,25 +40319,25 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 87.0, 36.7 ],
+      "location" : [ 112.5, 29.8 ],
       "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
+        "id" : 15579,
+        "name" : "Inessa Kaagman"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 87.3, 27.8 ],
+      "location" : [ 100.2, 27.2 ],
       "player" : {
-        "id" : 10190,
-        "name" : "Jade Moore"
+        "id" : 10251,
+        "name" : "Fara Williams"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
     }, {
@@ -40374,25 +40352,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.5, 29.8 ],
+      "location" : [ 106.3, 40.0 ],
       "player" : {
-        "id" : 15579,
-        "name" : "Inessa Kaagman"
+        "id" : 24747,
+        "name" : "Millie Farrow"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 99.1, 41.9 ],
+      "location" : [ 118.1, 38.9 ],
       "player" : {
-        "id" : 31564,
-        "name" : "Molly Pike"
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -40407,36 +40385,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.6, 44.2 ],
+      "location" : [ 87.0, 36.7 ],
       "player" : {
-        "id" : 15571,
-        "name" : "Danielle Turner"
+        "id" : 18149,
+        "name" : "Remi Allen"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 107.7, 39.0 ],
+      "location" : [ 99.1, 41.9 ],
       "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
+        "id" : 31564,
+        "name" : "Molly Pike"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.5, 31.1 ],
-      "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -40462,14 +40429,47 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.1, 38.9 ],
+      "location" : [ 107.6, 44.2 ],
       "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
+        "id" : 15571,
+        "name" : "Danielle Turner"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.7, 39.0 ],
+      "player" : {
+        "id" : 15575,
+        "name" : "Gabrielle George"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 87.3, 27.8 ],
+      "player" : {
+        "id" : 10190,
+        "name" : "Jade Moore"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.5, 31.1 ],
+      "player" : {
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -41427,11 +41427,11 @@
   "under_pressure" : true,
   "related_events" : [ "efc2e80b-520b-41aa-8f88-ead99578e344" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "9d0d239b-e69a-406e-a690-12b6190bdf96",
@@ -42132,11 +42132,11 @@
       "id" : 75,
       "name" : "Out"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "fbe3e481-70ba-4db4-9b05-1d4df3d602bc",
@@ -43756,14 +43756,58 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 112.8, 34.0 ],
+      "location" : [ 111.3, 45.3 ],
       "player" : {
-        "id" : 31628,
-        "name" : "Kristine Leine"
+        "id" : 15579,
+        "name" : "Inessa Kaagman"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.5, 48.5 ],
+      "player" : {
+        "id" : 15723,
+        "name" : "Brooke Chaplen"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.6, 40.7 ],
+      "player" : {
+        "id" : 16386,
+        "name" : "Lucy Graham"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.2, 40.9 ],
+      "player" : {
+        "id" : 15559,
+        "name" : "Simone Magill"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.5, 41.7 ],
+      "player" : {
+        "id" : 24747,
+        "name" : "Millie Farrow"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -43789,27 +43833,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 99.2, 40.9 ],
+      "location" : [ 97.2, 41.6 ],
       "player" : {
-        "id" : 15559,
-        "name" : "Simone Magill"
+        "id" : 18149,
+        "name" : "Remi Allen"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 112.2, 39.3 ],
+      "location" : [ 112.8, 34.0 ],
       "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
+        "id" : 31628,
+        "name" : "Kristine Leine"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 110.3, 34.8 ],
       "player" : {
@@ -43833,71 +43877,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 110.6, 40.7 ],
+      "location" : [ 112.2, 39.3 ],
       "player" : {
-        "id" : 16386,
-        "name" : "Lucy Graham"
+        "id" : 15575,
+        "name" : "Gabrielle George"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
-    }, {
-      "location" : [ 111.3, 45.3 ],
-      "player" : {
-        "id" : 15579,
-        "name" : "Inessa Kaagman"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.0, 47.7 ],
-      "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.2, 41.6 ],
-      "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.5, 48.5 ],
-      "player" : {
-        "id" : 15723,
-        "name" : "Brooke Chaplen"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.5, 41.7 ],
-      "player" : {
-        "id" : 24747,
-        "name" : "Millie Farrow"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
     }, {
       "location" : [ 111.2, 39.2 ],
       "player" : {
@@ -43909,6 +43898,17 @@
         "name" : "Left Center Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 107.0, 47.7 ],
+      "player" : {
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -45460,11 +45460,11 @@
   "under_pressure" : true,
   "related_events" : [ "dc0a4740-44f5-47df-a0a9-b2ef62836ac8" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "45be3c60-eb0d-48d3-8f81-1c16151c675a",
@@ -46738,11 +46738,11 @@
   "under_pressure" : true,
   "related_events" : [ "fdd3c097-8d89-42b4-a947-40faf6bd94b6" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "07f99e29-3e12-4534-874f-35f40596e3b7",
@@ -48935,11 +48935,11 @@
   "under_pressure" : true,
   "related_events" : [ "99b91f5f-25bc-4b2c-ac0c-308deaaf9bc9" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "63eb0eca-39b1-41a5-b515-a97eab8ac301",
@@ -50077,11 +50077,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -50167,11 +50167,11 @@
   "related_events" : [ "12316d7d-608d-469b-8258-189fa576dab8", "ace5bee4-72aa-4393-9746-bccb68516f83" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "ddb41430-a3de-42e7-9a74-e36a7e61b598",
@@ -51166,11 +51166,11 @@
   "under_pressure" : true,
   "related_events" : [ "6a25851e-8307-4f89-9a74-3225909d547c" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "94189581-75c5-4af4-9346-94fdd0d796be",
@@ -52593,11 +52593,11 @@
   "under_pressure" : true,
   "related_events" : [ "4c7b65ea-d4aa-4e38-ab16-2fabac36ad94" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "be1d27c9-8e09-475c-b5f2-1d3a1db98945",
@@ -55405,11 +55405,11 @@
   "under_pressure" : true,
   "related_events" : [ "5cb921a6-bdcc-4e17-a6d0-f758da155766" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "bf6bf0f6-0cdf-470a-b9ea-cba05c422a6f",
@@ -58060,11 +58060,11 @@
   "under_pressure" : true,
   "related_events" : [ "f12425d3-cd54-4ccb-b52f-65ceef746f39" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "3b5213c9-6db9-4ec3-9542-538bb2b93ee5",
@@ -58783,11 +58783,11 @@
   "under_pressure" : true,
   "related_events" : [ "ffc10554-dd56-4912-89f7-e570d21cfc6f" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "c8a724a2-f8d4-44ac-8ae4-bae4ed8fc340",
@@ -60086,11 +60086,11 @@
   "under_pressure" : true,
   "related_events" : [ "3fd98c8e-b49b-4de9-bb8c-3e26bdfec9f1" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "012962a8-c562-4829-8a9d-5e8420aa9b0d",
@@ -60172,11 +60172,11 @@
   "related_events" : [ "012962a8-c562-4829-8a9d-5e8420aa9b0d" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "f6e0ebea-6da8-46c9-adb2-011353e6c2be",
@@ -61163,27 +61163,16 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 102.5, 18.6 ],
+      "location" : [ 105.5, 18.4 ],
       "player" : {
-        "id" : 15571,
-        "name" : "Danielle Turner"
+        "id" : 15723,
+        "name" : "Brooke Chaplen"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 112.1, 23.6 ],
-      "player" : {
-        "id" : 15570,
-        "name" : "Chloe Kelly"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 112.3, 42.6 ],
       "player" : {
@@ -61195,6 +61184,17 @@
         "name" : "Center Attacking Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 94.8, 23.5 ],
+      "player" : {
+        "id" : 10251,
+        "name" : "Fara Williams"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
     }, {
       "location" : [ 114.4, 34.7 ],
       "player" : {
@@ -61218,58 +61218,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 105.5, 18.4 ],
+      "location" : [ 112.1, 23.6 ],
       "player" : {
-        "id" : 15723,
-        "name" : "Brooke Chaplen"
+        "id" : 15570,
+        "name" : "Chloe Kelly"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 94.8, 23.5 ],
+      "location" : [ 105.9, 43.1 ],
       "player" : {
-        "id" : 10251,
-        "name" : "Fara Williams"
+        "id" : 26570,
+        "name" : "Amalie Vevle Eikeland"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.4, 23.4 ],
-      "player" : {
-        "id" : 15725,
-        "name" : "Natasha Harding"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.9, 24.4 ],
-      "player" : {
-        "id" : 31628,
-        "name" : "Kristine Leine"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.3, 29.4 ],
-      "player" : {
-        "id" : 10190,
-        "name" : "Jade Moore"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -61284,16 +61251,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 105.9, 43.1 ],
+      "location" : [ 111.9, 24.4 ],
       "player" : {
-        "id" : 26570,
-        "name" : "Amalie Vevle Eikeland"
+        "id" : 31628,
+        "name" : "Kristine Leine"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 114.4, 23.4 ],
+      "player" : {
+        "id" : 15725,
+        "name" : "Natasha Harding"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.5, 18.6 ],
+      "player" : {
+        "id" : 15571,
+        "name" : "Danielle Turner"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 113.6, 43.1 ],
       "player" : {
@@ -61314,6 +61303,17 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.3, 29.4 ],
+      "player" : {
+        "id" : 10190,
+        "name" : "Jade Moore"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -63355,11 +63355,11 @@
   "under_pressure" : true,
   "related_events" : [ "aa47fd07-23a5-45a4-8e2a-2d101530f40e" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "d2586fd4-efe9-44d1-be4d-495becda8f1b",
@@ -65419,25 +65419,36 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 106.5, 36.0 ],
+      "location" : [ 107.3, 30.3 ],
       "player" : {
-        "id" : 15570,
-        "name" : "Chloe Kelly"
+        "id" : 15579,
+        "name" : "Inessa Kaagman"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
-      "location" : [ 119.4, 40.2 ],
+      "location" : [ 108.6, 40.6 ],
       "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
+        "id" : 15723,
+        "name" : "Brooke Chaplen"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.7, 31.2 ],
+      "player" : {
+        "id" : 16386,
+        "name" : "Lucy Graham"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
     }, {
@@ -65452,27 +65463,49 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.9, 33.4 ],
+      "location" : [ 106.8, 38.7 ],
       "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
+        "id" : 24747,
+        "name" : "Millie Farrow"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.4, 40.2 ],
+      "player" : {
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 107.9, 33.9 ],
+      "location" : [ 106.5, 36.0 ],
       "player" : {
-        "id" : 4649,
-        "name" : "Esme Beth Morgan"
+        "id" : 15570,
+        "name" : "Chloe Kelly"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
+    }, {
+      "location" : [ 95.3, 29.6 ],
+      "player" : {
+        "id" : 26570,
+        "name" : "Amalie Vevle Eikeland"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
     }, {
       "location" : [ 107.8, 32.8 ],
       "player" : {
@@ -65482,50 +65515,6 @@
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.8, 32.1 ],
-      "player" : {
-        "id" : 15571,
-        "name" : "Danielle Turner"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.7, 31.2 ],
-      "player" : {
-        "id" : 16386,
-        "name" : "Lucy Graham"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.3, 30.3 ],
-      "player" : {
-        "id" : 15579,
-        "name" : "Inessa Kaagman"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.4, 42.6 ],
-      "player" : {
-        "id" : 18254,
-        "name" : "Megan Finnigan"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -65540,16 +65529,49 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 95.3, 29.6 ],
+      "location" : [ 109.4, 42.6 ],
       "player" : {
-        "id" : 26570,
-        "name" : "Amalie Vevle Eikeland"
+        "id" : 18254,
+        "name" : "Megan Finnigan"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.8, 43.5 ],
+      "player" : {
+        "id" : 31628,
+        "name" : "Kristine Leine"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 107.9, 33.9 ],
+      "player" : {
+        "id" : 4649,
+        "name" : "Esme Beth Morgan"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.8, 32.1 ],
+      "player" : {
+        "id" : 15571,
+        "name" : "Danielle Turner"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 94.2, 37.0 ],
       "player" : {
@@ -65559,28 +65581,6 @@
       "position" : {
         "id" : 6,
         "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.6, 40.6 ],
-      "player" : {
-        "id" : 15723,
-        "name" : "Brooke Chaplen"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.8, 38.7 ],
-      "player" : {
-        "id" : 24747,
-        "name" : "Millie Farrow"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -65606,16 +65606,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.8, 43.5 ],
+      "location" : [ 107.9, 33.4 ],
       "player" : {
-        "id" : 31628,
-        "name" : "Kristine Leine"
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 105.1, 44.0 ],
       "player" : {
@@ -66605,11 +66605,11 @@
   "under_pressure" : true,
   "related_events" : [ "cfb73862-8066-4cf4-8be8-2d1a7c9100f0" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "51247512-4ca0-409a-9d9c-258e8f2d9bb7",
@@ -67209,50 +67209,6 @@
       "name" : "Volley"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.4, 37.2 ],
-      "player" : {
-        "id" : 15720,
-        "name" : "Sophie Howard"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.9, 48.2 ],
-      "player" : {
-        "id" : 19780,
-        "name" : "Rachel Rowe"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.9, 42.3 ],
-      "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 48.3 ],
-      "player" : {
-        "id" : 26570,
-        "name" : "Amalie Vevle Eikeland"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 103.3, 29.8 ],
       "player" : {
         "id" : 15723,
@@ -67261,28 +67217,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 30.5 ],
-      "player" : {
-        "id" : 10190,
-        "name" : "Jade Moore"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.0, 27.8 ],
-      "player" : {
-        "id" : 31628,
-        "name" : "Kristine Leine"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -67308,6 +67242,72 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 118.9, 43.9 ],
+      "player" : {
+        "id" : 15719,
+        "name" : "Grace Moloney"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 48.3 ],
+      "player" : {
+        "id" : 26570,
+        "name" : "Amalie Vevle Eikeland"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.9, 42.3 ],
+      "player" : {
+        "id" : 18149,
+        "name" : "Remi Allen"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.0, 27.8 ],
+      "player" : {
+        "id" : 31628,
+        "name" : "Kristine Leine"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.9, 48.2 ],
+      "player" : {
+        "id" : 19780,
+        "name" : "Rachel Rowe"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.4, 37.2 ],
+      "player" : {
+        "id" : 15720,
+        "name" : "Sophie Howard"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 113.2, 34.7 ],
       "player" : {
         "id" : 15575,
@@ -67319,14 +67319,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 118.9, 43.9 ],
+      "location" : [ 111.0, 30.5 ],
       "player" : {
-        "id" : 15719,
-        "name" : "Grace Moloney"
+        "id" : 10190,
+        "name" : "Jade Moore"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -68918,11 +68918,11 @@
       "id" : 34,
       "name" : "Smother"
     },
+    "lost_in_play" : true,
     "outcome" : {
       "id" : 13,
       "name" : "Lost In Play"
-    },
-    "lost_in_play" : true
+    }
   }
 }, {
   "id" : "50108e4c-22c4-4d18-acc7-eb3303a54c9c",
@@ -69238,11 +69238,11 @@
   "under_pressure" : true,
   "related_events" : [ "45a34050-f9ce-4666-bf2c-fc1c91d2f6e5" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "fd24ed18-78c1-4de6-8ab3-76691b730f86",
@@ -70685,11 +70685,11 @@
   "under_pressure" : true,
   "related_events" : [ "e46ab073-4409-4b57-819a-8b7b638cc3d3" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "c797635c-0d52-4ac7-81fb-c31c3c90638b",
@@ -70727,11 +70727,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "e320c830-a9a7-4fd8-8b03-4470192e2c7f",
@@ -71801,11 +71801,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "b330f20f-03ab-4f58-8005-fb5f4160619b",
@@ -72025,11 +72025,11 @@
   "under_pressure" : true,
   "related_events" : [ "7cd8c7de-f3ba-454f-8a13-0d06ae3b1e49", "ee2f3267-d135-45c5-aa44-984ec23b5c98" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -72068,11 +72068,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "5a7db9cf-eedd-4a59-9abb-881b0cb07304",
@@ -72884,11 +72884,11 @@
   "under_pressure" : true,
   "related_events" : [ "58675bd0-1c46-4c4c-b03d-1311393316c7" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "bf30d247-4303-4849-b370-297bc18363a2",
@@ -73186,11 +73186,11 @@
   "under_pressure" : true,
   "related_events" : [ "030fca02-3543-459d-ba04-0ca6784785fe" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "565e4b08-6233-40e8-930f-5a1975debb66",
@@ -73931,11 +73931,11 @@
   "under_pressure" : true,
   "related_events" : [ "80c5ddf9-4504-4b36-9f60-ce1cf03a6764" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "bbc93a0c-2c48-4b0f-96b3-4614489d3afa",
@@ -74198,11 +74198,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "18d53016-02a8-49a1-a9f6-772af6f29ee6",
@@ -74910,11 +74910,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -75167,11 +75167,11 @@
   "under_pressure" : true,
   "related_events" : [ "583fd9cc-9d8b-42ac-a88d-df4b27f17936" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "a248df07-aef3-4360-bd41-0ee3a89acdd2",
@@ -75453,11 +75453,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "67e38bed-e2d2-4a9b-891a-70a1488de733",
@@ -79869,11 +79869,11 @@
   "under_pressure" : true,
   "related_events" : [ "e687d10c-c6f6-4bd6-af74-bb62fb96a23d" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "0a988191-263f-4182-9b40-e347ded7e77b",
@@ -79911,11 +79911,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "49368165-b881-46c2-a8d7-ead5edfd781d",
@@ -80055,11 +80055,11 @@
   "under_pressure" : true,
   "related_events" : [ "49368165-b881-46c2-a8d7-ead5edfd781d" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "d24604d6-431d-45f1-836f-1e1310bb8975",
@@ -81633,16 +81633,16 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.3, 39.6 ],
+      "location" : [ 107.2, 48.8 ],
       "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
+        "id" : 15723,
+        "name" : "Brooke Chaplen"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 112.7, 38.4 ],
       "player" : {
@@ -81655,6 +81655,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 118.3, 39.6 ],
+      "player" : {
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 115.0, 22.7 ],
       "player" : {
         "id" : 26570,
@@ -81666,16 +81677,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 107.2, 48.8 ],
+      "location" : [ 108.2, 39.8 ],
       "player" : {
-        "id" : 15723,
-        "name" : "Brooke Chaplen"
+        "id" : 15573,
+        "name" : "Abbey-Leigh Stringer"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 115.2, 35.9 ],
       "player" : {
@@ -81685,17 +81696,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.7, 33.4 ],
-      "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -81710,14 +81710,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.2, 39.8 ],
+      "location" : [ 114.7, 33.4 ],
       "player" : {
-        "id" : 15573,
-        "name" : "Abbey-Leigh Stringer"
+        "id" : 15575,
+        "name" : "Gabrielle George"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -84390,6 +84390,28 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
+      "location" : [ 94.6, 51.4 ],
+      "player" : {
+        "id" : 15579,
+        "name" : "Inessa Kaagman"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 86.7, 40.7 ],
+      "player" : {
+        "id" : 15559,
+        "name" : "Simone Magill"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 118.6, 40.4 ],
       "player" : {
         "id" : 15719,
@@ -84401,6 +84423,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 87.9, 30.8 ],
+      "player" : {
+        "id" : 15570,
+        "name" : "Chloe Kelly"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 83.2, 54.2 ],
       "player" : {
         "id" : 18149,
@@ -84409,28 +84442,6 @@
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.8, 56.0 ],
-      "player" : {
-        "id" : 19780,
-        "name" : "Rachel Rowe"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 87.9, 43.2 ],
-      "player" : {
-        "id" : 10190,
-        "name" : "Jade Moore"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -84456,6 +84467,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 92.8, 56.0 ],
+      "player" : {
+        "id" : 19780,
+        "name" : "Rachel Rowe"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 94.7, 37.0 ],
       "player" : {
         "id" : 15720,
@@ -84467,27 +84489,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 94.6, 51.4 ],
+      "location" : [ 87.9, 43.2 ],
       "player" : {
-        "id" : 15579,
-        "name" : "Inessa Kaagman"
+        "id" : 10190,
+        "name" : "Jade Moore"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 86.7, 40.7 ],
-      "player" : {
-        "id" : 15559,
-        "name" : "Simone Magill"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 79.9, 37.5 ],
       "player" : {
@@ -84497,17 +84508,6 @@
       "position" : {
         "id" : 9,
         "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 87.9, 30.8 ],
-      "player" : {
-        "id" : 15570,
-        "name" : "Chloe Kelly"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
       },
       "teammate" : true
     } ]
@@ -86102,11 +86102,11 @@
   "under_pressure" : true,
   "related_events" : [ "83fda767-2640-429c-a921-2883207490c7" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "244d8279-a6b1-4e22-8d84-68ecd9a7ce58",
@@ -87452,16 +87452,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 96.9, 9.6 ],
+      "location" : [ 74.7, 13.0 ],
       "player" : {
-        "id" : 26570,
-        "name" : "Amalie Vevle Eikeland"
+        "id" : 15579,
+        "name" : "Inessa Kaagman"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 93.2, 28.8 ],
       "player" : {
@@ -87474,6 +87474,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 86.3, 31.9 ],
+      "player" : {
+        "id" : 16386,
+        "name" : "Lucy Graham"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 95.0, 34.1 ],
       "player" : {
         "id" : 10387,
@@ -87484,6 +87495,39 @@
         "name" : "Center Forward"
       },
       "teammate" : true
+    }, {
+      "location" : [ 118.6, 40.1 ],
+      "player" : {
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.9, 9.6 ],
+      "player" : {
+        "id" : 26570,
+        "name" : "Amalie Vevle Eikeland"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 69.5, 71.7 ],
+      "player" : {
+        "id" : 15570,
+        "name" : "Chloe Kelly"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
     }, {
       "location" : [ 83.4, 32.7 ],
       "player" : {
@@ -87496,47 +87540,36 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 74.7, 13.0 ],
+      "location" : [ 93.9, 34.3 ],
       "player" : {
-        "id" : 15579,
-        "name" : "Inessa Kaagman"
+        "id" : 15573,
+        "name" : "Abbey-Leigh Stringer"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
-      "location" : [ 79.5, 36.2 ],
+      "location" : [ 100.1, 27.2 ],
       "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
+        "id" : 18254,
+        "name" : "Megan Finnigan"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 86.3, 31.9 ],
+      "location" : [ 94.0, 23.0 ],
       "player" : {
-        "id" : 16386,
-        "name" : "Lucy Graham"
+        "id" : 4649,
+        "name" : "Esme Beth Morgan"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 69.5, 71.7 ],
-      "player" : {
-        "id" : 15570,
-        "name" : "Chloe Kelly"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -87562,47 +87595,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 94.0, 23.0 ],
+      "location" : [ 79.5, 36.2 ],
       "player" : {
-        "id" : 4649,
-        "name" : "Esme Beth Morgan"
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.9, 34.3 ],
-      "player" : {
-        "id" : 15573,
-        "name" : "Abbey-Leigh Stringer"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.1, 27.2 ],
-      "player" : {
-        "id" : 18254,
-        "name" : "Megan Finnigan"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.6, 40.1 ],
-      "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -89962,11 +89962,11 @@
   "under_pressure" : true,
   "related_events" : [ "bc56ada1-1435-4d7f-9c8e-25bde4d9edce" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "847ff638-33d5-4245-b432-bbb39066eaa4",
@@ -90530,14 +90530,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 90.0, 49.7 ],
+      "location" : [ 113.1, 37.7 ],
       "player" : {
-        "id" : 15725,
-        "name" : "Natasha Harding"
+        "id" : 10387,
+        "name" : "Lisa-Marie Utland"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -90563,17 +90563,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 112.2, 17.6 ],
-      "player" : {
-        "id" : 4649,
-        "name" : "Esme Beth Morgan"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 103.3, 29.7 ],
       "player" : {
         "id" : 15573,
@@ -90596,14 +90585,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.7, 38.2 ],
+      "location" : [ 90.0, 49.7 ],
       "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
+        "id" : 15725,
+        "name" : "Natasha Harding"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.2, 17.6 ],
+      "player" : {
+        "id" : 4649,
+        "name" : "Esme Beth Morgan"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -90618,16 +90618,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.1, 37.7 ],
+      "location" : [ 112.7, 38.2 ],
       "player" : {
-        "id" : 10387,
-        "name" : "Lisa-Marie Utland"
+        "id" : 15575,
+        "name" : "Gabrielle George"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
     } ]
   }
 }, {
@@ -90856,11 +90856,11 @@
   "related_events" : [ "4504cb4c-74b9-484a-9003-822c675cf6fb", "f2284ce1-bd6f-4b93-9c3a-c4a49205a8b0" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "2a6c69fa-677e-4ee6-b277-7b62dab70c25",
@@ -91698,11 +91698,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    },
-    "through_ball" : true
+    }
   }
 }, {
   "id" : "837ead4c-5df0-4f21-81d5-6b52ddbc39cd",
@@ -91781,11 +91781,11 @@
   "under_pressure" : true,
   "related_events" : [ "2ec939af-2f1e-456f-957a-8ab6f73d918f" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "e1f0afa3-75c8-435c-9ab9-52da10cde0ef",
@@ -93078,27 +93078,60 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 102.2, 27.5 ],
+      "location" : [ 103.9, 44.2 ],
       "player" : {
-        "id" : 4649,
-        "name" : "Esme Beth Morgan"
+        "id" : 15723,
+        "name" : "Brooke Chaplen"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 96.2, 34.1 ],
+      "player" : {
+        "id" : 16386,
+        "name" : "Lucy Graham"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
     }, {
-      "location" : [ 105.5, 44.2 ],
+      "location" : [ 101.8, 45.1 ],
       "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
+        "id" : 10387,
+        "name" : "Lisa-Marie Utland"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.4, 39.7 ],
+      "player" : {
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
+    }, {
+      "location" : [ 102.2, 31.5 ],
+      "player" : {
+        "id" : 26570,
+        "name" : "Amalie Vevle Eikeland"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
     }, {
       "location" : [ 101.1, 44.3 ],
       "player" : {
@@ -93122,14 +93155,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 96.2, 34.1 ],
+      "location" : [ 102.2, 27.5 ],
       "player" : {
-        "id" : 16386,
-        "name" : "Lucy Graham"
+        "id" : 4649,
+        "name" : "Esme Beth Morgan"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -93144,38 +93177,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 103.9, 44.2 ],
+      "location" : [ 92.9, 57.1 ],
       "player" : {
-        "id" : 15723,
-        "name" : "Brooke Chaplen"
+        "id" : 15571,
+        "name" : "Danielle Turner"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 6,
+        "name" : "Left Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 102.2, 31.5 ],
+      "location" : [ 105.5, 44.2 ],
       "player" : {
-        "id" : 26570,
-        "name" : "Amalie Vevle Eikeland"
+        "id" : 15575,
+        "name" : "Gabrielle George"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 101.8, 45.1 ],
-      "player" : {
-        "id" : 10387,
-        "name" : "Lisa-Marie Utland"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 89.4, 41.1 ],
       "player" : {
@@ -93187,28 +93209,6 @@
         "name" : "Right Defensive Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 117.4, 39.7 ],
-      "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.9, 57.1 ],
-      "player" : {
-        "id" : 15571,
-        "name" : "Danielle Turner"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
     }, {
       "location" : [ 97.6, 38.5 ],
       "player" : {
@@ -93441,11 +93441,11 @@
   "under_pressure" : true,
   "related_events" : [ "5c8499c7-26a4-4132-bb6e-9b41bd10705d" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "ea485486-9543-4e59-841f-232c0d3bd6d4",
@@ -93907,11 +93907,11 @@
   "under_pressure" : true,
   "related_events" : [ "f5527239-9ac2-4b4e-b623-289a9ff759f5" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "9ff7dc14-7123-4922-95d8-ab9be0f0e5d6",
@@ -93971,11 +93971,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "dc3facbf-cebb-4d42-91a9-dca35025fd60",
@@ -94068,6 +94068,72 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 113.5, 20.4 ],
+      "player" : {
+        "id" : 15723,
+        "name" : "Brooke Chaplen"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.8, 19.8 ],
+      "player" : {
+        "id" : 15579,
+        "name" : "Inessa Kaagman"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.9, 41.1 ],
+      "player" : {
+        "id" : 16386,
+        "name" : "Lucy Graham"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.6, 41.8 ],
+      "player" : {
+        "id" : 15559,
+        "name" : "Simone Magill"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.4, 37.7 ],
+      "player" : {
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.4, 39.6 ],
+      "player" : {
+        "id" : 26570,
+        "name" : "Amalie Vevle Eikeland"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 101.2, 41.9 ],
       "player" : {
         "id" : 18149,
@@ -94090,16 +94156,49 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.7, 36.2 ],
+      "location" : [ 118.9, 37.7 ],
       "player" : {
-        "id" : 15577,
-        "name" : "Angharad James"
+        "id" : 18254,
+        "name" : "Megan Finnigan"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.0, 37.0 ],
+      "player" : {
+        "id" : 31628,
+        "name" : "Kristine Leine"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 119.2, 37.0 ],
+      "player" : {
+        "id" : 4649,
+        "name" : "Esme Beth Morgan"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.2, 36.9 ],
+      "player" : {
+        "id" : 15571,
+        "name" : "Danielle Turner"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 117.7, 43.9 ],
       "player" : {
@@ -94123,93 +94222,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.9, 41.1 ],
+      "location" : [ 114.7, 36.2 ],
       "player" : {
-        "id" : 16386,
-        "name" : "Lucy Graham"
+        "id" : 15577,
+        "name" : "Angharad James"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.5, 20.4 ],
-      "player" : {
-        "id" : 15723,
-        "name" : "Brooke Chaplen"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 118.8, 19.8 ],
-      "player" : {
-        "id" : 15579,
-        "name" : "Inessa Kaagman"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.6, 41.8 ],
-      "player" : {
-        "id" : 15559,
-        "name" : "Simone Magill"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.2, 36.9 ],
-      "player" : {
-        "id" : 15571,
-        "name" : "Danielle Turner"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.9, 37.7 ],
-      "player" : {
-        "id" : 18254,
-        "name" : "Megan Finnigan"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.4, 37.7 ],
-      "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.2, 37.0 ],
-      "player" : {
-        "id" : 4649,
-        "name" : "Esme Beth Morgan"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
     }, {
       "location" : [ 117.8, 39.7 ],
       "player" : {
@@ -94221,28 +94243,6 @@
         "name" : "Right Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 117.4, 39.6 ],
-      "player" : {
-        "id" : 26570,
-        "name" : "Amalie Vevle Eikeland"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 118.0, 37.0 ],
-      "player" : {
-        "id" : 31628,
-        "name" : "Kristine Leine"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -96495,11 +96495,11 @@
   "related_events" : [ "2162c13e-70da-4e02-9765-68e80a96ffbd", "6b823087-8949-4104-9f82-f4adf03da9b1" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "6a126485-ae59-4550-9534-41ffae075e63",
@@ -97422,11 +97422,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "0294aed9-642e-4d1c-8667-d21cbbc0b4ad",
@@ -97465,11 +97465,11 @@
   "under_pressure" : true,
   "related_events" : [ "0477f5c9-537e-4e6c-8d35-c6712c7a7294" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "4e90fe6b-ae89-4cf6-8056-229968cff09d",
@@ -97801,14 +97801,69 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 115.8, 38.4 ],
+      "location" : [ 100.8, 32.7 ],
       "player" : {
-        "id" : 31628,
-        "name" : "Kristine Leine"
+        "id" : 15579,
+        "name" : "Inessa Kaagman"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 89.4, 49.4 ],
+      "player" : {
+        "id" : 13834,
+        "name" : "Rakel Hönnudóttir"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 96.2, 44.0 ],
+      "player" : {
+        "id" : 16386,
+        "name" : "Lucy Graham"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.1, 12.4 ],
+      "player" : {
+        "id" : 10251,
+        "name" : "Fara Williams"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 90.9, 45.9 ],
+      "player" : {
+        "id" : 15559,
+        "name" : "Simone Magill"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.3, 42.7 ],
+      "player" : {
+        "id" : 10387,
+        "name" : "Lisa-Marie Utland"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -97823,38 +97878,60 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 100.9, 53.1 ],
+      "location" : [ 86.4, 30.6 ],
       "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
+        "id" : 15570,
+        "name" : "Chloe Kelly"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
-      "location" : [ 101.2, 44.7 ],
+      "location" : [ 102.1, 24.9 ],
       "player" : {
-        "id" : 15571,
-        "name" : "Danielle Turner"
+        "id" : 26570,
+        "name" : "Amalie Vevle Eikeland"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 99.0, 44.4 ],
+      "player" : {
+        "id" : 15573,
+        "name" : "Abbey-Leigh Stringer"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
-      "location" : [ 96.2, 44.0 ],
+      "location" : [ 95.1, 47.1 ],
       "player" : {
-        "id" : 16386,
-        "name" : "Lucy Graham"
+        "id" : 18149,
+        "name" : "Remi Allen"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
-      "teammate" : false
+      "teammate" : true
+    }, {
+      "location" : [ 115.8, 38.4 ],
+      "player" : {
+        "id" : 31628,
+        "name" : "Kristine Leine"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 104.9, 32.0 ],
       "player" : {
@@ -97864,28 +97941,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 90.9, 45.9 ],
-      "player" : {
-        "id" : 15559,
-        "name" : "Simone Magill"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 86.4, 30.6 ],
-      "player" : {
-        "id" : 15570,
-        "name" : "Chloe Kelly"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -97900,27 +97955,49 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 100.8, 32.7 ],
+      "location" : [ 101.2, 44.7 ],
       "player" : {
-        "id" : 15579,
-        "name" : "Inessa Kaagman"
+        "id" : 15571,
+        "name" : "Danielle Turner"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 99.0, 44.4 ],
+      "location" : [ 79.5, 32.6 ],
       "player" : {
-        "id" : 15573,
-        "name" : "Abbey-Leigh Stringer"
+        "id" : 19780,
+        "name" : "Rachel Rowe"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.9, 53.1 ],
+      "player" : {
+        "id" : 15575,
+        "name" : "Gabrielle George"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 99.1, 57.8 ],
+      "player" : {
+        "id" : 15720,
+        "name" : "Sophie Howard"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 103.6, 40.9 ],
       "player" : {
@@ -97941,83 +98018,6 @@
       "position" : {
         "id" : 9,
         "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.1, 24.9 ],
-      "player" : {
-        "id" : 26570,
-        "name" : "Amalie Vevle Eikeland"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 89.4, 49.4 ],
-      "player" : {
-        "id" : 13834,
-        "name" : "Rakel Hönnudóttir"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 99.1, 57.8 ],
-      "player" : {
-        "id" : 15720,
-        "name" : "Sophie Howard"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.1, 12.4 ],
-      "player" : {
-        "id" : 10251,
-        "name" : "Fara Williams"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 104.3, 42.7 ],
-      "player" : {
-        "id" : 10387,
-        "name" : "Lisa-Marie Utland"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 95.1, 47.1 ],
-      "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 79.5, 32.6 ],
-      "player" : {
-        "id" : 19780,
-        "name" : "Rachel Rowe"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : true
     } ]
@@ -98363,11 +98363,11 @@
   "under_pressure" : true,
   "related_events" : [ "41fc958e-00da-49c8-856e-c867f06505e7" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "646cd29e-b5ea-42a1-8847-cefaf9fd7a17",
@@ -98427,11 +98427,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "60573cb7-84a2-4f61-b719-4275cec36eb5",
@@ -98567,25 +98567,14 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 119.6, 37.2 ],
+      "location" : [ 118.5, 38.1 ],
       "player" : {
-        "id" : 15719,
-        "name" : "Grace Moloney"
+        "id" : 13834,
+        "name" : "Rakel Hönnudóttir"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.1, 31.8 ],
-      "player" : {
-        "id" : 31628,
-        "name" : "Kristine Leine"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
@@ -98600,27 +98589,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 106.4, 30.6 ],
+      "location" : [ 120.0, 41.1 ],
       "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
+        "id" : 10251,
+        "name" : "Fara Williams"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 118.6, 39.9 ],
-      "player" : {
-        "id" : 15573,
-        "name" : "Abbey-Leigh Stringer"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 116.9, 40.1 ],
       "player" : {
@@ -98633,14 +98611,36 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 114.0, 47.8 ],
+      "location" : [ 114.5, 45.3 ],
       "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
+        "id" : 10387,
+        "name" : "Lisa-Marie Utland"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.6, 37.2 ],
+      "player" : {
+        "id" : 15719,
+        "name" : "Grace Moloney"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.6, 39.9 ],
+      "player" : {
+        "id" : 15573,
+        "name" : "Abbey-Leigh Stringer"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : true
     }, {
@@ -98655,38 +98655,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.5, 38.1 ],
+      "location" : [ 117.1, 31.8 ],
       "player" : {
-        "id" : 13834,
-        "name" : "Rakel Hönnudóttir"
+        "id" : 31628,
+        "name" : "Kristine Leine"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 120.0, 41.1 ],
+      "location" : [ 108.0, 30.9 ],
       "player" : {
-        "id" : 10251,
-        "name" : "Fara Williams"
+        "id" : 15725,
+        "name" : "Natasha Harding"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 117.7, 40.6 ],
+      "location" : [ 114.0, 47.8 ],
       "player" : {
-        "id" : 15577,
-        "name" : "Angharad James"
+        "id" : 15575,
+        "name" : "Gabrielle George"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 115.7, 41.2 ],
       "player" : {
@@ -98699,25 +98699,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.5, 45.3 ],
+      "location" : [ 106.4, 30.6 ],
       "player" : {
-        "id" : 10387,
-        "name" : "Lisa-Marie Utland"
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 108.0, 30.9 ],
+      "location" : [ 117.7, 40.6 ],
       "player" : {
-        "id" : 15725,
-        "name" : "Natasha Harding"
+        "id" : 15577,
+        "name" : "Angharad James"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -100487,11 +100487,11 @@
       "id" : 75,
       "name" : "Out"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "a63a4bef-8436-4b31-b852-9a61f551cc7e",
@@ -102449,11 +102449,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "e4e45f6a-761a-42ac-8037-ca2472390af4",
@@ -102679,6 +102679,17 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
+      "location" : [ 104.6, 47.2 ],
+      "player" : {
+        "id" : 15559,
+        "name" : "Simone Magill"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 109.4, 39.8 ],
       "player" : {
         "id" : 15719,
@@ -102701,28 +102712,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 101.1, 42.9 ],
-      "player" : {
-        "id" : 15720,
-        "name" : "Sophie Howard"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.6, 47.2 ],
-      "player" : {
-        "id" : 15559,
-        "name" : "Simone Magill"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 97.7, 50.1 ],
       "player" : {
         "id" : 19780,
@@ -102731,6 +102720,17 @@
       "position" : {
         "id" : 6,
         "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.1, 42.9 ],
+      "player" : {
+        "id" : 15720,
+        "name" : "Sophie Howard"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -102961,11 +102961,11 @@
   "related_events" : [ "3f2d1d98-961a-4ba7-92f5-7f15c811e37f", "e44a2b04-3e75-46bb-8328-156b1ddf9cc9" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "13355e34-cc21-4ef3-879d-ee9efc0accd5",
@@ -104591,11 +104591,11 @@
   "under_pressure" : true,
   "related_events" : [ "09faae21-d4d9-4776-9e21-ba17e767832c", "c624a360-b6b6-4f41-977a-2e5808e88e1a" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -105883,11 +105883,11 @@
   "related_events" : [ "77929d15-02e5-411f-aa3f-e32909c7902a", "acb0ef90-2639-4314-b0f6-3038d1a5914f" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "54ab1b6c-7033-478f-8a8f-4a294bb5b379",
@@ -106255,11 +106255,11 @@
   "under_pressure" : true,
   "related_events" : [ "6c265701-3ca4-4101-8305-f8784510e401" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "bd6e1b59-41b0-4c23-93aa-d16033f3aea9",
@@ -106478,27 +106478,16 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 109.5, 0.2 ],
+      "location" : [ 109.7, 32.5 ],
       "player" : {
-        "id" : 26570,
-        "name" : "Amalie Vevle Eikeland"
+        "id" : 13834,
+        "name" : "Rakel Hönnudóttir"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
-    }, {
-      "location" : [ 118.9, 38.8 ],
-      "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
     }, {
       "location" : [ 108.3, 43.1 ],
       "player" : {
@@ -106508,50 +106497,6 @@
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.1, 43.5 ],
-      "player" : {
-        "id" : 15571,
-        "name" : "Danielle Turner"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.4, 31.4 ],
-      "player" : {
-        "id" : 18254,
-        "name" : "Megan Finnigan"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.3, 35.6 ],
-      "player" : {
-        "id" : 15573,
-        "name" : "Abbey-Leigh Stringer"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.8, 34.6 ],
-      "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -106566,6 +106511,72 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 107.9, 31.6 ],
+      "player" : {
+        "id" : 10387,
+        "name" : "Lisa-Marie Utland"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.9, 38.8 ],
+      "player" : {
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.5, 0.2 ],
+      "player" : {
+        "id" : 26570,
+        "name" : "Amalie Vevle Eikeland"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.3, 35.6 ],
+      "player" : {
+        "id" : 15573,
+        "name" : "Abbey-Leigh Stringer"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.1, 46.1 ],
+      "player" : {
+        "id" : 18149,
+        "name" : "Remi Allen"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.4, 31.4 ],
+      "player" : {
+        "id" : 18254,
+        "name" : "Megan Finnigan"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 113.8, 17.9 ],
       "player" : {
         "id" : 4649,
@@ -106574,6 +106585,28 @@
       "position" : {
         "id" : 2,
         "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.1, 43.5 ],
+      "player" : {
+        "id" : 15571,
+        "name" : "Danielle Turner"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.8, 34.6 ],
+      "player" : {
+        "id" : 15575,
+        "name" : "Gabrielle George"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -106587,39 +106620,6 @@
         "name" : "Right Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 107.9, 31.6 ],
-      "player" : {
-        "id" : 10387,
-        "name" : "Lisa-Marie Utland"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.7, 32.5 ],
-      "player" : {
-        "id" : 13834,
-        "name" : "Rakel Hönnudóttir"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 111.1, 46.1 ],
-      "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -107187,11 +107187,11 @@
   "under_pressure" : true,
   "related_events" : [ "d55d13c5-3435-4222-953f-9e20873801ed" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "4cfc04be-2ddc-4d2e-9081-6cb4cfa29caf",
@@ -108079,11 +108079,11 @@
   "under_pressure" : true,
   "related_events" : [ "f7459b5c-47b1-46a3-9eae-7fa2a8507fc6" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "46f39330-02ca-43fb-ac00-046dbcee74a9",
@@ -110280,11 +110280,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "a9966267-7fd8-4a5c-bb0f-90a8e8cfc9c8",
@@ -110366,11 +110366,11 @@
   "related_events" : [ "a9966267-7fd8-4a5c-bb0f-90a8e8cfc9c8" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "120f05ed-6759-4e21-aec3-bca534aef4fd",
@@ -111087,36 +111087,14 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.8, 39.9 ],
+      "location" : [ 93.4, 36.5 ],
       "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
+        "id" : 10251,
+        "name" : "Fara Williams"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 80.4, 39.4 ],
-      "player" : {
-        "id" : 15577,
-        "name" : "Angharad James"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 83.3, 27.2 ],
-      "player" : {
-        "id" : 18149,
-        "name" : "Remi Allen"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
     }, {
@@ -111131,6 +111109,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 118.8, 39.9 ],
+      "player" : {
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 101.3, 21.6 ],
       "player" : {
         "id" : 26570,
@@ -111142,36 +111131,25 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 93.4, 36.5 ],
+      "location" : [ 83.3, 27.2 ],
       "player" : {
-        "id" : 10251,
-        "name" : "Fara Williams"
+        "id" : 18149,
+        "name" : "Remi Allen"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : true
     }, {
-      "location" : [ 96.2, 3.5 ],
+      "location" : [ 95.8, 45.0 ],
       "player" : {
-        "id" : 15575,
-        "name" : "Gabrielle George"
+        "id" : 15573,
+        "name" : "Abbey-Leigh Stringer"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 88.9, 26.8 ],
-      "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -111186,17 +111164,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 95.8, 45.0 ],
-      "player" : {
-        "id" : 15573,
-        "name" : "Abbey-Leigh Stringer"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 100.1, 49.3 ],
       "player" : {
         "id" : 15571,
@@ -111205,6 +111172,39 @@
       "position" : {
         "id" : 6,
         "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.2, 3.5 ],
+      "player" : {
+        "id" : 15575,
+        "name" : "Gabrielle George"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 80.4, 39.4 ],
+      "player" : {
+        "id" : 15577,
+        "name" : "Angharad James"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 88.9, 26.8 ],
+      "player" : {
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -111850,11 +111850,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "591d37e5-552c-4ace-9acc-79e11470c934",
@@ -112798,11 +112798,11 @@
   "under_pressure" : true,
   "related_events" : [ "4d2692b0-abcd-4aef-9b9f-0f4626b5fba1" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "35e4ec00-04cc-4d60-b310-cdd042fd75d9",
@@ -113259,27 +113259,16 @@
       "name" : "Half Volley"
     },
     "freeze_frame" : [ {
-      "location" : [ 92.7, 39.9 ],
+      "location" : [ 100.3, 50.7 ],
       "player" : {
-        "id" : 31713,
-        "name" : "Maéva Clemaron"
+        "id" : 13834,
+        "name" : "Rakel Hönnudóttir"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 113.1, 45.5 ],
-      "player" : {
-        "id" : 15571,
-        "name" : "Danielle Turner"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 112.6, 40.3 ],
       "player" : {
@@ -113292,47 +113281,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 110.0, 27.8 ],
+      "location" : [ 112.2, 30.1 ],
       "player" : {
-        "id" : 18254,
-        "name" : "Megan Finnigan"
+        "id" : 10251,
+        "name" : "Fara Williams"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.3, 32.5 ],
-      "player" : {
-        "id" : 15573,
-        "name" : "Abbey-Leigh Stringer"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.6, 39.7 ],
-      "player" : {
-        "id" : 4649,
-        "name" : "Esme Beth Morgan"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.3, 50.7 ],
-      "player" : {
-        "id" : 13834,
-        "name" : "Rakel Hönnudóttir"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
     }, {
@@ -113347,16 +113303,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 112.2, 30.1 ],
+      "location" : [ 118.9, 41.0 ],
       "player" : {
-        "id" : 10251,
-        "name" : "Fara Williams"
+        "id" : 13857,
+        "name" : "Tinja-Riikka Tellervo Korpela"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 114.8, 15.1 ],
       "player" : {
@@ -113369,14 +113325,58 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 118.9, 41.0 ],
+      "location" : [ 111.3, 32.5 ],
       "player" : {
-        "id" : 13857,
-        "name" : "Tinja-Riikka Tellervo Korpela"
+        "id" : 15573,
+        "name" : "Abbey-Leigh Stringer"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 27.8 ],
+      "player" : {
+        "id" : 18254,
+        "name" : "Megan Finnigan"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.6, 39.7 ],
+      "player" : {
+        "id" : 4649,
+        "name" : "Esme Beth Morgan"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.1, 45.5 ],
+      "player" : {
+        "id" : 15571,
+        "name" : "Danielle Turner"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.7, 39.9 ],
+      "player" : {
+        "id" : 31713,
+        "name" : "Maéva Clemaron"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -114616,11 +114616,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "9502ddfd-9a8f-4639-adae-bc189d823d9d",
@@ -116173,11 +116173,11 @@
   "under_pressure" : true,
   "related_events" : [ "c4b32818-6560-4b69-a29a-c8b912c49abd" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "6e453cf1-97a4-49e0-b764-d1d9c3d4afe7",
@@ -116399,11 +116399,11 @@
   "under_pressure" : true,
   "related_events" : [ "bbe5c8d9-9f11-473e-9604-5b894a965155" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "9f354730-b9e5-428f-8c88-8bb91331a682",
@@ -117220,11 +117220,11 @@
   "related_events" : [ "5429d354-32e3-46fd-8e37-caeb08cbe295", "5e71c490-137d-4c99-9c24-0578f3586171" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "be98069a-ab19-42ac-b65a-3fbfc1792aa0",
@@ -120273,11 +120273,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "7bbb028d-98ed-4b0d-800f-876b69631744",
@@ -120477,11 +120477,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    },
-    "through_ball" : true
+    }
   }
 }, {
   "id" : "80d494cf-d017-424d-b877-e356256cac73",
@@ -120827,11 +120827,11 @@
   "related_events" : [ "225e85d3-07a4-440c-8ff4-567495e53640", "2a77ce6b-cf0c-4a32-8623-9a823e9f8f8c" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "d71b8f43-1466-4d17-9d7c-cdc992687553",

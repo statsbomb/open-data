@@ -1164,11 +1164,11 @@
       "id" : 30,
       "name" : "Punch"
     },
+    "punched_out" : true,
     "outcome" : {
       "id" : 117,
       "name" : "Punched out"
-    },
-    "punched_out" : true
+    }
   }
 }, {
   "id" : "e131fb85-cf3d-47d8-b91d-00f418351c87",
@@ -1218,11 +1218,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -1312,11 +1312,11 @@
   "related_events" : [ "191fd3ae-0e5c-4cfa-b141-114afdbb09c2", "e131fb85-cf3d-47d8-b91d-00f418351c87" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "e80244dd-4e58-4b4b-8c92-c2f7281d8f2c",
@@ -1355,11 +1355,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "d5a07183-d164-4ae4-b3d0-d2d88222e564",
@@ -4343,6 +4343,17 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
+      "location" : [ 92.9, 33.9 ],
+      "player" : {
+        "id" : 15563,
+        "name" : "Charlie Wellings"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 104.3, 40.5 ],
       "player" : {
         "id" : 31702,
@@ -4351,28 +4362,6 @@
       "position" : {
         "id" : 23,
         "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 97.5, 51.6 ],
-      "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 98.3, 57.7 ],
-      "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
       },
       "teammate" : true
     }, {
@@ -4387,6 +4376,39 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 98.3, 54.1 ],
+      "player" : {
+        "id" : 24925,
+        "name" : "Olivia Chance"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.3, 57.7 ],
+      "player" : {
+        "id" : 15706,
+        "name" : "Rachel Furness"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.9, 39.8 ],
+      "player" : {
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 100.3, 37.7 ],
       "player" : {
         "id" : 16391,
@@ -4398,36 +4420,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 92.9, 33.9 ],
+      "location" : [ 102.9, 59.8 ],
       "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
+        "id" : 16381,
+        "name" : "Gemma Evans"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.6, 42.4 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.9, 39.8 ],
-      "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -4442,27 +4442,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 98.3, 54.1 ],
+      "location" : [ 97.6, 42.4 ],
       "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
+        "id" : 10171,
+        "name" : "Frankie Brown"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     }, {
-      "location" : [ 102.9, 59.8 ],
+      "location" : [ 97.5, 51.6 ],
       "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
+        "id" : 15564,
+        "name" : "Lucy Quinn"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 12,
+        "name" : "Right Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     } ]
   }
 }, {
@@ -4830,27 +4830,16 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 95.6, 35.6 ],
+      "location" : [ 95.8, 31.3 ],
       "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
+        "id" : 15563,
+        "name" : "Charlie Wellings"
       },
       "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 97.5, 38.8 ],
-      "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 102.3, 40.4 ],
       "player" : {
@@ -4863,27 +4852,60 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 79.0, 31.7 ],
+      "location" : [ 118.7, 40.0 ],
       "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.6, 53.3 ],
+      "player" : {
+        "id" : 24925,
+        "name" : "Olivia Chance"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.0, 53.8 ],
+      "player" : {
+        "id" : 15706,
+        "name" : "Rachel Furness"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : true
     }, {
-      "location" : [ 95.8, 31.3 ],
+      "location" : [ 104.0, 36.1 ],
       "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 95.6, 35.6 ],
+      "player" : {
+        "id" : 31551,
+        "name" : "Kit Graham"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 98.8, 35.8 ],
       "player" : {
@@ -4896,14 +4918,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.0, 36.1 ],
+      "location" : [ 79.0, 31.7 ],
       "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
+        "id" : 15572,
+        "name" : "Siri Worm"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.0, 54.2 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -4929,47 +4962,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.0, 54.2 ],
+      "location" : [ 97.5, 38.8 ],
       "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
+        "id" : 15564,
+        "name" : "Lucy Quinn"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.6, 53.3 ],
-      "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.7, 40.0 ],
-      "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.0, 53.8 ],
-      "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 12,
+        "name" : "Right Midfield"
       },
       "teammate" : true
     } ]
@@ -5193,11 +5193,11 @@
   "under_pressure" : true,
   "related_events" : [ "9be48b50-21ea-434e-98d0-a6c636678f61" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "80f9aa86-f94d-41b4-af91-efcf5292b78e",
@@ -5647,11 +5647,11 @@
   "under_pressure" : true,
   "related_events" : [ "b3d99325-644d-4ab6-9852-b0923430724d" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "9c6cd1ca-de31-4dcb-84d1-59b72f9365c7",
@@ -5886,6 +5886,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 101.0, 21.8 ],
+      "player" : {
+        "id" : 15563,
+        "name" : "Charlie Wellings"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 107.7, 37.5 ],
       "player" : {
         "id" : 31702,
@@ -5897,16 +5908,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 93.6, 23.0 ],
+      "location" : [ 119.1, 38.9 ],
       "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 112.8, 42.9 ],
       "player" : {
@@ -5919,14 +5930,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 101.0, 21.8 ],
+      "location" : [ 111.2, 35.3 ],
       "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -5941,14 +5952,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 119.1, 38.9 ],
+      "location" : [ 93.6, 23.0 ],
       "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
+        "id" : 15572,
+        "name" : "Siri Worm"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.3, 40.7 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -5963,17 +5985,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.3, 40.7 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 106.8, 37.0 ],
       "player" : {
         "id" : 10171,
@@ -5982,17 +5993,6 @@
       "position" : {
         "id" : 9,
         "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.2, 35.3 ],
-      "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : false
     } ]
@@ -7135,39 +7135,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 99.1, 34.3 ],
-      "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.7, 38.9 ],
-      "player" : {
-        "id" : 31702,
-        "name" : "Rianna Dean"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.7, 31.2 ],
-      "player" : {
-        "id" : 16391,
-        "name" : "Loren Dykes"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 101.8, 28.0 ],
       "player" : {
         "id" : 15563,
@@ -7179,27 +7146,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.3, 37.8 ],
+      "location" : [ 105.7, 38.9 ],
       "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
+        "id" : 31702,
+        "name" : "Rianna Dean"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 110.9, 38.8 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 118.7, 37.1 ],
       "player" : {
@@ -7223,16 +7179,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.6, 45.7 ],
+      "location" : [ 107.3, 37.8 ],
       "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
       },
       "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.1, 34.3 ],
+      "player" : {
+        "id" : 31551,
+        "name" : "Kit Graham"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 107.7, 31.2 ],
+      "player" : {
+        "id" : 16391,
+        "name" : "Loren Dykes"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 104.5, 46.3 ],
       "player" : {
@@ -7244,6 +7222,28 @@
         "name" : "Left Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 110.9, 38.8 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.6, 45.7 ],
+      "player" : {
+        "id" : 15564,
+        "name" : "Lucy Quinn"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -11997,11 +11997,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "284592e5-72a0-4ed7-9b2d-b648e1ffe95e",
@@ -13122,11 +13122,11 @@
   "under_pressure" : true,
   "related_events" : [ "0ec663a3-9b4d-4715-844b-a873365d0817" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "93beaf84-3cde-41aa-a937-3ec9a3645430",
@@ -13299,11 +13299,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "995bd69b-eb1c-4cdd-8a5f-9fd3ebb0aa39",
@@ -15544,11 +15544,11 @@
   "under_pressure" : true,
   "related_events" : [ "cda223bf-64d0-4c48-9d90-5a9ae07a54d2" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "b8299f8a-abd0-4548-8ee1-3b3c86e75fa9",
@@ -21745,11 +21745,11 @@
   "under_pressure" : true,
   "related_events" : [ "4c6e4b5c-ae54-4c49-b94d-b157a49c8270" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "44f114e5-c717-4d30-8d44-c926c97d6815",
@@ -22035,11 +22035,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "bb92c9b7-d54d-4941-9119-3e5ebe6b6db7",
@@ -22448,6 +22448,17 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 108.1, 33.8 ],
+      "player" : {
+        "id" : 15563,
+        "name" : "Charlie Wellings"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 116.0, 41.9 ],
       "player" : {
         "id" : 31702,
@@ -22459,39 +22470,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 111.4, 38.7 ],
-      "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.1, 29.7 ],
-      "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.5, 32.7 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 119.2, 36.5 ],
       "player" : {
         "id" : 16376,
@@ -22500,17 +22478,6 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.6, 38.6 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -22536,6 +22503,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 111.4, 38.7 ],
+      "player" : {
+        "id" : 31551,
+        "name" : "Kit Graham"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 112.9, 33.7 ],
       "player" : {
         "id" : 16391,
@@ -22547,14 +22525,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.1, 33.8 ],
+      "location" : [ 101.1, 29.7 ],
       "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
+        "id" : 15572,
+        "name" : "Siri Worm"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 116.6, 38.6 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.5, 32.7 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -22697,11 +22697,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
-    },
-    "straight" : true
+    }
   }
 }, {
   "id" : "6766b3f1-6320-45a9-95e0-fe1e496d540d",
@@ -22953,11 +22953,11 @@
   "related_events" : [ "893056eb-da45-4f17-9d3e-ceca2e4e931d", "c04a025f-b6ca-4084-8680-22beb4e6eb8e" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "7702b8f5-bfd3-4e95-a8d7-0fdd8d352b8d",
@@ -23498,28 +23498,6 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 103.0, 41.5 ],
-      "player" : {
-        "id" : 31703,
-        "name" : "Anna Filbey"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.5, 37.6 ],
-      "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 96.0, 40.0 ],
       "player" : {
         "id" : 4865,
@@ -23530,50 +23508,6 @@
         "name" : "Left Center Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 96.5, 23.5 ],
-      "player" : {
-        "id" : 16397,
-        "name" : "Chloe Peplow"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.6, 56.6 ],
-      "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.4, 36.8 ],
-      "player" : {
-        "id" : 16391,
-        "name" : "Loren Dykes"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.9, 40.5 ],
-      "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
     }, {
       "location" : [ 96.2, 35.3 ],
       "player" : {
@@ -23597,36 +23531,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 106.9, 42.2 ],
+      "location" : [ 118.9, 40.5 ],
       "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 108.9, 43.1 ],
+      "location" : [ 108.2, 42.3 ],
       "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
+        "id" : 10093,
+        "name" : "Yana Daniels"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.4, 40.7 ],
-      "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -23641,6 +23564,50 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 102.6, 56.6 ],
+      "player" : {
+        "id" : 15706,
+        "name" : "Rachel Furness"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.4, 40.7 ],
+      "player" : {
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.5, 37.6 ],
+      "player" : {
+        "id" : 31551,
+        "name" : "Kit Graham"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.4, 36.8 ],
+      "player" : {
+        "id" : 16391,
+        "name" : "Loren Dykes"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 106.5, 47.0 ],
       "player" : {
         "id" : 16381,
@@ -23652,16 +23619,49 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.2, 42.3 ],
+      "location" : [ 103.0, 41.5 ],
       "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniels"
+        "id" : 31703,
+        "name" : "Anna Filbey"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.9, 43.1 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 106.9, 42.2 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.5, 23.5 ],
+      "player" : {
+        "id" : 16397,
+        "name" : "Chloe Peplow"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -24679,11 +24679,11 @@
   "under_pressure" : true,
   "related_events" : [ "8757378b-c2e0-4d98-997a-752c71378695" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "85c15a99-2a1a-4d88-8df8-44c9fd1145c1",
@@ -24862,11 +24862,11 @@
   "related_events" : [ "85c15a99-2a1a-4d88-8df8-44c9fd1145c1", "aa7a75d5-9ba5-4fe2-b40e-f569d6b37ce4" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "ecfe92de-c915-4196-9057-9c4befbc2021",
@@ -28255,11 +28255,11 @@
   "under_pressure" : true,
   "related_events" : [ "b3d3e41a-57c3-4766-85d0-cd2c4bb0d7fa" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "da6bda30-8ce8-4060-b0ff-ff4a6d3b929a",
@@ -28842,11 +28842,11 @@
   "under_pressure" : true,
   "related_events" : [ "bafaccc4-96f5-40b3-935e-84031ac80b4a" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "4f29091e-32ba-4284-9bae-c3d9e0bd9c21",
@@ -29777,11 +29777,11 @@
   "under_pressure" : true,
   "related_events" : [ "ab0d0381-30bc-47aa-af56-2c9dc9803e5d" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "a1d5f23a-ddbb-40dd-9758-8687ae0f88f7",
@@ -30758,6 +30758,17 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
+      "location" : [ 85.0, 30.7 ],
+      "player" : {
+        "id" : 4865,
+        "name" : "Josie Green"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 91.7, 51.4 ],
       "player" : {
         "id" : 15563,
@@ -30780,28 +30791,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 98.3, 21.5 ],
-      "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 94.6, 41.2 ],
-      "player" : {
-        "id" : 31703,
-        "name" : "Anna Filbey"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 117.6, 40.4 ],
       "player" : {
         "id" : 18158,
@@ -30812,6 +30801,17 @@
         "name" : "Goalkeeper"
       },
       "teammate" : false
+    }, {
+      "location" : [ 98.3, 21.5 ],
+      "player" : {
+        "id" : 24925,
+        "name" : "Olivia Chance"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 100.9, 38.1 ],
       "player" : {
@@ -30835,6 +30835,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 94.6, 41.2 ],
+      "player" : {
+        "id" : 31703,
+        "name" : "Anna Filbey"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 81.9, 39.0 ],
       "player" : {
         "id" : 16397,
@@ -30843,17 +30854,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 85.0, 30.7 ],
-      "player" : {
-        "id" : 4865,
-        "name" : "Josie Green"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
       },
       "teammate" : false
     }, {
@@ -33929,11 +33929,11 @@
   "under_pressure" : true,
   "related_events" : [ "554132d7-b85a-484e-b23f-cb5e4be57aac" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "02ab3c9e-a47c-4942-9cbc-4d5402d5b07e",
@@ -33991,11 +33991,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "e8b41326-160d-4726-b19f-b674239f8781",
@@ -34034,11 +34034,11 @@
   "under_pressure" : true,
   "related_events" : [ "02ab3c9e-a47c-4942-9cbc-4d5402d5b07e" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "da1c128c-3fc4-4640-b04c-ecec73ca897d",
@@ -36609,39 +36609,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 110.8, 41.6 ],
-      "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.3, 32.2 ],
-      "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.5, 32.1 ],
-      "player" : {
-        "id" : 16391,
-        "name" : "Loren Dykes"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 99.0, 35.4 ],
       "player" : {
         "id" : 15563,
@@ -36650,28 +36617,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.6, 49.7 ],
-      "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.8, 49.5 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -36686,6 +36631,28 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 110.6, 49.7 ],
+      "player" : {
+        "id" : 24925,
+        "name" : "Olivia Chance"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.3, 32.2 ],
+      "player" : {
+        "id" : 15706,
+        "name" : "Rachel Furness"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 114.2, 42.0 ],
       "player" : {
         "id" : 19502,
@@ -36694,6 +36661,39 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.8, 41.6 ],
+      "player" : {
+        "id" : 31551,
+        "name" : "Kit Graham"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.5, 32.1 ],
+      "player" : {
+        "id" : 16391,
+        "name" : "Loren Dykes"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.8, 49.5 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -37979,11 +37979,11 @@
   "under_pressure" : true,
   "related_events" : [ "8a69aedb-c366-4104-aaee-98087335cb1f" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "481f5385-7cca-4299-ab74-1f83b000fa08",
@@ -38704,11 +38704,11 @@
   "under_pressure" : true,
   "related_events" : [ "80c5f3f0-5723-4f2f-99a2-f45988fa6230" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "c7e0c7f3-a8d2-46c2-9acb-1730ac9f4110",
@@ -38790,11 +38790,11 @@
   "related_events" : [ "c7e0c7f3-a8d2-46c2-9acb-1730ac9f4110" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "d8f5b8a2-fe9e-4fdc-895e-b4d069593c9a",
@@ -39336,11 +39336,11 @@
   "duration" : 0.20345,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "ba62d5b9-76f8-4e93-bab1-6d25989e2470",
@@ -39758,11 +39758,11 @@
   "under_pressure" : true,
   "related_events" : [ "b0c285a8-e988-4495-854b-4e9195add65a" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "366b6c79-d1cc-4510-82c2-f82605562829",
@@ -39928,113 +39928,14 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 86.3, 49.4 ],
+      "location" : [ 97.9, 26.0 ],
       "player" : {
-        "id" : 16391,
-        "name" : "Loren Dykes"
+        "id" : 4865,
+        "name" : "Josie Green"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 95.9, 27.9 ],
-      "player" : {
-        "id" : 16397,
-        "name" : "Chloe Peplow"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.2, 42.7 ],
-      "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.1, 33.2 ],
-      "player" : {
-        "id" : 23412,
-        "name" : "Abigail Harrison"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.0, 30.5 ],
-      "player" : {
-        "id" : 31552,
-        "name" : "Hannah Godfrey"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.6, 29.5 ],
-      "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.5, 20.9 ],
-      "player" : {
-        "id" : 18145,
-        "name" : "Ria Percival"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.4, 37.9 ],
-      "player" : {
-        "id" : 31703,
-        "name" : "Anna Filbey"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.8, 48.2 ],
-      "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.2, 39.8 ],
-      "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : false
     }, {
@@ -40049,6 +39950,28 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 97.1, 33.2 ],
+      "player" : {
+        "id" : 23412,
+        "name" : "Abigail Harrison"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.2, 39.8 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 103.7, 26.7 ],
       "player" : {
         "id" : 10093,
@@ -40060,14 +39983,69 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 97.1, 5.9 ],
+      "location" : [ 92.6, 29.5 ],
       "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
+        "id" : 15706,
+        "name" : "Rachel Furness"
       },
       "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 30.5 ],
+      "player" : {
+        "id" : 31552,
+        "name" : "Hannah Godfrey"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.8, 48.2 ],
+      "player" : {
+        "id" : 31551,
+        "name" : "Kit Graham"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 86.3, 49.4 ],
+      "player" : {
+        "id" : 16391,
+        "name" : "Loren Dykes"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.5, 20.9 ],
+      "player" : {
+        "id" : 18145,
+        "name" : "Ria Percival"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.2, 42.7 ],
+      "player" : {
+        "id" : 15572,
+        "name" : "Siri Worm"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -40082,14 +40060,36 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 97.9, 26.0 ],
+      "location" : [ 103.4, 37.9 ],
       "player" : {
-        "id" : 4865,
-        "name" : "Josie Green"
+        "id" : 31703,
+        "name" : "Anna Filbey"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 95.9, 27.9 ],
+      "player" : {
+        "id" : 16397,
+        "name" : "Chloe Peplow"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.1, 5.9 ],
+      "player" : {
+        "id" : 15564,
+        "name" : "Lucy Quinn"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
       },
       "teammate" : false
     } ]
@@ -43706,6 +43706,17 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
+      "location" : [ 88.2, 56.1 ],
+      "player" : {
+        "id" : 15563,
+        "name" : "Charlie Wellings"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 117.3, 41.2 ],
       "player" : {
         "id" : 18158,
@@ -43714,6 +43725,39 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.5, 23.2 ],
+      "player" : {
+        "id" : 10093,
+        "name" : "Yana Daniels"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.2, 47.0 ],
+      "player" : {
+        "id" : 31552,
+        "name" : "Hannah Godfrey"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.7, 36.9 ],
+      "player" : {
+        "id" : 18145,
+        "name" : "Ria Percival"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -43739,28 +43783,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.2, 47.0 ],
-      "player" : {
-        "id" : 31552,
-        "name" : "Hannah Godfrey"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.7, 36.9 ],
-      "player" : {
-        "id" : 18145,
-        "name" : "Ria Percival"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 94.4, 51.3 ],
       "player" : {
         "id" : 16397,
@@ -43771,28 +43793,6 @@
         "name" : "Center Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 100.5, 23.2 ],
-      "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniels"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 88.2, 56.1 ],
-      "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -47298,39 +47298,6 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 102.9, 26.5 ],
-      "player" : {
-        "id" : 31702,
-        "name" : "Rianna Dean"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 97.8, 20.6 ],
-      "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 92.5, 17.8 ],
-      "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 87.6, 25.9 ],
       "player" : {
         "id" : 4865,
@@ -47353,17 +47320,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 96.0, 18.4 ],
-      "player" : {
-        "id" : 16391,
-        "name" : "Loren Dykes"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 103.1, 18.1 ],
       "player" : {
         "id" : 16384,
@@ -47375,14 +47331,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 99.3, 22.9 ],
+      "location" : [ 102.9, 26.5 ],
       "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
+        "id" : 31702,
+        "name" : "Rianna Dean"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.4, 38.3 ],
+      "player" : {
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -47408,6 +47375,39 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 103.4, 13.5 ],
+      "player" : {
+        "id" : 31551,
+        "name" : "Kit Graham"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 96.0, 18.4 ],
+      "player" : {
+        "id" : 16391,
+        "name" : "Loren Dykes"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.5, 17.8 ],
+      "player" : {
+        "id" : 15572,
+        "name" : "Siri Worm"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 107.7, 36.4 ],
       "player" : {
         "id" : 15618,
@@ -47419,25 +47419,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.4, 38.3 ],
+      "location" : [ 99.3, 22.9 ],
       "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
+        "id" : 10171,
+        "name" : "Frankie Brown"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     }, {
-      "location" : [ 103.4, 13.5 ],
+      "location" : [ 97.8, 20.6 ],
       "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
+        "id" : 15564,
+        "name" : "Lucy Quinn"
       },
       "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
+        "id" : 12,
+        "name" : "Right Midfield"
       },
       "teammate" : true
     } ]
@@ -48415,11 +48415,11 @@
   "under_pressure" : true,
   "related_events" : [ "d75ca381-af51-4fa1-85e7-c42038d28d45" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "f243623c-602b-4705-8aa2-55e06fa8a9e4",
@@ -50177,11 +50177,11 @@
   "related_events" : [ "39d23d4f-8b66-46e6-8c81-6d017d47d4a9", "b63ba811-7d74-456f-b09f-e88e395dded5" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "4baf1d9c-c7f5-40c1-9f2c-7fd932311156",
@@ -50284,39 +50284,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 111.7, 40.9 ],
-      "player" : {
-        "id" : 31702,
-        "name" : "Rianna Dean"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.9, 35.0 ],
-      "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.9, 38.4 ],
-      "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 99.6, 34.5 ],
       "player" : {
         "id" : 15563,
@@ -50328,16 +50295,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 105.0, 35.9 ],
+      "location" : [ 99.2, 45.7 ],
       "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
+        "id" : 16384,
+        "name" : "Carla Humphrey"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 111.7, 40.9 ],
+      "player" : {
+        "id" : 31702,
+        "name" : "Rianna Dean"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
     }, {
       "location" : [ 119.0, 39.7 ],
       "player" : {
@@ -50347,17 +50325,6 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.9, 43.4 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -50372,16 +50339,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.8, 36.9 ],
+      "location" : [ 112.9, 38.4 ],
       "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
+        "id" : 15706,
+        "name" : "Rachel Furness"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 113.6, 39.4 ],
       "player" : {
@@ -50394,14 +50361,47 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 99.2, 45.7 ],
+      "location" : [ 109.9, 35.0 ],
       "player" : {
-        "id" : 16384,
-        "name" : "Carla Humphrey"
+        "id" : 31551,
+        "name" : "Kit Graham"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 106.9, 43.4 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.0, 35.9 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.8, 36.9 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -52352,17 +52352,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 113.8, 41.2 ],
-      "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 118.3, 40.0 ],
       "player" : {
         "id" : 16376,
@@ -52374,14 +52363,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 107.1, 34.8 ],
+      "location" : [ 114.5, 40.9 ],
       "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
+        "id" : 24925,
+        "name" : "Olivia Chance"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -52407,16 +52396,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.5, 40.9 ],
+      "location" : [ 107.1, 34.8 ],
       "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 113.8, 41.2 ],
+      "player" : {
+        "id" : 15564,
+        "name" : "Lucy Quinn"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -52536,11 +52536,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "755d8554-9114-448f-8a5b-7d50daeeb6d3",
@@ -53284,11 +53284,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "d686c5ee-41ab-4c86-b006-cad4dc120cba",
@@ -53348,11 +53348,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
-    },
-    "straight" : true
+    }
   }
 }, {
   "id" : "219d98bc-2aec-4747-bb2c-7b675ae63d84",
@@ -53488,71 +53488,16 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 111.8, 49.1 ],
+      "location" : [ 102.8, 44.5 ],
       "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
+        "id" : 15563,
+        "name" : "Charlie Wellings"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 100.8, 44.2 ],
-      "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.1, 38.0 ],
-      "player" : {
-        "id" : 31703,
-        "name" : "Anna Filbey"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.3, 41.4 ],
-      "player" : {
-        "id" : 31702,
-        "name" : "Rianna Dean"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 117.9, 40.3 ],
-      "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 98.4, 31.0 ],
-      "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 103.4, 32.6 ],
       "player" : {
@@ -53565,36 +53510,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.5, 48.8 ],
+      "location" : [ 113.3, 41.4 ],
       "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
+        "id" : 31702,
+        "name" : "Rianna Dean"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 112.0, 47.5 ],
+      "location" : [ 113.9, 36.7 ],
       "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniels"
+        "id" : 23412,
+        "name" : "Abigail Harrison"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.9, 43.6 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : false
     }, {
@@ -53609,47 +53543,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.8, 44.5 ],
+      "location" : [ 112.0, 47.5 ],
       "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
+        "id" : 10093,
+        "name" : "Yana Daniels"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.9, 36.7 ],
-      "player" : {
-        "id" : 23412,
-        "name" : "Abigail Harrison"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.5, 36.9 ],
-      "player" : {
-        "id" : 16391,
-        "name" : "Loren Dykes"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.3, 38.6 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -53664,6 +53565,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 111.8, 49.1 ],
+      "player" : {
+        "id" : 15706,
+        "name" : "Rachel Furness"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 114.2, 45.8 ],
       "player" : {
         "id" : 19502,
@@ -53674,6 +53586,94 @@
         "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 117.9, 40.3 ],
+      "player" : {
+        "id" : 31551,
+        "name" : "Kit Graham"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.5, 36.9 ],
+      "player" : {
+        "id" : 16391,
+        "name" : "Loren Dykes"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.4, 31.0 ],
+      "player" : {
+        "id" : 15572,
+        "name" : "Siri Worm"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.5, 48.8 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.1, 38.0 ],
+      "player" : {
+        "id" : 31703,
+        "name" : "Anna Filbey"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 116.9, 43.6 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.3, 38.6 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.8, 44.2 ],
+      "player" : {
+        "id" : 15564,
+        "name" : "Lucy Quinn"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -54528,11 +54528,11 @@
   "under_pressure" : true,
   "related_events" : [ "7f939da2-d1e4-42b7-b6ad-2f0edfeb505a" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "b7619e0a-771b-42d7-81f5-725fbcb68779",
@@ -54843,11 +54843,11 @@
   "related_events" : [ "d1879906-5fa6-4788-ba71-33f54e0ff690", "edb631da-81a1-42ba-975d-a35ac380528f" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "c2de8bca-c4ce-4a57-87ce-d174e5f3400b",
@@ -57626,11 +57626,11 @@
   "related_events" : [ "1990f574-a746-4a57-aa6a-3a5acf6c122e", "da91f91a-308a-4ca6-a698-41c2b16c35fd" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "825f0fc9-7c95-4511-8b8f-395f71b6445f",
@@ -59840,72 +59840,6 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 114.7, 39.8 ],
-      "player" : {
-        "id" : 31703,
-        "name" : "Anna Filbey"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.1, 39.8 ],
-      "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.8, 56.5 ],
-      "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.3, 39.3 ],
-      "player" : {
-        "id" : 18145,
-        "name" : "Ria Percival"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.1, 40.9 ],
-      "player" : {
-        "id" : 31552,
-        "name" : "Hannah Godfrey"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.2, 42.9 ],
-      "player" : {
-        "id" : 16397,
-        "name" : "Chloe Peplow"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 105.9, 40.5 ],
       "player" : {
         "id" : 4865,
@@ -59928,6 +59862,28 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 107.3, 28.8 ],
+      "player" : {
+        "id" : 23412,
+        "name" : "Abigail Harrison"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.1, 39.8 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 114.7, 43.6 ],
       "player" : {
         "id" : 10093,
@@ -59938,6 +59894,28 @@
         "name" : "Left Wing"
       },
       "teammate" : true
+    }, {
+      "location" : [ 111.1, 40.9 ],
+      "player" : {
+        "id" : 31552,
+        "name" : "Hannah Godfrey"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.3, 39.3 ],
+      "player" : {
+        "id" : 18145,
+        "name" : "Ria Percival"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 95.0, 59.2 ],
       "player" : {
@@ -59950,16 +59928,38 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 107.3, 28.8 ],
+      "location" : [ 105.8, 56.5 ],
       "player" : {
-        "id" : 23412,
-        "name" : "Abigail Harrison"
+        "id" : 15572,
+        "name" : "Siri Worm"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 6,
+        "name" : "Left Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 114.7, 39.8 ],
+      "player" : {
+        "id" : 31703,
+        "name" : "Anna Filbey"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.2, 42.9 ],
+      "player" : {
+        "id" : 16397,
+        "name" : "Chloe Peplow"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -60208,38 +60208,16 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.3, 36.5 ],
+      "location" : [ 109.4, 32.2 ],
       "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
+        "id" : 4865,
+        "name" : "Josie Green"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 112.6, 39.3 ],
-      "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.6, 42.9 ],
-      "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniels"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
     }, {
       "location" : [ 107.0, 58.9 ],
       "player" : {
@@ -60263,16 +60241,38 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 109.4, 32.2 ],
+      "location" : [ 118.3, 36.5 ],
       "player" : {
-        "id" : 4865,
-        "name" : "Josie Green"
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
+    }, {
+      "location" : [ 114.6, 42.9 ],
+      "player" : {
+        "id" : 10093,
+        "name" : "Yana Daniels"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.6, 39.3 ],
+      "player" : {
+        "id" : 24925,
+        "name" : "Olivia Chance"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 108.1, 40.5 ],
       "player" : {
@@ -60282,39 +60282,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.2, 39.1 ],
-      "player" : {
-        "id" : 16397,
-        "name" : "Chloe Peplow"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.4, 33.2 ],
-      "player" : {
-        "id" : 31703,
-        "name" : "Anna Filbey"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.9, 36.0 ],
-      "player" : {
-        "id" : 18145,
-        "name" : "Ria Percival"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -60329,6 +60296,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 114.9, 36.0 ],
+      "player" : {
+        "id" : 18145,
+        "name" : "Ria Percival"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 106.5, 56.4 ],
       "player" : {
         "id" : 15572,
@@ -60337,6 +60315,28 @@
       "position" : {
         "id" : 6,
         "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.4, 33.2 ],
+      "player" : {
+        "id" : 31703,
+        "name" : "Anna Filbey"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.2, 39.1 ],
+      "player" : {
+        "id" : 16397,
+        "name" : "Chloe Peplow"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -60702,11 +60702,11 @@
   "related_events" : [ "3a04d7ea-7dfd-4a9e-9b8c-66eb2338c1dd", "d9255bb7-c17b-4296-ac6a-49e142f9ff77" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "53702333-9ba7-4faf-be56-ca19ab542abd",
@@ -61199,11 +61199,11 @@
   "related_events" : [ "4c8db0c6-ba0a-4591-963f-750ce734d66f", "6bfabdbb-4a5a-4869-a9e9-f605fcf356aa" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "7d9c8370-304b-4256-ad54-68d7dd719cbc",
@@ -62798,11 +62798,11 @@
   "under_pressure" : true,
   "related_events" : [ "d5f84a59-ab64-4ab6-9be3-946d697268f7" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "9ea8ab1c-11f7-49f7-bea5-ed3758389102",
@@ -64772,11 +64772,11 @@
   "under_pressure" : true,
   "related_events" : [ "d79489df-c19e-489c-b77a-7a6e2964faa9" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "95144cb2-01ba-43bf-b646-34a94fa3997a",
@@ -65738,39 +65738,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 100.9, 20.0 ],
-      "player" : {
-        "id" : 31702,
-        "name" : "Rianna Dean"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 93.1, 12.9 ],
-      "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 74.4, 16.7 ],
-      "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 81.2, 22.1 ],
       "player" : {
         "id" : 4865,
@@ -65793,36 +65760,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 101.0, 16.6 ],
+      "location" : [ 100.9, 20.0 ],
       "player" : {
-        "id" : 16391,
-        "name" : "Loren Dykes"
+        "id" : 31702,
+        "name" : "Rianna Dean"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 97.4, 21.8 ],
+      "location" : [ 118.4, 38.3 ],
       "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.9, 23.2 ],
-      "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -65837,16 +65793,49 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 101.4, 29.0 ],
+      "location" : [ 99.9, 23.2 ],
       "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 93.1, 12.9 ],
+      "player" : {
+        "id" : 31551,
+        "name" : "Kit Graham"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 101.0, 16.6 ],
+      "player" : {
+        "id" : 16391,
+        "name" : "Loren Dykes"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 74.4, 16.7 ],
+      "player" : {
+        "id" : 15572,
+        "name" : "Siri Worm"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 97.3, 40.7 ],
       "player" : {
@@ -65859,14 +65848,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.4, 38.3 ],
+      "location" : [ 101.4, 29.0 ],
       "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.4, 21.8 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -71965,28 +71965,6 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 99.0, 45.1 ],
-      "player" : {
-        "id" : 31702,
-        "name" : "Rianna Dean"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.1, 58.6 ],
-      "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 95.5, 46.1 ],
       "player" : {
         "id" : 4865,
@@ -71998,14 +71976,36 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 101.9, 18.6 ],
+      "location" : [ 95.6, 26.6 ],
       "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
+        "id" : 15563,
+        "name" : "Charlie Wellings"
       },
       "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 82.2, 47.2 ],
+      "player" : {
+        "id" : 16384,
+        "name" : "Carla Humphrey"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.0, 45.1 ],
+      "player" : {
+        "id" : 31702,
+        "name" : "Rianna Dean"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -72020,16 +72020,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 100.9, 49.2 ],
+      "location" : [ 88.8, 46.4 ],
       "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
+        "id" : 10093,
+        "name" : "Yana Daniels"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
+    }, {
+      "location" : [ 93.7, 49.2 ],
+      "player" : {
+        "id" : 24925,
+        "name" : "Olivia Chance"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.1, 58.6 ],
+      "player" : {
+        "id" : 15706,
+        "name" : "Rachel Furness"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
     }, {
       "location" : [ 100.0, 44.7 ],
       "player" : {
@@ -72064,25 +72086,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 82.2, 47.2 ],
+      "location" : [ 100.9, 49.2 ],
       "player" : {
-        "id" : 16384,
-        "name" : "Carla Humphrey"
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 88.8, 46.4 ],
-      "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniels"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -72097,27 +72108,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 95.6, 26.6 ],
+      "location" : [ 101.9, 18.6 ],
       "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
+        "id" : 15564,
+        "name" : "Lucy Quinn"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 12,
+        "name" : "Right Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 93.7, 49.2 ],
-      "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
+      "teammate" : true
     } ]
   }
 }, {
@@ -77054,11 +77054,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "d074bfdf-34d1-4a33-9b17-f281148f9076",
@@ -78182,11 +78182,11 @@
   "under_pressure" : true,
   "related_events" : [ "4c6a2639-72ee-4eaf-bd8a-b1324af5f9ac" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "45948e2a-4e49-4257-b149-3bde27f6277e",
@@ -78278,39 +78278,6 @@
       "name" : "Half Volley"
     },
     "freeze_frame" : [ {
-      "location" : [ 92.3, 51.3 ],
-      "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.0, 41.8 ],
-      "player" : {
-        "id" : 31702,
-        "name" : "Rianna Dean"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.5, 45.4 ],
-      "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 100.0, 29.8 ],
       "player" : {
         "id" : 4865,
@@ -78322,25 +78289,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 104.8, 33.4 ],
+      "location" : [ 104.5, 46.2 ],
       "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
+        "id" : 15563,
+        "name" : "Charlie Wellings"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 93.8, 41.1 ],
-      "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
@@ -78355,6 +78311,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 114.0, 41.8 ],
+      "player" : {
+        "id" : 31702,
+        "name" : "Rianna Dean"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 118.1, 40.4 ],
       "player" : {
         "id" : 16376,
@@ -78366,47 +78333,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 100.4, 49.5 ],
+      "location" : [ 87.7, 9.2 ],
       "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
+        "id" : 10093,
+        "name" : "Yana Daniels"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
-      "location" : [ 104.5, 46.2 ],
+      "location" : [ 93.8, 41.1 ],
       "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
+        "id" : 24925,
+        "name" : "Olivia Chance"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.5, 44.2 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.7, 33.0 ],
-      "player" : {
-        "id" : 16391,
-        "name" : "Loren Dykes"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -78421,6 +78366,61 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 92.3, 51.3 ],
+      "player" : {
+        "id" : 31551,
+        "name" : "Kit Graham"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 111.7, 33.0 ],
+      "player" : {
+        "id" : 16391,
+        "name" : "Loren Dykes"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.8, 33.4 ],
+      "player" : {
+        "id" : 15572,
+        "name" : "Siri Worm"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.4, 49.5 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.5, 44.2 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 105.1, 32.4 ],
       "player" : {
         "id" : 10171,
@@ -78432,16 +78432,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 87.7, 9.2 ],
+      "location" : [ 112.5, 45.4 ],
       "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniels"
+        "id" : 15564,
+        "name" : "Lucy Quinn"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 12,
+        "name" : "Right Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     } ]
   }
 }, {
@@ -80291,11 +80291,11 @@
   "under_pressure" : true,
   "related_events" : [ "7fb4ffd3-fd02-425e-aa21-2b78279c1f15" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "c01a8f98-7d46-46c2-aaef-f2bb57211da2",
@@ -80905,11 +80905,11 @@
   "under_pressure" : true,
   "related_events" : [ "1c929aa0-fa4f-49a3-abd1-ff564e2b8f5d" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "8cbd5f1e-c866-4d62-9ce3-9ac88979caf9",
@@ -81038,6 +81038,61 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
+      "location" : [ 94.1, 36.0 ],
+      "player" : {
+        "id" : 4865,
+        "name" : "Josie Green"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.4, 50.2 ],
+      "player" : {
+        "id" : 15563,
+        "name" : "Charlie Wellings"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.2, 30.4 ],
+      "player" : {
+        "id" : 23412,
+        "name" : "Abigail Harrison"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.7, 39.9 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.6, 18.3 ],
+      "player" : {
+        "id" : 10093,
+        "name" : "Yana Daniels"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 85.7, 27.5 ],
       "player" : {
         "id" : 24925,
@@ -81060,61 +81115,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 100.4, 50.2 ],
-      "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 94.1, 36.0 ],
-      "player" : {
-        "id" : 4865,
-        "name" : "Josie Green"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 91.8, 32.8 ],
-      "player" : {
-        "id" : 16397,
-        "name" : "Chloe Peplow"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.1, 45.4 ],
-      "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.2, 30.4 ],
-      "player" : {
-        "id" : 23412,
-        "name" : "Abigail Harrison"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 106.2, 34.1 ],
       "player" : {
         "id" : 31552,
@@ -81123,61 +81123,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.4, 28.1 ],
-      "player" : {
-        "id" : 31703,
-        "name" : "Anna Filbey"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.6, 18.3 ],
-      "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniels"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.0, 19.2 ],
-      "player" : {
-        "id" : 18145,
-        "name" : "Ria Percival"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 82.0, 17.7 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 82.3, 53.2 ],
-      "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
       },
       "teammate" : false
     }, {
@@ -81192,14 +81137,69 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.7, 39.9 ],
+      "location" : [ 103.0, 19.2 ],
       "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
+        "id" : 18145,
+        "name" : "Ria Percival"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.1, 45.4 ],
+      "player" : {
+        "id" : 15572,
+        "name" : "Siri Worm"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 82.0, 17.7 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.4, 28.1 ],
+      "player" : {
+        "id" : 31703,
+        "name" : "Anna Filbey"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 91.8, 32.8 ],
+      "player" : {
+        "id" : 16397,
+        "name" : "Chloe Peplow"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 82.3, 53.2 ],
+      "player" : {
+        "id" : 15564,
+        "name" : "Lucy Quinn"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
       },
       "teammate" : false
     } ]
@@ -81387,11 +81387,11 @@
   "under_pressure" : true,
   "related_events" : [ "91802f23-8a7b-47db-b8ee-9cc7f2fd9e68" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "10277690-dbe3-4c55-9e1e-b117fb81cc4c",
@@ -82063,11 +82063,11 @@
   "under_pressure" : true,
   "related_events" : [ "52d10bd7-643a-4997-9436-93fd5b2c2473" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "967df681-ee32-4b83-9268-6bc474b8fab5",
@@ -82809,6 +82809,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 109.3, 50.9 ],
+      "player" : {
+        "id" : 15563,
+        "name" : "Charlie Wellings"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 107.5, 42.9 ],
       "player" : {
         "id" : 31702,
@@ -82820,27 +82831,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 108.1, 66.5 ],
+      "location" : [ 118.4, 42.9 ],
       "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 98.8, 68.4 ],
-      "player" : {
-        "id" : 18145,
-        "name" : "Ria Percival"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 105.2, 63.5 ],
       "player" : {
@@ -82864,25 +82864,47 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.4, 42.9 ],
+      "location" : [ 108.1, 66.5 ],
       "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
+        "id" : 15706,
+        "name" : "Rachel Furness"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.6, 39.5 ],
+      "player" : {
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 108.9, 52.5 ],
+      "location" : [ 98.8, 68.4 ],
       "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
+        "id" : 18145,
+        "name" : "Ria Percival"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.5, 34.5 ],
+      "player" : {
+        "id" : 16391,
+        "name" : "Loren Dykes"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -82908,36 +82930,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 110.6, 39.5 ],
+      "location" : [ 108.9, 52.5 ],
       "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
+        "id" : 10171,
+        "name" : "Frankie Brown"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.3, 50.9 ],
-      "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.5, 34.5 ],
-      "player" : {
-        "id" : 16391,
-        "name" : "Loren Dykes"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -85381,11 +85381,11 @@
   "under_pressure" : true,
   "related_events" : [ "e8a37426-3279-479f-9826-bca76ef587c2" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "046549b2-4ef4-4c23-914c-348089ea72d4",
@@ -86918,11 +86918,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    },
-    "through_ball" : true
+    }
   }
 }, {
   "id" : "c7688b73-8d95-4403-b830-5915d6da635d",
@@ -87578,6 +87578,17 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
+      "location" : [ 114.9, 38.0 ],
+      "player" : {
+        "id" : 4865,
+        "name" : "Josie Green"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 119.6, 41.2 ],
       "player" : {
         "id" : 16376,
@@ -87589,80 +87600,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.9, 58.4 ],
+      "location" : [ 110.3, 57.4 ],
       "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
+        "id" : 10093,
+        "name" : "Yana Daniels"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.1, 51.5 ],
-      "player" : {
-        "id" : 31551,
-        "name" : "Kit Graham"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.9, 61.9 ],
-      "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.3, 48.8 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.4, 44.7 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.7, 37.8 ],
-      "player" : {
-        "id" : 16391,
-        "name" : "Loren Dykes"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.0, 38.7 ],
-      "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
     }, {
@@ -87677,25 +87622,80 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.9, 38.0 ],
+      "location" : [ 112.9, 61.9 ],
       "player" : {
-        "id" : 4865,
-        "name" : "Josie Green"
+        "id" : 15706,
+        "name" : "Rachel Furness"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : true
     }, {
-      "location" : [ 110.3, 57.4 ],
+      "location" : [ 115.0, 38.7 ],
       "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniels"
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.1, 51.5 ],
+      "player" : {
+        "id" : 31551,
+        "name" : "Kit Graham"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 116.7, 37.8 ],
+      "player" : {
+        "id" : 16391,
+        "name" : "Loren Dykes"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.4, 44.7 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.9, 58.4 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.3, 48.8 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -88355,11 +88355,11 @@
     },
     "end_location" : [ 117.0, 31.6 ],
     "switch" : true,
+    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
     },
-    "straight" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -88450,11 +88450,11 @@
   "under_pressure" : true,
   "related_events" : [ "162efa4c-9559-4281-851e-311d6bc1111e" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "0b481fd1-441a-47e9-aada-20d1ca5c281f",
@@ -88546,11 +88546,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "026f48dd-0695-4749-8f4e-63df76ad5b5b",
@@ -88589,11 +88589,11 @@
   "under_pressure" : true,
   "related_events" : [ "5752f335-cc64-44a6-912d-810a830e01cf" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "b4b27cb5-3329-4703-9e7c-17965268dcec",
@@ -89864,11 +89864,11 @@
   "related_events" : [ "4325811f-9993-459f-95fe-86abc0c3048f", "6a1cd5fc-fffa-4d23-ac61-c4d21fa08612" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "55383e32-7439-4ee7-8467-59c1cdd6a693",
@@ -92838,11 +92838,11 @@
   "related_events" : [ "97249b1e-2f45-4e46-a8d9-3dc733ffb30d", "9b7683ed-7fea-4f83-902d-296bacf3812f" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "269fcc2f-478e-43b2-8eff-699a84289c4e",
@@ -93066,6 +93066,28 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 95.5, 39.9 ],
+      "player" : {
+        "id" : 4865,
+        "name" : "Josie Green"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.3, 43.6 ],
+      "player" : {
+        "id" : 31702,
+        "name" : "Rianna Dean"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 118.9, 40.2 ],
       "player" : {
         "id" : 16376,
@@ -93088,38 +93110,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 98.5, 74.8 ],
+      "location" : [ 96.5, 39.8 ],
       "player" : {
-        "id" : 18145,
-        "name" : "Ria Percival"
+        "id" : 24925,
+        "name" : "Olivia Chance"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 103.3, 43.6 ],
-      "player" : {
-        "id" : 31702,
-        "name" : "Rianna Dean"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.3, 19.7 ],
-      "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 103.0, 32.5 ],
       "player" : {
@@ -93132,39 +93132,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 95.5, 39.9 ],
-      "player" : {
-        "id" : 4865,
-        "name" : "Josie Green"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 100.5, 45.7 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.2, 44.8 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 104.0, 38.9 ],
       "player" : {
         "id" : 19502,
@@ -93175,6 +93142,17 @@
         "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 98.5, 74.8 ],
+      "player" : {
+        "id" : 18145,
+        "name" : "Ria Percival"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 104.7, 30.9 ],
       "player" : {
@@ -93198,16 +93176,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 96.5, 39.8 ],
+      "location" : [ 103.2, 44.8 ],
       "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 100.5, 45.7 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.3, 19.7 ],
+      "player" : {
+        "id" : 15564,
+        "name" : "Lucy Quinn"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -94603,11 +94603,11 @@
   "related_events" : [ "3f54dfda-f89d-4528-9e53-42b62e17776c", "b20b4bd5-287b-4fcc-ad8d-c901ea42547d" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "0ef734fa-92b7-4418-8a04-acf850edbae0",
@@ -95087,14 +95087,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 101.4, 49.9 ],
+      "location" : [ 97.6, 45.5 ],
       "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
+        "id" : 24925,
+        "name" : "Olivia Chance"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -95109,36 +95109,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 97.6, 45.5 ],
+      "location" : [ 101.0, 34.6 ],
       "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
+        "id" : 19502,
+        "name" : "Meaghan Sargeant"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.5, 19.5 ],
-      "player" : {
-        "id" : 15564,
-        "name" : "Lucy Quinn"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 99.3, 36.2 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -95153,16 +95131,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 101.0, 34.6 ],
+      "location" : [ 101.4, 49.9 ],
       "player" : {
-        "id" : 19502,
-        "name" : "Meaghan Sargeant"
+        "id" : 16381,
+        "name" : "Gemma Evans"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 99.3, 36.2 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.5, 19.5 ],
+      "player" : {
+        "id" : 15564,
+        "name" : "Lucy Quinn"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -99136,11 +99136,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "20ffcbae-5c74-4682-b2ee-b76545774dea",
@@ -100543,11 +100543,11 @@
   "under_pressure" : true,
   "related_events" : [ "75728a5e-d6fd-443a-95bb-3df1c8f57576" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "0093bb32-6236-472c-9200-abf40484f535",
@@ -100825,11 +100825,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "fc573d5f-fba7-4425-baf7-e89beafbeb0e",
@@ -104039,11 +104039,11 @@
   "under_pressure" : true,
   "related_events" : [ "882968c9-c752-405c-8c95-30d4f8bd4cf0" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "9caaf24c-d691-4d83-a906-ac609b34e92a",
@@ -107924,11 +107924,11 @@
   "under_pressure" : true,
   "related_events" : [ "b9477f58-7376-4402-97c1-aa6ce2ad14f3" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "9faeeb29-631b-4267-8ca9-92bc368c4f62",
@@ -112142,28 +112142,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 109.8, 40.3 ],
-      "player" : {
-        "id" : 31702,
-        "name" : "Rianna Dean"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.4, 43.2 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 107.6, 37.5 ],
       "player" : {
         "id" : 15563,
@@ -112175,36 +112153,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.1, 41.9 ],
+      "location" : [ 109.8, 40.3 ],
       "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
+        "id" : 31702,
+        "name" : "Rianna Dean"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.5, 32.2 ],
-      "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.0, 75.3 ],
-      "player" : {
-        "id" : 18145,
-        "name" : "Ria Percival"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -112241,6 +112197,28 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 104.5, 32.2 ],
+      "player" : {
+        "id" : 15706,
+        "name" : "Rachel Furness"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.0, 75.3 ],
+      "player" : {
+        "id" : 18145,
+        "name" : "Ria Percival"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 105.5, 28.6 ],
       "player" : {
         "id" : 24922,
@@ -112260,6 +112238,28 @@
       "position" : {
         "id" : 6,
         "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.4, 43.2 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.1, 41.9 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -115448,61 +115448,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 102.1, 32.8 ],
-      "player" : {
-        "id" : 31703,
-        "name" : "Anna Filbey"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.7, 31.7 ],
-      "player" : {
-        "id" : 31552,
-        "name" : "Hannah Godfrey"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.4, 36.6 ],
-      "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 94.2, 32.3 ],
-      "player" : {
-        "id" : 16397,
-        "name" : "Chloe Peplow"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.3, 25.4 ],
-      "player" : {
-        "id" : 18145,
-        "name" : "Ria Percival"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 90.8, 33.5 ],
       "player" : {
         "id" : 4865,
@@ -115514,6 +115459,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 101.7, 34.0 ],
+      "player" : {
+        "id" : 15563,
+        "name" : "Charlie Wellings"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 101.4, 24.9 ],
       "player" : {
         "id" : 23412,
@@ -115522,17 +115478,6 @@
       "position" : {
         "id" : 23,
         "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 85.4, 16.1 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : true
     }, {
@@ -115547,16 +115492,71 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 101.7, 34.0 ],
+      "location" : [ 99.7, 31.7 ],
       "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
+        "id" : 31552,
+        "name" : "Hannah Godfrey"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.3, 25.4 ],
+      "player" : {
+        "id" : 18145,
+        "name" : "Ria Percival"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.4, 36.6 ],
+      "player" : {
+        "id" : 15572,
+        "name" : "Siri Worm"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 85.4, 16.1 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 102.1, 32.8 ],
+      "player" : {
+        "id" : 31703,
+        "name" : "Anna Filbey"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 94.2, 32.3 ],
+      "player" : {
+        "id" : 16397,
+        "name" : "Chloe Peplow"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -119646,14 +119646,14 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.7, 40.3 ],
+      "location" : [ 95.2, 41.6 ],
       "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
+        "id" : 4865,
+        "name" : "Josie Green"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : false
     }, {
@@ -119668,39 +119668,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 95.2, 41.6 ],
-      "player" : {
-        "id" : 4865,
-        "name" : "Josie Green"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.3, 42.2 ],
-      "player" : {
-        "id" : 31703,
-        "name" : "Anna Filbey"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.2, 30.3 ],
-      "player" : {
-        "id" : 31552,
-        "name" : "Hannah Godfrey"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 84.6, 25.6 ],
       "player" : {
         "id" : 23412,
@@ -119712,25 +119679,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 78.7, 41.3 ],
+      "location" : [ 118.7, 40.3 ],
       "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 99.4, 56.0 ],
-      "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -119745,6 +119701,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 101.2, 30.3 ],
+      "player" : {
+        "id" : 31552,
+        "name" : "Hannah Godfrey"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 96.6, 24.8 ],
       "player" : {
         "id" : 18145,
@@ -119755,6 +119722,39 @@
         "name" : "Right Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 99.4, 56.0 ],
+      "player" : {
+        "id" : 15572,
+        "name" : "Siri Worm"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.3, 42.2 ],
+      "player" : {
+        "id" : 31703,
+        "name" : "Anna Filbey"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 78.7, 41.3 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -119983,11 +119983,11 @@
   "under_pressure" : true,
   "related_events" : [ "7039b0fe-5358-40ab-afe0-e3dec11ae49b" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "30201fbd-e2ed-432a-813f-55df180a3a55",
@@ -124557,11 +124557,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "21c3d795-86e3-4984-a9e9-35efbf48275f",
@@ -124684,11 +124684,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "4e7bce0a-fd7d-4ac7-b90e-8b08815269ae",
@@ -124780,80 +124780,14 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 106.6, 36.5 ],
+      "location" : [ 111.9, 27.2 ],
       "player" : {
-        "id" : 31552,
-        "name" : "Hannah Godfrey"
+        "id" : 31714,
+        "name" : "Georgia Wilson"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.9, 46.3 ],
-      "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.1, 44.2 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.0, 39.1 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.8, 36.3 ],
-      "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.0, 30.9 ],
-      "player" : {
-        "id" : 24922,
-        "name" : "Florence Allen"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.4, 30.2 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
     }, {
@@ -124868,6 +124802,28 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 116.3, 34.7 ],
+      "player" : {
+        "id" : 31702,
+        "name" : "Rianna Dean"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.8, 36.3 ],
+      "player" : {
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 110.9, 35.9 ],
       "player" : {
         "id" : 24925,
@@ -124878,6 +124834,28 @@
         "name" : "Left Defensive Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 110.9, 46.3 ],
+      "player" : {
+        "id" : 15706,
+        "name" : "Rachel Furness"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 106.6, 36.5 ],
+      "player" : {
+        "id" : 31552,
+        "name" : "Hannah Godfrey"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 114.1, 34.9 ],
       "player" : {
@@ -124901,25 +124879,47 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 116.3, 34.7 ],
+      "location" : [ 119.0, 30.9 ],
       "player" : {
-        "id" : 31702,
-        "name" : "Rianna Dean"
+        "id" : 24922,
+        "name" : "Florence Allen"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 2,
+        "name" : "Right Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 111.9, 27.2 ],
+      "location" : [ 114.1, 44.2 ],
       "player" : {
-        "id" : 31714,
-        "name" : "Georgia Wilson"
+        "id" : 16381,
+        "name" : "Gemma Evans"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.0, 39.1 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.4, 30.2 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -125688,47 +125688,14 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 117.5, 40.9 ],
+      "location" : [ 111.7, 42.8 ],
       "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
+        "id" : 4865,
+        "name" : "Josie Green"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.5, 34.8 ],
-      "player" : {
-        "id" : 23412,
-        "name" : "Abigail Harrison"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.8, 30.6 ],
-      "player" : {
-        "id" : 18145,
-        "name" : "Ria Percival"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 85.0, 22.9 ],
-      "player" : {
-        "id" : 15706,
-        "name" : "Rachel Furness"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : false
     }, {
@@ -125743,6 +125710,28 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 112.5, 34.8 ],
+      "player" : {
+        "id" : 23412,
+        "name" : "Abigail Harrison"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.5, 40.9 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 90.2, 34.2 ],
       "player" : {
         "id" : 24925,
@@ -125753,6 +125742,61 @@
         "name" : "Left Defensive Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 85.0, 22.9 ],
+      "player" : {
+        "id" : 15706,
+        "name" : "Rachel Furness"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 120.0, 38.7 ],
+      "player" : {
+        "id" : 31552,
+        "name" : "Hannah Godfrey"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.8, 30.6 ],
+      "player" : {
+        "id" : 18145,
+        "name" : "Ria Percival"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.4, 38.0 ],
+      "player" : {
+        "id" : 15572,
+        "name" : "Siri Worm"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.2, 41.3 ],
+      "player" : {
+        "id" : 31703,
+        "name" : "Anna Filbey"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 107.9, 40.1 ],
       "player" : {
@@ -125773,50 +125817,6 @@
       "position" : {
         "id" : 12,
         "name" : "Right Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.2, 41.3 ],
-      "player" : {
-        "id" : 31703,
-        "name" : "Anna Filbey"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.4, 38.0 ],
-      "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 120.0, 38.7 ],
-      "player" : {
-        "id" : 31552,
-        "name" : "Hannah Godfrey"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.7, 42.8 ],
-      "player" : {
-        "id" : 4865,
-        "name" : "Josie Green"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
       },
       "teammate" : false
     } ]
@@ -126937,11 +126937,11 @@
   "under_pressure" : true,
   "related_events" : [ "0394dbe7-82e0-42b7-9b7a-8110a4e99cb0" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "9c7a69f7-bf55-425d-b660-0564e007920c",
@@ -128373,11 +128373,11 @@
   "under_pressure" : true,
   "related_events" : [ "940e79f4-59fb-4daa-8808-14eb17a36ea8" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "89a43928-bc80-442e-8737-eb37fd6891d0",
@@ -128789,11 +128789,11 @@
   "under_pressure" : true,
   "related_events" : [ "2ccc8f64-20f1-419a-bd7a-a89795d830a2" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "571d7b18-8414-487f-9c49-2ff13829f9be",
@@ -128831,11 +128831,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "263b287b-a90e-480e-b18c-0c93bf6a121a",
@@ -129034,11 +129034,11 @@
   "under_pressure" : true,
   "related_events" : [ "1e359d53-1618-484f-91f2-766d72f26eab" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "356e0b6e-4dba-4aaf-b8ca-00cd460ae65c",
@@ -129670,11 +129670,11 @@
   "under_pressure" : true,
   "related_events" : [ "b67f519e-fecc-436b-81ba-f952f2e5458b" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "1793c6d3-9ab4-4a7f-b839-d16b0a3df04c",
@@ -130337,11 +130337,11 @@
   "under_pressure" : true,
   "related_events" : [ "b8d49930-f2ae-4876-97d9-0f6dcc852201" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "a46adab3-6c40-45fc-8689-7e02a9de567f",
@@ -132462,17 +132462,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.0, 40.6 ],
-      "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 98.1, 46.8 ],
       "player" : {
         "id" : 31702,
@@ -132484,6 +132473,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 118.0, 40.6 ],
+      "player" : {
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 97.6, 48.3 ],
       "player" : {
         "id" : 19502,
@@ -132492,17 +132492,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 94.5, 58.2 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -132516,6 +132505,28 @@
         "name" : "Left Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 94.9, 40.9 ],
+      "player" : {
+        "id" : 24922,
+        "name" : "Florence Allen"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 94.5, 58.2 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 93.2, 49.0 ],
       "player" : {
@@ -132536,17 +132547,6 @@
       "position" : {
         "id" : 9,
         "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 94.9, 40.9 ],
-      "player" : {
-        "id" : 24922,
-        "name" : "Florence Allen"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
       },
       "teammate" : false
     } ]
@@ -135670,14 +135670,14 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 100.3, 28.2 ],
+      "location" : [ 82.1, 34.9 ],
       "player" : {
-        "id" : 18145,
-        "name" : "Ria Percival"
+        "id" : 4865,
+        "name" : "Josie Green"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : false
     }, {
@@ -135692,6 +135692,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 118.2, 39.9 ],
+      "player" : {
+        "id" : 18158,
+        "name" : "Rebecca Leigh Spencer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 101.5, 33.0 ],
       "player" : {
         "id" : 31552,
@@ -135700,50 +135711,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.1, 37.5 ],
-      "player" : {
-        "id" : 31703,
-        "name" : "Anna Filbey"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.4, 45.5 ],
-      "player" : {
-        "id" : 15572,
-        "name" : "Siri Worm"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.4, 35.8 ],
-      "player" : {
-        "id" : 16397,
-        "name" : "Chloe Peplow"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 82.1, 34.9 ],
-      "player" : {
-        "id" : 4865,
-        "name" : "Josie Green"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
       },
       "teammate" : false
     }, {
@@ -135758,16 +135725,38 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 85.5, 27.8 ],
+      "location" : [ 100.3, 28.2 ],
       "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
+        "id" : 18145,
+        "name" : "Ria Percival"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 2,
+        "name" : "Right Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 101.4, 45.5 ],
+      "player" : {
+        "id" : 15572,
+        "name" : "Siri Worm"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.1, 37.5 ],
+      "player" : {
+        "id" : 31703,
+        "name" : "Anna Filbey"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 102.4, 42.4 ],
       "player" : {
@@ -135780,14 +135769,25 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 118.2, 39.9 ],
+      "location" : [ 85.5, 27.8 ],
       "player" : {
-        "id" : 18158,
-        "name" : "Rebecca Leigh Spencer"
+        "id" : 10171,
+        "name" : "Frankie Brown"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 93.4, 35.8 ],
+      "player" : {
+        "id" : 16397,
+        "name" : "Chloe Peplow"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     } ]

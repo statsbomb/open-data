@@ -1198,11 +1198,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 78.4, 27.4 ],
+    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    },
-    "no_touch" : true
+    }
   }
 }, {
   "id" : "20b59a4f-7e9c-4791-a736-32b85d9cdf58",
@@ -11084,11 +11084,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 74.4, 24.0 ],
+    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    },
-    "no_touch" : true
+    }
   }
 }, {
   "id" : "106bbc78-19f9-4ad4-9639-0e3b535dd874",
@@ -12480,11 +12480,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    },
-    "through_ball" : true
+    }
   }
 }, {
   "id" : "df35ebd7-6242-4360-ba46-1467fead064f",
@@ -15575,11 +15575,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 120.0, 23.7 ],
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "outcome" : {
       "id" : 75,
       "name" : "Out"
@@ -20431,11 +20431,11 @@
   "under_pressure" : true,
   "related_events" : [ "82087531-717d-4c6d-8df9-0ada9b621d72", "9d8ec759-b09f-498d-a764-ee79a77d3ec2" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -21716,14 +21716,25 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 87.1, 55.0 ],
+      "location" : [ 92.1, 62.7 ],
       "player" : {
-        "id" : 6994,
-        "name" : "Marten de Roon"
+        "id" : 8518,
+        "name" : "Marcel Sabitzer"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.6, 49.1 ],
+      "player" : {
+        "id" : 7829,
+        "name" : "Wout Weghorst"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
       },
       "teammate" : true
     }, {
@@ -21749,6 +21760,39 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 103.3, 51.4 ],
+      "player" : {
+        "id" : 8118,
+        "name" : "Frenkie de Jong"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 98.3, 56.1 ],
+      "player" : {
+        "id" : 8506,
+        "name" : "Konrad Laimer"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.8, 43.5 ],
+      "player" : {
+        "id" : 3969,
+        "name" : "Aleksandar Dragović"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 106.8, 49.3 ],
       "player" : {
         "id" : 8220,
@@ -21771,39 +21815,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 98.3, 56.1 ],
-      "player" : {
-        "id" : 8506,
-        "name" : "Konrad Laimer"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.1, 62.7 ],
-      "player" : {
-        "id" : 8518,
-        "name" : "Marcel Sabitzer"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.8, 43.5 ],
-      "player" : {
-        "id" : 3969,
-        "name" : "Aleksandar Dragović"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 103.3, 35.7 ],
       "player" : {
         "id" : 8779,
@@ -21812,17 +21823,6 @@
       "position" : {
         "id" : 7,
         "name" : "Right Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.8, 49.6 ],
-      "player" : {
-        "id" : 8769,
-        "name" : "Xaver Schlager"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -21837,27 +21837,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 108.6, 49.1 ],
+      "location" : [ 87.1, 55.0 ],
       "player" : {
-        "id" : 7829,
-        "name" : "Wout Weghorst"
+        "id" : 6994,
+        "name" : "Marten de Roon"
       },
       "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : true
     }, {
-      "location" : [ 103.3, 51.4 ],
+      "location" : [ 92.8, 49.6 ],
       "player" : {
-        "id" : 8118,
-        "name" : "Frenkie de Jong"
+        "id" : 8769,
+        "name" : "Xaver Schlager"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     } ]
   }
 }, {
@@ -22695,11 +22695,11 @@
   "under_pressure" : true,
   "related_events" : [ "15747739-7004-4c4b-9309-2136a09ce126" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "b645f28f-b9a5-4a0e-9369-1a0d78ddcee0",
@@ -24917,11 +24917,11 @@
   "under_pressure" : true,
   "related_events" : [ "6a55d5ff-77fb-4bd0-a42b-a5b532b25e7e", "b65b9581-f1ba-4413-a96f-09777d26c2d7" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -26740,11 +26740,11 @@
   "under_pressure" : true,
   "related_events" : [ "1ec5c806-6124-497c-90a7-76cbc9a53238" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "1d9f7a62-ae48-4abb-ae08-e6df6bdfd76a",
@@ -33889,11 +33889,11 @@
   "under_pressure" : true,
   "related_events" : [ "813932ef-3845-4dea-95cf-62176f3231b0" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "2fb45f86-1fe9-433d-ba69-7a35f35f3bee",
@@ -36189,11 +36189,11 @@
   "under_pressure" : true,
   "related_events" : [ "d41f819e-54ef-4d1d-b45c-cd1f48aab5c1" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "ec4d7a78-b0b5-473c-bbde-58938a67724c",
@@ -39238,11 +39238,11 @@
   "under_pressure" : true,
   "related_events" : [ "d78edb45-f3f5-4b31-9b53-28c7acf6aca4" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "4a6b1ca0-af7b-489a-a6bc-8d6b39089c31",
@@ -39415,11 +39415,11 @@
   "under_pressure" : true,
   "related_events" : [ "463e782d-b842-4aa4-9d24-5a2c59475500" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "c8d329a8-db5b-4307-8149-4b43014c9edd",
@@ -42874,6 +42874,28 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 93.1, 55.3 ],
+      "player" : {
+        "id" : 7829,
+        "name" : "Wout Weghorst"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.7, 43.4 ],
+      "player" : {
+        "id" : 21532,
+        "name" : "Daniel Bachmann"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 103.6, 54.9 ],
       "player" : {
         "id" : 3969,
@@ -42917,28 +42939,6 @@
         "name" : "Center Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 117.7, 43.4 ],
-      "player" : {
-        "id" : 21532,
-        "name" : "Daniel Bachmann"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.1, 55.3 ],
-      "player" : {
-        "id" : 7829,
-        "name" : "Wout Weghorst"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -49125,36 +49125,36 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 108.4, 55.1 ],
+      "location" : [ 99.8, 31.3 ],
       "player" : {
-        "id" : 8779,
-        "name" : "Stefan Lainer"
+        "id" : 8518,
+        "name" : "Marcel Sabitzer"
       },
       "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : true
     }, {
-      "location" : [ 113.5, 45.6 ],
+      "location" : [ 89.0, 23.7 ],
       "player" : {
-        "id" : 8309,
-        "name" : "Michael Gregoritsch"
+        "id" : 3567,
+        "name" : "Georginio Wijnaldum"
       },
       "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 107.8, 43.1 ],
+      "location" : [ 117.9, 37.4 ],
       "player" : {
-        "id" : 3311,
-        "name" : "Daley Blind"
+        "id" : 20201,
+        "name" : "Maarten Stekelenburg"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -49169,50 +49169,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.6, 33.9 ],
-      "player" : {
-        "id" : 8069,
-        "name" : "Matthijs de Ligt"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.6, 30.9 ],
-      "player" : {
-        "id" : 6994,
-        "name" : "Marten de Roon"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 91.6, 9.9 ],
-      "player" : {
-        "id" : 8125,
-        "name" : "Denzel Dumfries"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 89.0, 23.7 ],
-      "player" : {
-        "id" : 3567,
-        "name" : "Georginio Wijnaldum"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 103.4, 32.9 ],
       "player" : {
         "id" : 8118,
@@ -49223,17 +49179,6 @@
         "name" : "Left Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 99.8, 31.3 ],
-      "player" : {
-        "id" : 8518,
-        "name" : "Marcel Sabitzer"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
     }, {
       "location" : [ 114.7, 29.7 ],
       "player" : {
@@ -49246,16 +49191,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 117.9, 37.4 ],
+      "location" : [ 113.5, 45.6 ],
       "player" : {
-        "id" : 20201,
-        "name" : "Maarten Stekelenburg"
+        "id" : 8309,
+        "name" : "Michael Gregoritsch"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 24,
+        "name" : "Left Center Forward"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 110.0, 25.7 ],
       "player" : {
@@ -49265,6 +49210,61 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.6, 33.9 ],
+      "player" : {
+        "id" : 8069,
+        "name" : "Matthijs de Ligt"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.8, 43.1 ],
+      "player" : {
+        "id" : 3311,
+        "name" : "Daley Blind"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.4, 55.1 ],
+      "player" : {
+        "id" : 8779,
+        "name" : "Stefan Lainer"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 91.6, 9.9 ],
+      "player" : {
+        "id" : 8125,
+        "name" : "Denzel Dumfries"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.6, 30.9 ],
+      "player" : {
+        "id" : 6994,
+        "name" : "Marten de Roon"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -58355,11 +58355,11 @@
   "under_pressure" : true,
   "related_events" : [ "df970d92-c884-427f-a8a8-601bdfce9715" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "7a51eedc-9349-49f7-b93c-35831fb11773",
@@ -59647,11 +59647,11 @@
   "under_pressure" : true,
   "related_events" : [ "543aa338-abaf-4013-97c3-4712776e7d10" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "b4be57b4-bd3d-42ff-93c9-ffd274a04396",
@@ -62460,6 +62460,28 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
+      "location" : [ 94.8, 36.8 ],
+      "player" : {
+        "id" : 8518,
+        "name" : "Marcel Sabitzer"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 91.7, 21.4 ],
+      "player" : {
+        "id" : 3567,
+        "name" : "Georginio Wijnaldum"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 97.9, 26.6 ],
       "player" : {
         "id" : 24977,
@@ -62471,36 +62493,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 108.1, 37.5 ],
+      "location" : [ 118.4, 40.9 ],
       "player" : {
-        "id" : 8069,
-        "name" : "Matthijs de Ligt"
+        "id" : 20201,
+        "name" : "Maarten Stekelenburg"
       },
       "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.3, 47.0 ],
-      "player" : {
-        "id" : 8309,
-        "name" : "Michael Gregoritsch"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.1, 46.0 ],
-      "player" : {
-        "id" : 3311,
-        "name" : "Daley Blind"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -62515,6 +62515,17 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 102.9, 9.9 ],
+      "player" : {
+        "id" : 8777,
+        "name" : "Andreas Ulmer"
+      },
+      "position" : {
+        "id" : 8,
+        "name" : "Left Wing Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 94.3, 47.7 ],
       "player" : {
         "id" : 8118,
@@ -62525,17 +62536,6 @@
         "name" : "Left Defensive Midfield"
       },
       "teammate" : false
-    }, {
-      "location" : [ 94.8, 36.8 ],
-      "player" : {
-        "id" : 8518,
-        "name" : "Marcel Sabitzer"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
     }, {
       "location" : [ 86.7, 29.1 ],
       "player" : {
@@ -62548,16 +62548,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 99.4, 33.3 ],
+      "location" : [ 104.3, 47.0 ],
       "player" : {
-        "id" : 6994,
-        "name" : "Marten de Roon"
+        "id" : 8309,
+        "name" : "Michael Gregoritsch"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 24,
+        "name" : "Left Center Forward"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 101.8, 27.3 ],
       "player" : {
@@ -62570,27 +62570,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.4, 40.9 ],
+      "location" : [ 108.1, 37.5 ],
       "player" : {
-        "id" : 20201,
-        "name" : "Maarten Stekelenburg"
+        "id" : 8069,
+        "name" : "Matthijs de Ligt"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 4,
+        "name" : "Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 102.9, 9.9 ],
+      "location" : [ 106.1, 46.0 ],
       "player" : {
-        "id" : 8777,
-        "name" : "Andreas Ulmer"
+        "id" : 3311,
+        "name" : "Daley Blind"
       },
       "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 104.7, 16.9 ],
       "player" : {
@@ -62603,14 +62603,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 91.7, 21.4 ],
+      "location" : [ 99.4, 33.3 ],
       "player" : {
-        "id" : 3567,
-        "name" : "Georginio Wijnaldum"
+        "id" : 6994,
+        "name" : "Marten de Roon"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -67479,11 +67479,11 @@
   "under_pressure" : true,
   "related_events" : [ "47f4a53f-99ff-4b79-a5d4-31746488fd8f" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "bd723080-1f5c-4bc3-83a5-1e7b26194ce4",
@@ -67728,11 +67728,11 @@
   "under_pressure" : true,
   "related_events" : [ "2087d2eb-d0bf-4c5c-afbb-9f383cbfec5b" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "e73abbbd-99a6-489a-a41e-cad1638653ab",
@@ -68725,11 +68725,11 @@
   "under_pressure" : true,
   "related_events" : [ "bf72574a-007f-4dab-9265-ef106584780f" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "63a07c71-b2dc-43b4-86fc-0492590008c3",
@@ -69135,11 +69135,11 @@
     },
     "end_location" : [ 107.5, 52.4 ],
     "switch" : true,
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -69362,25 +69362,25 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 113.8, 48.2 ],
+      "location" : [ 110.9, 49.5 ],
       "player" : {
-        "id" : 8307,
-        "name" : "Martin Hinteregger"
+        "id" : 7829,
+        "name" : "Wout Weghorst"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 22,
+        "name" : "Right Center Forward"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 115.7, 41.2 ],
+      "location" : [ 115.6, 39.8 ],
       "player" : {
-        "id" : 8220,
-        "name" : "David Olatukunbo Alaba"
+        "id" : 21532,
+        "name" : "Daniel Bachmann"
       },
       "position" : {
-        "id" : 4,
-        "name" : "Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -69406,27 +69406,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 115.6, 39.8 ],
+      "location" : [ 115.7, 41.2 ],
       "player" : {
-        "id" : 21532,
-        "name" : "Daniel Bachmann"
+        "id" : 8220,
+        "name" : "David Olatukunbo Alaba"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 4,
+        "name" : "Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 110.9, 49.5 ],
+      "location" : [ 113.8, 48.2 ],
       "player" : {
-        "id" : 7829,
-        "name" : "Wout Weghorst"
+        "id" : 8307,
+        "name" : "Martin Hinteregger"
       },
       "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 105.1, 46.7 ],
       "player" : {
@@ -70903,6 +70903,17 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
+      "location" : [ 108.5, 35.8 ],
+      "player" : {
+        "id" : 7829,
+        "name" : "Wout Weghorst"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 116.9, 37.1 ],
       "player" : {
         "id" : 21532,
@@ -70925,14 +70936,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.7, 29.0 ],
+      "location" : [ 111.0, 31.2 ],
       "player" : {
-        "id" : 8307,
-        "name" : "Martin Hinteregger"
+        "id" : 3321,
+        "name" : "Patrick van Aanholt"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 8,
+        "name" : "Left Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.7, 25.7 ],
+      "player" : {
+        "id" : 3969,
+        "name" : "Aleksandar Dragović"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -70947,25 +70969,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 106.4, 34.0 ],
+      "location" : [ 113.7, 29.0 ],
       "player" : {
-        "id" : 8769,
-        "name" : "Xaver Schlager"
+        "id" : 8307,
+        "name" : "Martin Hinteregger"
       },
       "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.7, 25.7 ],
-      "player" : {
-        "id" : 3969,
-        "name" : "Aleksandar Dragović"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -70980,17 +70991,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.0, 31.2 ],
-      "player" : {
-        "id" : 3321,
-        "name" : "Patrick van Aanholt"
-      },
-      "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 114.8, 42.5 ],
       "player" : {
         "id" : 8125,
@@ -71002,16 +71002,16 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 108.5, 35.8 ],
+      "location" : [ 106.4, 34.0 ],
       "player" : {
-        "id" : 7829,
-        "name" : "Wout Weghorst"
+        "id" : 8769,
+        "name" : "Xaver Schlager"
       },
       "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     } ]
   }
 }, {
@@ -71232,11 +71232,11 @@
   "under_pressure" : true,
   "related_events" : [ "15badf98-bcae-42a5-9603-196dd28cf980" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "ed9fbdca-7639-47ad-b18e-76ea1fc0c2ea",
@@ -72661,11 +72661,11 @@
   "under_pressure" : true,
   "related_events" : [ "c82c7bcf-fbcd-479a-9707-ea68d4575eb9" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "b4806cf3-e595-4d7e-a984-62875a6a0651",
@@ -74309,11 +74309,11 @@
   "under_pressure" : true,
   "related_events" : [ "e6536947-2e75-447b-ab4e-20e7fa777b6a" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "b3853cfd-78b9-4006-b023-8b75f46d804b",
@@ -76559,61 +76559,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 95.6, 33.0 ],
-      "player" : {
-        "id" : 8506,
-        "name" : "Konrad Laimer"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.7, 46.2 ],
-      "player" : {
-        "id" : 8769,
-        "name" : "Xaver Schlager"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 89.6, 51.6 ],
-      "player" : {
-        "id" : 8118,
-        "name" : "Frenkie de Jong"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.2, 44.7 ],
-      "player" : {
-        "id" : 8307,
-        "name" : "Martin Hinteregger"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.5, 40.2 ],
-      "player" : {
-        "id" : 8220,
-        "name" : "David Olatukunbo Alaba"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 94.1, 58.8 ],
       "player" : {
         "id" : 8518,
@@ -76622,39 +76567,6 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.6, 33.0 ],
-      "player" : {
-        "id" : 3969,
-        "name" : "Aleksandar Dragović"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.6, 34.3 ],
-      "player" : {
-        "id" : 24977,
-        "name" : "Christoph Baumgartner"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.7, 37.1 ],
-      "player" : {
-        "id" : 21532,
-        "name" : "Daniel Bachmann"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -76669,6 +76581,17 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 104.6, 34.3 ],
+      "player" : {
+        "id" : 24977,
+        "name" : "Christoph Baumgartner"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 107.4, 41.9 ],
       "player" : {
         "id" : 7829,
@@ -76680,6 +76603,72 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 117.7, 37.1 ],
+      "player" : {
+        "id" : 21532,
+        "name" : "Daniel Bachmann"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 89.6, 51.6 ],
+      "player" : {
+        "id" : 8118,
+        "name" : "Frenkie de Jong"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 95.6, 33.0 ],
+      "player" : {
+        "id" : 8506,
+        "name" : "Konrad Laimer"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.6, 33.0 ],
+      "player" : {
+        "id" : 3969,
+        "name" : "Aleksandar Dragović"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.5, 40.2 ],
+      "player" : {
+        "id" : 8220,
+        "name" : "David Olatukunbo Alaba"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.2, 44.7 ],
+      "player" : {
+        "id" : 8307,
+        "name" : "Martin Hinteregger"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 89.3, 60.1 ],
       "player" : {
         "id" : 6994,
@@ -76690,6 +76679,17 @@
         "name" : "Right Defensive Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 96.7, 46.2 ],
+      "player" : {
+        "id" : 8769,
+        "name" : "Xaver Schlager"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -78775,11 +78775,11 @@
   "under_pressure" : true,
   "related_events" : [ "1c1489fb-600b-4bcb-8500-5617d665edac" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "49d5b7ed-9adb-4463-bf77-f1e6d5b251c5",
@@ -81042,11 +81042,11 @@
   "under_pressure" : true,
   "related_events" : [ "6a91e587-0ec6-46df-a76b-4fb442fde838" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "7294e7fe-4252-4b7b-a5ec-8314798988fd",
@@ -82895,11 +82895,11 @@
   "under_pressure" : true,
   "related_events" : [ "03f945e8-9945-48b3-a22b-6f7a6ac7e348" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "907b8c8b-36f6-4322-b150-9092db1e22d9",
@@ -85236,6 +85236,28 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 106.8, 46.7 ],
+      "player" : {
+        "id" : 7829,
+        "name" : "Wout Weghorst"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.6, 41.5 ],
+      "player" : {
+        "id" : 21532,
+        "name" : "Daniel Bachmann"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 97.4, 28.9 ],
       "player" : {
         "id" : 3321,
@@ -85244,6 +85266,28 @@
       "position" : {
         "id" : 8,
         "name" : "Left Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.9, 62.2 ],
+      "player" : {
+        "id" : 8777,
+        "name" : "Andreas Ulmer"
+      },
+      "position" : {
+        "id" : 8,
+        "name" : "Left Wing Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.5, 35.4 ],
+      "player" : {
+        "id" : 8118,
+        "name" : "Frenkie de Jong"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : true
     }, {
@@ -85258,27 +85302,38 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 105.5, 35.4 ],
+      "location" : [ 105.0, 44.2 ],
       "player" : {
-        "id" : 8118,
-        "name" : "Frenkie de Jong"
+        "id" : 3969,
+        "name" : "Aleksandar Dragović"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 106.8, 46.7 ],
+      "location" : [ 107.6, 41.0 ],
       "player" : {
-        "id" : 7829,
-        "name" : "Wout Weghorst"
+        "id" : 8220,
+        "name" : "David Olatukunbo Alaba"
       },
       "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
+        "id" : 4,
+        "name" : "Center Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 102.8, 47.6 ],
+      "player" : {
+        "id" : 8307,
+        "name" : "Martin Hinteregger"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 113.7, 69.0 ],
       "player" : {
@@ -85299,61 +85354,6 @@
       "position" : {
         "id" : 7,
         "name" : "Right Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.6, 41.0 ],
-      "player" : {
-        "id" : 8220,
-        "name" : "David Olatukunbo Alaba"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.9, 62.2 ],
-      "player" : {
-        "id" : 8777,
-        "name" : "Andreas Ulmer"
-      },
-      "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.6, 41.5 ],
-      "player" : {
-        "id" : 21532,
-        "name" : "Daniel Bachmann"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.8, 47.6 ],
-      "player" : {
-        "id" : 8307,
-        "name" : "Martin Hinteregger"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.0, 44.2 ],
-      "player" : {
-        "id" : 3969,
-        "name" : "Aleksandar Dragović"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -86750,11 +86750,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 91.4, 22.8 ],
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -91776,11 +91776,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -93666,11 +93666,11 @@
   "under_pressure" : true,
   "related_events" : [ "96063236-15a2-443d-9b94-82e0e31cf7e9" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "d1407564-83b0-456d-b5b8-cfffd2cb7109",
@@ -101348,25 +101348,25 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 107.4, 52.6 ],
+      "location" : [ 90.6, 36.1 ],
       "player" : {
-        "id" : 3321,
-        "name" : "Patrick van Aanholt"
+        "id" : 3567,
+        "name" : "Georginio Wijnaldum"
       },
       "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
     }, {
-      "location" : [ 108.8, 54.0 ],
+      "location" : [ 102.1, 33.5 ],
       "player" : {
-        "id" : 8779,
-        "name" : "Stefan Lainer"
+        "id" : 24977,
+        "name" : "Christoph Baumgartner"
       },
       "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
+        "id" : 22,
+        "name" : "Right Center Forward"
       },
       "teammate" : true
     }, {
@@ -101381,16 +101381,27 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 90.6, 36.1 ],
+      "location" : [ 107.4, 52.6 ],
       "player" : {
-        "id" : 3567,
-        "name" : "Georginio Wijnaldum"
+        "id" : 3321,
+        "name" : "Patrick van Aanholt"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 8,
+        "name" : "Left Wing Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 95.2, 5.7 ],
+      "player" : {
+        "id" : 8777,
+        "name" : "Andreas Ulmer"
+      },
+      "position" : {
+        "id" : 8,
+        "name" : "Left Wing Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 92.1, 39.1 ],
       "player" : {
@@ -101400,72 +101411,6 @@
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.6, 47.1 ],
-      "player" : {
-        "id" : 2988,
-        "name" : "Memphis Depay"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.1, 26.6 ],
-      "player" : {
-        "id" : 6994,
-        "name" : "Marten de Roon"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.2, 17.9 ],
-      "player" : {
-        "id" : 8125,
-        "name" : "Denzel Dumfries"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.4, 30.7 ],
-      "player" : {
-        "id" : 7787,
-        "name" : "Stefan de Vrij"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.9, 36.4 ],
-      "player" : {
-        "id" : 3311,
-        "name" : "Daley Blind"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 42.2 ],
-      "player" : {
-        "id" : 8069,
-        "name" : "Matthijs de Ligt"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
       },
       "teammate" : false
     }, {
@@ -101480,6 +101425,39 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 92.6, 47.1 ],
+      "player" : {
+        "id" : 2988,
+        "name" : "Memphis Depay"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.6, 40.4 ],
+      "player" : {
+        "id" : 8309,
+        "name" : "Michael Gregoritsch"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.4, 30.7 ],
+      "player" : {
+        "id" : 7787,
+        "name" : "Stefan de Vrij"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 79.2, 51.7 ],
       "player" : {
         "id" : 3969,
@@ -101491,6 +101469,61 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 103.0, 42.2 ],
+      "player" : {
+        "id" : 8069,
+        "name" : "Matthijs de Ligt"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.9, 36.4 ],
+      "player" : {
+        "id" : 3311,
+        "name" : "Daley Blind"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.8, 54.0 ],
+      "player" : {
+        "id" : 8779,
+        "name" : "Stefan Lainer"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 101.2, 17.9 ],
+      "player" : {
+        "id" : 8125,
+        "name" : "Denzel Dumfries"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.1, 26.6 ],
+      "player" : {
+        "id" : 6994,
+        "name" : "Marten de Roon"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 98.3, 22.9 ],
       "player" : {
         "id" : 8769,
@@ -101499,39 +101532,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 95.2, 5.7 ],
-      "player" : {
-        "id" : 8777,
-        "name" : "Andreas Ulmer"
-      },
-      "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.1, 33.5 ],
-      "player" : {
-        "id" : 24977,
-        "name" : "Christoph Baumgartner"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 100.6, 40.4 ],
-      "player" : {
-        "id" : 8309,
-        "name" : "Michael Gregoritsch"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
       },
       "teammate" : true
     } ]
@@ -105600,11 +105600,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "type" : {
       "id" : 61,
       "name" : "Corner"
@@ -105788,38 +105788,16 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 96.1, 43.7 ],
+      "location" : [ 103.7, 33.4 ],
       "player" : {
-        "id" : 6994,
-        "name" : "Marten de Roon"
+        "id" : 8518,
+        "name" : "Marcel Sabitzer"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 96.9, 20.1 ],
-      "player" : {
-        "id" : 8118,
-        "name" : "Frenkie de Jong"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 115.5, 46.4 ],
-      "player" : {
-        "id" : 8125,
-        "name" : "Denzel Dumfries"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 109.2, 40.9 ],
       "player" : {
@@ -105829,17 +105807,6 @@
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 115.1, 34.5 ],
-      "player" : {
-        "id" : 8069,
-        "name" : "Matthijs de Ligt"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
       },
       "teammate" : true
     }, {
@@ -105854,28 +105821,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 119.3, 42.4 ],
-      "player" : {
-        "id" : 21532,
-        "name" : "Daniel Bachmann"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.1, 21.2 ],
-      "player" : {
-        "id" : 8769,
-        "name" : "Xaver Schlager"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 118.7, 38.2 ],
       "player" : {
         "id" : 24977,
@@ -105887,36 +105832,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 116.3, 40.1 ],
+      "location" : [ 119.3, 42.4 ],
       "player" : {
-        "id" : 8309,
-        "name" : "Michael Gregoritsch"
+        "id" : 21532,
+        "name" : "Daniel Bachmann"
       },
       "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.9, 43.3 ],
-      "player" : {
-        "id" : 8220,
-        "name" : "David Olatukunbo Alaba"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.3, 45.6 ],
-      "player" : {
-        "id" : 8779,
-        "name" : "Stefan Lainer"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -105931,14 +105854,36 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.7, 33.4 ],
+      "location" : [ 96.9, 20.1 ],
       "player" : {
-        "id" : 8518,
-        "name" : "Marcel Sabitzer"
+        "id" : 8118,
+        "name" : "Frenkie de Jong"
       },
       "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 98.8, 40.0 ],
+      "player" : {
+        "id" : 8506,
+        "name" : "Konrad Laimer"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.3, 40.1 ],
+      "player" : {
+        "id" : 8309,
+        "name" : "Michael Gregoritsch"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
       },
       "teammate" : false
     }, {
@@ -105953,6 +105898,28 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 115.1, 34.5 ],
+      "player" : {
+        "id" : 8069,
+        "name" : "Matthijs de Ligt"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.9, 43.3 ],
+      "player" : {
+        "id" : 8220,
+        "name" : "David Olatukunbo Alaba"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 110.9, 47.5 ],
       "player" : {
         "id" : 8307,
@@ -105961,17 +105928,6 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.8, 40.0 ],
-      "player" : {
-        "id" : 8506,
-        "name" : "Konrad Laimer"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
       },
       "teammate" : false
     }, {
@@ -105985,6 +105941,50 @@
         "name" : "Left Center Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 115.5, 46.4 ],
+      "player" : {
+        "id" : 8125,
+        "name" : "Denzel Dumfries"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 115.3, 45.6 ],
+      "player" : {
+        "id" : 8779,
+        "name" : "Stefan Lainer"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.1, 43.7 ],
+      "player" : {
+        "id" : 6994,
+        "name" : "Marten de Roon"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.1, 21.2 ],
+      "player" : {
+        "id" : 8769,
+        "name" : "Xaver Schlager"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -106134,27 +106134,16 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 110.9, 53.1 ],
+      "location" : [ 102.9, 34.2 ],
       "player" : {
-        "id" : 7829,
-        "name" : "Wout Weghorst"
+        "id" : 8518,
+        "name" : "Marcel Sabitzer"
       },
       "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 100.8, 33.4 ],
-      "player" : {
-        "id" : 3311,
-        "name" : "Daley Blind"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 109.5, 41.1 ],
       "player" : {
@@ -106167,16 +106156,27 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 116.8, 45.1 ],
+      "location" : [ 110.9, 53.1 ],
       "player" : {
-        "id" : 8125,
-        "name" : "Denzel Dumfries"
+        "id" : 7829,
+        "name" : "Wout Weghorst"
       },
       "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
+        "id" : 22,
+        "name" : "Right Center Forward"
       },
       "teammate" : true
+    }, {
+      "location" : [ 118.7, 38.2 ],
+      "player" : {
+        "id" : 24977,
+        "name" : "Christoph Baumgartner"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : false
     }, {
       "location" : [ 119.8, 40.6 ],
       "player" : {
@@ -106186,39 +106186,6 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.5, 48.0 ],
-      "player" : {
-        "id" : 8307,
-        "name" : "Martin Hinteregger"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.9, 34.2 ],
-      "player" : {
-        "id" : 8518,
-        "name" : "Marcel Sabitzer"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.4, 43.5 ],
-      "player" : {
-        "id" : 3969,
-        "name" : "Aleksandar Dragović"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -106233,28 +106200,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 115.9, 45.9 ],
-      "player" : {
-        "id" : 8779,
-        "name" : "Stefan Lainer"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.1, 43.4 ],
-      "player" : {
-        "id" : 8220,
-        "name" : "David Olatukunbo Alaba"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 117.7, 41.0 ],
       "player" : {
         "id" : 8309,
@@ -106266,25 +106211,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.7, 38.2 ],
+      "location" : [ 110.4, 43.5 ],
       "player" : {
-        "id" : 24977,
-        "name" : "Christoph Baumgartner"
+        "id" : 3969,
+        "name" : "Aleksandar Dragović"
       },
       "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.5, 21.6 ],
-      "player" : {
-        "id" : 8769,
-        "name" : "Xaver Schlager"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
@@ -106298,6 +106232,72 @@
         "name" : "Right Center Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 116.1, 43.4 ],
+      "player" : {
+        "id" : 8220,
+        "name" : "David Olatukunbo Alaba"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.8, 33.4 ],
+      "player" : {
+        "id" : 3311,
+        "name" : "Daley Blind"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.5, 48.0 ],
+      "player" : {
+        "id" : 8307,
+        "name" : "Martin Hinteregger"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.8, 45.1 ],
+      "player" : {
+        "id" : 8125,
+        "name" : "Denzel Dumfries"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 115.9, 45.9 ],
+      "player" : {
+        "id" : 8779,
+        "name" : "Stefan Lainer"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.5, 21.6 ],
+      "player" : {
+        "id" : 8769,
+        "name" : "Xaver Schlager"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -106434,11 +106434,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -106524,11 +106524,11 @@
   "related_events" : [ "0e6e8e11-2c55-433b-b26b-dc8af009b2ba", "b40b1f01-787c-4c6b-8b52-1f4d1d6cb60d" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "ae7be075-da75-4d9a-b1ee-c028d2e14df9",
@@ -106620,25 +106620,25 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 119.8, 43.7 ],
+      "location" : [ 102.8, 35.8 ],
       "player" : {
-        "id" : 8125,
-        "name" : "Denzel Dumfries"
+        "id" : 8518,
+        "name" : "Marcel Sabitzer"
       },
       "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 99.6, 34.1 ],
+      "location" : [ 114.2, 44.1 ],
       "player" : {
-        "id" : 3311,
-        "name" : "Daley Blind"
+        "id" : 3567,
+        "name" : "Georginio Wijnaldum"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
     }, {
@@ -106653,38 +106653,38 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 114.2, 44.1 ],
+      "location" : [ 115.1, 38.4 ],
       "player" : {
-        "id" : 3567,
-        "name" : "Georginio Wijnaldum"
+        "id" : 24977,
+        "name" : "Christoph Baumgartner"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 22,
+        "name" : "Right Center Forward"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 108.0, 44.6 ],
+      "location" : [ 118.5, 42.7 ],
       "player" : {
-        "id" : 8069,
-        "name" : "Matthijs de Ligt"
+        "id" : 21532,
+        "name" : "Daniel Bachmann"
       },
       "position" : {
-        "id" : 4,
-        "name" : "Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 114.0, 42.5 ],
+      "location" : [ 112.1, 42.8 ],
       "player" : {
-        "id" : 7787,
-        "name" : "Stefan de Vrij"
+        "id" : 8777,
+        "name" : "Andreas Ulmer"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 8,
+        "name" : "Left Wing Back"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 96.2, 23.2 ],
       "player" : {
@@ -106708,50 +106708,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 102.8, 35.8 ],
-      "player" : {
-        "id" : 8518,
-        "name" : "Marcel Sabitzer"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.5, 41.1 ],
-      "player" : {
-        "id" : 8220,
-        "name" : "David Olatukunbo Alaba"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.5, 42.7 ],
-      "player" : {
-        "id" : 21532,
-        "name" : "Daniel Bachmann"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.1, 38.4 ],
-      "player" : {
-        "id" : 24977,
-        "name" : "Christoph Baumgartner"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 113.9, 43.6 ],
       "player" : {
         "id" : 8309,
@@ -106763,27 +106719,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.1, 42.8 ],
+      "location" : [ 114.0, 42.5 ],
       "player" : {
-        "id" : 8777,
-        "name" : "Andreas Ulmer"
+        "id" : 7787,
+        "name" : "Stefan de Vrij"
       },
       "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 114.1, 45.7 ],
-      "player" : {
-        "id" : 8779,
-        "name" : "Stefan Lainer"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : false
+      "teammate" : true
     }, {
       "location" : [ 111.4, 45.1 ],
       "player" : {
@@ -106796,6 +106741,39 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 108.0, 44.6 ],
+      "player" : {
+        "id" : 8069,
+        "name" : "Matthijs de Ligt"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 111.5, 41.1 ],
+      "player" : {
+        "id" : 8220,
+        "name" : "David Olatukunbo Alaba"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.6, 34.1 ],
+      "player" : {
+        "id" : 3311,
+        "name" : "Daley Blind"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 112.3, 51.2 ],
       "player" : {
         "id" : 8307,
@@ -106804,6 +106782,28 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.8, 43.7 ],
+      "player" : {
+        "id" : 8125,
+        "name" : "Denzel Dumfries"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.1, 45.7 ],
+      "player" : {
+        "id" : 8779,
+        "name" : "Stefan Lainer"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
       },
       "teammate" : false
     }, {
@@ -108384,27 +108384,16 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 104.2, 27.4 ],
+      "location" : [ 92.3, 38.5 ],
       "player" : {
-        "id" : 2988,
-        "name" : "Memphis Depay"
+        "id" : 8518,
+        "name" : "Marcel Sabitzer"
       },
       "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
-      "teammate" : true
-    }, {
-      "location" : [ 111.7, 31.2 ],
-      "player" : {
-        "id" : 3321,
-        "name" : "Patrick van Aanholt"
-      },
-      "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
-      },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 101.3, 34.5 ],
       "player" : {
@@ -108417,6 +108406,39 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 117.7, 37.9 ],
+      "player" : {
+        "id" : 21532,
+        "name" : "Daniel Bachmann"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.7, 31.2 ],
+      "player" : {
+        "id" : 3321,
+        "name" : "Patrick van Aanholt"
+      },
+      "position" : {
+        "id" : 8,
+        "name" : "Left Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 106.7, 45.2 ],
+      "player" : {
+        "id" : 8777,
+        "name" : "Andreas Ulmer"
+      },
+      "position" : {
+        "id" : 8,
+        "name" : "Left Wing Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 86.5, 26.2 ],
       "player" : {
         "id" : 8118,
@@ -108428,14 +108450,25 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 107.8, 44.1 ],
+      "location" : [ 104.2, 33.7 ],
       "player" : {
-        "id" : 8125,
-        "name" : "Denzel Dumfries"
+        "id" : 11396,
+        "name" : "Florian Grillitsch"
       },
       "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.2, 27.4 ],
+      "player" : {
+        "id" : 2988,
+        "name" : "Memphis Depay"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
       },
       "teammate" : true
     }, {
@@ -108461,17 +108494,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.2, 33.7 ],
-      "player" : {
-        "id" : 11396,
-        "name" : "Florian Grillitsch"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 104.4, 36.0 ],
       "player" : {
         "id" : 8307,
@@ -108483,14 +108505,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 106.7, 45.2 ],
+      "location" : [ 107.8, 44.1 ],
       "player" : {
-        "id" : 8777,
-        "name" : "Andreas Ulmer"
+        "id" : 8125,
+        "name" : "Denzel Dumfries"
       },
       "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.8, 31.3 ],
+      "player" : {
+        "id" : 8779,
+        "name" : "Stefan Lainer"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
       },
       "teammate" : false
     }, {
@@ -108502,39 +108535,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.3, 38.5 ],
-      "player" : {
-        "id" : 8518,
-        "name" : "Marcel Sabitzer"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.7, 37.9 ],
-      "player" : {
-        "id" : 21532,
-        "name" : "Daniel Bachmann"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.8, 31.3 ],
-      "player" : {
-        "id" : 8779,
-        "name" : "Stefan Lainer"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
       },
       "teammate" : false
     } ]
@@ -109216,11 +109216,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "b121b495-990f-4872-83c7-55371a87de77",
@@ -111437,11 +111437,11 @@
   "under_pressure" : true,
   "related_events" : [ "19ebc4be-18af-4c7d-905d-d7e4af443159" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "a0e0e790-0827-4e7c-a8e8-b5ded4a8dd04",
@@ -114355,11 +114355,11 @@
   "related_events" : [ "64c9480e-d654-4825-876d-6686d9e5be33", "ec0e2086-5169-43e7-8fc0-7763e1108e79" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "db90f37e-c5bd-4bdc-ae64-1425372d5cc1",
@@ -114397,11 +114397,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "fd953a4f-e922-4f85-b138-2d0fb0927616",
@@ -114596,11 +114596,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 86.4, 28.0 ],
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -114823,6 +114823,28 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
+      "location" : [ 113.2, 35.7 ],
+      "player" : {
+        "id" : 15582,
+        "name" : "Donyell Malen"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.5, 41.2 ],
+      "player" : {
+        "id" : 21532,
+        "name" : "Daniel Bachmann"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 105.3, 41.3 ],
       "player" : {
         "id" : 8220,
@@ -114831,17 +114853,6 @@
       "position" : {
         "id" : 4,
         "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.7, 39.4 ],
-      "player" : {
-        "id" : 8779,
-        "name" : "Stefan Lainer"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
       },
       "teammate" : false
     }, {
@@ -114856,27 +114867,16 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 114.5, 41.2 ],
+      "location" : [ 107.7, 39.4 ],
       "player" : {
-        "id" : 21532,
-        "name" : "Daniel Bachmann"
+        "id" : 8779,
+        "name" : "Stefan Lainer"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 7,
+        "name" : "Right Wing Back"
       },
       "teammate" : false
-    }, {
-      "location" : [ 113.2, 35.7 ],
-      "player" : {
-        "id" : 15582,
-        "name" : "Donyell Malen"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -116963,11 +116963,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "type" : {
       "id" : 61,
       "name" : "Corner"
@@ -117118,69 +117118,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 114.5, 33.1 ],
+      "location" : [ 112.1, 37.2 ],
       "player" : {
-        "id" : 8220,
-        "name" : "David Olatukunbo Alaba"
+        "id" : 3567,
+        "name" : "Georginio Wijnaldum"
       },
       "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.7, 41.3 ],
-      "player" : {
-        "id" : 18762,
-        "name" : "Sasa Kalajdzic"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.1, 37.7 ],
-      "player" : {
-        "id" : 8769,
-        "name" : "Xaver Schlager"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 117.4, 50.0 ],
-      "player" : {
-        "id" : 8118,
-        "name" : "Frenkie de Jong"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.2, 32.7 ],
-      "player" : {
-        "id" : 6994,
-        "name" : "Marten de Roon"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.7, 32.2 ],
-      "player" : {
-        "id" : 7890,
-        "name" : "Owen Wijndal"
-      },
-      "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : false
     }, {
@@ -117194,72 +117139,6 @@
         "name" : "Right Center Forward"
       },
       "teammate" : false
-    }, {
-      "location" : [ 113.9, 35.2 ],
-      "player" : {
-        "id" : 8069,
-        "name" : "Matthijs de Ligt"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.6, 38.3 ],
-      "player" : {
-        "id" : 7787,
-        "name" : "Stefan de Vrij"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.5, 41.3 ],
-      "player" : {
-        "id" : 8125,
-        "name" : "Denzel Dumfries"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.7, 46.7 ],
-      "player" : {
-        "id" : 2988,
-        "name" : "Memphis Depay"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.2, 44.7 ],
-      "player" : {
-        "id" : 3306,
-        "name" : "Nathan Aké"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.8, 49.2 ],
-      "player" : {
-        "id" : 8779,
-        "name" : "Stefan Lainer"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : true
     }, {
       "location" : [ 102.3, 54.8 ],
       "player" : {
@@ -117283,16 +117162,137 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.1, 37.2 ],
+      "location" : [ 111.7, 32.2 ],
       "player" : {
-        "id" : 3567,
-        "name" : "Georginio Wijnaldum"
+        "id" : 7890,
+        "name" : "Owen Wijndal"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 8,
+        "name" : "Left Wing Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 117.4, 50.0 ],
+      "player" : {
+        "id" : 8118,
+        "name" : "Frenkie de Jong"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.7, 41.3 ],
+      "player" : {
+        "id" : 18762,
+        "name" : "Sasa Kalajdzic"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.7, 46.7 ],
+      "player" : {
+        "id" : 2988,
+        "name" : "Memphis Depay"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.6, 38.3 ],
+      "player" : {
+        "id" : 7787,
+        "name" : "Stefan de Vrij"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.5, 33.1 ],
+      "player" : {
+        "id" : 8220,
+        "name" : "David Olatukunbo Alaba"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.9, 35.2 ],
+      "player" : {
+        "id" : 8069,
+        "name" : "Matthijs de Ligt"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.2, 44.7 ],
+      "player" : {
+        "id" : 3306,
+        "name" : "Nathan Aké"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.5, 41.3 ],
+      "player" : {
+        "id" : 8125,
+        "name" : "Denzel Dumfries"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.8, 49.2 ],
+      "player" : {
+        "id" : 8779,
+        "name" : "Stefan Lainer"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 115.2, 32.7 ],
+      "player" : {
+        "id" : 6994,
+        "name" : "Marten de Roon"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.1, 37.7 ],
+      "player" : {
+        "id" : 8769,
+        "name" : "Xaver Schlager"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -118298,11 +118298,11 @@
   "under_pressure" : true,
   "related_events" : [ "030f796b-06f0-4a85-bd72-ff3253e494c5", "e1593ce9-b2ff-4a46-bc7e-1ea35dd4d6a8" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -119441,11 +119441,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -119581,11 +119581,11 @@
     "end_location" : [ 110.2, 40.4 ],
     "assisted_shot_id" : "37574cd8-a517-42ad-bcd6-f3e750145f15",
     "shot_assist" : true,
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
-    "outswinging" : true,
     "type" : {
       "id" : 61,
       "name" : "Corner"
@@ -119729,27 +119729,27 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 115.1, 38.8 ],
+      "location" : [ 115.2, 52.3 ],
       "player" : {
-        "id" : 3969,
-        "name" : "Aleksandar Dragović"
+        "id" : 8518,
+        "name" : "Marcel Sabitzer"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 15,
+        "name" : "Left Center Midfield"
       },
       "teammate" : true
     }, {
-      "location" : [ 104.8, 33.9 ],
+      "location" : [ 111.8, 39.1 ],
       "player" : {
-        "id" : 8307,
-        "name" : "Martin Hinteregger"
+        "id" : 3567,
+        "name" : "Georginio Wijnaldum"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
       "location" : [ 110.3, 38.4 ],
       "player" : {
@@ -119762,50 +119762,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.4, 41.7 ],
-      "player" : {
-        "id" : 8125,
-        "name" : "Denzel Dumfries"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.0, 33.4 ],
-      "player" : {
-        "id" : 6994,
-        "name" : "Marten de Roon"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.5, 41.3 ],
-      "player" : {
-        "id" : 8220,
-        "name" : "David Olatukunbo Alaba"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 98.6, 35.7 ],
-      "player" : {
-        "id" : 8769,
-        "name" : "Xaver Schlager"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 118.3, 40.3 ],
       "player" : {
         "id" : 20201,
@@ -119814,72 +119770,6 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 46.6 ],
-      "player" : {
-        "id" : 2988,
-        "name" : "Memphis Depay"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.3, 48.0 ],
-      "player" : {
-        "id" : 11396,
-        "name" : "Florian Grillitsch"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 115.2, 52.3 ],
-      "player" : {
-        "id" : 8518,
-        "name" : "Marcel Sabitzer"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.3, 51.3 ],
-      "player" : {
-        "id" : 8118,
-        "name" : "Frenkie de Jong"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.2, 44.2 ],
-      "player" : {
-        "id" : 8779,
-        "name" : "Stefan Lainer"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 115.5, 43.1 ],
-      "player" : {
-        "id" : 3306,
-        "name" : "Nathan Aké"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -119894,16 +119784,60 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 111.8, 39.1 ],
+      "location" : [ 114.3, 51.3 ],
       "player" : {
-        "id" : 3567,
-        "name" : "Georginio Wijnaldum"
+        "id" : 8118,
+        "name" : "Frenkie de Jong"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 100.3, 48.0 ],
+      "player" : {
+        "id" : 11396,
+        "name" : "Florian Grillitsch"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.0, 46.6 ],
+      "player" : {
+        "id" : 2988,
+        "name" : "Memphis Depay"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.1, 38.8 ],
+      "player" : {
+        "id" : 3969,
+        "name" : "Aleksandar Dragović"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.5, 41.3 ],
+      "player" : {
+        "id" : 8220,
+        "name" : "David Olatukunbo Alaba"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : true
     }, {
       "location" : [ 113.6, 39.5 ],
       "player" : {
@@ -119915,6 +119849,72 @@
         "name" : "Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 104.8, 33.9 ],
+      "player" : {
+        "id" : 8307,
+        "name" : "Martin Hinteregger"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 115.5, 43.1 ],
+      "player" : {
+        "id" : 3306,
+        "name" : "Nathan Aké"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.4, 41.7 ],
+      "player" : {
+        "id" : 8125,
+        "name" : "Denzel Dumfries"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.2, 44.2 ],
+      "player" : {
+        "id" : 8779,
+        "name" : "Stefan Lainer"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.0, 33.4 ],
+      "player" : {
+        "id" : 6994,
+        "name" : "Marten de Roon"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.6, 35.7 ],
+      "player" : {
+        "id" : 8769,
+        "name" : "Xaver Schlager"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -120054,11 +120054,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
-    },
-    "outswinging" : true
+    }
   }
 }, {
   "id" : "07841653-03ac-455f-ad35-994a124531d1",
@@ -121679,39 +121679,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 103.9, 21.5 ],
-      "player" : {
-        "id" : 7890,
-        "name" : "Owen Wijndal"
-      },
-      "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 94.1, 29.5 ],
-      "player" : {
-        "id" : 15582,
-        "name" : "Donyell Malen"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.4, 52.5 ],
-      "player" : {
-        "id" : 8125,
-        "name" : "Denzel Dumfries"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 99.6, 48.6 ],
       "player" : {
         "id" : 8518,
@@ -121720,61 +121687,6 @@
       "position" : {
         "id" : 15,
         "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.5, 44.6 ],
-      "player" : {
-        "id" : 8777,
-        "name" : "Andreas Ulmer"
-      },
-      "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.2, 34.3 ],
-      "player" : {
-        "id" : 8307,
-        "name" : "Martin Hinteregger"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.8, 30.7 ],
-      "player" : {
-        "id" : 8220,
-        "name" : "David Olatukunbo Alaba"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.1, 27.6 ],
-      "player" : {
-        "id" : 3969,
-        "name" : "Aleksandar Dragović"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.3, 25.1 ],
-      "player" : {
-        "id" : 8779,
-        "name" : "Stefan Lainer"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
       },
       "teammate" : false
     }, {
@@ -121789,6 +121701,61 @@
       },
       "teammate" : true
     }, {
+      "location" : [ 94.1, 29.5 ],
+      "player" : {
+        "id" : 15582,
+        "name" : "Donyell Malen"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 95.5, 20.3 ],
+      "player" : {
+        "id" : 11280,
+        "name" : "Valentino Lazaro"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.3, 40.9 ],
+      "player" : {
+        "id" : 21532,
+        "name" : "Daniel Bachmann"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.9, 21.5 ],
+      "player" : {
+        "id" : 7890,
+        "name" : "Owen Wijndal"
+      },
+      "position" : {
+        "id" : 8,
+        "name" : "Left Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.5, 44.6 ],
+      "player" : {
+        "id" : 8777,
+        "name" : "Andreas Ulmer"
+      },
+      "position" : {
+        "id" : 8,
+        "name" : "Left Wing Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 86.5, 14.5 ],
       "player" : {
         "id" : 8118,
@@ -121799,6 +121766,72 @@
         "name" : "Left Defensive Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 101.0, 19.4 ],
+      "player" : {
+        "id" : 11396,
+        "name" : "Florian Grillitsch"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.1, 27.6 ],
+      "player" : {
+        "id" : 3969,
+        "name" : "Aleksandar Dragović"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.8, 30.7 ],
+      "player" : {
+        "id" : 8220,
+        "name" : "David Olatukunbo Alaba"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.2, 34.3 ],
+      "player" : {
+        "id" : 8307,
+        "name" : "Martin Hinteregger"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.4, 52.5 ],
+      "player" : {
+        "id" : 8125,
+        "name" : "Denzel Dumfries"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 101.3, 25.1 ],
+      "player" : {
+        "id" : 8779,
+        "name" : "Stefan Lainer"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : false
     }, {
       "location" : [ 83.3, 28.9 ],
       "player" : {
@@ -121819,39 +121852,6 @@
       "position" : {
         "id" : 10,
         "name" : "Center Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.3, 40.9 ],
-      "player" : {
-        "id" : 21532,
-        "name" : "Daniel Bachmann"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.0, 19.4 ],
-      "player" : {
-        "id" : 11396,
-        "name" : "Florian Grillitsch"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 95.5, 20.3 ],
-      "player" : {
-        "id" : 11280,
-        "name" : "Valentino Lazaro"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
       },
       "teammate" : false
     } ]
@@ -125823,11 +125823,11 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 82.8, 64.3 ],
+    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    },
-    "no_touch" : true
+    }
   }
 }, {
   "id" : "1a3189a9-277d-4b7b-aced-8fe34ede4d78",
@@ -128457,11 +128457,11 @@
   "under_pressure" : true,
   "related_events" : [ "c8d3ebc2-a7a4-4062-9446-f576cab5b3ab" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "c4a34c83-8881-4e5e-a04a-f5fd19cd6148",
@@ -128642,11 +128642,11 @@
   "under_pressure" : true,
   "related_events" : [ "6a233d83-4571-4dd1-ac47-960acd7dd203", "c4a34c83-8881-4e5e-a04a-f5fd19cd6148" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -131514,11 +131514,11 @@
   "under_pressure" : true,
   "related_events" : [ "1621e09a-08ab-4078-a1a1-89ce20f1236d" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "dabfdb2a-7805-4b38-be2d-d03c910e858c",
@@ -134100,11 +134100,11 @@
   "under_pressure" : true,
   "related_events" : [ "095dbf26-be5b-4ed3-80b3-5158289a880e" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "24068fcc-8a9d-45cb-a2ac-4e11f9b0de36",
@@ -137650,17 +137650,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 106.3, 53.4 ],
-      "player" : {
-        "id" : 7890,
-        "name" : "Owen Wijndal"
-      },
-      "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 117.3, 37.2 ],
       "player" : {
         "id" : 20201,
@@ -137672,36 +137661,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 104.1, 46.1 ],
+      "location" : [ 106.3, 53.4 ],
       "player" : {
-        "id" : 3969,
-        "name" : "Aleksandar Dragović"
+        "id" : 7890,
+        "name" : "Owen Wijndal"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.8, 43.1 ],
-      "player" : {
-        "id" : 18762,
-        "name" : "Sasa Kalajdzic"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.0, 45.1 ],
-      "player" : {
-        "id" : 3306,
-        "name" : "Nathan Aké"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 8,
+        "name" : "Left Wing Back"
       },
       "teammate" : false
     }, {
@@ -137716,17 +137683,6 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 87.3, 37.6 ],
-      "player" : {
-        "id" : 23230,
-        "name" : "Ryan Gravenberch"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 97.5, 31.1 ],
       "player" : {
         "id" : 8118,
@@ -137738,6 +137694,28 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 106.8, 43.1 ],
+      "player" : {
+        "id" : 18762,
+        "name" : "Sasa Kalajdzic"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.1, 46.1 ],
+      "player" : {
+        "id" : 3969,
+        "name" : "Aleksandar Dragović"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 98.3, 25.7 ],
       "player" : {
         "id" : 7787,
@@ -137746,6 +137724,28 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.9, 39.8 ],
+      "player" : {
+        "id" : 8069,
+        "name" : "Matthijs de Ligt"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.0, 45.1 ],
+      "player" : {
+        "id" : 3306,
+        "name" : "Nathan Aké"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -137760,14 +137760,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 106.9, 39.8 ],
+      "location" : [ 87.3, 37.6 ],
       "player" : {
-        "id" : 8069,
-        "name" : "Matthijs de Ligt"
+        "id" : 23230,
+        "name" : "Ryan Gravenberch"
       },
       "position" : {
-        "id" : 4,
-        "name" : "Center Back"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -137954,11 +137954,11 @@
   "under_pressure" : true,
   "related_events" : [ "97411aff-266e-4536-b9a9-d76f7c973a1b" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "b19ccb00-9eda-4b56-8896-3bd4e4079101",
@@ -139795,11 +139795,11 @@
   "under_pressure" : true,
   "related_events" : [ "523da625-8083-4f8a-9fc5-b5fd9acc1e46" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "0b3b959b-4839-4294-af58-c071823053fb",
@@ -140153,39 +140153,6 @@
     },
     "aerial_won" : true,
     "freeze_frame" : [ {
-      "location" : [ 108.5, 9.1 ],
-      "player" : {
-        "id" : 8125,
-        "name" : "Denzel Dumfries"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.5, 10.1 ],
-      "player" : {
-        "id" : 20033,
-        "name" : "Luuk de Jong"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.7, 4.4 ],
-      "player" : {
-        "id" : 8777,
-        "name" : "Andreas Ulmer"
-      },
-      "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 98.5, 32.8 ],
       "player" : {
         "id" : 8518,
@@ -140196,17 +140163,6 @@
         "name" : "Left Center Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 105.0, 33.7 ],
-      "player" : {
-        "id" : 8118,
-        "name" : "Frenkie de Jong"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
     }, {
       "location" : [ 105.3, 46.5 ],
       "player" : {
@@ -140219,72 +140175,6 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 112.6, 50.3 ],
-      "player" : {
-        "id" : 7890,
-        "name" : "Owen Wijndal"
-      },
-      "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.1, 46.2 ],
-      "player" : {
-        "id" : 3969,
-        "name" : "Aleksandar Dragović"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.7, 35.1 ],
-      "player" : {
-        "id" : 8069,
-        "name" : "Matthijs de Ligt"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 40.1 ],
-      "player" : {
-        "id" : 23230,
-        "name" : "Ryan Gravenberch"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.4, 39.7 ],
-      "player" : {
-        "id" : 3306,
-        "name" : "Nathan Aké"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.3, 40.5 ],
-      "player" : {
-        "id" : 8769,
-        "name" : "Xaver Schlager"
-      },
-      "position" : {
-        "id" : 10,
-        "name" : "Center Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 112.6, 36.7 ],
       "player" : {
         "id" : 11280,
@@ -140293,17 +140183,6 @@
       "position" : {
         "id" : 22,
         "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.6, 51.9 ],
-      "player" : {
-        "id" : 8779,
-        "name" : "Stefan Lainer"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
       },
       "teammate" : true
     }, {
@@ -140318,6 +140197,61 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 107.7, 4.4 ],
+      "player" : {
+        "id" : 8777,
+        "name" : "Andreas Ulmer"
+      },
+      "position" : {
+        "id" : 8,
+        "name" : "Left Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.6, 50.3 ],
+      "player" : {
+        "id" : 7890,
+        "name" : "Owen Wijndal"
+      },
+      "position" : {
+        "id" : 8,
+        "name" : "Left Wing Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.0, 33.7 ],
+      "player" : {
+        "id" : 8118,
+        "name" : "Frenkie de Jong"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.5, 10.1 ],
+      "player" : {
+        "id" : 20033,
+        "name" : "Luuk de Jong"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.1, 46.2 ],
+      "player" : {
+        "id" : 3969,
+        "name" : "Aleksandar Dragović"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 113.0, 32.5 ],
       "player" : {
         "id" : 7787,
@@ -140328,6 +140262,72 @@
         "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 113.7, 35.1 ],
+      "player" : {
+        "id" : 8069,
+        "name" : "Matthijs de Ligt"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.4, 39.7 ],
+      "player" : {
+        "id" : 3306,
+        "name" : "Nathan Aké"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.5, 9.1 ],
+      "player" : {
+        "id" : 8125,
+        "name" : "Denzel Dumfries"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.6, 51.9 ],
+      "player" : {
+        "id" : 8779,
+        "name" : "Stefan Lainer"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.0, 40.1 ],
+      "player" : {
+        "id" : 23230,
+        "name" : "Ryan Gravenberch"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.3, 40.5 ],
+      "player" : {
+        "id" : 8769,
+        "name" : "Xaver Schlager"
+      },
+      "position" : {
+        "id" : 10,
+        "name" : "Center Defensive Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -141917,11 +141917,11 @@
   "under_pressure" : true,
   "related_events" : [ "6e9e6f5e-9ac7-4e6d-9cd2-36e122940279", "9e9a4ee4-6374-4f66-a79c-17502bb81457" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -142264,14 +142264,36 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 107.2, 43.9 ],
+      "location" : [ 101.7, 64.0 ],
       "player" : {
-        "id" : 3306,
-        "name" : "Nathan Aké"
+        "id" : 11280,
+        "name" : "Valentino Lazaro"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 118.9, 37.0 ],
+      "player" : {
+        "id" : 20201,
+        "name" : "Maarten Stekelenburg"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.7, 56.0 ],
+      "player" : {
+        "id" : 7890,
+        "name" : "Owen Wijndal"
+      },
+      "position" : {
+        "id" : 8,
+        "name" : "Left Wing Back"
       },
       "teammate" : false
     }, {
@@ -142283,6 +142305,50 @@
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.3, 54.5 ],
+      "player" : {
+        "id" : 18762,
+        "name" : "Sasa Kalajdzic"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.4, 35.0 ],
+      "player" : {
+        "id" : 7787,
+        "name" : "Stefan de Vrij"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.6, 46.6 ],
+      "player" : {
+        "id" : 8069,
+        "name" : "Matthijs de Ligt"
+      },
+      "position" : {
+        "id" : 4,
+        "name" : "Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.2, 43.9 ],
+      "player" : {
+        "id" : 3306,
+        "name" : "Nathan Aké"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -142305,72 +142371,6 @@
       "position" : {
         "id" : 9,
         "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.6, 46.6 ],
-      "player" : {
-        "id" : 8069,
-        "name" : "Matthijs de Ligt"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.3, 54.5 ],
-      "player" : {
-        "id" : 18762,
-        "name" : "Sasa Kalajdzic"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.7, 64.0 ],
-      "player" : {
-        "id" : 11280,
-        "name" : "Valentino Lazaro"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.7, 56.0 ],
-      "player" : {
-        "id" : 7890,
-        "name" : "Owen Wijndal"
-      },
-      "position" : {
-        "id" : 8,
-        "name" : "Left Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.9, 37.0 ],
-      "player" : {
-        "id" : 20201,
-        "name" : "Maarten Stekelenburg"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.4, 35.0 ],
-      "player" : {
-        "id" : 7787,
-        "name" : "Stefan de Vrij"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : false
     } ]
@@ -142522,11 +142522,11 @@
   "under_pressure" : true,
   "related_events" : [ "2bcfbf55-5ed3-4136-8ecf-f256b8183204" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "de9b1333-f20a-413b-b2d3-5c7c03698e36",
@@ -142564,11 +142564,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "f7b4846b-cc83-4b89-a4ac-999300a7f445",
@@ -145635,11 +145635,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
-    },
-    "outswinging" : true
+    }
   }
 }, {
   "id" : "a4e1f87e-3f1d-476e-8e49-1e4c01896384",
@@ -145761,11 +145761,11 @@
   "under_pressure" : true,
   "related_events" : [ "1c40f827-745a-4373-ad7c-20cb91d0cf82", "f73a9378-f090-4372-93f7-c3a21fa4bc84" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -151817,28 +151817,6 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 108.9, 41.0 ],
-      "player" : {
-        "id" : 11278,
-        "name" : "Karim Onisiwo"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.5, 40.3 ],
-      "player" : {
-        "id" : 8069,
-        "name" : "Matthijs de Ligt"
-      },
-      "position" : {
-        "id" : 4,
-        "name" : "Center Back"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 117.9, 40.7 ],
       "player" : {
         "id" : 20201,
@@ -151847,39 +151825,6 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.1, 38.9 ],
-      "player" : {
-        "id" : 7787,
-        "name" : "Stefan de Vrij"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.7, 33.1 ],
-      "player" : {
-        "id" : 8125,
-        "name" : "Denzel Dumfries"
-      },
-      "position" : {
-        "id" : 7,
-        "name" : "Right Wing Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.3, 66.0 ],
-      "player" : {
-        "id" : 3306,
-        "name" : "Nathan Aké"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -151905,6 +151850,39 @@
       },
       "teammate" : false
     }, {
+      "location" : [ 110.5, 49.1 ],
+      "player" : {
+        "id" : 11396,
+        "name" : "Florian Grillitsch"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.9, 41.0 ],
+      "player" : {
+        "id" : 11278,
+        "name" : "Karim Onisiwo"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.1, 38.9 ],
+      "player" : {
+        "id" : 7787,
+        "name" : "Stefan de Vrij"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 110.6, 62.1 ],
       "player" : {
         "id" : 8518,
@@ -151916,16 +151894,38 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 110.5, 49.1 ],
+      "location" : [ 109.5, 40.3 ],
       "player" : {
-        "id" : 11396,
-        "name" : "Florian Grillitsch"
+        "id" : 8069,
+        "name" : "Matthijs de Ligt"
       },
       "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 4,
+        "name" : "Center Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 106.3, 66.0 ],
+      "player" : {
+        "id" : 3306,
+        "name" : "Nathan Aké"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.7, 33.1 ],
+      "player" : {
+        "id" : 8125,
+        "name" : "Denzel Dumfries"
+      },
+      "position" : {
+        "id" : 7,
+        "name" : "Right Wing Back"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -157470,6 +157470,28 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
+      "location" : [ 93.0, 41.4 ],
+      "player" : {
+        "id" : 8220,
+        "name" : "David Olatukunbo Alaba"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.2, 33.5 ],
+      "player" : {
+        "id" : 3567,
+        "name" : "Georginio Wijnaldum"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 117.9, 43.0 ],
       "player" : {
         "id" : 21532,
@@ -157481,25 +157503,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 86.7, 28.9 ],
+      "location" : [ 104.7, 35.5 ],
       "player" : {
-        "id" : 8518,
-        "name" : "Marcel Sabitzer"
+        "id" : 11396,
+        "name" : "Florian Grillitsch"
       },
       "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.0, 41.4 ],
-      "player" : {
-        "id" : 8220,
-        "name" : "David Olatukunbo Alaba"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : false
     }, {
@@ -157514,25 +157525,14 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 100.2, 33.5 ],
+      "location" : [ 86.7, 28.9 ],
       "player" : {
-        "id" : 3567,
-        "name" : "Georginio Wijnaldum"
+        "id" : 8518,
+        "name" : "Marcel Sabitzer"
       },
       "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 104.7, 35.5 ],
-      "player" : {
-        "id" : 11396,
-        "name" : "Florian Grillitsch"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 16,
+        "name" : "Left Midfield"
       },
       "teammate" : false
     }, {
@@ -158864,11 +158864,11 @@
   "under_pressure" : true,
   "related_events" : [ "1a8a88eb-59bd-4231-a8c8-15748b5efc6a" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "3621ca05-7d29-41a4-8eda-9fdaa4ef0e3e",
