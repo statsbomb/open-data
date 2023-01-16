@@ -3617,13 +3617,13 @@
   "duration" : 0.0,
   "counterpress" : true,
   "foul_committed" : {
-    "type" : {
-      "id" : 24,
-      "name" : "Handball"
-    },
     "card" : {
       "id" : 7,
       "name" : "Yellow Card"
+    },
+    "type" : {
+      "id" : 24,
+      "name" : "Handball"
     }
   }
 }, {
@@ -3773,17 +3773,17 @@
       "name" : "High Pass"
     },
     "end_location" : [ 83.0, 26.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     },
     "type" : {
       "id" : 63,
       "name" : "Goal Kick"
     },
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -3916,15 +3916,15 @@
       "name" : "High Pass"
     },
     "end_location" : [ 58.0, 62.0 ],
-    "aerial_won" : true,
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
+    },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
     },
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
-    }
+    "aerial_won" : true
   }
 }, {
   "id" : "adc73be8-350c-4395-8396-c31e8f2a81cd",
@@ -4013,13 +4013,13 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 75.0, 9.0 ],
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
-    },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
+    },
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     }
   }
 }, {
@@ -4626,11 +4626,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 91.0, 43.0 ],
+    "aerial_won" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
-    },
-    "aerial_won" : true
+    }
   }
 }, {
   "id" : "ad09d11e-dfa6-4596-82a8-7800de59bee2",
@@ -4719,13 +4719,13 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 44.0, 38.0 ],
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
-    },
     "body_part" : {
       "id" : 37,
       "name" : "Head"
+    },
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
     }
   }
 }, {
@@ -5979,113 +5979,25 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 93.0, 47.0 ],
+      "location" : [ 116.0, 41.0 ],
       "player" : {
-        "id" : 5475,
-        "name" : "John Michael Nchekwube Obinna"
+        "id" : 3461,
+        "name" : "Petr Čech"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 86.0, 31.0 ],
+      "location" : [ 98.0, 20.0 ],
       "player" : {
-        "id" : 8575,
-        "name" : "Salomon Armand Magloire Kalou"
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 95.0, 56.0 ],
-      "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.0, 41.0 ],
-      "player" : {
-        "id" : 3294,
-        "name" : "Juan Manuel Mata García"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 53.0 ],
-      "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 47.0 ],
-      "player" : {
-        "id" : 3956,
-        "name" : "David Luiz Moreira Marinho"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.0, 39.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.0, 34.0 ],
-      "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.0, 52.0 ],
-      "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 93.0, 41.0 ],
-      "player" : {
-        "id" : 5562,
-        "name" : "Thomas Müller"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : true
     }, {
@@ -6100,25 +6012,113 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 98.0, 20.0 ],
+      "location" : [ 93.0, 41.0 ],
       "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
+        "id" : 5562,
+        "name" : "Thomas Müller"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
     }, {
-      "location" : [ 116.0, 41.0 ],
+      "location" : [ 100.0, 52.0 ],
       "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
+        "id" : 5565,
+        "name" : "Mario Gómez García"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.0, 34.0 ],
+      "player" : {
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.0, 39.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 47.0 ],
+      "player" : {
+        "id" : 3956,
+        "name" : "David Luiz Moreira Marinho"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 53.0 ],
+      "player" : {
+        "id" : 12529,
+        "name" : "Ashley Cole"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.0, 41.0 ],
+      "player" : {
+        "id" : 3294,
+        "name" : "Juan Manuel Mata García"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 95.0, 56.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 86.0, 31.0 ],
+      "player" : {
+        "id" : 8575,
+        "name" : "Salomon Armand Magloire Kalou"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 93.0, 47.0 ],
+      "player" : {
+        "id" : 5475,
+        "name" : "John Michael Nchekwube Obinna"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -6247,6 +6247,10 @@
       "name" : "High Pass"
     },
     "end_location" : [ 115.0, 39.0 ],
+    "type" : {
+      "id" : 61,
+      "name" : "Corner"
+    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -6254,10 +6258,6 @@
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "type" : {
-      "id" : 61,
-      "name" : "Corner"
     }
   }
 }, {
@@ -6733,13 +6733,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 115.0, 12.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -7030,146 +7030,36 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 110.0, 33.0 ],
+      "location" : [ 97.0, 33.0 ],
       "player" : {
-        "id" : 5475,
-        "name" : "John Michael Nchekwube Obinna"
+        "id" : 8575,
+        "name" : "Salomon Armand Magloire Kalou"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
-      "location" : [ 119.0, 20.0 ],
+      "location" : [ 107.0, 56.0 ],
       "player" : {
-        "id" : 4628,
-        "name" : "Diego Armando Valentin Contento"
+        "id" : 8218,
+        "name" : "Arjen Robben"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
-      "location" : [ 117.0, 24.0 ],
+      "location" : [ 105.0, 18.0 ],
       "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.0, 47.0 ],
-      "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.0, 40.0 ],
-      "player" : {
-        "id" : 20045,
-        "name" : "Ryan Bertrand"
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
       },
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 29.0 ],
-      "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 36.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 40.0 ],
-      "player" : {
-        "id" : 3956,
-        "name" : "David Luiz Moreira Marinho"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.0, 30.0 ],
-      "player" : {
-        "id" : 20352,
-        "name" : "Didier Yves Drogba Tébily"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.0, 21.0 ],
-      "player" : {
-        "id" : 3294,
-        "name" : "Juan Manuel Mata García"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 31.0 ],
-      "player" : {
-        "id" : 18414,
-        "name" : "Bastian Schweinsteiger"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.0, 44.0 ],
-      "player" : {
-        "id" : 5562,
-        "name" : "Thomas Müller"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.0, 37.0 ],
-      "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -7184,36 +7074,146 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 105.0, 18.0 ],
+      "location" : [ 107.0, 37.0 ],
       "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
+        "id" : 5565,
+        "name" : "Mario Gómez García"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 106.0, 44.0 ],
+      "player" : {
+        "id" : 5562,
+        "name" : "Thomas Müller"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.0, 31.0 ],
+      "player" : {
+        "id" : 18414,
+        "name" : "Bastian Schweinsteiger"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.0, 21.0 ],
+      "player" : {
+        "id" : 3294,
+        "name" : "Juan Manuel Mata García"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.0, 30.0 ],
+      "player" : {
+        "id" : 20352,
+        "name" : "Didier Yves Drogba Tébily"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.0, 40.0 ],
+      "player" : {
+        "id" : 3956,
+        "name" : "David Luiz Moreira Marinho"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 36.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 29.0 ],
+      "player" : {
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.0, 40.0 ],
+      "player" : {
+        "id" : 20045,
+        "name" : "Ryan Bertrand"
       },
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 107.0, 56.0 ],
+      "location" : [ 112.0, 47.0 ],
       "player" : {
-        "id" : 8218,
-        "name" : "Arjen Robben"
+        "id" : 12529,
+        "name" : "Ashley Cole"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.0, 24.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.0, 20.0 ],
+      "player" : {
+        "id" : 4628,
+        "name" : "Diego Armando Valentin Contento"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : true
     }, {
-      "location" : [ 97.0, 33.0 ],
+      "location" : [ 110.0, 33.0 ],
       "player" : {
-        "id" : 8575,
-        "name" : "Salomon Armand Magloire Kalou"
+        "id" : 5475,
+        "name" : "John Michael Nchekwube Obinna"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -7498,6 +7498,10 @@
       "name" : "High Pass"
     },
     "end_location" : [ 45.0, 57.0 ],
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
+    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -7505,10 +7509,6 @@
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
-    },
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
     }
   }
 }, {
@@ -10360,13 +10360,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 99.0, 55.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -12281,13 +12281,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 118.0, 62.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -13934,13 +13934,13 @@
     "end_location" : [ 87.0, 65.0 ],
     "assisted_shot_id" : "3063b4dd-e60e-483d-8890-f06484512fea",
     "shot_assist" : true,
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
-    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
+    },
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
     }
   }
 }, {
@@ -14054,6 +14054,10 @@
     "statsbomb_xg" : 0.02553672,
     "end_location" : [ 120.0, 35.4, 6.5 ],
     "key_pass_id" : "6a0fafbd-472c-4e91-904f-12cd9580ccef",
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
+    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -14065,10 +14069,6 @@
     "outcome" : {
       "id" : 98,
       "name" : "Off T"
-    },
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
     },
     "freeze_frame" : [ {
       "location" : [ 101.0, 43.0 ],
@@ -14265,6 +14265,10 @@
       "name" : "High Pass"
     },
     "end_location" : [ 73.0, 10.0 ],
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
+    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -14272,10 +14276,6 @@
     "type" : {
       "id" : 63,
       "name" : "Goal Kick"
-    },
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
     }
   }
 }, {
@@ -14505,13 +14505,13 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 62.0, 23.0 ],
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
-    },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
+    },
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     }
   }
 }, {
@@ -18347,13 +18347,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 34.0, 34.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -21131,13 +21131,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 92.0, 15.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -21672,13 +21672,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 68.0, 26.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -21728,13 +21728,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 70.0, 54.0 ],
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
-    },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
+    },
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     }
   }
 }, {
@@ -21930,13 +21930,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 65.0, 26.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -22392,13 +22392,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 90.0, 56.0 ],
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
-    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
+    },
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     }
   }
 }, {
@@ -23008,22 +23008,22 @@
     "statsbomb_xg" : 0.08660702,
     "end_location" : [ 120.0, 38.0, 5.3 ],
     "key_pass_id" : "e50e3982-d8e4-4b25-9ef1-674afa910f72",
-    "aerial_won" : true,
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
-    },
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
+    "technique" : {
+      "id" : 90,
+      "name" : "Diving Header"
     },
     "outcome" : {
       "id" : 98,
       "name" : "Off T"
     },
-    "technique" : {
-      "id" : 90,
-      "name" : "Diving Header"
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
+    },
+    "aerial_won" : true,
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     },
     "freeze_frame" : [ {
       "location" : [ 102.0, 45.0 ],
@@ -23207,13 +23207,13 @@
   "related_events" : [ "94b83ce9-5ac2-4d3a-860f-f4ad92cd7e1b" ],
   "goalkeeper" : {
     "end_location" : [ 2.0, 40.0 ],
-    "position" : {
-      "id" : 44,
-      "name" : "Set"
-    },
     "type" : {
       "id" : 32,
       "name" : "Shot Faced"
+    },
+    "position" : {
+      "id" : 44,
+      "name" : "Set"
     }
   }
 }, {
@@ -24977,17 +24977,17 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 58.0, 62.0 ],
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
     },
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     }
   }
 }, {
@@ -25077,13 +25077,13 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 75.0, 11.0 ],
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
-    },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
+    },
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     }
   }
 }, {
@@ -26137,17 +26137,17 @@
       "name" : "High Pass"
     },
     "end_location" : [ 59.0, 26.0 ],
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
     },
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
     }
   }
 }, {
@@ -33012,6 +33012,15 @@
     "statsbomb_xg" : 0.029686535,
     "end_location" : [ 114.0, 40.0 ],
     "key_pass_id" : "59be132f-92cc-4089-904e-421563a7d3e0",
+    "first_time" : true,
+    "outcome" : {
+      "id" : 96,
+      "name" : "Blocked"
+    },
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
+    },
     "technique" : {
       "id" : 95,
       "name" : "Volley"
@@ -33020,156 +33029,26 @@
       "id" : 38,
       "name" : "Left Foot"
     },
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 96,
-      "name" : "Blocked"
-    },
-    "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 114.0, 33.0 ],
+      "location" : [ 106.0, 49.0 ],
       "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
+        "id" : 8575,
+        "name" : "Salomon Armand Magloire Kalou"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
-      "location" : [ 114.0, 40.0 ],
+      "location" : [ 102.0, 34.0 ],
       "player" : {
-        "id" : 5475,
-        "name" : "John Michael Nchekwube Obinna"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 41.0 ],
-      "player" : {
-        "id" : 20045,
-        "name" : "Ryan Bertrand"
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
       },
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.0, 43.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 120.0, 38.0 ],
-      "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.0, 36.0 ],
-      "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 33.0 ],
-      "player" : {
-        "id" : 3956,
-        "name" : "David Luiz Moreira Marinho"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.0, 38.0 ],
-      "player" : {
-        "id" : 20352,
-        "name" : "Didier Yves Drogba Tébily"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.0, 36.0 ],
-      "player" : {
-        "id" : 3294,
-        "name" : "Juan Manuel Mata García"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 120.0, 41.0 ],
-      "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.0, 44.0 ],
-      "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.0, 32.0 ],
-      "player" : {
-        "id" : 5562,
-        "name" : "Thomas Müller"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.0, 38.0 ],
-      "player" : {
-        "id" : 19295,
-        "name" : "Philipp Lahm"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
       },
       "teammate" : true
     }, {
@@ -33184,25 +33063,146 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 102.0, 34.0 ],
+      "location" : [ 114.0, 38.0 ],
       "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
+        "id" : 19295,
+        "name" : "Philipp Lahm"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.0, 32.0 ],
+      "player" : {
+        "id" : 5562,
+        "name" : "Thomas Müller"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.0, 44.0 ],
+      "player" : {
+        "id" : 5565,
+        "name" : "Mario Gómez García"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 120.0, 41.0 ],
+      "player" : {
+        "id" : 3461,
+        "name" : "Petr Čech"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.0, 36.0 ],
+      "player" : {
+        "id" : 3294,
+        "name" : "Juan Manuel Mata García"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.0, 38.0 ],
+      "player" : {
+        "id" : 20352,
+        "name" : "Didier Yves Drogba Tébily"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.0, 33.0 ],
+      "player" : {
+        "id" : 3956,
+        "name" : "David Luiz Moreira Marinho"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.0, 36.0 ],
+      "player" : {
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 120.0, 38.0 ],
+      "player" : {
+        "id" : 12529,
+        "name" : "Ashley Cole"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.0, 43.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 41.0 ],
+      "player" : {
+        "id" : 20045,
+        "name" : "Ryan Bertrand"
       },
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 106.0, 49.0 ],
+      "location" : [ 114.0, 40.0 ],
       "player" : {
-        "id" : 8575,
-        "name" : "Salomon Armand Magloire Kalou"
+        "id" : 5475,
+        "name" : "John Michael Nchekwube Obinna"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.0, 33.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -34082,13 +34082,13 @@
     "end_location" : [ 107.0, 80.0 ],
     "cross" : true,
     "switch" : true,
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 75,
       "name" : "Out"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -34609,13 +34609,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 42.0, 26.0 ],
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
-    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
+    },
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
     }
   }
 }, {
@@ -38371,6 +38371,14 @@
     "statsbomb_xg" : 0.094639905,
     "end_location" : [ 119.0, 37.6, 0.2 ],
     "key_pass_id" : "89965d59-2a52-41e5-b418-b4adb15b062b",
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
+    },
     "outcome" : {
       "id" : 100,
       "name" : "Saved"
@@ -38378,14 +38386,6 @@
     "technique" : {
       "id" : 93,
       "name" : "Normal"
-    },
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
     },
     "freeze_frame" : [ {
       "location" : [ 102.0, 25.0 ],
@@ -38557,6 +38557,14 @@
   "duration" : 0.0,
   "related_events" : [ "e62f96c8-620a-4c26-8f54-92b7f25d7055" ],
   "goalkeeper" : {
+    "outcome" : {
+      "id" : 52,
+      "name" : "In Play Danger"
+    },
+    "type" : {
+      "id" : 33,
+      "name" : "Shot Saved"
+    },
     "technique" : {
       "id" : 46,
       "name" : "Standing"
@@ -38568,14 +38576,6 @@
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "type" : {
-      "id" : 33,
-      "name" : "Shot Saved"
-    },
-    "outcome" : {
-      "id" : 52,
-      "name" : "In Play Danger"
     }
   }
 }, {
@@ -38622,6 +38622,10 @@
     },
     "end_location" : [ 114.0, 38.0 ],
     "cross" : true,
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
+    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -38629,10 +38633,6 @@
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
     }
   }
 }, {
@@ -38715,17 +38715,17 @@
     },
     "end_location" : [ 113.0, 43.0 ],
     "switch" : true,
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
+    "type" : {
+      "id" : 61,
+      "name" : "Corner"
     },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
     },
-    "type" : {
-      "id" : 61,
-      "name" : "Corner"
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -40581,13 +40581,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 111.0, 66.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -40975,13 +40975,13 @@
     },
     "end_location" : [ 107.0, 45.0 ],
     "cross" : true,
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     }
   }
 }, {
@@ -41067,17 +41067,17 @@
       "name" : "High Pass"
     },
     "end_location" : [ 44.0, 23.0 ],
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
     },
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     }
   }
 }, {
@@ -43387,13 +43387,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 69.0, 17.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -43887,13 +43887,13 @@
   "duration" : 0.0,
   "related_events" : [ "c6a0b785-3270-400d-b3e4-3e1be860712c" ],
   "goalkeeper" : {
-    "outcome" : {
-      "id" : 15,
-      "name" : "Success"
-    },
     "type" : {
       "id" : 25,
       "name" : "Collected"
+    },
+    "outcome" : {
+      "id" : 15,
+      "name" : "Success"
     }
   }
 }, {
@@ -44852,13 +44852,13 @@
   "under_pressure" : true,
   "related_events" : [ "2e0f4964-1bff-4cc9-9b4b-63a06d40a7a9" ],
   "duel" : {
-    "outcome" : {
-      "id" : 13,
-      "name" : "Lost In Play"
-    },
     "type" : {
       "id" : 11,
       "name" : "Tackle"
+    },
+    "outcome" : {
+      "id" : 13,
+      "name" : "Lost In Play"
     }
   }
 }, {
@@ -45548,13 +45548,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 71.0, 27.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -46436,13 +46436,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 103.0, 12.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -52164,13 +52164,13 @@
   "counterpress" : true,
   "related_events" : [ "ebaa191f-19d9-4c43-b088-de095f93ca4b" ],
   "duel" : {
-    "type" : {
-      "id" : 11,
-      "name" : "Tackle"
-    },
     "outcome" : {
       "id" : 14,
       "name" : "Lost Out"
+    },
+    "type" : {
+      "id" : 11,
+      "name" : "Tackle"
     }
   }
 }, {
@@ -53099,13 +53099,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 58.0, 12.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -54046,6 +54046,15 @@
   "shot" : {
     "statsbomb_xg" : 0.048772693,
     "end_location" : [ 120.0, 42.4, 0.9 ],
+    "technique" : {
+      "id" : 91,
+      "name" : "Half Volley"
+    },
+    "first_time" : true,
+    "outcome" : {
+      "id" : 100,
+      "name" : "Saved"
+    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -54053,15 +54062,6 @@
     "type" : {
       "id" : 87,
       "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 100,
-      "name" : "Saved"
-    },
-    "first_time" : true,
-    "technique" : {
-      "id" : 91,
-      "name" : "Half Volley"
     },
     "freeze_frame" : [ {
       "location" : [ 107.0, 64.0 ],
@@ -54233,6 +54233,18 @@
   "duration" : 0.0,
   "related_events" : [ "77d6f86a-2f39-4edc-94c9-edfe465f442e" ],
   "goalkeeper" : {
+    "outcome" : {
+      "id" : 15,
+      "name" : "Success"
+    },
+    "type" : {
+      "id" : 33,
+      "name" : "Shot Saved"
+    },
+    "body_part" : {
+      "id" : 35,
+      "name" : "Both Hands"
+    },
     "technique" : {
       "id" : 46,
       "name" : "Standing"
@@ -54240,18 +54252,6 @@
     "position" : {
       "id" : 44,
       "name" : "Set"
-    },
-    "body_part" : {
-      "id" : 35,
-      "name" : "Both Hands"
-    },
-    "type" : {
-      "id" : 33,
-      "name" : "Shot Saved"
-    },
-    "outcome" : {
-      "id" : 15,
-      "name" : "Success"
     }
   }
 }, {
@@ -55370,6 +55370,14 @@
   "shot" : {
     "statsbomb_xg" : 0.04511206,
     "end_location" : [ 119.0, 42.4, 3.8 ],
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
+    },
+    "outcome" : {
+      "id" : 98,
+      "name" : "Off T"
+    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -55378,15 +55386,73 @@
       "id" : 62,
       "name" : "Free Kick"
     },
-    "outcome" : {
-      "id" : 98,
-      "name" : "Off T"
-    },
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
-    },
     "freeze_frame" : [ {
+      "location" : [ 106.0, 52.0 ],
+      "player" : {
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 51.0 ],
+      "player" : {
+        "id" : 5574,
+        "name" : "Toni Kroos"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 50.0 ],
+      "player" : {
+        "id" : 5562,
+        "name" : "Thomas Müller"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 49.0 ],
+      "player" : {
+        "id" : 18414,
+        "name" : "Bastian Schweinsteiger"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 58.0 ],
+      "player" : {
+        "id" : 20352,
+        "name" : "Didier Yves Drogba Tébily"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.0, 39.0 ],
+      "player" : {
+        "id" : 19295,
+        "name" : "Philipp Lahm"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 108.0, 32.0 ],
       "player" : {
         "id" : 8575,
@@ -55472,72 +55538,6 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 39.0 ],
-      "player" : {
-        "id" : 19295,
-        "name" : "Philipp Lahm"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 58.0 ],
-      "player" : {
-        "id" : 20352,
-        "name" : "Didier Yves Drogba Tébily"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.0, 49.0 ],
-      "player" : {
-        "id" : 18414,
-        "name" : "Bastian Schweinsteiger"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 50.0 ],
-      "player" : {
-        "id" : 5562,
-        "name" : "Thomas Müller"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 51.0 ],
-      "player" : {
-        "id" : 5574,
-        "name" : "Toni Kroos"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 52.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
       },
       "teammate" : false
     } ]
@@ -56805,23 +56805,67 @@
     "statsbomb_xg" : 0.017946493,
     "end_location" : [ 120.0, 35.0, 0.2 ],
     "key_pass_id" : "b2ca1cb6-0701-44ef-b971-b02c16476d5d",
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 98,
-      "name" : "Off T"
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     },
     "technique" : {
       "id" : 93,
       "name" : "Normal"
     },
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
+    "outcome" : {
+      "id" : 98,
+      "name" : "Off T"
+    },
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 108.0, 21.0 ],
+      "player" : {
+        "id" : 8575,
+        "name" : "Salomon Armand Magloire Kalou"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.0, 41.0 ],
+      "player" : {
+        "id" : 3461,
+        "name" : "Petr Čech"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.0, 22.0 ],
+      "player" : {
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.0, 28.0 ],
+      "player" : {
+        "id" : 8218,
+        "name" : "Arjen Robben"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 104.0, 25.0 ],
       "player" : {
         "id" : 5475,
@@ -56907,50 +56951,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.0, 28.0 ],
-      "player" : {
-        "id" : 8218,
-        "name" : "Arjen Robben"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.0, 22.0 ],
-      "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.0, 41.0 ],
-      "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.0, 21.0 ],
-      "player" : {
-        "id" : 8575,
-        "name" : "Salomon Armand Magloire Kalou"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
       },
       "teammate" : false
     } ]
@@ -57765,6 +57765,14 @@
     "statsbomb_xg" : 0.11505003,
     "end_location" : [ 120.0, 34.0, 0.5 ],
     "key_pass_id" : "17d716be-123c-4f70-a125-f705de632623",
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
+    },
+    "technique" : {
+      "id" : 95,
+      "name" : "Volley"
+    },
     "type" : {
       "id" : 87,
       "name" : "Open Play"
@@ -57774,15 +57782,62 @@
       "name" : "Off T"
     },
     "first_time" : true,
-    "technique" : {
-      "id" : 95,
-      "name" : "Volley"
-    },
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "freeze_frame" : [ {
+      "location" : [ 110.0, 18.0 ],
+      "player" : {
+        "id" : 8575,
+        "name" : "Salomon Armand Magloire Kalou"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.0, 40.0 ],
+      "player" : {
+        "id" : 3461,
+        "name" : "Petr Čech"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.0, 25.0 ],
+      "player" : {
+        "id" : 5574,
+        "name" : "Toni Kroos"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 111.0, 57.0 ],
+      "player" : {
+        "id" : 8218,
+        "name" : "Arjen Robben"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.0, 14.0 ],
+      "player" : {
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 101.0, 24.0 ],
       "player" : {
         "id" : 5475,
@@ -57870,61 +57925,6 @@
         "name" : "Center Forward"
       },
       "teammate" : true
-    }, {
-      "location" : [ 104.0, 14.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 111.0, 57.0 ],
-      "player" : {
-        "id" : 8218,
-        "name" : "Arjen Robben"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 97.0, 25.0 ],
-      "player" : {
-        "id" : 5574,
-        "name" : "Toni Kroos"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 119.0, 40.0 ],
-      "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 18.0 ],
-      "player" : {
-        "id" : 8575,
-        "name" : "Salomon Armand Magloire Kalou"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -57964,13 +57964,13 @@
   "related_events" : [ "c4a2e7ea-f127-4707-b523-421eaae6ac0a" ],
   "goalkeeper" : {
     "end_location" : [ 2.0, 40.0 ],
-    "position" : {
-      "id" : 44,
-      "name" : "Set"
-    },
     "type" : {
       "id" : 32,
       "name" : "Shot Faced"
+    },
+    "position" : {
+      "id" : 44,
+      "name" : "Set"
     }
   }
 }, {
@@ -61844,6 +61844,10 @@
     "statsbomb_xg" : 0.03800339,
     "end_location" : [ 119.0, 43.8, 1.1 ],
     "key_pass_id" : "1aa31c09-72ba-4dfd-b072-d19c23c55c27",
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
+    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -61857,11 +61861,84 @@
       "name" : "Saved"
     },
     "first_time" : true,
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
-    },
     "freeze_frame" : [ {
+      "location" : [ 108.0, 35.0 ],
+      "player" : {
+        "id" : 13014,
+        "name" : "Anatoliy Tymoshchuk"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.0, 40.0 ],
+      "player" : {
+        "id" : 5578,
+        "name" : "Jérôme Boateng"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.0, 50.0 ],
+      "player" : {
+        "id" : 4628,
+        "name" : "Diego Armando Valentin Contento"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.0, 42.0 ],
+      "player" : {
+        "id" : 5570,
+        "name" : "Manuel Neuer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.0, 45.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.0, 33.0 ],
+      "player" : {
+        "id" : 20352,
+        "name" : "Didier Yves Drogba Tébily"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 101.0, 45.0 ],
+      "player" : {
+        "id" : 5574,
+        "name" : "Toni Kroos"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 107.0, 25.0 ],
       "player" : {
         "id" : 12529,
@@ -61892,83 +61969,6 @@
       "position" : {
         "id" : 9,
         "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.0, 45.0 ],
-      "player" : {
-        "id" : 5574,
-        "name" : "Toni Kroos"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.0, 33.0 ],
-      "player" : {
-        "id" : 20352,
-        "name" : "Didier Yves Drogba Tébily"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 104.0, 45.0 ],
-      "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 118.0, 42.0 ],
-      "player" : {
-        "id" : 5570,
-        "name" : "Manuel Neuer"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.0, 50.0 ],
-      "player" : {
-        "id" : 4628,
-        "name" : "Diego Armando Valentin Contento"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.0, 40.0 ],
-      "player" : {
-        "id" : 5578,
-        "name" : "Jérôme Boateng"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.0, 35.0 ],
-      "player" : {
-        "id" : 13014,
-        "name" : "Anatoliy Tymoshchuk"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : false
     } ]
@@ -62009,6 +62009,10 @@
   "duration" : 0.0,
   "related_events" : [ "ada1b4f6-322c-487b-a20b-08af0be16c68" ],
   "goalkeeper" : {
+    "outcome" : {
+      "id" : 56,
+      "name" : "Saved Twice"
+    },
     "technique" : {
       "id" : 45,
       "name" : "Diving"
@@ -62024,10 +62028,6 @@
     "type" : {
       "id" : 33,
       "name" : "Shot Saved"
-    },
-    "outcome" : {
-      "id" : 56,
-      "name" : "Saved Twice"
     }
   }
 }, {
@@ -65387,22 +65387,22 @@
     "statsbomb_xg" : 0.024468303,
     "end_location" : [ 113.0, 51.0 ],
     "key_pass_id" : "a969b162-62df-4581-ad4e-426d43471fc4",
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
+    "technique" : {
+      "id" : 91,
+      "name" : "Half Volley"
+    },
+    "first_time" : true,
+    "outcome" : {
+      "id" : 101,
+      "name" : "Wayward"
     },
     "type" : {
       "id" : 87,
       "name" : "Open Play"
     },
-    "outcome" : {
-      "id" : 101,
-      "name" : "Wayward"
-    },
-    "first_time" : true,
-    "technique" : {
-      "id" : 91,
-      "name" : "Half Volley"
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     },
     "freeze_frame" : [ {
       "location" : [ 100.0, 42.0 ],
@@ -65737,13 +65737,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 34.0, 73.0 ],
-    "type" : {
-      "id" : 67,
-      "name" : "Throw-in"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "type" : {
+      "id" : 67,
+      "name" : "Throw-in"
     }
   }
 }, {
@@ -66156,6 +66156,14 @@
     "statsbomb_xg" : 0.009923779,
     "end_location" : [ 102.0, 43.0 ],
     "key_pass_id" : "92c7a8b7-3e04-445f-a313-466bc2c143f8",
+    "outcome" : {
+      "id" : 96,
+      "name" : "Blocked"
+    },
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
+    },
     "technique" : {
       "id" : 93,
       "name" : "Normal"
@@ -66164,15 +66172,62 @@
       "id" : 40,
       "name" : "Right Foot"
     },
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 96,
-      "name" : "Blocked"
-    },
     "freeze_frame" : [ {
+      "location" : [ 93.0, 34.0 ],
+      "player" : {
+        "id" : 5475,
+        "name" : "John Michael Nchekwube Obinna"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 82.0, 30.0 ],
+      "player" : {
+        "id" : 3294,
+        "name" : "Juan Manuel Mata García"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 90.0, 49.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.0, 16.0 ],
+      "player" : {
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 94.0, 55.0 ],
+      "player" : {
+        "id" : 20045,
+        "name" : "Ryan Bertrand"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 93.0, 27.0 ],
       "player" : {
         "id" : 8575,
@@ -66304,61 +66359,6 @@
         "name" : "Left Back"
       },
       "teammate" : false
-    }, {
-      "location" : [ 94.0, 55.0 ],
-      "player" : {
-        "id" : 20045,
-        "name" : "Ryan Bertrand"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.0, 16.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 90.0, 49.0 ],
-      "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 82.0, 30.0 ],
-      "player" : {
-        "id" : 3294,
-        "name" : "Juan Manuel Mata García"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.0, 34.0 ],
-      "player" : {
-        "id" : 5475,
-        "name" : "John Michael Nchekwube Obinna"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -66483,6 +66483,15 @@
   "shot" : {
     "statsbomb_xg" : 0.052721757,
     "end_location" : [ 120.0, 47.3, 1.4 ],
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
+    },
+    "technique" : {
+      "id" : 95,
+      "name" : "Volley"
+    },
+    "redirect" : true,
     "type" : {
       "id" : 87,
       "name" : "Open Play"
@@ -66491,16 +66500,73 @@
       "id" : 98,
       "name" : "Off T"
     },
-    "redirect" : true,
-    "technique" : {
-      "id" : 95,
-      "name" : "Volley"
-    },
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "freeze_frame" : [ {
+      "location" : [ 103.0, 40.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 120.0, 41.0 ],
+      "player" : {
+        "id" : 3461,
+        "name" : "Petr Čech"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.0, 13.0 ],
+      "player" : {
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 78.0, 7.0 ],
+      "player" : {
+        "id" : 4628,
+        "name" : "Diego Armando Valentin Contento"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 87.0, 21.0 ],
+      "player" : {
+        "id" : 5574,
+        "name" : "Toni Kroos"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.0, 48.0 ],
+      "player" : {
+        "id" : 5562,
+        "name" : "Thomas Müller"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 83.0, 35.0 ],
       "player" : {
         "id" : 3294,
@@ -66619,72 +66685,6 @@
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 48.0 ],
-      "player" : {
-        "id" : 5562,
-        "name" : "Thomas Müller"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 87.0, 21.0 ],
-      "player" : {
-        "id" : 5574,
-        "name" : "Toni Kroos"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 78.0, 7.0 ],
-      "player" : {
-        "id" : 4628,
-        "name" : "Diego Armando Valentin Contento"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 97.0, 13.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 120.0, 41.0 ],
-      "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 40.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : false
     } ]
@@ -66934,17 +66934,17 @@
       "name" : "High Pass"
     },
     "end_location" : [ 95.0, 14.0 ],
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
     },
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
     }
   }
 }, {
@@ -69904,13 +69904,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 112.0, 56.0 ],
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
-    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
+    },
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     }
   }
 }, {
@@ -70736,11 +70736,11 @@
     "end_location" : [ 105.0, 45.0 ],
     "assisted_shot_id" : "ba8bbc75-000a-4237-8a3f-8de86d7eb987",
     "shot_assist" : true,
+    "backheel" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "backheel" : true
+    }
   }
 }, {
   "id" : "d77c6f21-cdc1-48fe-86de-0468d2d1ef1c",
@@ -70970,6 +70970,14 @@
     "statsbomb_xg" : 0.20849057,
     "end_location" : [ 120.0, 37.8, 6.0 ],
     "key_pass_id" : "cf7e3398-6825-40e4-bfd4-f2cb40acef1c",
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
+    },
+    "outcome" : {
+      "id" : 98,
+      "name" : "Off T"
+    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -70977,14 +70985,6 @@
     "type" : {
       "id" : 87,
       "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 98,
-      "name" : "Off T"
-    },
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
     },
     "freeze_frame" : [ {
       "location" : [ 96.0, 43.0 ],
@@ -73105,13 +73105,13 @@
   "counterpress" : true,
   "related_events" : [ "160e5538-b51d-4770-881c-2df92db1a1a0" ],
   "duel" : {
-    "outcome" : {
-      "id" : 4,
-      "name" : "Won"
-    },
     "type" : {
       "id" : 11,
       "name" : "Tackle"
+    },
+    "outcome" : {
+      "id" : 4,
+      "name" : "Won"
     }
   }
 }, {
@@ -75687,13 +75687,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 44.0, 17.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -80238,11 +80238,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 93.0, 67.0 ],
+    "aerial_won" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
-    },
-    "aerial_won" : true
+    }
   }
 }, {
   "id" : "045c9b0a-7f72-44bc-9231-8cd3d411dfaa",
@@ -81421,6 +81421,10 @@
       "name" : "High Pass"
     },
     "end_location" : [ 71.0, 54.0 ],
+    "type" : {
+      "id" : 63,
+      "name" : "Goal Kick"
+    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -81428,10 +81432,6 @@
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "type" : {
-      "id" : 63,
-      "name" : "Goal Kick"
     }
   }
 }, {
@@ -82519,17 +82519,17 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 35.0, 59.0 ],
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
     },
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     }
   }
 }, {
@@ -83883,12 +83883,12 @@
   "under_pressure" : true,
   "related_events" : [ "ca6be1d1-83d6-4eb1-acbe-845a01c52cde" ],
   "dribble" : {
+    "nutmeg" : true,
     "overrun" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
-    },
-    "nutmeg" : true
+    }
   }
 }, {
   "id" : "d3b37697-365e-4329-8a6b-19eb73eada4e",
@@ -83937,13 +83937,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 45.0, 55.0 ],
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
-    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
+    },
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
     }
   }
 }, {
@@ -84503,6 +84503,10 @@
     "statsbomb_xg" : 0.017838126,
     "end_location" : [ 110.0, 46.0 ],
     "key_pass_id" : "f588ffd4-d8ec-4c6f-a51a-21a299eb24be",
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
+    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -84514,10 +84518,6 @@
     "outcome" : {
       "id" : 96,
       "name" : "Blocked"
-    },
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
     },
     "freeze_frame" : [ {
       "location" : [ 95.0, 33.0 ],
@@ -84736,13 +84736,13 @@
   "related_events" : [ "31267b2d-b979-4d02-96fc-024ba2fd9357" ],
   "goalkeeper" : {
     "end_location" : [ 4.0, 42.0 ],
-    "position" : {
-      "id" : 44,
-      "name" : "Set"
-    },
     "type" : {
       "id" : 32,
       "name" : "Shot Faced"
+    },
+    "position" : {
+      "id" : 44,
+      "name" : "Set"
     }
   }
 }, {
@@ -85041,13 +85041,13 @@
     },
     "end_location" : [ 111.0, 41.0 ],
     "cross" : true,
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
-    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
+    },
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     }
   }
 }, {
@@ -87529,6 +87529,10 @@
     "statsbomb_xg" : 0.01104785,
     "end_location" : [ 120.0, 34.4, 0.8 ],
     "key_pass_id" : "f729b2f5-8066-45c0-bdb3-013e51f0e107",
+    "outcome" : {
+      "id" : 98,
+      "name" : "Off T"
+    },
     "technique" : {
       "id" : 91,
       "name" : "Half Volley"
@@ -87540,10 +87544,6 @@
     "type" : {
       "id" : 87,
       "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 98,
-      "name" : "Off T"
     },
     "freeze_frame" : [ {
       "location" : [ 90.0, 61.0 ],
@@ -87986,13 +87986,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 73.0, 55.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -88565,13 +88565,13 @@
   "under_pressure" : true,
   "related_events" : [ "546bd0a8-096c-4e6b-b426-64f77b4c215c" ],
   "duel" : {
-    "type" : {
-      "id" : 11,
-      "name" : "Tackle"
-    },
     "outcome" : {
       "id" : 14,
       "name" : "Lost Out"
+    },
+    "type" : {
+      "id" : 11,
+      "name" : "Tackle"
     }
   }
 }, {
@@ -90224,15 +90224,15 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 43.0, 30.0 ],
-    "backheel" : true,
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
+    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
     },
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
-    }
+    "backheel" : true
   }
 }, {
   "id" : "743f92aa-2b91-40d5-a6b3-f6c8b6109f24",
@@ -91446,13 +91446,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 87.0, 25.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "type" : {
       "id" : 63,
       "name" : "Goal Kick"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -92376,6 +92376,7 @@
   "shot" : {
     "statsbomb_xg" : 0.021761369,
     "end_location" : [ 110.0, 57.0 ],
+    "first_time" : true,
     "technique" : {
       "id" : 93,
       "name" : "Normal"
@@ -92392,7 +92393,6 @@
       "id" : 96,
       "name" : "Blocked"
     },
-    "first_time" : true,
     "freeze_frame" : [ {
       "location" : [ 108.0, 43.0 ],
       "player" : {
@@ -93248,6 +93248,15 @@
     "statsbomb_xg" : 0.08407415,
     "end_location" : [ 111.0, 41.0 ],
     "key_pass_id" : "3c4e6bb9-21fd-4bfa-8e0e-f687f5bfe441",
+    "first_time" : true,
+    "outcome" : {
+      "id" : 96,
+      "name" : "Blocked"
+    },
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
+    },
     "technique" : {
       "id" : 93,
       "name" : "Normal"
@@ -93256,15 +93265,6 @@
       "id" : 38,
       "name" : "Left Foot"
     },
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 96,
-      "name" : "Blocked"
-    },
-    "first_time" : true,
     "freeze_frame" : [ {
       "location" : [ 108.0, 35.0 ],
       "player" : {
@@ -96034,13 +96034,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 11.0, 67.0 ],
-    "type" : {
-      "id" : 63,
-      "name" : "Goal Kick"
-    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
+    },
+    "type" : {
+      "id" : 63,
+      "name" : "Goal Kick"
     }
   }
 }, {
@@ -96332,13 +96332,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 78.0, 53.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -96595,124 +96595,47 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 100.0, 25.0 ],
+      "location" : [ 98.0, 2.0 ],
       "player" : {
-        "id" : 5475,
-        "name" : "John Michael Nchekwube Obinna"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.0, 17.0 ],
-      "player" : {
-        "id" : 8575,
-        "name" : "Salomon Armand Magloire Kalou"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.0, 40.0 ],
-      "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 32.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.0, 37.0 ],
-      "player" : {
-        "id" : 3956,
-        "name" : "David Luiz Moreira Marinho"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.0, 39.0 ],
-      "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.0, 44.0 ],
-      "player" : {
-        "id" : 20045,
-        "name" : "Ryan Bertrand"
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
       },
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 103.0, 57.0 ],
+      "location" : [ 88.0, 19.0 ],
       "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
+        "id" : 20352,
+        "name" : "Didier Yves Drogba Tébily"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : false
     }, {
-      "location" : [ 102.0, 23.0 ],
+      "location" : [ 84.0, 40.0 ],
       "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.0, 42.0 ],
-      "player" : {
-        "id" : 5562,
-        "name" : "Thomas Müller"
+        "id" : 3294,
+        "name" : "Juan Manuel Mata García"
       },
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     }, {
-      "location" : [ 101.0, 38.0 ],
+      "location" : [ 88.0, 65.0 ],
       "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
+        "id" : 8218,
+        "name" : "Arjen Robben"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
@@ -96727,49 +96650,126 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 88.0, 65.0 ],
+      "location" : [ 101.0, 38.0 ],
       "player" : {
-        "id" : 8218,
-        "name" : "Arjen Robben"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 84.0, 40.0 ],
-      "player" : {
-        "id" : 3294,
-        "name" : "Juan Manuel Mata García"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 88.0, 19.0 ],
-      "player" : {
-        "id" : 20352,
-        "name" : "Didier Yves Drogba Tébily"
+        "id" : 5565,
+        "name" : "Mario Gómez García"
       },
       "position" : {
         "id" : 23,
         "name" : "Center Forward"
       },
+      "teammate" : true
+    }, {
+      "location" : [ 104.0, 42.0 ],
+      "player" : {
+        "id" : 5562,
+        "name" : "Thomas Müller"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.0, 23.0 ],
+      "player" : {
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
       "teammate" : false
     }, {
-      "location" : [ 98.0, 2.0 ],
+      "location" : [ 103.0, 57.0 ],
       "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
+        "id" : 12529,
+        "name" : "Ashley Cole"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.0, 44.0 ],
+      "player" : {
+        "id" : 20045,
+        "name" : "Ryan Bertrand"
       },
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 104.0, 39.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.0, 37.0 ],
+      "player" : {
+        "id" : 3956,
+        "name" : "David Luiz Moreira Marinho"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 32.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.0, 40.0 ],
+      "player" : {
+        "id" : 3461,
+        "name" : "Petr Čech"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.0, 17.0 ],
+      "player" : {
+        "id" : 8575,
+        "name" : "Salomon Armand Magloire Kalou"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.0, 25.0 ],
+      "player" : {
+        "id" : 5475,
+        "name" : "John Michael Nchekwube Obinna"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -99127,13 +99127,13 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 87.0, 11.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -100027,13 +100027,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 80.0, 69.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -100304,13 +100304,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 55.0, 16.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -101802,21 +101802,21 @@
     "statsbomb_xg" : 0.06619086,
     "end_location" : [ 108.0, 36.0 ],
     "key_pass_id" : "e7b9dab5-c197-4246-b752-0fa284d813fe",
-    "technique" : {
-      "id" : 91,
-      "name" : "Half Volley"
-    },
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
+    "outcome" : {
+      "id" : 96,
+      "name" : "Blocked"
     },
     "type" : {
       "id" : 87,
       "name" : "Open Play"
     },
-    "outcome" : {
-      "id" : 96,
-      "name" : "Blocked"
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
+    },
+    "technique" : {
+      "id" : 91,
+      "name" : "Half Volley"
     },
     "freeze_frame" : [ {
       "location" : [ 94.0, 57.0 ],
@@ -102211,14 +102211,14 @@
       "name" : "High Pass"
     },
     "end_location" : [ 119.0, 22.0 ],
+    "outcome" : {
+      "id" : 75,
+      "name" : "Out"
+    },
     "aerial_won" : true,
     "type" : {
       "id" : 66,
       "name" : "Recovery"
-    },
-    "outcome" : {
-      "id" : 75,
-      "name" : "Out"
     }
   }
 }, {
@@ -103120,13 +103120,13 @@
   "under_pressure" : true,
   "related_events" : [ "086df805-a168-498b-a9d0-c012413b138c" ],
   "duel" : {
-    "type" : {
-      "id" : 11,
-      "name" : "Tackle"
-    },
     "outcome" : {
       "id" : 16,
       "name" : "Success In Play"
+    },
+    "type" : {
+      "id" : 11,
+      "name" : "Tackle"
     }
   }
 }, {
@@ -103172,6 +103172,10 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 25.0, 19.0 ],
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
+    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -103179,10 +103183,6 @@
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
-    },
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
     }
   }
 }, {
@@ -103715,13 +103715,13 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 112.0, 54.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -104379,13 +104379,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 95.0, 64.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "type" : {
       "id" : 61,
       "name" : "Corner"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -104698,6 +104698,50 @@
       "name" : "Head"
     },
     "freeze_frame" : [ {
+      "location" : [ 100.0, 57.0 ],
+      "player" : {
+        "id" : 3294,
+        "name" : "Juan Manuel Mata García"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 120.0, 40.0 ],
+      "player" : {
+        "id" : 3461,
+        "name" : "Petr Čech"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.0, 32.0 ],
+      "player" : {
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.0, 36.0 ],
+      "player" : {
+        "id" : 5565,
+        "name" : "Mario Gómez García"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 114.0, 46.0 ],
       "player" : {
         "id" : 5475,
@@ -104829,50 +104873,6 @@
         "name" : "Center Attacking Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 113.0, 36.0 ],
-      "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.0, 32.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 120.0, 40.0 ],
-      "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.0, 57.0 ],
-      "player" : {
-        "id" : 3294,
-        "name" : "Juan Manuel Mata García"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -104912,13 +104912,13 @@
   "related_events" : [ "f20111d1-5222-46e0-adc3-437fd9733987" ],
   "goalkeeper" : {
     "end_location" : [ 1.0, 41.0 ],
-    "position" : {
-      "id" : 44,
-      "name" : "Set"
-    },
     "type" : {
       "id" : 32,
       "name" : "Shot Faced"
+    },
+    "position" : {
+      "id" : 44,
+      "name" : "Set"
     }
   }
 }, {
@@ -107080,13 +107080,13 @@
   "duration" : 0.0,
   "related_events" : [ "c6125345-0b90-4a4b-a4e7-5ad82910a78b" ],
   "goalkeeper" : {
-    "type" : {
-      "id" : 25,
-      "name" : "Collected"
-    },
     "outcome" : {
       "id" : 15,
       "name" : "Success"
+    },
+    "type" : {
+      "id" : 25,
+      "name" : "Collected"
     }
   }
 }, {
@@ -109660,6 +109660,17 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 105.0, 47.0 ],
+      "player" : {
+        "id" : 5565,
+        "name" : "Mario Gómez García"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 100.0, 33.0 ],
       "player" : {
         "id" : 5475,
@@ -109802,17 +109813,6 @@
         "name" : "Center Attacking Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 105.0, 47.0 ],
-      "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -109852,13 +109852,13 @@
   "related_events" : [ "61947185-992f-449c-82d6-0bed076b73f1" ],
   "goalkeeper" : {
     "end_location" : [ 4.0, 43.0 ],
-    "type" : {
-      "id" : 32,
-      "name" : "Shot Faced"
-    },
     "position" : {
       "id" : 44,
       "name" : "Set"
+    },
+    "type" : {
+      "id" : 32,
+      "name" : "Shot Faced"
     }
   }
 }, {
@@ -110042,11 +110042,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 96.0, 18.0 ],
-    "aerial_won" : true,
     "outcome" : {
       "id" : 77,
       "name" : "Unknown"
-    }
+    },
+    "aerial_won" : true
   }
 }, {
   "id" : "b8b7d39c-bd60-4884-8ee6-f6489e250a8c",
@@ -113018,6 +113018,14 @@
   "shot" : {
     "statsbomb_xg" : 0.05372465,
     "end_location" : [ 111.0, 31.0 ],
+    "outcome" : {
+      "id" : 96,
+      "name" : "Blocked"
+    },
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
+    },
     "first_time" : true,
     "technique" : {
       "id" : 91,
@@ -113026,14 +113034,6 @@
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 96,
-      "name" : "Blocked"
     },
     "freeze_frame" : [ {
       "location" : [ 116.0, 44.0 ],
@@ -113341,17 +113341,17 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 98.0, 38.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
     },
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -117284,6 +117284,14 @@
     "statsbomb_xg" : 0.024025226,
     "end_location" : [ 101.0, 56.0 ],
     "key_pass_id" : "2fd671de-63c5-4d52-a4e6-483bfd52c36c",
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
+    },
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
+    },
     "type" : {
       "id" : 87,
       "name" : "Open Play"
@@ -117292,15 +117300,106 @@
       "id" : 96,
       "name" : "Blocked"
     },
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
-    },
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "freeze_frame" : [ {
+      "location" : [ 90.0, 62.0 ],
+      "player" : {
+        "id" : 19295,
+        "name" : "Philipp Lahm"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.0, 34.0 ],
+      "player" : {
+        "id" : 5562,
+        "name" : "Thomas Müller"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 105.0, 45.0 ],
+      "player" : {
+        "id" : 5565,
+        "name" : "Mario Gómez García"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.0, 24.0 ],
+      "player" : {
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.0, 50.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.0, 59.0 ],
+      "player" : {
+        "id" : 12529,
+        "name" : "Ashley Cole"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.0, 41.0 ],
+      "player" : {
+        "id" : 3461,
+        "name" : "Petr Čech"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.0, 39.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.0, 31.0 ],
+      "player" : {
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 98.0, 35.0 ],
       "player" : {
         "id" : 5475,
@@ -117333,105 +117432,6 @@
         "name" : "Left Center Back"
       },
       "teammate" : false
-    }, {
-      "location" : [ 108.0, 31.0 ],
-      "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.0, 39.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.0, 41.0 ],
-      "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.0, 59.0 ],
-      "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.0, 50.0 ],
-      "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.0, 24.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.0, 45.0 ],
-      "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.0, 34.0 ],
-      "player" : {
-        "id" : 5562,
-        "name" : "Thomas Müller"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 90.0, 62.0 ],
-      "player" : {
-        "id" : 19295,
-        "name" : "Philipp Lahm"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -117558,17 +117558,17 @@
       "name" : "High Pass"
     },
     "end_location" : [ 95.0, 35.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
     },
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -117618,6 +117618,10 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 25.0, 33.0 ],
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
+    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -117625,10 +117629,6 @@
     "type" : {
       "id" : 66,
       "name" : "Recovery"
-    },
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
     }
   }
 }, {
@@ -120066,6 +120066,10 @@
       "name" : "High Pass"
     },
     "end_location" : [ 115.0, 44.0 ],
+    "type" : {
+      "id" : 61,
+      "name" : "Corner"
+    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -120073,10 +120077,6 @@
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
-    },
-    "type" : {
-      "id" : 61,
-      "name" : "Corner"
     }
   }
 }, {
@@ -121750,23 +121750,23 @@
     "statsbomb_xg" : 0.084054306,
     "end_location" : [ 111.0, 45.0 ],
     "key_pass_id" : "9b3bc663-ac32-475e-89b4-379d74bb08f2",
-    "outcome" : {
-      "id" : 96,
-      "name" : "Blocked"
-    },
-    "first_time" : true,
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
     },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
     },
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
     },
+    "outcome" : {
+      "id" : 96,
+      "name" : "Blocked"
+    },
+    "first_time" : true,
     "freeze_frame" : [ {
       "location" : [ 112.0, 50.0 ],
       "player" : {
@@ -122976,135 +122976,14 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 109.0, 44.0 ],
+      "location" : [ 110.0, 38.0 ],
       "player" : {
-        "id" : 5475,
-        "name" : "John Michael Nchekwube Obinna"
+        "id" : 5565,
+        "name" : "Mario Gómez García"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.0, 41.0 ],
-      "player" : {
-        "id" : 8575,
-        "name" : "Salomon Armand Magloire Kalou"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 33.0 ],
-      "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 38.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.0, 41.0 ],
-      "player" : {
-        "id" : 3956,
-        "name" : "David Luiz Moreira Marinho"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 50.0 ],
-      "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.0, 50.0 ],
-      "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.0, 51.0 ],
-      "player" : {
-        "id" : 20045,
-        "name" : "Ryan Bertrand"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.0, 39.0 ],
-      "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.0, 55.0 ],
-      "player" : {
-        "id" : 3294,
-        "name" : "Juan Manuel Mata García"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.0, 44.0 ],
-      "player" : {
-        "id" : 18414,
-        "name" : "Bastian Schweinsteiger"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 111.0, 47.0 ],
-      "player" : {
-        "id" : 5562,
-        "name" : "Thomas Müller"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -123119,16 +122998,137 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 110.0, 38.0 ],
+      "location" : [ 111.0, 47.0 ],
       "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
+        "id" : 5562,
+        "name" : "Thomas Müller"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
+    }, {
+      "location" : [ 113.0, 44.0 ],
+      "player" : {
+        "id" : 18414,
+        "name" : "Bastian Schweinsteiger"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 93.0, 55.0 ],
+      "player" : {
+        "id" : 3294,
+        "name" : "Juan Manuel Mata García"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.0, 39.0 ],
+      "player" : {
+        "id" : 3461,
+        "name" : "Petr Čech"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.0, 51.0 ],
+      "player" : {
+        "id" : 20045,
+        "name" : "Ryan Bertrand"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.0, 50.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.0, 50.0 ],
+      "player" : {
+        "id" : 12529,
+        "name" : "Ashley Cole"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.0, 41.0 ],
+      "player" : {
+        "id" : 3956,
+        "name" : "David Luiz Moreira Marinho"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.0, 38.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 33.0 ],
+      "player" : {
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.0, 41.0 ],
+      "player" : {
+        "id" : 8575,
+        "name" : "Salomon Armand Magloire Kalou"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.0, 44.0 ],
+      "player" : {
+        "id" : 5475,
+        "name" : "John Michael Nchekwube Obinna"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -123302,11 +123302,11 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 22.0, 34.0 ],
+    "aerial_won" : true,
     "type" : {
       "id" : 66,
       "name" : "Recovery"
-    },
-    "aerial_won" : true
+    }
   }
 }, {
   "id" : "2430198c-5d60-4d02-83dc-b592b4525c45",
@@ -125098,13 +125098,13 @@
   "duration" : 0.0,
   "related_events" : [ "7ac7795b-3555-4f94-a3e8-35d88887b6f2" ],
   "goalkeeper" : {
-    "type" : {
-      "id" : 25,
-      "name" : "Collected"
-    },
     "outcome" : {
       "id" : 15,
       "name" : "Success"
+    },
+    "type" : {
+      "id" : 25,
+      "name" : "Collected"
     }
   }
 }, {
@@ -125434,21 +125434,21 @@
     "statsbomb_xg" : 0.023554431,
     "end_location" : [ 118.0, 38.1, 1.7 ],
     "key_pass_id" : "ab818b87-89a0-4051-a07f-3a20b282e224",
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
-    },
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
+    "outcome" : {
+      "id" : 100,
+      "name" : "Saved"
     },
     "type" : {
       "id" : 87,
       "name" : "Open Play"
     },
-    "outcome" : {
-      "id" : 100,
-      "name" : "Saved"
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
+    },
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
     },
     "freeze_frame" : [ {
       "location" : [ 108.0, 20.0 ],
@@ -125609,6 +125609,10 @@
   "duration" : 0.0,
   "related_events" : [ "bdfc5a64-6c84-4d8b-a9dd-09f64aa24dd8" ],
   "goalkeeper" : {
+    "position" : {
+      "id" : 44,
+      "name" : "Set"
+    },
     "body_part" : {
       "id" : 35,
       "name" : "Both Hands"
@@ -125624,10 +125628,6 @@
     "technique" : {
       "id" : 46,
       "name" : "Standing"
-    },
-    "position" : {
-      "id" : 44,
-      "name" : "Set"
     }
   }
 }, {
@@ -127453,22 +127453,22 @@
   "shot" : {
     "statsbomb_xg" : 0.037474867,
     "end_location" : [ 117.0, 37.2, 1.5 ],
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     },
-    "outcome" : {
-      "id" : 100,
-      "name" : "Saved"
-    },
-    "first_time" : true,
     "technique" : {
       "id" : 91,
       "name" : "Half Volley"
     },
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
+    "first_time" : true,
+    "outcome" : {
+      "id" : 100,
+      "name" : "Saved"
+    },
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
     },
     "freeze_frame" : [ {
       "location" : [ 112.0, 41.0 ],
@@ -127651,6 +127651,14 @@
   "duration" : 0.0,
   "related_events" : [ "48479c5c-2ebf-4c49-a155-8a880bb51a1c" ],
   "goalkeeper" : {
+    "outcome" : {
+      "id" : 15,
+      "name" : "Success"
+    },
+    "type" : {
+      "id" : 33,
+      "name" : "Shot Saved"
+    },
     "technique" : {
       "id" : 45,
       "name" : "Diving"
@@ -127662,14 +127670,6 @@
     "body_part" : {
       "id" : 35,
       "name" : "Both Hands"
-    },
-    "type" : {
-      "id" : 33,
-      "name" : "Shot Saved"
-    },
-    "outcome" : {
-      "id" : 15,
-      "name" : "Success"
     }
   }
 }, {
@@ -127879,13 +127879,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 65.0, 40.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -130376,13 +130376,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 21.0, 13.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -131719,6 +131719,105 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 88.0, 59.0 ],
+      "player" : {
+        "id" : 19295,
+        "name" : "Philipp Lahm"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 82.0, 39.0 ],
+      "player" : {
+        "id" : 5578,
+        "name" : "Jérôme Boateng"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 90.0, 6.0 ],
+      "player" : {
+        "id" : 18414,
+        "name" : "Bastian Schweinsteiger"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.0, 33.0 ],
+      "player" : {
+        "id" : 5562,
+        "name" : "Thomas Müller"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.0, 41.0 ],
+      "player" : {
+        "id" : 5565,
+        "name" : "Mario Gómez García"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.0, 21.0 ],
+      "player" : {
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 95.0, 26.0 ],
+      "player" : {
+        "id" : 20290,
+        "name" : "Florent Malouda"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.0, 39.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 34.0 ],
+      "player" : {
+        "id" : 3956,
+        "name" : "David Luiz Moreira Marinho"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 100.0, 28.0 ],
       "player" : {
         "id" : 5475,
@@ -131806,105 +131905,6 @@
         "name" : "Center Forward"
       },
       "teammate" : false
-    }, {
-      "location" : [ 110.0, 34.0 ],
-      "player" : {
-        "id" : 3956,
-        "name" : "David Luiz Moreira Marinho"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.0, 39.0 ],
-      "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 95.0, 26.0 ],
-      "player" : {
-        "id" : 20290,
-        "name" : "Florent Malouda"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 21.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.0, 41.0 ],
-      "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.0, 33.0 ],
-      "player" : {
-        "id" : 5562,
-        "name" : "Thomas Müller"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 90.0, 6.0 ],
-      "player" : {
-        "id" : 18414,
-        "name" : "Bastian Schweinsteiger"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 82.0, 39.0 ],
-      "player" : {
-        "id" : 5578,
-        "name" : "Jérôme Boateng"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 88.0, 59.0 ],
-      "player" : {
-        "id" : 19295,
-        "name" : "Philipp Lahm"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -131979,13 +131979,13 @@
   "related_events" : [ "f5ecb8ac-5aad-4292-93fa-55c0c82d0d10" ],
   "goalkeeper" : {
     "end_location" : [ 4.0, 43.0 ],
-    "type" : {
-      "id" : 32,
-      "name" : "Shot Faced"
-    },
     "position" : {
       "id" : 44,
       "name" : "Set"
+    },
+    "type" : {
+      "id" : 32,
+      "name" : "Shot Faced"
     }
   }
 }, {
@@ -134107,6 +134107,10 @@
     "statsbomb_xg" : 0.122117065,
     "end_location" : [ 120.0, 30.5, 0.5 ],
     "key_pass_id" : "4e8d7530-b4c1-4044-96ac-ef072bd08ed0",
+    "technique" : {
+      "id" : 91,
+      "name" : "Half Volley"
+    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -134120,10 +134124,6 @@
       "name" : "Off T"
     },
     "first_time" : true,
-    "technique" : {
-      "id" : 91,
-      "name" : "Half Volley"
-    },
     "freeze_frame" : [ {
       "location" : [ 105.0, 33.0 ],
       "player" : {
@@ -134336,6 +134336,10 @@
       "name" : "High Pass"
     },
     "end_location" : [ 74.0, 61.0 ],
+    "type" : {
+      "id" : 63,
+      "name" : "Goal Kick"
+    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -134343,10 +134347,6 @@
     "outcome" : {
       "id" : 77,
       "name" : "Unknown"
-    },
-    "type" : {
-      "id" : 63,
-      "name" : "Goal Kick"
     }
   }
 }, {
@@ -134470,13 +134470,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 51.0, 10.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -139851,6 +139851,14 @@
     "statsbomb_xg" : 0.058118258,
     "end_location" : [ 118.0, 42.2, 1.6 ],
     "key_pass_id" : "1adeb3f4-8419-4a9d-9d94-3f05f501653c",
+    "outcome" : {
+      "id" : 100,
+      "name" : "Saved"
+    },
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
+    },
     "technique" : {
       "id" : 93,
       "name" : "Normal"
@@ -139860,15 +139868,29 @@
       "id" : 37,
       "name" : "Head"
     },
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 100,
-      "name" : "Saved"
-    },
     "freeze_frame" : [ {
+      "location" : [ 102.0, 47.0 ],
+      "player" : {
+        "id" : 20290,
+        "name" : "Florent Malouda"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.0, 33.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 112.0, 40.0 ],
       "player" : {
         "id" : 5565,
@@ -139912,28 +139934,6 @@
         "name" : "Left Center Back"
       },
       "teammate" : false
-    }, {
-      "location" : [ 112.0, 33.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.0, 47.0 ],
-      "player" : {
-        "id" : 20290,
-        "name" : "Florent Malouda"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -139972,25 +139972,25 @@
   "duration" : 0.0,
   "related_events" : [ "9c605adc-ca4c-4ccb-8381-154dd54fa370" ],
   "goalkeeper" : {
-    "type" : {
-      "id" : 33,
-      "name" : "Shot Saved"
-    },
-    "outcome" : {
-      "id" : 15,
-      "name" : "Success"
-    },
-    "technique" : {
-      "id" : 46,
-      "name" : "Standing"
+    "body_part" : {
+      "id" : 35,
+      "name" : "Both Hands"
     },
     "position" : {
       "id" : 44,
       "name" : "Set"
     },
-    "body_part" : {
-      "id" : 35,
-      "name" : "Both Hands"
+    "technique" : {
+      "id" : 46,
+      "name" : "Standing"
+    },
+    "outcome" : {
+      "id" : 15,
+      "name" : "Success"
+    },
+    "type" : {
+      "id" : 33,
+      "name" : "Shot Saved"
     }
   }
 }, {
@@ -140137,13 +140137,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 28.0, 30.0 ],
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
-    },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
+    },
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     }
   }
 }, {
@@ -140978,6 +140978,10 @@
   "duration" : 0.0,
   "related_events" : [ "63938240-cec1-4109-a1a3-f043c662298b" ],
   "goalkeeper" : {
+    "outcome" : {
+      "id" : 58,
+      "name" : "Touched In"
+    },
     "technique" : {
       "id" : 46,
       "name" : "Standing"
@@ -140993,10 +140997,6 @@
     "type" : {
       "id" : 26,
       "name" : "Goal Conceded"
-    },
-    "outcome" : {
-      "id" : 58,
-      "name" : "Touched In"
     }
   }
 }, {
@@ -141047,13 +141047,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 51.0, 37.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "type" : {
       "id" : 65,
       "name" : "Kick Off"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -141674,6 +141674,14 @@
     "statsbomb_xg" : 0.058491867,
     "end_location" : [ 117.0, 41.3, 0.4 ],
     "key_pass_id" : "74abe35f-63d7-45f4-b130-007825cd7d14",
+    "outcome" : {
+      "id" : 100,
+      "name" : "Saved"
+    },
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
+    },
     "technique" : {
       "id" : 93,
       "name" : "Normal"
@@ -141681,14 +141689,6 @@
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 100,
-      "name" : "Saved"
     },
     "freeze_frame" : [ {
       "location" : [ 99.0, 45.0 ],
@@ -141827,6 +141827,18 @@
   "duration" : 0.0,
   "related_events" : [ "7249bb24-f8dd-4f7e-8b57-f586f6f75fd0" ],
   "goalkeeper" : {
+    "outcome" : {
+      "id" : 15,
+      "name" : "Success"
+    },
+    "type" : {
+      "id" : 33,
+      "name" : "Shot Saved"
+    },
+    "body_part" : {
+      "id" : 35,
+      "name" : "Both Hands"
+    },
     "technique" : {
       "id" : 45,
       "name" : "Diving"
@@ -141834,18 +141846,6 @@
     "position" : {
       "id" : 44,
       "name" : "Set"
-    },
-    "body_part" : {
-      "id" : 35,
-      "name" : "Both Hands"
-    },
-    "type" : {
-      "id" : 33,
-      "name" : "Shot Saved"
-    },
-    "outcome" : {
-      "id" : 15,
-      "name" : "Success"
     }
   }
 }, {
@@ -142073,6 +142073,10 @@
       "name" : "High Pass"
     },
     "end_location" : [ 75.0, 41.0 ],
+    "type" : {
+      "id" : 63,
+      "name" : "Goal Kick"
+    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -142080,10 +142084,6 @@
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
-    },
-    "type" : {
-      "id" : 63,
-      "name" : "Goal Kick"
     }
   }
 }, {
@@ -143346,6 +143346,10 @@
       "name" : "High Pass"
     },
     "end_location" : [ 78.0, 65.0 ],
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
+    },
     "type" : {
       "id" : 63,
       "name" : "Goal Kick"
@@ -143353,10 +143357,6 @@
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
-    },
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
     }
   }
 }, {
@@ -144335,6 +144335,50 @@
       "name" : "Head"
     },
     "freeze_frame" : [ {
+      "location" : [ 101.0, 52.0 ],
+      "player" : {
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 120.0, 38.0 ],
+      "player" : {
+        "id" : 5574,
+        "name" : "Toni Kroos"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.0, 40.0 ],
+      "player" : {
+        "id" : 4628,
+        "name" : "Diego Armando Valentin Contento"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.0, 41.0 ],
+      "player" : {
+        "id" : 19297,
+        "name" : "Daniel Van Buyten"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 114.0, 49.0 ],
       "player" : {
         "id" : 20330,
@@ -144486,50 +144530,6 @@
       "position" : {
         "id" : 9,
         "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.0, 41.0 ],
-      "player" : {
-        "id" : 19297,
-        "name" : "Daniel Van Buyten"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.0, 40.0 ],
-      "player" : {
-        "id" : 4628,
-        "name" : "Diego Armando Valentin Contento"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 120.0, 38.0 ],
-      "player" : {
-        "id" : 5574,
-        "name" : "Toni Kroos"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.0, 52.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
       },
       "teammate" : false
     } ]
@@ -147532,13 +147532,13 @@
     },
     "end_location" : [ 111.0, 41.0 ],
     "cross" : true,
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -148047,47 +148047,36 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 99.0, 28.0 ],
+      "location" : [ 98.0, 42.0 ],
       "player" : {
-        "id" : 5475,
-        "name" : "John Michael Nchekwube Obinna"
+        "id" : 5574,
+        "name" : "Toni Kroos"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 104.0, 25.0 ],
+      "location" : [ 102.0, 28.0 ],
       "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 21,
+        "name" : "Left Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 106.0, 30.0 ],
+      "location" : [ 117.0, 38.0 ],
       "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
+        "id" : 3461,
+        "name" : "Petr Čech"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.0, 33.0 ],
-      "player" : {
-        "id" : 3956,
-        "name" : "David Luiz Moreira Marinho"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -148102,14 +148091,47 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 117.0, 38.0 ],
+      "location" : [ 107.0, 33.0 ],
       "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
+        "id" : 3956,
+        "name" : "David Luiz Moreira Marinho"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 30.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.0, 25.0 ],
+      "player" : {
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.0, 28.0 ],
+      "player" : {
+        "id" : 5475,
+        "name" : "John Michael Nchekwube Obinna"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -148143,28 +148165,6 @@
       "position" : {
         "id" : 23,
         "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.0, 28.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 98.0, 42.0 ],
-      "player" : {
-        "id" : 5574,
-        "name" : "Toni Kroos"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
     } ]
@@ -148241,13 +148241,13 @@
   "related_events" : [ "7a04811f-92a8-4970-bc4e-d7aa59fa107a" ],
   "goalkeeper" : {
     "end_location" : [ 5.0, 44.0 ],
-    "type" : {
-      "id" : 32,
-      "name" : "Shot Faced"
-    },
     "position" : {
       "id" : 44,
       "name" : "Set"
+    },
+    "type" : {
+      "id" : 32,
+      "name" : "Shot Faced"
     }
   }
 }, {
@@ -148294,17 +148294,17 @@
     },
     "end_location" : [ 109.0, 33.0 ],
     "switch" : true,
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     },
     "type" : {
       "id" : 61,
       "name" : "Corner"
     },
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -150567,13 +150567,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 108.0, 31.0 ],
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
-    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
+    },
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     }
   }
 }, {
@@ -152890,168 +152890,14 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 119.0, 42.0 ],
+      "location" : [ 107.0, 43.0 ],
       "player" : {
-        "id" : 5570,
-        "name" : "Manuel Neuer"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 36.0 ],
-      "player" : {
-        "id" : 8218,
-        "name" : "Arjen Robben"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 33.0 ],
-      "player" : {
-        "id" : 5574,
-        "name" : "Toni Kroos"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 41.0 ],
-      "player" : {
-        "id" : 4628,
-        "name" : "Diego Armando Valentin Contento"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.0, 41.0 ],
-      "player" : {
-        "id" : 19295,
-        "name" : "Philipp Lahm"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.0, 54.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
+        "id" : 20290,
+        "name" : "Florent Malouda"
       },
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 48.0 ],
-      "player" : {
-        "id" : 19297,
-        "name" : "Daniel Van Buyten"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 47.0 ],
-      "player" : {
-        "id" : 5578,
-        "name" : "Jérôme Boateng"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 46.0 ],
-      "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 44.0 ],
-      "player" : {
-        "id" : 13014,
-        "name" : "Anatoliy Tymoshchuk"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.0, 45.0 ],
-      "player" : {
-        "id" : 18414,
-        "name" : "Bastian Schweinsteiger"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 88.0, 42.0 ],
-      "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 82.0, 34.0 ],
-      "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.0, 30.0 ],
-      "player" : {
-        "id" : 6382,
-        "name" : "Fernando José Torres Sanz"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.0, 35.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
       },
       "teammate" : true
     }, {
@@ -153066,16 +152912,170 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 107.0, 43.0 ],
+      "location" : [ 103.0, 35.0 ],
       "player" : {
-        "id" : 20290,
-        "name" : "Florent Malouda"
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 106.0, 30.0 ],
+      "player" : {
+        "id" : 6382,
+        "name" : "Fernando José Torres Sanz"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 82.0, 34.0 ],
+      "player" : {
+        "id" : 12529,
+        "name" : "Ashley Cole"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 88.0, 42.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 106.0, 45.0 ],
+      "player" : {
+        "id" : 18414,
+        "name" : "Bastian Schweinsteiger"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 44.0 ],
+      "player" : {
+        "id" : 13014,
+        "name" : "Anatoliy Tymoshchuk"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 46.0 ],
+      "player" : {
+        "id" : 5565,
+        "name" : "Mario Gómez García"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 47.0 ],
+      "player" : {
+        "id" : 5578,
+        "name" : "Jérôme Boateng"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 48.0 ],
+      "player" : {
+        "id" : 19297,
+        "name" : "Daniel Van Buyten"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.0, 54.0 ],
+      "player" : {
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
       },
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 101.0, 41.0 ],
+      "player" : {
+        "id" : 19295,
+        "name" : "Philipp Lahm"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 41.0 ],
+      "player" : {
+        "id" : 4628,
+        "name" : "Diego Armando Valentin Contento"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 33.0 ],
+      "player" : {
+        "id" : 5574,
+        "name" : "Toni Kroos"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 36.0 ],
+      "player" : {
+        "id" : 8218,
+        "name" : "Arjen Robben"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.0, 42.0 ],
+      "player" : {
+        "id" : 5570,
+        "name" : "Manuel Neuer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -153115,13 +153115,13 @@
   "related_events" : [ "8346a447-8195-400e-9591-9490dac62783" ],
   "goalkeeper" : {
     "end_location" : [ 2.0, 39.0 ],
-    "position" : {
-      "id" : 44,
-      "name" : "Set"
-    },
     "type" : {
       "id" : 32,
       "name" : "Shot Faced"
+    },
+    "position" : {
+      "id" : 44,
+      "name" : "Set"
     }
   }
 }, {
@@ -155183,22 +155183,22 @@
     "statsbomb_xg" : 0.025582444,
     "end_location" : [ 103.0, 41.0 ],
     "key_pass_id" : "7e319f87-d160-468c-8982-0514898ba9ea",
-    "first_time" : true,
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
-    },
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
+    "outcome" : {
+      "id" : 96,
+      "name" : "Blocked"
     },
     "type" : {
       "id" : 87,
       "name" : "Open Play"
     },
-    "outcome" : {
-      "id" : 96,
-      "name" : "Blocked"
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
+    },
+    "first_time" : true,
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
     },
     "freeze_frame" : [ {
       "location" : [ 100.0, 47.0 ],
@@ -156446,6 +156446,14 @@
   "shot" : {
     "statsbomb_xg" : 0.022015667,
     "end_location" : [ 103.0, 46.0 ],
+    "technique" : {
+      "id" : 91,
+      "name" : "Half Volley"
+    },
+    "outcome" : {
+      "id" : 96,
+      "name" : "Blocked"
+    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -156454,111 +156462,15 @@
       "id" : 87,
       "name" : "Open Play"
     },
-    "outcome" : {
-      "id" : 96,
-      "name" : "Blocked"
-    },
-    "technique" : {
-      "id" : 91,
-      "name" : "Half Volley"
-    },
     "freeze_frame" : [ {
-      "location" : [ 119.0, 41.0 ],
+      "location" : [ 95.0, 58.0 ],
       "player" : {
-        "id" : 5570,
-        "name" : "Manuel Neuer"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.0, 43.0 ],
-      "player" : {
-        "id" : 19297,
-        "name" : "Daniel Van Buyten"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.0, 46.0 ],
-      "player" : {
-        "id" : 5578,
-        "name" : "Jérôme Boateng"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.0, 32.0 ],
-      "player" : {
-        "id" : 19295,
-        "name" : "Philipp Lahm"
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
       },
       "position" : {
         "id" : 2,
         "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.0, 40.0 ],
-      "player" : {
-        "id" : 13014,
-        "name" : "Anatoliy Tymoshchuk"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.0, 48.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.0, 59.0 ],
-      "player" : {
-        "id" : 4628,
-        "name" : "Diego Armando Valentin Contento"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.0, 62.0 ],
-      "player" : {
-        "id" : 18414,
-        "name" : "Bastian Schweinsteiger"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.0, 44.0 ],
-      "player" : {
-        "id" : 6382,
-        "name" : "Fernando José Torres Sanz"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
@@ -156573,16 +156485,104 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 95.0, 58.0 ],
+      "location" : [ 107.0, 44.0 ],
       "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
+        "id" : 6382,
+        "name" : "Fernando José Torres Sanz"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 101.0, 62.0 ],
+      "player" : {
+        "id" : 18414,
+        "name" : "Bastian Schweinsteiger"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.0, 59.0 ],
+      "player" : {
+        "id" : 4628,
+        "name" : "Diego Armando Valentin Contento"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.0, 48.0 ],
+      "player" : {
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.0, 40.0 ],
+      "player" : {
+        "id" : 13014,
+        "name" : "Anatoliy Tymoshchuk"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.0, 32.0 ],
+      "player" : {
+        "id" : 19295,
+        "name" : "Philipp Lahm"
       },
       "position" : {
         "id" : 2,
         "name" : "Right Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 105.0, 46.0 ],
+      "player" : {
+        "id" : 5578,
+        "name" : "Jérôme Boateng"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.0, 43.0 ],
+      "player" : {
+        "id" : 19297,
+        "name" : "Daniel Van Buyten"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.0, 41.0 ],
+      "player" : {
+        "id" : 5570,
+        "name" : "Manuel Neuer"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -157867,13 +157867,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 96.0, 52.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -159833,6 +159833,10 @@
     "statsbomb_xg" : 0.036886632,
     "end_location" : [ 102.0, 30.0 ],
     "key_pass_id" : "cbe1e3e1-f760-4634-a42f-350fb0ffb250",
+    "outcome" : {
+      "id" : 96,
+      "name" : "Blocked"
+    },
     "technique" : {
       "id" : 93,
       "name" : "Normal"
@@ -159845,129 +159849,15 @@
       "id" : 87,
       "name" : "Open Play"
     },
-    "outcome" : {
-      "id" : 96,
-      "name" : "Blocked"
-    },
     "freeze_frame" : [ {
-      "location" : [ 104.0, 34.0 ],
+      "location" : [ 113.0, 13.0 ],
       "player" : {
-        "id" : 5475,
-        "name" : "John Michael Nchekwube Obinna"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.0, 42.0 ],
-      "player" : {
-        "id" : 20290,
-        "name" : "Florent Malouda"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.0, 51.0 ],
-      "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
+        "id" : 4628,
+        "name" : "Diego Armando Valentin Contento"
       },
       "position" : {
         "id" : 6,
         "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 30.0 ],
-      "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 23.0 ],
-      "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 31.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 39.0 ],
-      "player" : {
-        "id" : 3956,
-        "name" : "David Luiz Moreira Marinho"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.0, 20.0 ],
-      "player" : {
-        "id" : 20352,
-        "name" : "Didier Yves Drogba Tébily"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.0, 40.0 ],
-      "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.0, 39.0 ],
-      "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.0, 29.0 ],
-      "player" : {
-        "id" : 8223,
-        "name" : "Franck Bilal Ribéry"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
       },
       "teammate" : true
     }, {
@@ -159982,16 +159872,126 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 113.0, 13.0 ],
+      "location" : [ 110.0, 29.0 ],
       "player" : {
-        "id" : 4628,
-        "name" : "Diego Armando Valentin Contento"
+        "id" : 8223,
+        "name" : "Franck Bilal Ribéry"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.0, 39.0 ],
+      "player" : {
+        "id" : 5565,
+        "name" : "Mario Gómez García"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.0, 40.0 ],
+      "player" : {
+        "id" : 3461,
+        "name" : "Petr Čech"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.0, 20.0 ],
+      "player" : {
+        "id" : 20352,
+        "name" : "Didier Yves Drogba Tébily"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 39.0 ],
+      "player" : {
+        "id" : 3956,
+        "name" : "David Luiz Moreira Marinho"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 31.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 23.0 ],
+      "player" : {
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 30.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.0, 51.0 ],
+      "player" : {
+        "id" : 12529,
+        "name" : "Ashley Cole"
       },
       "position" : {
         "id" : 6,
         "name" : "Left Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 98.0, 42.0 ],
+      "player" : {
+        "id" : 20290,
+        "name" : "Florent Malouda"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.0, 34.0 ],
+      "player" : {
+        "id" : 5475,
+        "name" : "John Michael Nchekwube Obinna"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -160066,13 +160066,13 @@
   "related_events" : [ "cd891e20-523e-476f-9eb2-feeccdc814d3" ],
   "goalkeeper" : {
     "end_location" : [ 2.0, 41.0 ],
-    "position" : {
-      "id" : 44,
-      "name" : "Set"
-    },
     "type" : {
       "id" : 32,
       "name" : "Shot Faced"
+    },
+    "position" : {
+      "id" : 44,
+      "name" : "Set"
     }
   }
 }, {
@@ -160519,6 +160519,10 @@
   "shot" : {
     "statsbomb_xg" : 0.76,
     "end_location" : [ 120.0, 42.0, 0.5 ],
+    "outcome" : {
+      "id" : 100,
+      "name" : "Saved"
+    },
     "technique" : {
       "id" : 93,
       "name" : "Normal"
@@ -160530,10 +160534,6 @@
     "type" : {
       "id" : 88,
       "name" : "Penalty"
-    },
-    "outcome" : {
-      "id" : 100,
-      "name" : "Saved"
     }
   }
 }, {
@@ -160572,6 +160572,14 @@
   "duration" : 0.0,
   "related_events" : [ "0c34c7f4-4f70-4f05-a0dc-4e9845c02e6d" ],
   "goalkeeper" : {
+    "outcome" : {
+      "id" : 56,
+      "name" : "Saved Twice"
+    },
+    "type" : {
+      "id" : 29,
+      "name" : "Penalty Saved"
+    },
     "technique" : {
       "id" : 45,
       "name" : "Diving"
@@ -160583,14 +160591,6 @@
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "type" : {
-      "id" : 29,
-      "name" : "Penalty Saved"
-    },
-    "outcome" : {
-      "id" : 56,
-      "name" : "Saved Twice"
     }
   }
 }, {
@@ -160973,6 +160973,10 @@
     "statsbomb_xg" : 0.019385124,
     "end_location" : [ 120.0, 35.6, 7.2 ],
     "key_pass_id" : "79a51182-4ace-4fde-ba62-6c0be7b57fcc",
+    "outcome" : {
+      "id" : 98,
+      "name" : "Off T"
+    },
     "technique" : {
       "id" : 93,
       "name" : "Normal"
@@ -160984,10 +160988,6 @@
     "type" : {
       "id" : 87,
       "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 98,
-      "name" : "Off T"
     },
     "freeze_frame" : [ {
       "location" : [ 100.0, 44.0 ],
@@ -162650,23 +162650,56 @@
   "shot" : {
     "statsbomb_xg" : 0.06076197,
     "end_location" : [ 115.0, 48.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
-    "type" : {
-      "id" : 87,
-      "name" : "Open Play"
+    "technique" : {
+      "id" : 91,
+      "name" : "Half Volley"
     },
     "outcome" : {
       "id" : 96,
       "name" : "Blocked"
     },
-    "technique" : {
-      "id" : 91,
-      "name" : "Half Volley"
+    "type" : {
+      "id" : 87,
+      "name" : "Open Play"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     },
     "freeze_frame" : [ {
+      "location" : [ 115.0, 47.0 ],
+      "player" : {
+        "id" : 3956,
+        "name" : "David Luiz Moreira Marinho"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.0, 44.0 ],
+      "player" : {
+        "id" : 20352,
+        "name" : "Didier Yves Drogba Tébily"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.0, 42.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 105.0, 55.0 ],
       "player" : {
         "id" : 5475,
@@ -162763,39 +162796,6 @@
       "position" : {
         "id" : 2,
         "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.0, 42.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.0, 44.0 ],
-      "player" : {
-        "id" : 20352,
-        "name" : "Didier Yves Drogba Tébily"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.0, 47.0 ],
-      "player" : {
-        "id" : 3956,
-        "name" : "David Luiz Moreira Marinho"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -166316,17 +166316,17 @@
       "name" : "High Pass"
     },
     "end_location" : [ 87.0, 50.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
     },
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -169696,13 +169696,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 54.0, 40.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -171384,13 +171384,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 49.0, 72.0 ],
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
-    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
+    },
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     }
   }
 }, {
@@ -171799,17 +171799,17 @@
       "name" : "High Pass"
     },
     "end_location" : [ 56.0, 63.0 ],
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
     },
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     }
   }
 }, {
@@ -172328,13 +172328,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 78.0, 30.0 ],
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
-    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
+    },
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     }
   }
 }, {
@@ -172485,11 +172485,11 @@
   "location" : [ 44.0, 51.0 ],
   "duration" : 0.0,
   "foul_committed" : {
-    "offensive" : true,
     "type" : {
       "id" : 24,
       "name" : "Handball"
-    }
+    },
+    "offensive" : true
   }
 }, {
   "id" : "f78b656b-d92b-4df3-a977-2ee27ed3d03a",
@@ -172538,13 +172538,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 114.0, 61.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -174950,13 +174950,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 92.0, 6.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -177085,13 +177085,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 32.0, 41.0 ],
-    "type" : {
-      "id" : 64,
-      "name" : "Interception"
-    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
+    },
+    "type" : {
+      "id" : 64,
+      "name" : "Interception"
     }
   }
 }, {
@@ -177333,13 +177333,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 45.0, 54.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -181685,13 +181685,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 86.0, 18.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -182507,17 +182507,17 @@
       "name" : "High Pass"
     },
     "end_location" : [ 112.0, 33.0 ],
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
+    "type" : {
+      "id" : 61,
+      "name" : "Corner"
     },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
     },
-    "type" : {
-      "id" : 61,
-      "name" : "Corner"
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     }
   }
 }, {
@@ -183016,6 +183016,50 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
+      "location" : [ 105.0, 64.0 ],
+      "player" : {
+        "id" : 8218,
+        "name" : "Arjen Robben"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.0, 40.0 ],
+      "player" : {
+        "id" : 19297,
+        "name" : "Daniel Van Buyten"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.0, 38.0 ],
+      "player" : {
+        "id" : 5565,
+        "name" : "Mario Gómez García"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.0, 33.0 ],
+      "player" : {
+        "id" : 19289,
+        "name" : "Ivica Olić"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 107.0, 44.0 ],
       "player" : {
         "id" : 5475,
@@ -183125,50 +183169,6 @@
         "name" : "Right Wing"
       },
       "teammate" : false
-    }, {
-      "location" : [ 107.0, 33.0 ],
-      "player" : {
-        "id" : 19289,
-        "name" : "Ivica Olić"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.0, 38.0 ],
-      "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.0, 40.0 ],
-      "player" : {
-        "id" : 19297,
-        "name" : "Daniel Van Buyten"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.0, 64.0 ],
-      "player" : {
-        "id" : 8218,
-        "name" : "Arjen Robben"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
     } ]
   }
 }, {
@@ -183423,13 +183423,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 107.0, 46.0 ],
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
-    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
+    },
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
     }
   }
 }, {
@@ -184004,6 +184004,10 @@
       "name" : "High Pass"
     },
     "end_location" : [ 79.0, 5.0 ],
+    "outcome" : {
+      "id" : 9,
+      "name" : "Incomplete"
+    },
     "body_part" : {
       "id" : 37,
       "name" : "Head"
@@ -184011,10 +184015,6 @@
     "type" : {
       "id" : 66,
       "name" : "Recovery"
-    },
-    "outcome" : {
-      "id" : 9,
-      "name" : "Incomplete"
     }
   }
 }, {
@@ -184986,13 +184986,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 116.0, 14.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -188172,13 +188172,13 @@
   "under_pressure" : true,
   "related_events" : [ "e145c07e-bd37-4e85-b167-8fb9cef54921" ],
   "duel" : {
-    "type" : {
-      "id" : 11,
-      "name" : "Tackle"
-    },
     "outcome" : {
       "id" : 13,
       "name" : "Lost In Play"
+    },
+    "type" : {
+      "id" : 11,
+      "name" : "Tackle"
     }
   }
 }, {
@@ -189488,6 +189488,10 @@
     "statsbomb_xg" : 0.49804583,
     "end_location" : [ 114.0, 43.0 ],
     "key_pass_id" : "8fc3be06-a1c1-422d-bb77-9cdeeac51766",
+    "outcome" : {
+      "id" : 96,
+      "name" : "Blocked"
+    },
     "first_time" : true,
     "technique" : {
       "id" : 95,
@@ -189500,10 +189504,6 @@
     "type" : {
       "id" : 87,
       "name" : "Open Play"
-    },
-    "outcome" : {
-      "id" : 96,
-      "name" : "Blocked"
     },
     "freeze_frame" : [ {
       "location" : [ 105.0, 56.0 ],
@@ -189689,13 +189689,13 @@
   "related_events" : [ "cd2cd1f5-e595-4d9f-b501-d661fa07bc15" ],
   "goalkeeper" : {
     "end_location" : [ 6.0, 31.0 ],
-    "position" : {
-      "id" : 43,
-      "name" : "Prone"
-    },
     "type" : {
       "id" : 32,
       "name" : "Shot Faced"
+    },
+    "position" : {
+      "id" : 43,
+      "name" : "Prone"
     }
   }
 }, {
@@ -190582,6 +190582,10 @@
     "statsbomb_xg" : 0.029607074,
     "end_location" : [ 120.0, 32.3, 5.5 ],
     "key_pass_id" : "bb3ee414-5d92-4f58-98c7-54eeef14419e",
+    "outcome" : {
+      "id" : 98,
+      "name" : "Off T"
+    },
     "technique" : {
       "id" : 93,
       "name" : "Normal"
@@ -190594,11 +190598,62 @@
       "id" : 87,
       "name" : "Open Play"
     },
-    "outcome" : {
-      "id" : 98,
-      "name" : "Off T"
-    },
     "freeze_frame" : [ {
+      "location" : [ 111.0, 41.0 ],
+      "player" : {
+        "id" : 5475,
+        "name" : "John Michael Nchekwube Obinna"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.0, 32.0 ],
+      "player" : {
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.0, 41.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.0, 47.0 ],
+      "player" : {
+        "id" : 3956,
+        "name" : "David Luiz Moreira Marinho"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.0, 51.0 ],
+      "player" : {
+        "id" : 12529,
+        "name" : "Ashley Cole"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 97.0, 61.0 ],
       "player" : {
         "id" : 19295,
@@ -190684,61 +190739,6 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.0, 51.0 ],
-      "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.0, 47.0 ],
-      "player" : {
-        "id" : 3956,
-        "name" : "David Luiz Moreira Marinho"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.0, 41.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.0, 32.0 ],
-      "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 41.0 ],
-      "player" : {
-        "id" : 5475,
-        "name" : "John Michael Nchekwube Obinna"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -190837,13 +190837,13 @@
       "name" : "High Pass"
     },
     "end_location" : [ 75.0, 55.0 ],
-    "type" : {
-      "id" : 63,
-      "name" : "Goal Kick"
-    },
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
+    },
+    "type" : {
+      "id" : 63,
+      "name" : "Goal Kick"
     }
   }
 }, {
@@ -191327,13 +191327,13 @@
   "under_pressure" : true,
   "related_events" : [ "e0077481-4c9e-469d-8c16-f3bfda693dc6" ],
   "duel" : {
-    "outcome" : {
-      "id" : 16,
-      "name" : "Success In Play"
-    },
     "type" : {
       "id" : 11,
       "name" : "Tackle"
+    },
+    "outcome" : {
+      "id" : 16,
+      "name" : "Success In Play"
     }
   }
 }, {
@@ -192305,13 +192305,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 44.0, 22.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -192856,13 +192856,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 29.0, 26.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -195604,13 +195604,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 45.0, 38.0 ],
-    "body_part" : {
-      "id" : 40,
-      "name" : "Right Foot"
-    },
     "type" : {
       "id" : 62,
       "name" : "Free Kick"
+    },
+    "body_part" : {
+      "id" : 40,
+      "name" : "Right Foot"
     }
   }
 }, {
@@ -196795,13 +196795,13 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 94.0, 52.0 ],
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
-    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
+    },
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
     }
   }
 }, {
@@ -198215,6 +198215,14 @@
     "statsbomb_xg" : 0.014630085,
     "end_location" : [ 91.0, 39.0 ],
     "key_pass_id" : "eb3e8cbb-f3de-4904-b802-574009b4bb98",
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
+    },
+    "outcome" : {
+      "id" : 96,
+      "name" : "Blocked"
+    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -198223,166 +198231,15 @@
       "id" : 87,
       "name" : "Open Play"
     },
-    "outcome" : {
-      "id" : 96,
-      "name" : "Blocked"
-    },
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
-    },
     "freeze_frame" : [ {
-      "location" : [ 103.0, 57.0 ],
+      "location" : [ 87.0, 59.0 ],
       "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.0, 39.0 ],
-      "player" : {
-        "id" : 5475,
-        "name" : "John Michael Nchekwube Obinna"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 43.0 ],
-      "player" : {
-        "id" : 3956,
-        "name" : "David Luiz Moreira Marinho"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.0, 37.0 ],
-      "player" : {
-        "id" : 3645,
-        "name" : "Gary Cahill"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.0, 33.0 ],
-      "player" : {
-        "id" : 20018,
-        "name" : "José Bosingwa da Silva"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.0, 22.0 ],
-      "player" : {
-        "id" : 6382,
-        "name" : "Fernando José Torres Sanz"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.0, 49.0 ],
-      "player" : {
-        "id" : 20330,
-        "name" : "Frank Lampard"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 89.0, 54.0 ],
-      "player" : {
-        "id" : 3294,
-        "name" : "Juan Manuel Mata García"
+        "id" : 5574,
+        "name" : "Toni Kroos"
       },
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 95.0, 62.0 ],
-      "player" : {
-        "id" : 20290,
-        "name" : "Florent Malouda"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.0, 39.0 ],
-      "player" : {
-        "id" : 3461,
-        "name" : "Petr Čech"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.0, 40.0 ],
-      "player" : {
-        "id" : 5565,
-        "name" : "Mario Gómez García"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.0, 29.0 ],
-      "player" : {
-        "id" : 19289,
-        "name" : "Ivica Olić"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 88.0, 25.0 ],
-      "player" : {
-        "id" : 18414,
-        "name" : "Bastian Schweinsteiger"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 97.0, 69.0 ],
-      "player" : {
-        "id" : 8218,
-        "name" : "Arjen Robben"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
@@ -198397,16 +198254,159 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 87.0, 59.0 ],
+      "location" : [ 97.0, 69.0 ],
       "player" : {
-        "id" : 5574,
-        "name" : "Toni Kroos"
+        "id" : 8218,
+        "name" : "Arjen Robben"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 88.0, 25.0 ],
+      "player" : {
+        "id" : 18414,
+        "name" : "Bastian Schweinsteiger"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 101.0, 29.0 ],
+      "player" : {
+        "id" : 19289,
+        "name" : "Ivica Olić"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.0, 40.0 ],
+      "player" : {
+        "id" : 5565,
+        "name" : "Mario Gómez García"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.0, 39.0 ],
+      "player" : {
+        "id" : 3461,
+        "name" : "Petr Čech"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 95.0, 62.0 ],
+      "player" : {
+        "id" : 20290,
+        "name" : "Florent Malouda"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 89.0, 54.0 ],
+      "player" : {
+        "id" : 3294,
+        "name" : "Juan Manuel Mata García"
       },
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 96.0, 49.0 ],
+      "player" : {
+        "id" : 20330,
+        "name" : "Frank Lampard"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.0, 22.0 ],
+      "player" : {
+        "id" : 6382,
+        "name" : "Fernando José Torres Sanz"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.0, 33.0 ],
+      "player" : {
+        "id" : 20018,
+        "name" : "José Bosingwa da Silva"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.0, 37.0 ],
+      "player" : {
+        "id" : 3645,
+        "name" : "Gary Cahill"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 43.0 ],
+      "player" : {
+        "id" : 3956,
+        "name" : "David Luiz Moreira Marinho"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.0, 39.0 ],
+      "player" : {
+        "id" : 5475,
+        "name" : "John Michael Nchekwube Obinna"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.0, 57.0 ],
+      "player" : {
+        "id" : 12529,
+        "name" : "Ashley Cole"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -198784,17 +198784,17 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 70.0, 1.0 ],
-    "body_part" : {
-      "id" : 37,
-      "name" : "Head"
+    "outcome" : {
+      "id" : 75,
+      "name" : "Out"
     },
     "type" : {
       "id" : 66,
       "name" : "Recovery"
     },
-    "outcome" : {
-      "id" : 75,
-      "name" : "Out"
+    "body_part" : {
+      "id" : 37,
+      "name" : "Head"
     }
   }
 }, {
@@ -198936,6 +198936,10 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 66.0, 13.0 ],
+    "type" : {
+      "id" : 66,
+      "name" : "Recovery"
+    },
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -198943,10 +198947,6 @@
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "type" : {
-      "id" : 66,
-      "name" : "Recovery"
     }
   }
 }, {
@@ -200986,6 +200986,14 @@
   "shot" : {
     "statsbomb_xg" : 0.76,
     "end_location" : [ 120.0, 43.4, 1.7 ],
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
+    },
+    "outcome" : {
+      "id" : 97,
+      "name" : "Goal"
+    },
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -200993,14 +201001,6 @@
     "type" : {
       "id" : 88,
       "name" : "Penalty"
-    },
-    "outcome" : {
-      "id" : 97,
-      "name" : "Goal"
-    },
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
     }
   }
 }, {
@@ -201039,25 +201039,25 @@
   "duration" : 0.0,
   "related_events" : [ "81e22b49-addf-47d2-936a-fedb5d0c10c6" ],
   "goalkeeper" : {
-    "technique" : {
-      "id" : 45,
-      "name" : "Diving"
-    },
-    "position" : {
-      "id" : 44,
-      "name" : "Set"
-    },
-    "body_part" : {
-      "id" : 35,
-      "name" : "Both Hands"
+    "outcome" : {
+      "id" : 58,
+      "name" : "Touched In"
     },
     "type" : {
       "id" : 28,
       "name" : "Penalty Conceded"
     },
-    "outcome" : {
-      "id" : 58,
-      "name" : "Touched In"
+    "body_part" : {
+      "id" : 35,
+      "name" : "Both Hands"
+    },
+    "position" : {
+      "id" : 44,
+      "name" : "Set"
+    },
+    "technique" : {
+      "id" : 45,
+      "name" : "Diving"
     }
   }
 }, {
@@ -201151,6 +201151,10 @@
   "duration" : 0.0,
   "related_events" : [ "8330be18-c540-481d-a946-112b813f6af2" ],
   "goalkeeper" : {
+    "outcome" : {
+      "id" : 53,
+      "name" : "In Play Safe"
+    },
     "technique" : {
       "id" : 45,
       "name" : "Diving"
@@ -201166,10 +201170,6 @@
     "type" : {
       "id" : 29,
       "name" : "Penalty Saved"
-    },
-    "outcome" : {
-      "id" : 53,
-      "name" : "In Play Safe"
     }
   }
 }, {
@@ -201210,6 +201210,10 @@
   "shot" : {
     "statsbomb_xg" : 0.76,
     "end_location" : [ 119.0, 43.2, 0.2 ],
+    "outcome" : {
+      "id" : 97,
+      "name" : "Goal"
+    },
     "technique" : {
       "id" : 93,
       "name" : "Normal"
@@ -201221,10 +201225,6 @@
     "type" : {
       "id" : 88,
       "name" : "Penalty"
-    },
-    "outcome" : {
-      "id" : 97,
-      "name" : "Goal"
     }
   }
 }, {
@@ -201263,6 +201263,10 @@
   "duration" : 0.0,
   "related_events" : [ "02307817-1740-490e-ab2d-79fec3618ca3" ],
   "goalkeeper" : {
+    "position" : {
+      "id" : 44,
+      "name" : "Set"
+    },
     "type" : {
       "id" : 28,
       "name" : "Penalty Conceded"
@@ -201274,10 +201278,6 @@
     "technique" : {
       "id" : 45,
       "name" : "Diving"
-    },
-    "position" : {
-      "id" : 44,
-      "name" : "Set"
     }
   }
 }, {
@@ -201479,21 +201479,21 @@
   "duration" : 0.0,
   "related_events" : [ "364fd9d8-76cd-49fd-ac6d-0b414fc7c653" ],
   "goalkeeper" : {
-    "technique" : {
-      "id" : 45,
-      "name" : "Diving"
-    },
-    "position" : {
-      "id" : 44,
-      "name" : "Set"
+    "outcome" : {
+      "id" : 55,
+      "name" : "No Touch"
     },
     "type" : {
       "id" : 28,
       "name" : "Penalty Conceded"
     },
-    "outcome" : {
-      "id" : 55,
-      "name" : "No Touch"
+    "position" : {
+      "id" : 44,
+      "name" : "Set"
+    },
+    "technique" : {
+      "id" : 45,
+      "name" : "Diving"
     }
   }
 }, {
@@ -201587,6 +201587,10 @@
   "duration" : 0.0,
   "related_events" : [ "77d35786-8a38-4878-bb93-44d87b29af35" ],
   "goalkeeper" : {
+    "body_part" : {
+      "id" : 35,
+      "name" : "Both Hands"
+    },
     "type" : {
       "id" : 28,
       "name" : "Penalty Conceded"
@@ -201602,10 +201606,6 @@
     "position" : {
       "id" : 44,
       "name" : "Set"
-    },
-    "body_part" : {
-      "id" : 35,
-      "name" : "Both Hands"
     }
   }
 }, {
@@ -201646,6 +201646,10 @@
   "shot" : {
     "statsbomb_xg" : 0.76,
     "end_location" : [ 119.0, 42.6, 1.2 ],
+    "outcome" : {
+      "id" : 100,
+      "name" : "Saved"
+    },
     "technique" : {
       "id" : 93,
       "name" : "Normal"
@@ -201657,10 +201661,6 @@
     "type" : {
       "id" : 88,
       "name" : "Penalty"
-    },
-    "outcome" : {
-      "id" : 100,
-      "name" : "Saved"
     }
   }
 }, {
@@ -201758,6 +201758,14 @@
   "shot" : {
     "statsbomb_xg" : 0.76,
     "end_location" : [ 120.0, 43.8, 1.2 ],
+    "body_part" : {
+      "id" : 38,
+      "name" : "Left Foot"
+    },
+    "technique" : {
+      "id" : 93,
+      "name" : "Normal"
+    },
     "type" : {
       "id" : 88,
       "name" : "Penalty"
@@ -201765,14 +201773,6 @@
     "outcome" : {
       "id" : 97,
       "name" : "Goal"
-    },
-    "technique" : {
-      "id" : 93,
-      "name" : "Normal"
-    },
-    "body_part" : {
-      "id" : 38,
-      "name" : "Left Foot"
     }
   }
 }, {
@@ -201919,6 +201919,10 @@
   "duration" : 0.0,
   "related_events" : [ "18d17a04-728f-4622-a8e4-bdd5203157d9" ],
   "goalkeeper" : {
+    "outcome" : {
+      "id" : 53,
+      "name" : "In Play Safe"
+    },
     "technique" : {
       "id" : 45,
       "name" : "Diving"
@@ -201934,10 +201938,6 @@
     "type" : {
       "id" : 29,
       "name" : "Penalty Saved"
-    },
-    "outcome" : {
-      "id" : 53,
-      "name" : "In Play Safe"
     }
   }
 }, {
@@ -202031,21 +202031,21 @@
   "duration" : 0.0,
   "related_events" : [ "0305bd45-4243-4657-9db1-72ae41eaa2f9" ],
   "goalkeeper" : {
-    "type" : {
-      "id" : 28,
-      "name" : "Penalty Conceded"
-    },
-    "outcome" : {
-      "id" : 55,
-      "name" : "No Touch"
+    "position" : {
+      "id" : 44,
+      "name" : "Set"
     },
     "technique" : {
       "id" : 45,
       "name" : "Diving"
     },
-    "position" : {
-      "id" : 44,
-      "name" : "Set"
+    "outcome" : {
+      "id" : 55,
+      "name" : "No Touch"
+    },
+    "type" : {
+      "id" : 28,
+      "name" : "Penalty Conceded"
     }
   }
 }, {
