@@ -631,11 +631,11 @@
   "under_pressure" : true,
   "related_events" : [ "275596b4-784a-4756-b51c-473a0fcbc61d", "db4ea48a-889d-4875-9f06-18398323844b" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -4568,11 +4568,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
-    },
-    "through_ball" : true
+    }
   }
 }, {
   "id" : "8979cc77-fb87-473e-a1e3-dfffe5030acf",
@@ -4696,120 +4696,21 @@
       "id" : 87,
       "name" : "Open Play"
     },
+    "saved_to_post" : true,
     "outcome" : {
       "id" : 116,
       "name" : "Saved to Post"
     },
-    "saved_to_post" : true,
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 84.7, 21.6 ],
+      "location" : [ 89.4, 32.2 ],
       "player" : {
-        "id" : 10955,
-        "name" : "Harry Kane"
+        "id" : 4870,
+        "name" : "Tomáš Souček"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 79.4, 16.3 ],
-      "player" : {
-        "id" : 9638,
-        "name" : "Jack Grealish"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 97.5, 40.6 ],
-      "player" : {
-        "id" : 22084,
-        "name" : "Bukayo Saka"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.4, 28.8 ],
-      "player" : {
-        "id" : 11541,
-        "name" : "Tomáš Vaclík"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 77.9, 9.5 ],
-      "player" : {
-        "id" : 16472,
-        "name" : "Lukáš Masopust"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 86.3, 12.0 ],
-      "player" : {
-        "id" : 16570,
-        "name" : "Vladimír Coufal"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.1, 28.0 ],
-      "player" : {
-        "id" : 30328,
-        "name" : "Ondrej Celustka"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.5, 34.5 ],
-      "player" : {
-        "id" : 13197,
-        "name" : "Tomáš Kalas"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.4, 42.0 ],
-      "player" : {
-        "id" : 4875,
-        "name" : "Jan Bořil"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.1, 51.0 ],
-      "player" : {
-        "id" : 8095,
-        "name" : "Jakub Jankto"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -4824,16 +4725,115 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 89.4, 32.2 ],
+      "location" : [ 92.1, 51.0 ],
       "player" : {
-        "id" : 4870,
-        "name" : "Tomáš Souček"
+        "id" : 8095,
+        "name" : "Jakub Jankto"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 21,
+        "name" : "Left Wing"
       },
       "teammate" : false
+    }, {
+      "location" : [ 98.4, 42.0 ],
+      "player" : {
+        "id" : 4875,
+        "name" : "Jan Bořil"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.5, 34.5 ],
+      "player" : {
+        "id" : 13197,
+        "name" : "Tomáš Kalas"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.1, 28.0 ],
+      "player" : {
+        "id" : 30328,
+        "name" : "Ondrej Celustka"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 86.3, 12.0 ],
+      "player" : {
+        "id" : 16570,
+        "name" : "Vladimír Coufal"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 77.9, 9.5 ],
+      "player" : {
+        "id" : 16472,
+        "name" : "Lukáš Masopust"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.4, 28.8 ],
+      "player" : {
+        "id" : 11541,
+        "name" : "Tomáš Vaclík"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.5, 40.6 ],
+      "player" : {
+        "id" : 22084,
+        "name" : "Bukayo Saka"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 79.4, 16.3 ],
+      "player" : {
+        "id" : 9638,
+        "name" : "Jack Grealish"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 84.7, 21.6 ],
+      "player" : {
+        "id" : 10955,
+        "name" : "Harry Kane"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -4876,11 +4876,11 @@
       "id" : 35,
       "name" : "Both Hands"
     },
+    "shot_saved_to_post" : true,
     "type" : {
       "id" : 114,
       "name" : "Shot Saved to Post"
     },
-    "shot_saved_to_post" : true,
     "outcome" : {
       "id" : 53,
       "name" : "In Play Safe"
@@ -4964,11 +4964,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "cbb30cc1-64db-48fe-ae2d-49037e71a954",
@@ -14235,11 +14235,11 @@
   "under_pressure" : true,
   "related_events" : [ "3affbf17-a94e-4ee3-8729-54db12aa0645" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "eb1e95c4-5eeb-4348-9468-7f6a219ea36e",
@@ -14277,11 +14277,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "93a77c89-96a4-4ba1-ab60-a33b0d6f24f2",
@@ -17385,11 +17385,11 @@
   "under_pressure" : true,
   "related_events" : [ "6f90613f-fddf-40bc-8a5c-907929bd78b6" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "59d0db99-da08-442b-b63f-a30f15f3907a",
@@ -17727,168 +17727,14 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 111.4, 54.0 ],
+      "location" : [ 109.5, 48.3 ],
       "player" : {
-        "id" : 4875,
-        "name" : "Jan Bořil"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.6, 40.3 ],
-      "player" : {
-        "id" : 16570,
-        "name" : "Vladimír Coufal"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.7, 45.6 ],
-      "player" : {
-        "id" : 30328,
-        "name" : "Ondrej Celustka"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.4, 52.1 ],
-      "player" : {
-        "id" : 7044,
-        "name" : "Patrik Schick"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.5, 38.5 ],
-      "player" : {
-        "id" : 16472,
-        "name" : "Lukáš Masopust"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.8, 49.5 ],
-      "player" : {
-        "id" : 13197,
-        "name" : "Tomáš Kalas"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.8, 41.2 ],
-      "player" : {
-        "id" : 16469,
-        "name" : "Tomáš Holeš"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.7, 43.8 ],
-      "player" : {
-        "id" : 11541,
-        "name" : "Tomáš Vaclík"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 88.0, 35.8 ],
-      "player" : {
-        "id" : 8579,
-        "name" : "Vladimír Darida"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.4, 49.6 ],
-      "player" : {
-        "id" : 8095,
-        "name" : "Jakub Jankto"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.9, 35.6 ],
-      "player" : {
-        "id" : 4870,
-        "name" : "Tomáš Souček"
+        "id" : 3943,
+        "name" : "Declan Rice"
       },
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.0, 38.6 ],
-      "player" : {
-        "id" : 3233,
-        "name" : "Raheem Sterling"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 100.0, 49.4 ],
-      "player" : {
-        "id" : 22084,
-        "name" : "Bukayo Saka"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 111.8, 46.6 ],
-      "player" : {
-        "id" : 10955,
-        "name" : "Harry Kane"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 110.0, 33.3 ],
-      "player" : {
-        "id" : 3336,
-        "name" : "Harry Maguire"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : true
     }, {
@@ -17903,16 +17749,170 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 109.5, 48.3 ],
+      "location" : [ 110.0, 33.3 ],
       "player" : {
-        "id" : 3943,
-        "name" : "Declan Rice"
+        "id" : 3336,
+        "name" : "Harry Maguire"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 111.8, 46.6 ],
+      "player" : {
+        "id" : 10955,
+        "name" : "Harry Kane"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.0, 49.4 ],
+      "player" : {
+        "id" : 22084,
+        "name" : "Bukayo Saka"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.0, 38.6 ],
+      "player" : {
+        "id" : 3233,
+        "name" : "Raheem Sterling"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.9, 35.6 ],
+      "player" : {
+        "id" : 4870,
+        "name" : "Tomáš Souček"
       },
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 101.4, 49.6 ],
+      "player" : {
+        "id" : 8095,
+        "name" : "Jakub Jankto"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 88.0, 35.8 ],
+      "player" : {
+        "id" : 8579,
+        "name" : "Vladimír Darida"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.7, 43.8 ],
+      "player" : {
+        "id" : 11541,
+        "name" : "Tomáš Vaclík"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.8, 41.2 ],
+      "player" : {
+        "id" : 16469,
+        "name" : "Tomáš Holeš"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.8, 49.5 ],
+      "player" : {
+        "id" : 13197,
+        "name" : "Tomáš Kalas"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.5, 38.5 ],
+      "player" : {
+        "id" : 16472,
+        "name" : "Lukáš Masopust"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.4, 52.1 ],
+      "player" : {
+        "id" : 7044,
+        "name" : "Patrik Schick"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.7, 45.6 ],
+      "player" : {
+        "id" : 30328,
+        "name" : "Ondrej Celustka"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.6, 40.3 ],
+      "player" : {
+        "id" : 16570,
+        "name" : "Vladimír Coufal"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.4, 54.0 ],
+      "player" : {
+        "id" : 4875,
+        "name" : "Jan Bořil"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -18972,11 +18972,11 @@
   "under_pressure" : true,
   "related_events" : [ "7457a207-4e94-4475-a3c5-08174b6d8298" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "a11b7395-42f1-48c8-a35a-f674ef8fdaa9",
@@ -19102,113 +19102,25 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 88.8, 23.8 ],
+      "location" : [ 116.8, 41.7 ],
       "player" : {
-        "id" : 9638,
-        "name" : "Jack Grealish"
+        "id" : 11541,
+        "name" : "Tomáš Vaclík"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 85.5, 54.2 ],
+      "player" : {
+        "id" : 8579,
+        "name" : "Vladimír Darida"
       },
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 93.6, 38.6 ],
-      "player" : {
-        "id" : 3233,
-        "name" : "Raheem Sterling"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.9, 52.9 ],
-      "player" : {
-        "id" : 22084,
-        "name" : "Bukayo Saka"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 98.9, 30.9 ],
-      "player" : {
-        "id" : 16570,
-        "name" : "Vladimír Coufal"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.4, 45.6 ],
-      "player" : {
-        "id" : 30328,
-        "name" : "Ondrej Celustka"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.2, 55.8 ],
-      "player" : {
-        "id" : 4875,
-        "name" : "Jan Bořil"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.3, 53.5 ],
-      "player" : {
-        "id" : 13197,
-        "name" : "Tomáš Kalas"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.9, 64.6 ],
-      "player" : {
-        "id" : 8095,
-        "name" : "Jakub Jankto"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.0, 38.8 ],
-      "player" : {
-        "id" : 16469,
-        "name" : "Tomáš Holeš"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 81.5, 65.3 ],
-      "player" : {
-        "id" : 4870,
-        "name" : "Tomáš Souček"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -19223,27 +19135,115 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 85.5, 54.2 ],
+      "location" : [ 81.5, 65.3 ],
       "player" : {
-        "id" : 8579,
-        "name" : "Vladimír Darida"
+        "id" : 4870,
+        "name" : "Tomáš Souček"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 93.0, 38.8 ],
+      "player" : {
+        "id" : 16469,
+        "name" : "Tomáš Holeš"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.9, 64.6 ],
+      "player" : {
+        "id" : 8095,
+        "name" : "Jakub Jankto"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.3, 53.5 ],
+      "player" : {
+        "id" : 13197,
+        "name" : "Tomáš Kalas"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.2, 55.8 ],
+      "player" : {
+        "id" : 4875,
+        "name" : "Jan Bořil"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.4, 45.6 ],
+      "player" : {
+        "id" : 30328,
+        "name" : "Ondrej Celustka"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.9, 30.9 ],
+      "player" : {
+        "id" : 16570,
+        "name" : "Vladimír Coufal"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.9, 52.9 ],
+      "player" : {
+        "id" : 22084,
+        "name" : "Bukayo Saka"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 93.6, 38.6 ],
+      "player" : {
+        "id" : 3233,
+        "name" : "Raheem Sterling"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 88.8, 23.8 ],
+      "player" : {
+        "id" : 9638,
+        "name" : "Jack Grealish"
       },
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
       },
-      "teammate" : false
-    }, {
-      "location" : [ 116.8, 41.7 ],
-      "player" : {
-        "id" : 11541,
-        "name" : "Tomáš Vaclík"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
+      "teammate" : true
     } ]
   }
 }, {
@@ -21008,135 +21008,14 @@
       "name" : "Goal"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.1, 42.4 ],
+      "location" : [ 105.4, 34.6 ],
       "player" : {
-        "id" : 4875,
-        "name" : "Jan Bořil"
+        "id" : 10955,
+        "name" : "Harry Kane"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.1, 33.7 ],
-      "player" : {
-        "id" : 30328,
-        "name" : "Ondrej Celustka"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.7, 29.1 ],
-      "player" : {
-        "id" : 16469,
-        "name" : "Tomáš Holeš"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.4, 26.1 ],
-      "player" : {
-        "id" : 16570,
-        "name" : "Vladimír Coufal"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.2, 39.3 ],
-      "player" : {
-        "id" : 11541,
-        "name" : "Tomáš Vaclík"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.3, 49.7 ],
-      "player" : {
-        "id" : 8095,
-        "name" : "Jakub Jankto"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.4, 37.5 ],
-      "player" : {
-        "id" : 8579,
-        "name" : "Vladimír Darida"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.1, 35.4 ],
-      "player" : {
-        "id" : 4870,
-        "name" : "Tomáš Souček"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.9, 41.0 ],
-      "player" : {
-        "id" : 13197,
-        "name" : "Tomáš Kalas"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.3, 22.8 ],
-      "player" : {
-        "id" : 16472,
-        "name" : "Lukáš Masopust"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.3, 41.2 ],
-      "player" : {
-        "id" : 22084,
-        "name" : "Bukayo Saka"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.2, 17.6 ],
-      "player" : {
-        "id" : 3382,
-        "name" : "Luke Shaw"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
       "teammate" : true
     }, {
@@ -21151,16 +21030,137 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 105.4, 34.6 ],
+      "location" : [ 108.2, 17.6 ],
       "player" : {
-        "id" : 10955,
-        "name" : "Harry Kane"
+        "id" : 3382,
+        "name" : "Luke Shaw"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 118.3, 41.2 ],
+      "player" : {
+        "id" : 22084,
+        "name" : "Bukayo Saka"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.3, 22.8 ],
+      "player" : {
+        "id" : 16472,
+        "name" : "Lukáš Masopust"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.9, 41.0 ],
+      "player" : {
+        "id" : 13197,
+        "name" : "Tomáš Kalas"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.1, 35.4 ],
+      "player" : {
+        "id" : 4870,
+        "name" : "Tomáš Souček"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.4, 37.5 ],
+      "player" : {
+        "id" : 8579,
+        "name" : "Vladimír Darida"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.3, 49.7 ],
+      "player" : {
+        "id" : 8095,
+        "name" : "Jakub Jankto"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.2, 39.3 ],
+      "player" : {
+        "id" : 11541,
+        "name" : "Tomáš Vaclík"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.4, 26.1 ],
+      "player" : {
+        "id" : 16570,
+        "name" : "Vladimír Coufal"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.7, 29.1 ],
+      "player" : {
+        "id" : 16469,
+        "name" : "Tomáš Holeš"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.1, 33.7 ],
+      "player" : {
+        "id" : 30328,
+        "name" : "Ondrej Celustka"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.1, 42.4 ],
+      "player" : {
+        "id" : 4875,
+        "name" : "Jan Bořil"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -21813,11 +21813,11 @@
   "related_events" : [ "65793d19-28cf-416f-8d34-0bcda5fa2991", "d9a84e83-d785-4827-8cb2-a384e11aed20" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "a9c44efd-f488-4976-9646-7ee2a9172ef3",
@@ -22980,11 +22980,11 @@
   "under_pressure" : true,
   "related_events" : [ "0d480ed9-335e-4716-905d-4461d0809c91" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "8da847c2-5e3b-409b-af99-4b7f65b4d15d",
@@ -25506,11 +25506,11 @@
   "under_pressure" : true,
   "related_events" : [ "94bbf0ff-62c8-4c3d-be6a-c429d15211ed" ],
   "clearance" : {
+    "other" : true,
     "body_part" : {
       "id" : 70,
       "name" : "Other"
-    },
-    "other" : true
+    }
   }
 }, {
   "id" : "0ca868b9-3075-43d6-83ae-a7a9c20ca33e",
@@ -25572,11 +25572,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
-    },
-    "outswinging" : true
+    }
   }
 }, {
   "id" : "d3f6e2f8-7043-46e9-955e-291cfc184670",
@@ -25698,11 +25698,11 @@
   "related_events" : [ "0c566a64-68e9-45b3-915d-0b9d569709e2", "0ca868b9-3075-43d6-83ae-a7a9c20ca33e" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "749113f4-7139-46fb-83f3-d84d8f296a6f",
@@ -29457,11 +29457,11 @@
   "under_pressure" : true,
   "related_events" : [ "3d027229-0c8d-4eb6-9149-000bd0370f7c" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "37845ee7-cb01-42c1-9c6d-6984ad0e17ac",
@@ -29643,11 +29643,11 @@
   "related_events" : [ "04edefeb-807f-410a-8e87-085bacea06c6", "37845ee7-cb01-42c1-9c6d-6984ad0e17ac" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "1776b49b-e0c7-492c-9400-583dea9832a4",
@@ -30368,11 +30368,11 @@
   "under_pressure" : true,
   "related_events" : [ "c99aea68-c896-452d-b086-ec69d1a79ed4" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "5051014b-2a83-4f99-96c1-6fa1a29a9a61",
@@ -37777,11 +37777,11 @@
   "duration" : 2.65422,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "78e6dfe1-f807-447e-8d14-f01b698d6ed0",
@@ -38769,11 +38769,11 @@
   "under_pressure" : true,
   "related_events" : [ "1a08dcff-6bcc-4b9c-a209-678fcd25a396" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "497cfa35-67a3-4d2b-9f5e-48113788eaae",
@@ -41300,80 +41300,14 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 113.7, 41.2 ],
+      "location" : [ 92.1, 33.7 ],
       "player" : {
-        "id" : 3233,
-        "name" : "Raheem Sterling"
+        "id" : 4870,
+        "name" : "Tomáš Souček"
       },
       "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 92.5, 12.0 ],
-      "player" : {
-        "id" : 3382,
-        "name" : "Luke Shaw"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 115.5, 34.2 ],
-      "player" : {
-        "id" : 11541,
-        "name" : "Tomáš Vaclík"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.3, 28.9 ],
-      "player" : {
-        "id" : 13197,
-        "name" : "Tomáš Kalas"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.1, 28.5 ],
-      "player" : {
-        "id" : 16570,
-        "name" : "Vladimír Coufal"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.5, 40.8 ],
-      "player" : {
-        "id" : 4875,
-        "name" : "Jan Bořil"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.4, 34.8 ],
-      "player" : {
-        "id" : 30328,
-        "name" : "Ondrej Celustka"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -41388,16 +41322,82 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 92.1, 33.7 ],
+      "location" : [ 105.4, 34.8 ],
       "player" : {
-        "id" : 4870,
-        "name" : "Tomáš Souček"
+        "id" : 30328,
+        "name" : "Ondrej Celustka"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 111.5, 40.8 ],
+      "player" : {
+        "id" : 4875,
+        "name" : "Jan Bořil"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.1, 28.5 ],
+      "player" : {
+        "id" : 16570,
+        "name" : "Vladimír Coufal"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.3, 28.9 ],
+      "player" : {
+        "id" : 13197,
+        "name" : "Tomáš Kalas"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.5, 34.2 ],
+      "player" : {
+        "id" : 11541,
+        "name" : "Tomáš Vaclík"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.5, 12.0 ],
+      "player" : {
+        "id" : 3382,
+        "name" : "Luke Shaw"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.7, 41.2 ],
+      "player" : {
+        "id" : 3233,
+        "name" : "Raheem Sterling"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -41494,11 +41494,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "5d07b1fa-1dec-4040-a3d7-b92b9c46ffd1",
@@ -41556,11 +41556,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
-    },
-    "outswinging" : true
+    }
   }
 }, {
   "id" : "1b2ba52e-2a76-49f9-85f7-ced5fc413d4e",
@@ -42015,11 +42015,11 @@
   "under_pressure" : true,
   "related_events" : [ "6a6f099a-d53f-46f2-9ffc-42a5c73d8a49" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "7f42d0cf-d5a8-4bd7-8b9f-599ddda07b08",
@@ -43881,179 +43881,14 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 90.9, 38.2 ],
+      "location" : [ 116.2, 40.7 ],
       "player" : {
-        "id" : 22084,
-        "name" : "Bukayo Saka"
+        "id" : 3468,
+        "name" : "Jordan Pickford"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 77.0, 59.4 ],
-      "player" : {
-        "id" : 30328,
-        "name" : "Ondrej Celustka"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 87.0, 41.0 ],
-      "player" : {
-        "id" : 4870,
-        "name" : "Tomáš Souček"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 92.6, 24.5 ],
-      "player" : {
-        "id" : 4875,
-        "name" : "Jan Bořil"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 94.7, 53.9 ],
-      "player" : {
-        "id" : 16472,
-        "name" : "Lukáš Masopust"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 99.4, 44.0 ],
-      "player" : {
-        "id" : 7044,
-        "name" : "Patrik Schick"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 99.3, 48.1 ],
-      "player" : {
-        "id" : 8579,
-        "name" : "Vladimír Darida"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.8, 44.7 ],
-      "player" : {
-        "id" : 8095,
-        "name" : "Jakub Jankto"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 98.7, 67.6 ],
-      "player" : {
-        "id" : 16570,
-        "name" : "Vladimír Coufal"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 81.1, 66.9 ],
-      "player" : {
-        "id" : 3233,
-        "name" : "Raheem Sterling"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.6, 41.1 ],
-      "player" : {
-        "id" : 3943,
-        "name" : "Declan Rice"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.6, 30.3 ],
-      "player" : {
-        "id" : 3205,
-        "name" : "Kyle Walker"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.6, 53.9 ],
-      "player" : {
-        "id" : 9638,
-        "name" : "Jack Grealish"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.4, 40.8 ],
-      "player" : {
-        "id" : 4706,
-        "name" : "Kalvin Phillips"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.4, 41.4 ],
-      "player" : {
-        "id" : 3244,
-        "name" : "John Stones"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.1, 47.1 ],
-      "player" : {
-        "id" : 3336,
-        "name" : "Harry Maguire"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -44068,14 +43903,179 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 116.2, 40.7 ],
+      "location" : [ 102.1, 47.1 ],
       "player" : {
-        "id" : 3468,
-        "name" : "Jordan Pickford"
+        "id" : 3336,
+        "name" : "Harry Maguire"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.4, 41.4 ],
+      "player" : {
+        "id" : 3244,
+        "name" : "John Stones"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.4, 40.8 ],
+      "player" : {
+        "id" : 4706,
+        "name" : "Kalvin Phillips"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.6, 53.9 ],
+      "player" : {
+        "id" : 9638,
+        "name" : "Jack Grealish"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.6, 30.3 ],
+      "player" : {
+        "id" : 3205,
+        "name" : "Kyle Walker"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 93.6, 41.1 ],
+      "player" : {
+        "id" : 3943,
+        "name" : "Declan Rice"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 81.1, 66.9 ],
+      "player" : {
+        "id" : 3233,
+        "name" : "Raheem Sterling"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.7, 67.6 ],
+      "player" : {
+        "id" : 16570,
+        "name" : "Vladimír Coufal"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 101.8, 44.7 ],
+      "player" : {
+        "id" : 8095,
+        "name" : "Jakub Jankto"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 99.3, 48.1 ],
+      "player" : {
+        "id" : 8579,
+        "name" : "Vladimír Darida"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 99.4, 44.0 ],
+      "player" : {
+        "id" : 7044,
+        "name" : "Patrik Schick"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 94.7, 53.9 ],
+      "player" : {
+        "id" : 16472,
+        "name" : "Lukáš Masopust"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 92.6, 24.5 ],
+      "player" : {
+        "id" : 4875,
+        "name" : "Jan Bořil"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 87.0, 41.0 ],
+      "player" : {
+        "id" : 4870,
+        "name" : "Tomáš Souček"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 77.0, 59.4 ],
+      "player" : {
+        "id" : 30328,
+        "name" : "Ondrej Celustka"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 90.9, 38.2 ],
+      "player" : {
+        "id" : 22084,
+        "name" : "Bukayo Saka"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     } ]
@@ -44191,11 +44191,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
-    "outswinging" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -44291,168 +44291,14 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 108.8, 43.0 ],
+      "location" : [ 107.1, 42.1 ],
       "player" : {
-        "id" : 3205,
-        "name" : "Kyle Walker"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.6, 43.7 ],
-      "player" : {
-        "id" : 3382,
-        "name" : "Luke Shaw"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.3, 34.1 ],
-      "player" : {
-        "id" : 3244,
-        "name" : "John Stones"
+        "id" : 30328,
+        "name" : "Ondrej Celustka"
       },
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.5, 41.6 ],
-      "player" : {
-        "id" : 4706,
-        "name" : "Kalvin Phillips"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.9, 40.4 ],
-      "player" : {
-        "id" : 3336,
-        "name" : "Harry Maguire"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.9, 45.3 ],
-      "player" : {
-        "id" : 3943,
-        "name" : "Declan Rice"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.8, 37.9 ],
-      "player" : {
-        "id" : 3233,
-        "name" : "Raheem Sterling"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 94.5, 44.0 ],
-      "player" : {
-        "id" : 8579,
-        "name" : "Vladimír Darida"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 117.3, 36.4 ],
-      "player" : {
-        "id" : 10955,
-        "name" : "Harry Kane"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.3, 47.9 ],
-      "player" : {
-        "id" : 7044,
-        "name" : "Patrik Schick"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.3, 33.4 ],
-      "player" : {
-        "id" : 4870,
-        "name" : "Tomáš Souček"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.3, 7.4 ],
-      "player" : {
-        "id" : 8095,
-        "name" : "Jakub Jankto"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 100.4, 41.9 ],
-      "player" : {
-        "id" : 22084,
-        "name" : "Bukayo Saka"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.2, 40.7 ],
-      "player" : {
-        "id" : 3468,
-        "name" : "Jordan Pickford"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.3, 40.1 ],
-      "player" : {
-        "id" : 16472,
-        "name" : "Lukáš Masopust"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
       },
       "teammate" : true
     }, {
@@ -44467,16 +44313,170 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 107.1, 42.1 ],
+      "location" : [ 111.3, 40.1 ],
       "player" : {
-        "id" : 30328,
-        "name" : "Ondrej Celustka"
+        "id" : 16472,
+        "name" : "Lukáš Masopust"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.2, 40.7 ],
+      "player" : {
+        "id" : 3468,
+        "name" : "Jordan Pickford"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.4, 41.9 ],
+      "player" : {
+        "id" : 22084,
+        "name" : "Bukayo Saka"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.3, 7.4 ],
+      "player" : {
+        "id" : 8095,
+        "name" : "Jakub Jankto"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.3, 33.4 ],
+      "player" : {
+        "id" : 4870,
+        "name" : "Tomáš Souček"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 106.3, 47.9 ],
+      "player" : {
+        "id" : 7044,
+        "name" : "Patrik Schick"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.3, 36.4 ],
+      "player" : {
+        "id" : 10955,
+        "name" : "Harry Kane"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 94.5, 44.0 ],
+      "player" : {
+        "id" : 8579,
+        "name" : "Vladimír Darida"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.8, 37.9 ],
+      "player" : {
+        "id" : 3233,
+        "name" : "Raheem Sterling"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.9, 45.3 ],
+      "player" : {
+        "id" : 3943,
+        "name" : "Declan Rice"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.9, 40.4 ],
+      "player" : {
+        "id" : 3336,
+        "name" : "Harry Maguire"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.5, 41.6 ],
+      "player" : {
+        "id" : 4706,
+        "name" : "Kalvin Phillips"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.3, 34.1 ],
+      "player" : {
+        "id" : 3244,
+        "name" : "John Stones"
       },
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 108.6, 43.7 ],
+      "player" : {
+        "id" : 3382,
+        "name" : "Luke Shaw"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.8, 43.0 ],
+      "player" : {
+        "id" : 3205,
+        "name" : "Kyle Walker"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -44801,146 +44801,36 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 105.4, 47.8 ],
+      "location" : [ 107.2, 45.4 ],
       "player" : {
-        "id" : 7044,
-        "name" : "Patrik Schick"
+        "id" : 3382,
+        "name" : "Luke Shaw"
       },
       "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.6, 48.3 ],
-      "player" : {
-        "id" : 16472,
-        "name" : "Lukáš Masopust"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.7, 38.1 ],
-      "player" : {
-        "id" : 4870,
-        "name" : "Tomáš Souček"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.2, 39.2 ],
-      "player" : {
-        "id" : 3233,
-        "name" : "Raheem Sterling"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 100.0, 51.3 ],
+      "location" : [ 107.0, 43.0 ],
       "player" : {
-        "id" : 22084,
-        "name" : "Bukayo Saka"
+        "id" : 3205,
+        "name" : "Kyle Walker"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 104.3, 47.2 ],
+      "location" : [ 106.6, 43.4 ],
       "player" : {
-        "id" : 4706,
-        "name" : "Kalvin Phillips"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 36.7 ],
-      "player" : {
-        "id" : 3244,
-        "name" : "John Stones"
+        "id" : 30328,
+        "name" : "Ondrej Celustka"
       },
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 105.7, 48.8 ],
-      "player" : {
-        "id" : 3943,
-        "name" : "Declan Rice"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.7, 44.5 ],
-      "player" : {
-        "id" : 3336,
-        "name" : "Harry Maguire"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.3, 40.6 ],
-      "player" : {
-        "id" : 10955,
-        "name" : "Harry Kane"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.8, 42.0 ],
-      "player" : {
-        "id" : 3468,
-        "name" : "Jordan Pickford"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.3, 14.5 ],
-      "player" : {
-        "id" : 8095,
-        "name" : "Jakub Jankto"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 94.5, 51.4 ],
-      "player" : {
-        "id" : 8579,
-        "name" : "Vladimír Darida"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
       },
       "teammate" : true
     }, {
@@ -44955,38 +44845,148 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 106.6, 43.4 ],
+      "location" : [ 94.5, 51.4 ],
       "player" : {
-        "id" : 30328,
-        "name" : "Ondrej Celustka"
+        "id" : 8579,
+        "name" : "Vladimír Darida"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 106.3, 14.5 ],
+      "player" : {
+        "id" : 8095,
+        "name" : "Jakub Jankto"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.8, 42.0 ],
+      "player" : {
+        "id" : 3468,
+        "name" : "Jordan Pickford"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.3, 40.6 ],
+      "player" : {
+        "id" : 10955,
+        "name" : "Harry Kane"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.7, 44.5 ],
+      "player" : {
+        "id" : 3336,
+        "name" : "Harry Maguire"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.7, 48.8 ],
+      "player" : {
+        "id" : 3943,
+        "name" : "Declan Rice"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.0, 36.7 ],
+      "player" : {
+        "id" : 3244,
+        "name" : "John Stones"
       },
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
       },
+      "teammate" : false
+    }, {
+      "location" : [ 104.3, 47.2 ],
+      "player" : {
+        "id" : 4706,
+        "name" : "Kalvin Phillips"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.0, 51.3 ],
+      "player" : {
+        "id" : 22084,
+        "name" : "Bukayo Saka"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.2, 39.2 ],
+      "player" : {
+        "id" : 3233,
+        "name" : "Raheem Sterling"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.7, 38.1 ],
+      "player" : {
+        "id" : 4870,
+        "name" : "Tomáš Souček"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
       "teammate" : true
     }, {
-      "location" : [ 107.0, 43.0 ],
+      "location" : [ 108.6, 48.3 ],
       "player" : {
-        "id" : 3205,
-        "name" : "Kyle Walker"
+        "id" : 16472,
+        "name" : "Lukáš Masopust"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 107.2, 45.4 ],
+      "location" : [ 105.4, 47.8 ],
       "player" : {
-        "id" : 3382,
-        "name" : "Luke Shaw"
+        "id" : 7044,
+        "name" : "Patrik Schick"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 23,
+        "name" : "Center Forward"
       },
-      "teammate" : false
+      "teammate" : true
     } ]
   }
 }, {
@@ -45106,11 +45106,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "e1b895e7-9b88-465a-9bcd-b1c548ad7736",
@@ -45844,11 +45844,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 113.8, 45.7 ],
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
-    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -45899,11 +45899,11 @@
   "under_pressure" : true,
   "related_events" : [ "b07025e9-1dc5-4eb9-898e-4c607bc50780" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "fabd159f-bbec-4bc0-b294-bbc07f6d2a18",
@@ -46063,168 +46063,14 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 117.4, 50.2 ],
+      "location" : [ 118.3, 42.8 ],
       "player" : {
-        "id" : 16472,
-        "name" : "Lukáš Masopust"
+        "id" : 3468,
+        "name" : "Jordan Pickford"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 117.2, 37.5 ],
-      "player" : {
-        "id" : 30328,
-        "name" : "Ondrej Celustka"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.0, 43.1 ],
-      "player" : {
-        "id" : 13197,
-        "name" : "Tomáš Kalas"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.5, 46.0 ],
-      "player" : {
-        "id" : 7044,
-        "name" : "Patrik Schick"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.0, 39.5 ],
-      "player" : {
-        "id" : 16469,
-        "name" : "Tomáš Holeš"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 96.5, 50.2 ],
-      "player" : {
-        "id" : 9638,
-        "name" : "Jack Grealish"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.4, 42.1 ],
-      "player" : {
-        "id" : 3382,
-        "name" : "Luke Shaw"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.2, 36.4 ],
-      "player" : {
-        "id" : 3205,
-        "name" : "Kyle Walker"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.6, 39.1 ],
-      "player" : {
-        "id" : 4706,
-        "name" : "Kalvin Phillips"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.2, 35.5 ],
-      "player" : {
-        "id" : 22084,
-        "name" : "Bukayo Saka"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.4, 47.7 ],
-      "player" : {
-        "id" : 3233,
-        "name" : "Raheem Sterling"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.3, 53.1 ],
-      "player" : {
-        "id" : 16570,
-        "name" : "Vladimír Coufal"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.6, 45.5 ],
-      "player" : {
-        "id" : 3943,
-        "name" : "Declan Rice"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.3, 45.8 ],
-      "player" : {
-        "id" : 3336,
-        "name" : "Harry Maguire"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.7, 44.9 ],
-      "player" : {
-        "id" : 3244,
-        "name" : "John Stones"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
@@ -46239,16 +46085,170 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 118.3, 42.8 ],
+      "location" : [ 111.7, 44.9 ],
       "player" : {
-        "id" : 3468,
-        "name" : "Jordan Pickford"
+        "id" : 3244,
+        "name" : "John Stones"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 113.3, 45.8 ],
+      "player" : {
+        "id" : 3336,
+        "name" : "Harry Maguire"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.6, 45.5 ],
+      "player" : {
+        "id" : 3943,
+        "name" : "Declan Rice"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 93.3, 53.1 ],
+      "player" : {
+        "id" : 16570,
+        "name" : "Vladimír Coufal"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.4, 47.7 ],
+      "player" : {
+        "id" : 3233,
+        "name" : "Raheem Sterling"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.2, 35.5 ],
+      "player" : {
+        "id" : 22084,
+        "name" : "Bukayo Saka"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.6, 39.1 ],
+      "player" : {
+        "id" : 4706,
+        "name" : "Kalvin Phillips"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.2, 36.4 ],
+      "player" : {
+        "id" : 3205,
+        "name" : "Kyle Walker"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.4, 42.1 ],
+      "player" : {
+        "id" : 3382,
+        "name" : "Luke Shaw"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.5, 50.2 ],
+      "player" : {
+        "id" : 9638,
+        "name" : "Jack Grealish"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.0, 39.5 ],
+      "player" : {
+        "id" : 16469,
+        "name" : "Tomáš Holeš"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.5, 46.0 ],
+      "player" : {
+        "id" : 7044,
+        "name" : "Patrik Schick"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.0, 43.1 ],
+      "player" : {
+        "id" : 13197,
+        "name" : "Tomáš Kalas"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.2, 37.5 ],
+      "player" : {
+        "id" : 30328,
+        "name" : "Ondrej Celustka"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.4, 50.2 ],
+      "player" : {
+        "id" : 16472,
+        "name" : "Lukáš Masopust"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -46470,11 +46470,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "a68b41bf-e367-4f3e-bb84-85b6151231ce",
@@ -46512,11 +46512,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "c3840d89-c78c-4dbe-a5d2-60e321b79539",
@@ -46680,11 +46680,11 @@
   "under_pressure" : true,
   "related_events" : [ "1f99b00b-0110-497a-8453-a2e92ca923f6" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "1598af70-4e3a-4685-a8c0-53b158e29855",
@@ -46722,11 +46722,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "9299c0fb-4dc6-4841-93bf-d948a0bbb701",
@@ -49391,11 +49391,11 @@
   "under_pressure" : true,
   "related_events" : [ "d3d0118d-b5e5-4d88-8ae3-68fb229bf9ad" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "8e8c4be8-f87d-43e3-90c7-4c9a3c26f475",
@@ -49476,11 +49476,11 @@
   "under_pressure" : true,
   "related_events" : [ "8e8c4be8-f87d-43e3-90c7-4c9a3c26f475" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -53352,11 +53352,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 110.5, 44.6 ],
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
-    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -53407,11 +53407,11 @@
   "under_pressure" : true,
   "related_events" : [ "0b9ee261-a905-4d44-ad07-1afd280c7f72" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "731e4caf-5f9a-4db2-a50a-56676de07e88",
@@ -57795,135 +57795,25 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 113.5, 29.8 ],
+      "location" : [ 98.1, 47.2 ],
       "player" : {
-        "id" : 16472,
-        "name" : "Lukáš Masopust"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.7, 37.0 ],
-      "player" : {
-        "id" : 7044,
-        "name" : "Patrik Schick"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.4, 43.8 ],
-      "player" : {
-        "id" : 8095,
-        "name" : "Jakub Jankto"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 109.9, 54.6 ],
-      "player" : {
-        "id" : 16570,
-        "name" : "Vladimír Coufal"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 118.6, 41.3 ],
-      "player" : {
-        "id" : 3468,
-        "name" : "Jordan Pickford"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.1, 32.9 ],
-      "player" : {
-        "id" : 22084,
-        "name" : "Bukayo Saka"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 90.4, 58.1 ],
-      "player" : {
-        "id" : 3233,
-        "name" : "Raheem Sterling"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.5, 24.8 ],
-      "player" : {
-        "id" : 3205,
-        "name" : "Kyle Walker"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.4, 45.8 ],
-      "player" : {
-        "id" : 9638,
-        "name" : "Jack Grealish"
+        "id" : 8579,
+        "name" : "Vladimír Darida"
       },
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 106.7, 41.1 ],
+      "location" : [ 113.0, 40.4 ],
       "player" : {
-        "id" : 3943,
-        "name" : "Declan Rice"
+        "id" : 3336,
+        "name" : "Harry Maguire"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.1, 37.7 ],
-      "player" : {
-        "id" : 4706,
-        "name" : "Kalvin Phillips"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.5, 36.3 ],
-      "player" : {
-        "id" : 3244,
-        "name" : "John Stones"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -57938,25 +57828,135 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.0, 40.4 ],
+      "location" : [ 113.5, 36.3 ],
       "player" : {
-        "id" : 3336,
-        "name" : "Harry Maguire"
+        "id" : 3244,
+        "name" : "John Stones"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 98.1, 47.2 ],
+      "location" : [ 111.1, 37.7 ],
       "player" : {
-        "id" : 8579,
-        "name" : "Vladimír Darida"
+        "id" : 4706,
+        "name" : "Kalvin Phillips"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.7, 41.1 ],
+      "player" : {
+        "id" : 3943,
+        "name" : "Declan Rice"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 100.4, 45.8 ],
+      "player" : {
+        "id" : 9638,
+        "name" : "Jack Grealish"
       },
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.5, 24.8 ],
+      "player" : {
+        "id" : 3205,
+        "name" : "Kyle Walker"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 90.4, 58.1 ],
+      "player" : {
+        "id" : 3233,
+        "name" : "Raheem Sterling"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.1, 32.9 ],
+      "player" : {
+        "id" : 22084,
+        "name" : "Bukayo Saka"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.6, 41.3 ],
+      "player" : {
+        "id" : 3468,
+        "name" : "Jordan Pickford"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.9, 54.6 ],
+      "player" : {
+        "id" : 16570,
+        "name" : "Vladimír Coufal"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.4, 43.8 ],
+      "player" : {
+        "id" : 8095,
+        "name" : "Jakub Jankto"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.7, 37.0 ],
+      "player" : {
+        "id" : 7044,
+        "name" : "Patrik Schick"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.5, 29.8 ],
+      "player" : {
+        "id" : 16472,
+        "name" : "Lukáš Masopust"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
     } ]
@@ -60228,11 +60228,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
-    },
-    "outswinging" : true
+    }
   }
 }, {
   "id" : "0ad201f2-3418-40ec-8ddf-c484eaef54f4",
@@ -62689,11 +62689,11 @@
   "under_pressure" : true,
   "related_events" : [ "b60bd334-455e-4912-b642-f9e3f30d9d1b" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "56b6effb-8187-486d-8a4c-beec58b7f1e2",
@@ -66937,11 +66937,11 @@
     },
     "end_location" : [ 107.9, 36.3 ],
     "switch" : true,
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
-    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -66992,11 +66992,11 @@
   "under_pressure" : true,
   "related_events" : [ "2cd5674a-9ff5-406a-acd3-847adc95eb8e" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "dcc99326-c748-4167-9382-a30c72234868",
@@ -68298,135 +68298,14 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 95.7, 53.9 ],
+      "location" : [ 96.9, 48.8 ],
       "player" : {
-        "id" : 22084,
-        "name" : "Bukayo Saka"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 116.9, 42.1 ],
-      "player" : {
-        "id" : 11541,
-        "name" : "Tomáš Vaclík"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.1, 27.1 ],
-      "player" : {
-        "id" : 3382,
-        "name" : "Luke Shaw"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.6, 50.0 ],
-      "player" : {
-        "id" : 9638,
-        "name" : "Jack Grealish"
+        "id" : 8579,
+        "name" : "Vladimír Darida"
       },
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 114.5, 43.6 ],
-      "player" : {
-        "id" : 3233,
-        "name" : "Raheem Sterling"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.4, 32.9 ],
-      "player" : {
-        "id" : 8095,
-        "name" : "Jakub Jankto"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.4, 37.5 ],
-      "player" : {
-        "id" : 16570,
-        "name" : "Vladimír Coufal"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.7, 42.4 ],
-      "player" : {
-        "id" : 30328,
-        "name" : "Ondrej Celustka"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.3, 46.1 ],
-      "player" : {
-        "id" : 4870,
-        "name" : "Tomáš Souček"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.0, 49.2 ],
-      "player" : {
-        "id" : 13197,
-        "name" : "Tomáš Kalas"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.7, 51.3 ],
-      "player" : {
-        "id" : 16469,
-        "name" : "Tomáš Holeš"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.4, 54.9 ],
-      "player" : {
-        "id" : 4875,
-        "name" : "Jan Bořil"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -68441,16 +68320,137 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 96.9, 48.8 ],
+      "location" : [ 104.4, 54.9 ],
       "player" : {
-        "id" : 8579,
-        "name" : "Vladimír Darida"
+        "id" : 4875,
+        "name" : "Jan Bořil"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.7, 51.3 ],
+      "player" : {
+        "id" : 16469,
+        "name" : "Tomáš Holeš"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.0, 49.2 ],
+      "player" : {
+        "id" : 13197,
+        "name" : "Tomáš Kalas"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.3, 46.1 ],
+      "player" : {
+        "id" : 4870,
+        "name" : "Tomáš Souček"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 110.7, 42.4 ],
+      "player" : {
+        "id" : 30328,
+        "name" : "Ondrej Celustka"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.4, 37.5 ],
+      "player" : {
+        "id" : 16570,
+        "name" : "Vladimír Coufal"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.4, 32.9 ],
+      "player" : {
+        "id" : 8095,
+        "name" : "Jakub Jankto"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.5, 43.6 ],
+      "player" : {
+        "id" : 3233,
+        "name" : "Raheem Sterling"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.6, 50.0 ],
+      "player" : {
+        "id" : 9638,
+        "name" : "Jack Grealish"
       },
       "position" : {
         "id" : 19,
         "name" : "Center Attacking Midfield"
       },
+      "teammate" : true
+    }, {
+      "location" : [ 104.1, 27.1 ],
+      "player" : {
+        "id" : 3382,
+        "name" : "Luke Shaw"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 116.9, 42.1 ],
+      "player" : {
+        "id" : 11541,
+        "name" : "Tomáš Vaclík"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
       "teammate" : false
+    }, {
+      "location" : [ 95.7, 53.9 ],
+      "player" : {
+        "id" : 22084,
+        "name" : "Bukayo Saka"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -69562,11 +69562,11 @@
   "related_events" : [ "30820b3e-9fdd-432a-98ee-0f5e02368725", "bbcb55bd-633d-48ba-9e03-1f135e2ca0bf" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "461f1791-cc9a-49f3-99e9-f75b464d66e9",
@@ -78280,11 +78280,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "f72adbbc-9917-4d4f-b4ef-b02a2b05e4ee",
@@ -79148,11 +79148,11 @@
   "under_pressure" : true,
   "related_events" : [ "f2e0c753-d94a-496b-9b4f-018f88b9a68c" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "1e9ef71b-cbe2-4702-99b7-339d8fd7acf4",
@@ -81743,11 +81743,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 6.6, 49.6 ],
+    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    },
-    "no_touch" : true
+    }
   }
 }, {
   "id" : "b70dc68a-6418-4ff1-82ac-40e59a527246",
@@ -82034,11 +82034,11 @@
   "related_events" : [ "7ff2a863-e2ba-4590-b067-86334dedb861", "f45cb1a1-485e-41b1-9610-5df6f8a9f2ca" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "665608db-f059-4fc6-bd90-e0b22ea9856d",
@@ -85999,11 +85999,11 @@
   "under_pressure" : true,
   "related_events" : [ "bb032afe-39d2-4309-9afe-4fa9c61d218d" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "8844f045-2e14-406f-83ad-d1aea107e556",
@@ -86967,11 +86967,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -101369,11 +101369,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "10a27a01-3dd0-4727-936a-a78d16417163",
@@ -101454,11 +101454,11 @@
   "under_pressure" : true,
   "related_events" : [ "10a27a01-3dd0-4727-936a-a78d16417163" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -112022,11 +112022,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 108.2, 40.0 ],
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -114756,11 +114756,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "9aac44c1-b9a2-4e0b-b541-d5ae198fef4c",
@@ -117877,11 +117877,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
-    "outswinging" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -117924,11 +117924,11 @@
   "under_pressure" : true,
   "related_events" : [ "dabe098e-27aa-482a-bf47-3afe2e18e9c2" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "3540aa8d-9fd6-46af-822d-a09a51cb9a29",
@@ -119117,11 +119117,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
     },
-    "straight" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -119212,11 +119212,11 @@
   "related_events" : [ "8ba60c0e-05f0-443c-9775-558cbdc59199", "f529db12-bd33-4749-887e-eff965f9d850" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "42755c49-8ccb-4ad2-8a47-517a27e7f3b6",
@@ -123624,11 +123624,11 @@
   "under_pressure" : true,
   "related_events" : [ "db8a18d0-b05a-4034-ab07-a91e1d7cdf88", "ff4f2e27-1f26-4a8e-a0d4-8c64792565df" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -123961,11 +123961,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "0bb95f4b-8c95-428e-9f73-e2abb4d44f8d",
@@ -125541,11 +125541,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    },
-    "no_touch" : true
+    }
   }
 }, {
   "id" : "ed6250ac-83bf-41d8-b43a-057535a4ccad",
@@ -130688,124 +130688,14 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 95.3, 38.9 ],
+      "location" : [ 99.6, 39.4 ],
       "player" : {
-        "id" : 23454,
-        "name" : "Petr Ševčík"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 103.7, 63.9 ],
-      "player" : {
-        "id" : 16570,
-        "name" : "Vladimír Coufal"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.6, 30.9 ],
-      "player" : {
-        "id" : 3205,
-        "name" : "Kyle Walker"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.5, 38.7 ],
-      "player" : {
-        "id" : 3336,
-        "name" : "Harry Maguire"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.4, 48.5 ],
-      "player" : {
-        "id" : 3323,
-        "name" : "Tyrone Mings"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.2, 43.2 ],
-      "player" : {
-        "id" : 3382,
-        "name" : "Luke Shaw"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.9, 51.1 ],
-      "player" : {
-        "id" : 4706,
-        "name" : "Kalvin Phillips"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.5, 47.5 ],
-      "player" : {
-        "id" : 30714,
-        "name" : "Jude Bellingham"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.5, 36.6 ],
-      "player" : {
-        "id" : 3532,
-        "name" : "Jordan Brian Henderson"
+        "id" : 4870,
+        "name" : "Tomáš Souček"
       },
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.5, 42.2 ],
-      "player" : {
-        "id" : 3468,
-        "name" : "Jordan Pickford"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.8, 22.6 ],
-      "player" : {
-        "id" : 28239,
-        "name" : "Adam Hložek"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
       },
       "teammate" : true
     }, {
@@ -130820,14 +130710,124 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 99.6, 39.4 ],
+      "location" : [ 102.8, 22.6 ],
       "player" : {
-        "id" : 4870,
-        "name" : "Tomáš Souček"
+        "id" : 28239,
+        "name" : "Adam Hložek"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 117.5, 42.2 ],
+      "player" : {
+        "id" : 3468,
+        "name" : "Jordan Pickford"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 93.5, 36.6 ],
+      "player" : {
+        "id" : 3532,
+        "name" : "Jordan Brian Henderson"
       },
       "position" : {
         "id" : 11,
         "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.5, 47.5 ],
+      "player" : {
+        "id" : 30714,
+        "name" : "Jude Bellingham"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.9, 51.1 ],
+      "player" : {
+        "id" : 4706,
+        "name" : "Kalvin Phillips"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.2, 43.2 ],
+      "player" : {
+        "id" : 3382,
+        "name" : "Luke Shaw"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.4, 48.5 ],
+      "player" : {
+        "id" : 3323,
+        "name" : "Tyrone Mings"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.5, 38.7 ],
+      "player" : {
+        "id" : 3336,
+        "name" : "Harry Maguire"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.6, 30.9 ],
+      "player" : {
+        "id" : 3205,
+        "name" : "Kyle Walker"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.7, 63.9 ],
+      "player" : {
+        "id" : 16570,
+        "name" : "Vladimír Coufal"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 95.3, 38.9 ],
+      "player" : {
+        "id" : 23454,
+        "name" : "Petr Ševčík"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : true
     } ]
@@ -131144,11 +131144,11 @@
   "related_events" : [ "eb80e0be-8018-49f2-bdaf-45c27704bcfb", "fa67834e-9005-4ea7-9ee3-d6e98bb5e49f" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "03d4379c-19da-441a-94f8-4de502c491cd",
@@ -131904,11 +131904,11 @@
   "under_pressure" : true,
   "related_events" : [ "7f444d83-79d6-40e2-8053-ac632db2f394" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "54878ae5-5166-49e1-8b9a-950d4c4cfcb3",
@@ -134784,11 +134784,11 @@
   "related_events" : [ "47e3483c-343a-4d6f-ac4e-3f79ca0fced0", "900f00ec-2401-443d-87d3-10728b75519e" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "280c6752-7568-4c64-b2c7-e23a6aab1338",
@@ -138440,11 +138440,11 @@
   "under_pressure" : true,
   "related_events" : [ "2364fc66-e92a-4e18-89c3-1002e573f94a" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "80dd3262-cdcd-4896-9782-22453a3c05df",
@@ -139415,11 +139415,11 @@
   "under_pressure" : true,
   "related_events" : [ "21eec9ca-b3de-4ec5-96d6-69bce513cc71", "5376f0a2-3c34-4daf-81b1-495545d41442" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "5d630d26-c7ae-4eeb-b900-5017f75c3ae7",
@@ -140347,11 +140347,11 @@
   "under_pressure" : true,
   "related_events" : [ "707bf47b-c4c5-49da-a29a-4fad88e2c27e" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "916a146d-f019-4003-be1c-fb136f301056",
@@ -143762,124 +143762,25 @@
       "name" : "Off T"
     },
     "freeze_frame" : [ {
-      "location" : [ 119.0, 39.9 ],
+      "location" : [ 83.7, 38.7 ],
       "player" : {
-        "id" : 3468,
-        "name" : "Jordan Pickford"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.7, 29.6 ],
-      "player" : {
-        "id" : 4870,
-        "name" : "Tomáš Souček"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 91.3, 19.0 ],
-      "player" : {
-        "id" : 28239,
-        "name" : "Adam Hložek"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 97.1, 27.3 ],
-      "player" : {
-        "id" : 4809,
-        "name" : "Matěj Vydra"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 99.7, 27.8 ],
-      "player" : {
-        "id" : 20355,
-        "name" : "Tomáš Pekhart"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 74.0, 17.9 ],
-      "player" : {
-        "id" : 12423,
-        "name" : "Jadon Sancho"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 87.3, 40.8 ],
-      "player" : {
-        "id" : 30714,
-        "name" : "Jude Bellingham"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 92.9, 51.5 ],
-      "player" : {
-        "id" : 3382,
-        "name" : "Luke Shaw"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 90.7, 35.1 ],
-      "player" : {
-        "id" : 3205,
-        "name" : "Kyle Walker"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 86.4, 20.5 ],
-      "player" : {
-        "id" : 3532,
-        "name" : "Jordan Brian Henderson"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.9, 27.2 ],
-      "player" : {
-        "id" : 4706,
-        "name" : "Kalvin Phillips"
+        "id" : 23454,
+        "name" : "Petr Ševčík"
       },
       "position" : {
         "id" : 9,
         "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.9, 35.9 ],
+      "player" : {
+        "id" : 3323,
+        "name" : "Tyrone Mings"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -143894,27 +143795,126 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 100.9, 35.9 ],
+      "location" : [ 93.9, 27.2 ],
       "player" : {
-        "id" : 3323,
-        "name" : "Tyrone Mings"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 83.7, 38.7 ],
-      "player" : {
-        "id" : 23454,
-        "name" : "Petr Ševčík"
+        "id" : 4706,
+        "name" : "Kalvin Phillips"
       },
       "position" : {
         "id" : 9,
         "name" : "Right Defensive Midfield"
       },
+      "teammate" : false
+    }, {
+      "location" : [ 86.4, 20.5 ],
+      "player" : {
+        "id" : 3532,
+        "name" : "Jordan Brian Henderson"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 90.7, 35.1 ],
+      "player" : {
+        "id" : 3205,
+        "name" : "Kyle Walker"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.9, 51.5 ],
+      "player" : {
+        "id" : 3382,
+        "name" : "Luke Shaw"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 87.3, 40.8 ],
+      "player" : {
+        "id" : 30714,
+        "name" : "Jude Bellingham"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 74.0, 17.9 ],
+      "player" : {
+        "id" : 12423,
+        "name" : "Jadon Sancho"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.7, 27.8 ],
+      "player" : {
+        "id" : 20355,
+        "name" : "Tomáš Pekhart"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
       "teammate" : true
+    }, {
+      "location" : [ 97.1, 27.3 ],
+      "player" : {
+        "id" : 4809,
+        "name" : "Matěj Vydra"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 91.3, 19.0 ],
+      "player" : {
+        "id" : 28239,
+        "name" : "Adam Hložek"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 92.7, 29.6 ],
+      "player" : {
+        "id" : 4870,
+        "name" : "Tomáš Souček"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.0, 39.9 ],
+      "player" : {
+        "id" : 3468,
+        "name" : "Jordan Pickford"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -144860,11 +144860,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "07ba328e-9cbb-4e68-8e97-43741344506d",
@@ -145414,11 +145414,11 @@
   "related_events" : [ "251a498c-db41-4858-a03e-a723df4ae3f9", "8c5610d0-dd72-4096-a495-8d97dd494c3c" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "fe84036d-58ca-4abe-8aad-1ee6ad594d9b",
