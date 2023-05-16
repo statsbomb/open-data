@@ -6540,11 +6540,11 @@
   "related_events" : [ "892b9336-8cba-42af-9cd2-a4b9cd2b94f7", "b2b81b8c-e780-4335-b9bf-d6aac55c7d56" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "fb5315ba-078e-45b4-a3c8-4c8238488c90",
@@ -8362,11 +8362,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 13.8, 30.9 ],
+    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    },
-    "no_touch" : true
+    }
   }
 }, {
   "id" : "94fd352f-8c23-437a-92da-d1872ac74b4a",
@@ -12073,11 +12073,11 @@
   "under_pressure" : true,
   "related_events" : [ "5763e2b5-c12c-4974-a362-6dd264552121" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "0d8d3c98-b484-4fa5-99ac-69aa4b49c530",
@@ -18510,91 +18510,14 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 112.8, 51.8 ],
+      "location" : [ 105.4, 43.2 ],
       "player" : {
-        "id" : 40354,
-        "name" : "Lucas Neill"
+        "id" : 19312,
+        "name" : "Robert Pirès"
       },
       "position" : {
         "id" : 16,
         "name" : "Left Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.8, 55.2 ],
-      "player" : {
-        "id" : 40356,
-        "name" : "Craig Short"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.6, 47.1 ],
-      "player" : {
-        "id" : 40355,
-        "name" : "Andy Todd"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.0, 41.2 ],
-      "player" : {
-        "id" : 15272,
-        "name" : "Markus Babbel"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.1, 43.3 ],
-      "player" : {
-        "id" : 38464,
-        "name" : "Brad Friedel"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.0, 50.2 ],
-      "player" : {
-        "id" : 15095,
-        "name" : "Tugay Kerimoğlu"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.4, 61.2 ],
-      "player" : {
-        "id" : 15754,
-        "name" : "Fredrik Ljungberg"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 116.1, 50.2 ],
-      "player" : {
-        "id" : 38412,
-        "name" : "Kolo Habib Touré"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
       },
       "teammate" : true
     }, {
@@ -18609,16 +18532,93 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 105.4, 43.2 ],
+      "location" : [ 116.1, 50.2 ],
       "player" : {
-        "id" : 19312,
-        "name" : "Robert Pirès"
+        "id" : 38412,
+        "name" : "Kolo Habib Touré"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.4, 61.2 ],
+      "player" : {
+        "id" : 15754,
+        "name" : "Fredrik Ljungberg"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.0, 50.2 ],
+      "player" : {
+        "id" : 15095,
+        "name" : "Tugay Kerimoğlu"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.1, 43.3 ],
+      "player" : {
+        "id" : 38464,
+        "name" : "Brad Friedel"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.0, 41.2 ],
+      "player" : {
+        "id" : 15272,
+        "name" : "Markus Babbel"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.6, 47.1 ],
+      "player" : {
+        "id" : 40355,
+        "name" : "Andy Todd"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.8, 55.2 ],
+      "player" : {
+        "id" : 40356,
+        "name" : "Craig Short"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.8, 51.8 ],
+      "player" : {
+        "id" : 40354,
+        "name" : "Lucas Neill"
       },
       "position" : {
         "id" : 16,
         "name" : "Left Midfield"
       },
-      "teammate" : true
+      "teammate" : false
     } ]
   }
 }, {
@@ -20024,11 +20024,11 @@
   "under_pressure" : true,
   "related_events" : [ "494e3c0f-a8fa-41d9-bca5-ade6f3e5d5e5" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "6b6f42a9-8909-48c3-b00a-d1619a658872",
@@ -20640,11 +20640,11 @@
   "under_pressure" : true,
   "related_events" : [ "d06eca84-58ff-45f7-a12c-039f20d17c6d" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "e08056c4-b9bf-4943-ab36-66ae853f12b7",
@@ -21179,83 +21179,6 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 92.4, 25.0 ],
-      "player" : {
-        "id" : 15516,
-        "name" : "Thierry Henry"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 82.3, 43.4 ],
-      "player" : {
-        "id" : 40221,
-        "name" : "Gilberto Aparecido da Silva"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 80.8, 51.6 ],
-      "player" : {
-        "id" : 38412,
-        "name" : "Kolo Habib Touré"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.2, 45.8 ],
-      "player" : {
-        "id" : 26194,
-        "name" : "Pascal Cygan"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 95.6, 18.5 ],
-      "player" : {
-        "id" : 19312,
-        "name" : "Robert Pirès"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.6, 28.4 ],
-      "player" : {
-        "id" : 40355,
-        "name" : "Andy Todd"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.4, 40.7 ],
-      "player" : {
-        "id" : 38464,
-        "name" : "Brad Friedel"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 95.7, 28.8 ],
       "player" : {
         "id" : 40352,
@@ -21321,6 +21244,83 @@
         "name" : "Left Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 119.4, 40.7 ],
+      "player" : {
+        "id" : 38464,
+        "name" : "Brad Friedel"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.6, 28.4 ],
+      "player" : {
+        "id" : 40355,
+        "name" : "Andy Todd"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 95.6, 18.5 ],
+      "player" : {
+        "id" : 19312,
+        "name" : "Robert Pirès"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 102.2, 45.8 ],
+      "player" : {
+        "id" : 26194,
+        "name" : "Pascal Cygan"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 80.8, 51.6 ],
+      "player" : {
+        "id" : 38412,
+        "name" : "Kolo Habib Touré"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 82.3, 43.4 ],
+      "player" : {
+        "id" : 40221,
+        "name" : "Gilberto Aparecido da Silva"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 92.4, 25.0 ],
+      "player" : {
+        "id" : 15516,
+        "name" : "Thierry Henry"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -23833,11 +23833,11 @@
   "under_pressure" : true,
   "related_events" : [ "48c9482c-5112-44ee-a0cb-185967551da0", "9704d98f-2cdb-4fd1-8bbf-b0f9490d1613" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -39395,14 +39395,58 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 107.6, 39.0 ],
+      "location" : [ 117.8, 37.9 ],
       "player" : {
-        "id" : 40355,
-        "name" : "Andy Todd"
+        "id" : 38464,
+        "name" : "Brad Friedel"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.0, 50.4 ],
+      "player" : {
+        "id" : 15272,
+        "name" : "Markus Babbel"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.3, 53.4 ],
+      "player" : {
+        "id" : 15516,
+        "name" : "Thierry Henry"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 84.7, 56.6 ],
+      "player" : {
+        "id" : 15754,
+        "name" : "Fredrik Ljungberg"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 108.4, 46.0 ],
+      "player" : {
+        "id" : 40356,
+        "name" : "Craig Short"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
@@ -39417,58 +39461,14 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.4, 46.0 ],
+      "location" : [ 107.6, 39.0 ],
       "player" : {
-        "id" : 40356,
-        "name" : "Craig Short"
+        "id" : 40355,
+        "name" : "Andy Todd"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 84.7, 56.6 ],
-      "player" : {
-        "id" : 15754,
-        "name" : "Fredrik Ljungberg"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.3, 53.4 ],
-      "player" : {
-        "id" : 15516,
-        "name" : "Thierry Henry"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 108.0, 50.4 ],
-      "player" : {
-        "id" : 15272,
-        "name" : "Markus Babbel"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.8, 37.9 ],
-      "player" : {
-        "id" : 38464,
-        "name" : "Brad Friedel"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     } ]
@@ -42101,11 +42101,11 @@
   "under_pressure" : true,
   "related_events" : [ "0697a828-9010-4411-b770-6d47f7f90920" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "2ff7367d-09ea-48bb-aa95-73a515e1ade6",
@@ -48591,72 +48591,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 95.8, 40.8 ],
-      "player" : {
-        "id" : 40356,
-        "name" : "Craig Short"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 95.8, 34.8 ],
-      "player" : {
-        "id" : 40355,
-        "name" : "Andy Todd"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.2, 21.5 ],
-      "player" : {
-        "id" : 15272,
-        "name" : "Markus Babbel"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 96.4, 46.2 ],
-      "player" : {
-        "id" : 40353,
-        "name" : "Vratislav Greško"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.1, 39.0 ],
-      "player" : {
-        "id" : 38464,
-        "name" : "Brad Friedel"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 88.1, 37.2 ],
-      "player" : {
-        "id" : 40352,
-        "name" : "Barry Ferguson"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 79.1, 50.5 ],
       "player" : {
         "id" : 40354,
@@ -48709,6 +48643,72 @@
       "position" : {
         "id" : 13,
         "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 88.1, 37.2 ],
+      "player" : {
+        "id" : 40352,
+        "name" : "Barry Ferguson"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.1, 39.0 ],
+      "player" : {
+        "id" : 38464,
+        "name" : "Brad Friedel"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.4, 46.2 ],
+      "player" : {
+        "id" : 40353,
+        "name" : "Vratislav Greško"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 96.2, 21.5 ],
+      "player" : {
+        "id" : 15272,
+        "name" : "Markus Babbel"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 95.8, 34.8 ],
+      "player" : {
+        "id" : 40355,
+        "name" : "Andy Todd"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 95.8, 40.8 ],
+      "player" : {
+        "id" : 40356,
+        "name" : "Craig Short"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -55063,11 +55063,11 @@
   "under_pressure" : true,
   "related_events" : [ "6410a56d-cdbb-4bd9-8973-24a0adb177ea" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "a7d757ae-98f4-4227-8507-bbb425dad7f1",
@@ -67180,91 +67180,25 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 89.6, 59.0 ],
+      "location" : [ 110.6, 56.0 ],
       "player" : {
-        "id" : 15042,
-        "name" : "Dennis Bergkamp"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.9, 33.3 ],
-      "player" : {
-        "id" : 19312,
-        "name" : "Robert Pirès"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.8, 31.2 ],
-      "player" : {
-        "id" : 24766,
-        "name" : "Dwight Yorke"
+        "id" : 15516,
+        "name" : "Thierry Henry"
       },
       "position" : {
         "id" : 24,
         "name" : "Left Center Forward"
       },
-      "teammate" : false
+      "teammate" : true
     }, {
-      "location" : [ 105.4, 40.4 ],
+      "location" : [ 106.7, 53.3 ],
       "player" : {
-        "id" : 40355,
-        "name" : "Andy Todd"
+        "id" : 40353,
+        "name" : "Vratislav Greško"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.2, 46.2 ],
-      "player" : {
-        "id" : 40356,
-        "name" : "Craig Short"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.2, 43.0 ],
-      "player" : {
-        "id" : 38464,
-        "name" : "Brad Friedel"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 94.8, 57.4 ],
-      "player" : {
-        "id" : 40354,
-        "name" : "Lucas Neill"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 94.4, 44.4 ],
-      "player" : {
-        "id" : 15095,
-        "name" : "Tugay Kerimoğlu"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -67279,25 +67213,91 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 106.7, 53.3 ],
+      "location" : [ 94.4, 44.4 ],
       "player" : {
-        "id" : 40353,
-        "name" : "Vratislav Greško"
+        "id" : 15095,
+        "name" : "Tugay Kerimoğlu"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : false
     }, {
-      "location" : [ 110.6, 56.0 ],
+      "location" : [ 94.8, 57.4 ],
       "player" : {
-        "id" : 15516,
-        "name" : "Thierry Henry"
+        "id" : 40354,
+        "name" : "Lucas Neill"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.2, 43.0 ],
+      "player" : {
+        "id" : 38464,
+        "name" : "Brad Friedel"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.2, 46.2 ],
+      "player" : {
+        "id" : 40356,
+        "name" : "Craig Short"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.4, 40.4 ],
+      "player" : {
+        "id" : 40355,
+        "name" : "Andy Todd"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.8, 31.2 ],
+      "player" : {
+        "id" : 24766,
+        "name" : "Dwight Yorke"
       },
       "position" : {
         "id" : 24,
         "name" : "Left Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.9, 33.3 ],
+      "player" : {
+        "id" : 19312,
+        "name" : "Robert Pirès"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 89.6, 59.0 ],
+      "player" : {
+        "id" : 15042,
+        "name" : "Dennis Bergkamp"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
       },
       "teammate" : true
     } ]
@@ -70896,11 +70896,11 @@
   "under_pressure" : true,
   "related_events" : [ "7fb930ac-d05b-466a-85ed-08a3ed2c7f9c" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "0ce72ab3-48cf-4c35-8e66-4df49d132f57",
@@ -74043,17 +74043,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 94.5, 55.1 ],
-      "player" : {
-        "id" : 15515,
-        "name" : "Patrick Vieira"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
       "location" : [ 107.4, 37.2 ],
       "player" : {
         "id" : 40356,
@@ -74097,6 +74086,17 @@
         "name" : "Goalkeeper"
       },
       "teammate" : false
+    }, {
+      "location" : [ 94.5, 55.1 ],
+      "player" : {
+        "id" : 15515,
+        "name" : "Patrick Vieira"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -81195,11 +81195,11 @@
   "under_pressure" : true,
   "related_events" : [ "a430d098-7fe3-4cbd-aab6-c06bcf8ff2d9" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "1b3d0e52-ea12-4003-b7ec-9f6ba4b742c7",
@@ -83027,11 +83027,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
-    },
-    "straight" : true
+    }
   }
 }, {
   "id" : "62680dfc-bc0c-48b8-bb75-7c3c25464609",
@@ -83113,11 +83113,11 @@
   "related_events" : [ "62680dfc-bc0c-48b8-bb75-7c3c25464609", "9e2e6007-3899-4a72-86d7-c88890c9ba89" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "0a09ecdf-ced4-458d-a4cd-00d9390472a9",
@@ -87182,25 +87182,58 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 104.3, 33.7 ],
+      "location" : [ 114.0, 42.1 ],
       "player" : {
-        "id" : 40355,
-        "name" : "Andy Todd"
+        "id" : 38464,
+        "name" : "Brad Friedel"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     }, {
-      "location" : [ 102.7, 44.4 ],
+      "location" : [ 94.4, 40.4 ],
       "player" : {
-        "id" : 40356,
-        "name" : "Craig Short"
+        "id" : 15095,
+        "name" : "Tugay Kerimoğlu"
       },
       "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.9, 37.5 ],
+      "player" : {
+        "id" : 15042,
+        "name" : "Dennis Bergkamp"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.3, 22.1 ],
+      "player" : {
+        "id" : 15516,
+        "name" : "Thierry Henry"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 86.9, 25.1 ],
+      "player" : {
+        "id" : 15272,
+        "name" : "Markus Babbel"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
       },
       "teammate" : false
     }, {
@@ -87215,58 +87248,25 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 86.9, 25.1 ],
+      "location" : [ 102.7, 44.4 ],
       "player" : {
-        "id" : 15272,
-        "name" : "Markus Babbel"
+        "id" : 40356,
+        "name" : "Craig Short"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 100.3, 22.1 ],
+      "location" : [ 104.3, 33.7 ],
       "player" : {
-        "id" : 15516,
-        "name" : "Thierry Henry"
+        "id" : 40355,
+        "name" : "Andy Todd"
       },
       "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 92.9, 37.5 ],
-      "player" : {
-        "id" : 15042,
-        "name" : "Dennis Bergkamp"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 94.4, 40.4 ],
-      "player" : {
-        "id" : 15095,
-        "name" : "Tugay Kerimoğlu"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.0, 42.1 ],
-      "player" : {
-        "id" : 38464,
-        "name" : "Brad Friedel"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
     } ]
@@ -89445,11 +89445,11 @@
   "under_pressure" : true,
   "related_events" : [ "470fa657-ee48-48b8-b565-2b369505161b" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "f70e0e71-99af-4b29-9565-00a70aae779f",
@@ -89487,11 +89487,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "0afd7a3b-f3cf-4091-bff8-60c77cd265dc",
@@ -94420,11 +94420,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 102.2, 52.9 ],
+    "no_touch" : true,
     "body_part" : {
       "id" : 106,
       "name" : "No Touch"
-    },
-    "no_touch" : true
+    }
   }
 }, {
   "id" : "53600391-2002-4b3e-bc34-739807210fb9",
@@ -94793,11 +94793,11 @@
   "related_events" : [ "9ffc57eb-fd2f-4d66-ad8d-85f8c9969ea4", "bd7e1f5e-fea0-48f8-9a64-c448f4b49584" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "66f588a0-7612-4fe1-b933-5cc0db618e72",
@@ -94926,83 +94926,6 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 95.1, 53.1 ],
-      "player" : {
-        "id" : 40357,
-        "name" : "Brett Emerton"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 119.7, 38.8 ],
-      "player" : {
-        "id" : 20015,
-        "name" : "Jens Lehmann"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.9, 53.3 ],
-      "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.6, 47.6 ],
-      "player" : {
-        "id" : 26194,
-        "name" : "Pascal Cygan"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.9, 43.0 ],
-      "player" : {
-        "id" : 15637,
-        "name" : "Sulzeer Jeremiah ''Sol' Campbell"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.6, 38.1 ],
-      "player" : {
-        "id" : 38412,
-        "name" : "Kolo Habib Touré"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.5, 47.3 ],
-      "player" : {
-        "id" : 15515,
-        "name" : "Patrick Vieira"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 108.7, 39.1 ],
       "player" : {
         "id" : 40358,
@@ -95068,6 +94991,83 @@
         "name" : "Left Center Midfield"
       },
       "teammate" : false
+    }, {
+      "location" : [ 102.5, 47.3 ],
+      "player" : {
+        "id" : 15515,
+        "name" : "Patrick Vieira"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.6, 38.1 ],
+      "player" : {
+        "id" : 38412,
+        "name" : "Kolo Habib Touré"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.9, 43.0 ],
+      "player" : {
+        "id" : 15637,
+        "name" : "Sulzeer Jeremiah ''Sol' Campbell"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.6, 47.6 ],
+      "player" : {
+        "id" : 26194,
+        "name" : "Pascal Cygan"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.9, 53.3 ],
+      "player" : {
+        "id" : 12529,
+        "name" : "Ashley Cole"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.7, 38.8 ],
+      "player" : {
+        "id" : 20015,
+        "name" : "Jens Lehmann"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 95.1, 53.1 ],
+      "player" : {
+        "id" : 40357,
+        "name" : "Brett Emerton"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -96428,11 +96428,11 @@
   "under_pressure" : true,
   "related_events" : [ "7810de1b-3a0f-4dd9-8932-ee93ac7501bc" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "5b248261-7d65-4efb-9775-e448a8f3444a",
@@ -96892,11 +96892,11 @@
   "under_pressure" : true,
   "related_events" : [ "615619e5-b32f-4240-a9f9-986cc2bd3906" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "f682810f-8c64-49e3-9caa-1d6b33e79b17",
@@ -96941,11 +96941,11 @@
     },
     "end_location" : [ 113.9, 36.4 ],
     "switch" : true,
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "outcome" : {
       "id" : 77,
       "name" : "Unknown"
@@ -99701,11 +99701,11 @@
   "under_pressure" : true,
   "related_events" : [ "dd7e801b-b1f5-4d1f-9173-c1cb8eb5afca" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "68107edb-bf61-4bb0-aab9-7e535c648622",
@@ -100188,11 +100188,11 @@
   "under_pressure" : true,
   "related_events" : [ "a06d47b5-685b-4e21-a8ec-5c97763307fd" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "8f8d86f6-a6b1-4cb7-8390-e8ae2748b2c0",
@@ -100237,11 +100237,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 115.1, 32.1 ],
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -100292,11 +100292,11 @@
   "under_pressure" : true,
   "related_events" : [ "8f8d86f6-a6b1-4cb7-8390-e8ae2748b2c0" ],
   "clearance" : {
+    "other" : true,
     "body_part" : {
       "id" : 70,
       "name" : "Other"
-    },
-    "other" : true
+    }
   }
 }, {
   "id" : "c6fc82eb-7c4d-440d-92fd-8687ab2fc315",
@@ -103232,11 +103232,11 @@
   "under_pressure" : true,
   "related_events" : [ "b136f7c8-12c5-49cd-860c-6d83459f49ba" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "482b08f7-b038-48b7-8079-f16be98932dc",
@@ -105749,11 +105749,11 @@
       "id" : 40,
       "name" : "Right Foot"
     },
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -110369,11 +110369,11 @@
   "under_pressure" : true,
   "related_events" : [ "06177f7c-7043-4427-86ab-514051b92a47" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "3f66e6fa-9707-499d-b311-b0102bbb40f8",
@@ -116669,11 +116669,11 @@
   "under_pressure" : true,
   "related_events" : [ "11ca9719-200a-447b-9eeb-020151e78153" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "cc05a76c-3522-453e-a33a-dcb059fea86c",
@@ -119916,11 +119916,11 @@
   "under_pressure" : true,
   "related_events" : [ "62de6965-437d-46ac-93ba-89c14c882e13" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "b4680307-77b0-407f-8e9f-9f780382f9b7",
@@ -122510,11 +122510,11 @@
   "under_pressure" : true,
   "related_events" : [ "b294a7bd-767d-4663-9377-7531c2f44af7", "bb68bdfc-5d49-4e04-bb76-7098ce9572d1" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "08bb5ce4-a641-4b8f-88e8-ca3e13672fbc",
@@ -123518,11 +123518,11 @@
     },
     "end_location" : [ 116.0, 44.5 ],
     "switch" : true,
+    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
     },
-    "straight" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -123778,11 +123778,11 @@
   "under_pressure" : true,
   "related_events" : [ "e0f667e5-ab4f-42f5-a6e8-268fae6a5bed" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "4cf75154-9208-4712-a67e-24793290ab61",
@@ -123911,61 +123911,6 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 110.8, 39.6 ],
-      "player" : {
-        "id" : 15515,
-        "name" : "Patrick Vieira"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.7, 44.4 ],
-      "player" : {
-        "id" : 15516,
-        "name" : "Thierry Henry"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.0, 39.7 ],
-      "player" : {
-        "id" : 15095,
-        "name" : "Tugay Kerimoğlu"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.9, 43.2 ],
-      "player" : {
-        "id" : 38464,
-        "name" : "Brad Friedel"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.8, 53.6 ],
-      "player" : {
-        "id" : 40352,
-        "name" : "Barry Ferguson"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 91.9, 40.1 ],
       "player" : {
         "id" : 15042,
@@ -124086,6 +124031,61 @@
         "name" : "Left Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 108.8, 53.6 ],
+      "player" : {
+        "id" : 40352,
+        "name" : "Barry Ferguson"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.9, 43.2 ],
+      "player" : {
+        "id" : 38464,
+        "name" : "Brad Friedel"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.0, 39.7 ],
+      "player" : {
+        "id" : 15095,
+        "name" : "Tugay Kerimoğlu"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.7, 44.4 ],
+      "player" : {
+        "id" : 15516,
+        "name" : "Thierry Henry"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 110.8, 39.6 ],
+      "player" : {
+        "id" : 15515,
+        "name" : "Patrick Vieira"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -126915,11 +126915,11 @@
   "under_pressure" : true,
   "related_events" : [ "b10e3d47-79bc-4f96-9c98-1175b26f4d46" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "e725d831-0654-4b85-9cd6-6ffadf1f4263",
@@ -126972,11 +126972,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
-    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -127020,11 +127020,11 @@
   "under_pressure" : true,
   "related_events" : [ "e725d831-0654-4b85-9cd6-6ffadf1f4263" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "fa428a02-0b05-4581-81a5-db9f8b65f942",
@@ -127116,11 +127116,11 @@
   "under_pressure" : true,
   "related_events" : [ "fa428a02-0b05-4581-81a5-db9f8b65f942" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "bed9a320-65e2-4391-b0cd-4bdfd7a34bc7",
@@ -127166,11 +127166,11 @@
     },
     "end_location" : [ 115.1, 35.4 ],
     "switch" : true,
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
-    "outswinging" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -127975,11 +127975,11 @@
   "related_events" : [ "a185e32e-ab29-48b4-bc3c-83a43e72eda7", "bc976245-c673-4506-92d4-ea362079eeb5" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "c0dfaad8-62aa-4cc9-b42d-8bbbdbbd0c21",
@@ -133213,17 +133213,6 @@
       "name" : "Free Kick"
     },
     "freeze_frame" : [ {
-      "location" : [ 119.4, 42.3 ],
-      "player" : {
-        "id" : 38464,
-        "name" : "Brad Friedel"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 103.9, 33.3 ],
       "player" : {
         "id" : 15515,
@@ -133355,6 +133344,17 @@
         "name" : "Left Back"
       },
       "teammate" : true
+    }, {
+      "location" : [ 119.4, 42.3 ],
+      "player" : {
+        "id" : 38464,
+        "name" : "Brad Friedel"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -141097,11 +141097,11 @@
   "under_pressure" : true,
   "related_events" : [ "d0c24d89-0175-4878-a9fc-26ce7f607a0e" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "19ee91d0-4591-400e-83e5-117d070bbaee",
@@ -141632,11 +141632,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "b463ed88-4e29-4536-bd67-b0d1f77b9f64",
@@ -141728,39 +141728,6 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
-      "location" : [ 115.9, 37.5 ],
-      "player" : {
-        "id" : 15515,
-        "name" : "Patrick Vieira"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 120.0, 42.8 ],
-      "player" : {
-        "id" : 12529,
-        "name" : "Ashley Cole"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.8, 36.9 ],
-      "player" : {
-        "id" : 15754,
-        "name" : "Fredrik Ljungberg"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : false
-    }, {
       "location" : [ 111.9, 45.0 ],
       "player" : {
         "id" : 40355,
@@ -141879,6 +141846,39 @@
       "position" : {
         "id" : 1,
         "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.8, 36.9 ],
+      "player" : {
+        "id" : 15754,
+        "name" : "Fredrik Ljungberg"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 120.0, 42.8 ],
+      "player" : {
+        "id" : 12529,
+        "name" : "Ashley Cole"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.9, 37.5 ],
+      "player" : {
+        "id" : 15515,
+        "name" : "Patrick Vieira"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
       },
       "teammate" : false
     } ]
@@ -142030,124 +142030,25 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 112.9, 39.6 ],
+      "location" : [ 114.7, 30.9 ],
       "player" : {
-        "id" : 38412,
-        "name" : "Kolo Habib Touré"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.3, 39.9 ],
-      "player" : {
-        "id" : 15637,
-        "name" : "Sulzeer Jeremiah ''Sol' Campbell"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.5, 36.9 ],
-      "player" : {
-        "id" : 15754,
-        "name" : "Fredrik Ljungberg"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.7, 41.7 ],
-      "player" : {
-        "id" : 24767,
-        "name" : "Andy Cole"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.7, 44.8 ],
-      "player" : {
-        "id" : 40357,
-        "name" : "Brett Emerton"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.3, 42.9 ],
-      "player" : {
-        "id" : 40355,
-        "name" : "Andy Todd"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 119.6, 37.6 ],
-      "player" : {
-        "id" : 20015,
-        "name" : "Jens Lehmann"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.1, 32.6 ],
-      "player" : {
-        "id" : 19312,
-        "name" : "Robert Pirès"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.2, 35.5 ],
-      "player" : {
-        "id" : 15515,
-        "name" : "Patrick Vieira"
-      },
-      "position" : {
-        "id" : 13,
-        "name" : "Right Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.6, 44.1 ],
-      "player" : {
-        "id" : 40221,
-        "name" : "Gilberto Aparecido da Silva"
-      },
-      "position" : {
-        "id" : 15,
-        "name" : "Left Center Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 115.0, 46.8 ],
-      "player" : {
-        "id" : 26194,
-        "name" : "Pascal Cygan"
+        "id" : 40356,
+        "name" : "Craig Short"
       },
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.5, 29.8 ],
+      "player" : {
+        "id" : 15516,
+        "name" : "Thierry Henry"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
       },
       "teammate" : false
     }, {
@@ -142162,27 +142063,126 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 113.5, 29.8 ],
+      "location" : [ 115.0, 46.8 ],
       "player" : {
-        "id" : 15516,
-        "name" : "Thierry Henry"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.7, 30.9 ],
-      "player" : {
-        "id" : 40356,
-        "name" : "Craig Short"
+        "id" : 26194,
+        "name" : "Pascal Cygan"
       },
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
       },
+      "teammate" : false
+    }, {
+      "location" : [ 116.6, 44.1 ],
+      "player" : {
+        "id" : 40221,
+        "name" : "Gilberto Aparecido da Silva"
+      },
+      "position" : {
+        "id" : 15,
+        "name" : "Left Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 115.2, 35.5 ],
+      "player" : {
+        "id" : 15515,
+        "name" : "Patrick Vieira"
+      },
+      "position" : {
+        "id" : 13,
+        "name" : "Right Center Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.1, 32.6 ],
+      "player" : {
+        "id" : 19312,
+        "name" : "Robert Pirès"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.6, 37.6 ],
+      "player" : {
+        "id" : 20015,
+        "name" : "Jens Lehmann"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.3, 42.9 ],
+      "player" : {
+        "id" : 40355,
+        "name" : "Andy Todd"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
       "teammate" : true
+    }, {
+      "location" : [ 113.7, 44.8 ],
+      "player" : {
+        "id" : 40357,
+        "name" : "Brett Emerton"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 116.7, 41.7 ],
+      "player" : {
+        "id" : 24767,
+        "name" : "Andy Cole"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 119.5, 36.9 ],
+      "player" : {
+        "id" : 15754,
+        "name" : "Fredrik Ljungberg"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.3, 39.9 ],
+      "player" : {
+        "id" : 15637,
+        "name" : "Sulzeer Jeremiah ''Sol' Campbell"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.9, 39.6 ],
+      "player" : {
+        "id" : 38412,
+        "name" : "Kolo Habib Touré"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -143136,11 +143136,11 @@
   "related_events" : [ "3177fe16-1381-40c4-ba6b-78b30fdc4213", "5aeec607-e74f-4c82-9bd7-a587e9bb2269" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "7ed09611-5772-4ffc-884b-f30e286bc988",
@@ -156482,11 +156482,11 @@
   "under_pressure" : true,
   "related_events" : [ "3c12cff9-d991-4890-b331-1d743139f901" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "4d0fd5b5-6619-4d5c-a3c7-706fc92ca91c",
@@ -157509,11 +157509,11 @@
   "under_pressure" : true,
   "related_events" : [ "a8b70889-8f09-41ea-9869-5a29fa6aef0b" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "4725e2b3-60a1-4596-9b7f-eba6fbf53f5a",
