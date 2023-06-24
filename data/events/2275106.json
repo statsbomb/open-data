@@ -3012,6 +3012,17 @@
       "name" : "Goal"
     },
     "freeze_frame" : [ {
+      "location" : [ 109.5, 32.9 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 118.5, 39.7 ],
       "player" : {
         "id" : 16376,
@@ -3119,17 +3130,6 @@
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.5, 32.9 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -4058,11 +4058,11 @@
   "under_pressure" : true,
   "related_events" : [ "f43bdd21-0e7f-4786-92c8-c0e0ac694e11" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "6392160d-1db0-498a-baae-c562a614e9cd",
@@ -7596,11 +7596,11 @@
   "under_pressure" : true,
   "related_events" : [ "35a4b870-833c-4803-b60b-87c16de365d9" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "5277c8a7-b192-43bf-920e-472d47587e46",
@@ -7682,11 +7682,11 @@
   "under_pressure" : true,
   "related_events" : [ "5277c8a7-b192-43bf-920e-472d47587e46" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -9121,11 +9121,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "deb9f228-b1d2-4024-99dc-137e3cbe5ca1",
@@ -9163,11 +9163,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "4093cc99-f30e-4996-b646-81eb6d8c7363",
@@ -9401,11 +9401,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "caad411e-4fdd-45f3-9499-708e25e855bf",
@@ -13538,11 +13538,11 @@
   "related_events" : [ "30954e8e-e9d8-4755-851b-42e50ac70502", "5ae68584-a489-4735-a910-0d7ca934c66a" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "66f8dec2-414b-4064-a4a0-af2408b085bb",
@@ -19898,11 +19898,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "b2b9a6cf-cc0e-4d56-ad2e-a4c9a85a36dc",
@@ -21709,11 +21709,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "d8ad463d-e97e-4dda-ae7b-dc551cb7ed75",
@@ -21763,11 +21763,11 @@
     },
     "end_location" : [ 115.1, 42.4 ],
     "switch" : true,
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -21901,11 +21901,11 @@
   "related_events" : [ "19856b56-6491-419f-a63d-38807fb20bba", "d8ad463d-e97e-4dda-ae7b-dc551cb7ed75" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "d56f7bee-3086-4c07-86ab-b0a4f54cd20d",
@@ -21997,179 +21997,14 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
-      "location" : [ 119.0, 40.0 ],
+      "location" : [ 111.2, 37.9 ],
       "player" : {
-        "id" : 4637,
-        "name" : "Ellie Roebuck"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.1, 21.0 ],
-      "player" : {
-        "id" : 10188,
-        "name" : "Caroline Weir"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 98.9, 29.1 ],
-      "player" : {
-        "id" : 10099,
-        "name" : "Tessa Wullaert"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 97.7, 33.3 ],
-      "player" : {
-        "id" : 4658,
-        "name" : "Keira Walsh"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.5, 40.5 ],
-      "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.1, 37.0 ],
-      "player" : {
-        "id" : 10172,
-        "name" : "Jill Scott"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.4, 43.6 ],
-      "player" : {
-        "id" : 4643,
-        "name" : "Georgia Stanway"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.0, 42.6 ],
-      "player" : {
-        "id" : 10185,
-        "name" : "Stephanie Houghton"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.9, 37.7 ],
-      "player" : {
-        "id" : 15554,
-        "name" : "Gemma Bonner"
+        "id" : 16381,
+        "name" : "Gemma Evans"
       },
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.4, 39.2 ],
-      "player" : {
-        "id" : 4651,
-        "name" : "Demi Stokes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.7, 37.8 ],
-      "player" : {
-        "id" : 15555,
-        "name" : "Lauren Hemp"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 100.4, 45.7 ],
-      "player" : {
-        "id" : 35407,
-        "name" : "Ga-Eul Jeon"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.4, 48.9 ],
-      "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 93.7, 21.9 ],
-      "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.2, 36.0 ],
-      "player" : {
-        "id" : 21059,
-        "name" : "Katie Robinson"
-      },
-      "position" : {
-        "id" : 23,
-        "name" : "Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.5, 39.0 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
       },
       "teammate" : true
     }, {
@@ -22184,16 +22019,181 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 111.2, 37.9 ],
+      "location" : [ 112.5, 39.0 ],
       "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.2, 36.0 ],
+      "player" : {
+        "id" : 21059,
+        "name" : "Katie Robinson"
+      },
+      "position" : {
+        "id" : 23,
+        "name" : "Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 93.7, 21.9 ],
+      "player" : {
+        "id" : 24925,
+        "name" : "Olivia Chance"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.4, 48.9 ],
+      "player" : {
+        "id" : 15563,
+        "name" : "Charlie Wellings"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 100.4, 45.7 ],
+      "player" : {
+        "id" : 35407,
+        "name" : "Ga-Eul Jeon"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.7, 37.8 ],
+      "player" : {
+        "id" : 15555,
+        "name" : "Lauren Hemp"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.4, 39.2 ],
+      "player" : {
+        "id" : 4651,
+        "name" : "Demi Stokes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.9, 37.7 ],
+      "player" : {
+        "id" : 15554,
+        "name" : "Gemma Bonner"
       },
       "position" : {
         "id" : 5,
         "name" : "Left Center Back"
       },
-      "teammate" : true
+      "teammate" : false
+    }, {
+      "location" : [ 110.0, 42.6 ],
+      "player" : {
+        "id" : 10185,
+        "name" : "Stephanie Houghton"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.4, 43.6 ],
+      "player" : {
+        "id" : 4643,
+        "name" : "Georgia Stanway"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 108.1, 37.0 ],
+      "player" : {
+        "id" : 10172,
+        "name" : "Jill Scott"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.5, 40.5 ],
+      "player" : {
+        "id" : 10180,
+        "name" : "Ellen White"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 97.7, 33.3 ],
+      "player" : {
+        "id" : 4658,
+        "name" : "Keira Walsh"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 98.9, 29.1 ],
+      "player" : {
+        "id" : 10099,
+        "name" : "Tessa Wullaert"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.1, 21.0 ],
+      "player" : {
+        "id" : 10188,
+        "name" : "Caroline Weir"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.0, 40.0 ],
+      "player" : {
+        "id" : 4637,
+        "name" : "Ellie Roebuck"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
     } ]
   }
 }, {
@@ -22652,11 +22652,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "75722878-5a7f-462d-b9db-83764a210cde",
@@ -24138,11 +24138,11 @@
   "under_pressure" : true,
   "related_events" : [ "133798cd-a3af-4793-a80c-d5bf85b2858d" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "56fb80f3-00a4-41f6-84d1-6bc4cebc0096",
@@ -26444,11 +26444,11 @@
   "under_pressure" : true,
   "related_events" : [ "8bf88cab-0d02-4a45-a6b8-eb8a45dd0589" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "4713345d-7cf5-4b48-aa5d-75d589600c6e",
@@ -30931,11 +30931,11 @@
   "under_pressure" : true,
   "related_events" : [ "91833cd8-94e4-4d4a-b618-9b0adea92c1b" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "91bf3b81-651b-42ac-878e-9f2a1f820178",
@@ -33485,11 +33485,11 @@
   "under_pressure" : true,
   "related_events" : [ "85d80151-29f5-422a-aa88-378df5d41e3e" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "4ca596c2-372c-4602-a624-5456faa9f73c",
@@ -37041,11 +37041,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "2d3a4084-277e-4b36-b930-1b87025ddaa2",
@@ -39602,11 +39602,11 @@
       "name" : "Ground Pass"
     },
     "end_location" : [ 92.5, 41.6 ],
+    "through_ball" : true,
     "technique" : {
       "id" : 108,
       "name" : "Through Ball"
     },
-    "through_ball" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
@@ -41424,11 +41424,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "1d943ee8-8432-4fbf-8aef-a85779ba23ec",
@@ -41637,11 +41637,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "2ce6487c-c83a-44ac-b5b5-a89796a56b79",
@@ -41679,11 +41679,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "c78a4fe1-62e9-498a-800d-598b34090a38",
@@ -46021,6 +46021,17 @@
       "name" : "Right Foot"
     },
     "freeze_frame" : [ {
+      "location" : [ 115.7, 40.4 ],
+      "player" : {
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 109.1, 36.8 ],
       "player" : {
         "id" : 10180,
@@ -46130,17 +46141,6 @@
         "name" : "Left Wing"
       },
       "teammate" : false
-    }, {
-      "location" : [ 115.7, 40.4 ],
-      "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -46236,11 +46236,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "7713f18a-b2c5-4a7d-bc3a-2ee6dc4711e6",
@@ -48831,102 +48831,14 @@
       "name" : "Saved"
     },
     "freeze_frame" : [ {
-      "location" : [ 118.1, 39.3 ],
+      "location" : [ 109.2, 47.6 ],
       "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
+        "id" : 17274,
+        "name" : "Poppy Pattinson"
       },
       "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.6, 41.6 ],
-      "player" : {
-        "id" : 35407,
-        "name" : "Ga-Eul Jeon"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 99.7, 47.2 ],
-      "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 101.4, 36.2 ],
-      "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniëls"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.8, 28.8 ],
-      "player" : {
-        "id" : 15578,
-        "name" : "Faye Bryson"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.5, 22.0 ],
-      "player" : {
-        "id" : 15555,
-        "name" : "Lauren Hemp"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 102.3, 34.0 ],
-      "player" : {
-        "id" : 10099,
-        "name" : "Tessa Wullaert"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 104.2, 39.7 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.3, 39.4 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -48941,14 +48853,102 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 109.2, 47.6 ],
+      "location" : [ 108.3, 39.4 ],
       "player" : {
-        "id" : 17274,
-        "name" : "Poppy Pattinson"
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 104.2, 39.7 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 102.3, 34.0 ],
+      "player" : {
+        "id" : 10099,
+        "name" : "Tessa Wullaert"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 114.5, 22.0 ],
+      "player" : {
+        "id" : 15555,
+        "name" : "Lauren Hemp"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 111.8, 28.8 ],
+      "player" : {
+        "id" : 15578,
+        "name" : "Faye Bryson"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.4, 36.2 ],
+      "player" : {
+        "id" : 10093,
+        "name" : "Yana Daniëls"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.7, 47.2 ],
+      "player" : {
+        "id" : 24925,
+        "name" : "Olivia Chance"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 99.6, 41.6 ],
+      "player" : {
+        "id" : 35407,
+        "name" : "Ga-Eul Jeon"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.1, 39.3 ],
+      "player" : {
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
       },
       "teammate" : false
     } ]
@@ -50930,11 +50930,11 @@
   "under_pressure" : true,
   "related_events" : [ "8833a00e-a2fd-40b9-85a8-9ee87c500ca4" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "ddd77569-5d8b-47da-bfb4-0f5bd4faf453",
@@ -51008,11 +51008,11 @@
   "under_pressure" : true,
   "related_events" : [ "ddd77569-5d8b-47da-bfb4-0f5bd4faf453" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "2617bba0-0da6-4fa6-9349-102694774795",
@@ -52402,11 +52402,11 @@
   "under_pressure" : true,
   "related_events" : [ "965ab82e-557c-4aff-b8b1-a8c306dbaecb" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "42b13f47-6f3c-4275-bc9e-1050bc88c44d",
@@ -55648,11 +55648,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
-    "outswinging" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -55853,6 +55853,17 @@
       "name" : "Wayward"
     },
     "freeze_frame" : [ {
+      "location" : [ 119.7, 43.8 ],
+      "player" : {
+        "id" : 24925,
+        "name" : "Olivia Chance"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 105.4, 39.1 ],
       "player" : {
         "id" : 10099,
@@ -56017,17 +56028,6 @@
         "name" : "Right Wing"
       },
       "teammate" : false
-    }, {
-      "location" : [ 119.7, 43.8 ],
-      "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -56066,11 +56066,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "edfebd47-3244-4bfe-904f-4d48382e0a2b",
@@ -56155,11 +56155,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "61546ca9-19ae-42e9-a039-7ebc35de05c2",
@@ -56207,11 +56207,11 @@
       "id" : 75,
       "name" : "Out"
     },
+    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
     },
-    "straight" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -57758,11 +57758,11 @@
   "under_pressure" : true,
   "related_events" : [ "8540193f-87d5-4da3-bd8a-80a62a47092b" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "c25bee19-a4ea-42c4-82d2-b441e0abc58a",
@@ -65700,11 +65700,11 @@
   "under_pressure" : true,
   "related_events" : [ "088b55b9-3843-43a4-ab66-10ee74d5e91c" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "971ee68c-f0b0-44f6-8ef3-e8048eb0ed09",
@@ -67905,91 +67905,14 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 103.8, 48.5 ],
+      "location" : [ 103.1, 22.2 ],
       "player" : {
-        "id" : 4643,
-        "name" : "Georgia Stanway"
+        "id" : 10093,
+        "name" : "Yana Daniëls"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 104.0, 37.5 ],
-      "player" : {
-        "id" : 4651,
-        "name" : "Demi Stokes"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 88.1, 47.0 ],
-      "player" : {
-        "id" : 10172,
-        "name" : "Jill Scott"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 92.3, 46.9 ],
-      "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 103.8, 43.9 ],
-      "player" : {
-        "id" : 17274,
-        "name" : "Poppy Pattinson"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 116.9, 35.7 ],
-      "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 102.5, 31.9 ],
-      "player" : {
-        "id" : 15578,
-        "name" : "Faye Bryson"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 110.1, 29.8 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
     }, {
@@ -68004,16 +67927,93 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 103.1, 22.2 ],
+      "location" : [ 110.1, 29.8 ],
       "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniëls"
+        "id" : 16381,
+        "name" : "Gemma Evans"
       },
       "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 102.5, 31.9 ],
+      "player" : {
+        "id" : 15578,
+        "name" : "Faye Bryson"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.9, 35.7 ],
+      "player" : {
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 103.8, 43.9 ],
+      "player" : {
+        "id" : 17274,
+        "name" : "Poppy Pattinson"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 92.3, 46.9 ],
+      "player" : {
+        "id" : 15563,
+        "name" : "Charlie Wellings"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 88.1, 47.0 ],
+      "player" : {
+        "id" : 10172,
+        "name" : "Jill Scott"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.0, 37.5 ],
+      "player" : {
+        "id" : 4651,
+        "name" : "Demi Stokes"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 103.8, 48.5 ],
+      "player" : {
+        "id" : 4643,
+        "name" : "Georgia Stanway"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -68149,11 +68149,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
+    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
     },
-    "straight" : true,
     "outcome" : {
       "id" : 9,
       "name" : "Incomplete"
@@ -68418,11 +68418,11 @@
   "related_events" : [ "52d571c9-bd49-4eee-84b2-86625525dbd5", "c9bcb8f5-a322-4d74-9c0b-8d777d61d7ec" ],
   "clearance" : {
     "aerial_won" : true,
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "918565a8-2bed-48c2-8cbb-10f66c407f83",
@@ -74722,11 +74722,11 @@
   "under_pressure" : true,
   "related_events" : [ "81da4bc8-17a7-4e35-8013-52220ff976e6" ],
   "clearance" : {
+    "other" : true,
     "body_part" : {
       "id" : 70,
       "name" : "Other"
-    },
-    "other" : true
+    }
   }
 }, {
   "id" : "b3398dac-2c3d-4681-98cb-d2c8bf64adbe",
@@ -79196,11 +79196,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
     },
-    "outswinging" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -79425,6 +79425,50 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 117.8, 42.7 ],
+      "player" : {
+        "id" : 24925,
+        "name" : "Olivia Chance"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.0, 35.2 ],
+      "player" : {
+        "id" : 17274,
+        "name" : "Poppy Pattinson"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.0, 37.1 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 114.3, 38.1 ],
+      "player" : {
+        "id" : 10093,
+        "name" : "Yana Daniëls"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 99.4, 43.5 ],
       "player" : {
         "id" : 4658,
@@ -79565,50 +79609,6 @@
       "position" : {
         "id" : 2,
         "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.3, 38.1 ],
-      "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniëls"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 114.0, 37.1 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.0, 35.2 ],
-      "player" : {
-        "id" : 17274,
-        "name" : "Poppy Pattinson"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.8, 42.7 ],
-      "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     } ]
@@ -84437,91 +84437,25 @@
     },
     "first_time" : true,
     "freeze_frame" : [ {
-      "location" : [ 109.5, 42.7 ],
+      "location" : [ 100.9, 53.0 ],
       "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
+        "id" : 24925,
+        "name" : "Olivia Chance"
       },
       "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 116.2, 69.4 ],
-      "player" : {
-        "id" : 10099,
-        "name" : "Tessa Wullaert"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 118.5, 42.5 ],
-      "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
       },
       "teammate" : false
     }, {
-      "location" : [ 109.8, 36.7 ],
+      "location" : [ 116.2, 62.6 ],
       "player" : {
-        "id" : 15578,
-        "name" : "Faye Bryson"
+        "id" : 17274,
+        "name" : "Poppy Pattinson"
       },
       "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.3, 43.9 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 95.1, 45.3 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.3, 38.2 ],
-      "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniëls"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 108.4, 51.3 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 6,
+        "name" : "Left Back"
       },
       "teammate" : false
     }, {
@@ -84536,27 +84470,93 @@
       },
       "teammate" : true
     }, {
-      "location" : [ 116.2, 62.6 ],
+      "location" : [ 108.4, 51.3 ],
       "player" : {
-        "id" : 17274,
-        "name" : "Poppy Pattinson"
+        "id" : 16381,
+        "name" : "Gemma Evans"
       },
       "position" : {
-        "id" : 6,
-        "name" : "Left Back"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
     }, {
-      "location" : [ 100.9, 53.0 ],
+      "location" : [ 93.3, 38.2 ],
       "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
+        "id" : 10093,
+        "name" : "Yana Daniëls"
       },
       "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
+        "id" : 17,
+        "name" : "Right Wing"
       },
       "teammate" : false
+    }, {
+      "location" : [ 95.1, 45.3 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.3, 43.9 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.8, 36.7 ],
+      "player" : {
+        "id" : 15578,
+        "name" : "Faye Bryson"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.5, 42.5 ],
+      "player" : {
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.2, 69.4 ],
+      "player" : {
+        "id" : 10099,
+        "name" : "Tessa Wullaert"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 109.5, 42.7 ],
+      "player" : {
+        "id" : 10180,
+        "name" : "Ellen White"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -84653,11 +84653,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "6216501a-bf5c-4d6f-94b4-88a8a79540f3",
@@ -84702,11 +84702,11 @@
       "name" : "Low Pass"
     },
     "end_location" : [ 111.3, 35.1 ],
+    "straight" : true,
     "technique" : {
       "id" : 107,
       "name" : "Straight"
     },
-    "straight" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -84757,11 +84757,11 @@
   "under_pressure" : true,
   "related_events" : [ "6216501a-bf5c-4d6f-94b4-88a8a79540f3" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "d44ec209-cc84-4b5e-8113-bd4a2545e55a",
@@ -85784,11 +85784,11 @@
       "id" : 38,
       "name" : "Left Foot"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "85da282f-a452-41e3-9fd3-12c53ead2018",
@@ -85881,6 +85881,61 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 117.3, 35.9 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.2, 36.2 ],
+      "player" : {
+        "id" : 24925,
+        "name" : "Olivia Chance"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.8, 40.1 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 119.5, 46.3 ],
+      "player" : {
+        "id" : 15578,
+        "name" : "Faye Bryson"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.6, 45.2 ],
+      "player" : {
+        "id" : 10171,
+        "name" : "Frankie Brown"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 119.1, 48.0 ],
       "player" : {
         "id" : 17274,
@@ -86021,61 +86076,6 @@
       "position" : {
         "id" : 17,
         "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.6, 45.2 ],
-      "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.5, 46.3 ],
-      "player" : {
-        "id" : 15578,
-        "name" : "Faye Bryson"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.8, 40.1 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 119.2, 36.2 ],
-      "player" : {
-        "id" : 24925,
-        "name" : "Olivia Chance"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.3, 35.9 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
       },
       "teammate" : false
     } ]
@@ -86726,11 +86726,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "582aaf33-7d14-4d48-acf4-5e7695898a3b",
@@ -86769,11 +86769,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "44cf6722-3a28-4884-b549-c42e485d8f72",
@@ -86833,11 +86833,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "406fb37a-dbf7-4b78-be21-3a9f92e573fd",
@@ -86973,6 +86973,39 @@
     },
     "aerial_won" : true,
     "freeze_frame" : [ {
+      "location" : [ 113.2, 36.5 ],
+      "player" : {
+        "id" : 35407,
+        "name" : "Ga-Eul Jeon"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.2, 47.5 ],
+      "player" : {
+        "id" : 10180,
+        "name" : "Ellen White"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 115.5, 36.7 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 114.0, 39.0 ],
       "player" : {
         "id" : 15618,
@@ -87126,39 +87159,6 @@
         "name" : "Left Midfield"
       },
       "teammate" : true
-    }, {
-      "location" : [ 115.5, 36.7 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.2, 47.5 ],
-      "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.2, 36.5 ],
-      "player" : {
-        "id" : 35407,
-        "name" : "Ga-Eul Jeon"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : false
     } ]
   }
 }, {
@@ -91937,11 +91937,11 @@
   "under_pressure" : true,
   "related_events" : [ "969a7ca2-638e-4495-9b35-db2973ae9aad" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "ed8358d2-b4cf-4fe4-b4e0-7642f34ab0d5",
@@ -92523,11 +92523,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "afdead1f-56e0-4653-b6d6-f1abc5090a62",
@@ -92565,11 +92565,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "409b61dd-47d5-4d56-b2d9-190071b1f93f",
@@ -93376,11 +93376,11 @@
   "under_pressure" : true,
   "related_events" : [ "0231e3db-77e6-4c4f-bccc-931ad25a53de" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "cf8330e8-df71-4e62-86bb-53ea12621b85",
@@ -96783,11 +96783,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "83cd60bf-88a0-4eae-a501-9f9320108f52",
@@ -96844,11 +96844,11 @@
       "id" : 77,
       "name" : "Unknown"
     },
+    "outswinging" : true,
     "technique" : {
       "id" : 105,
       "name" : "Outswinging"
-    },
-    "outswinging" : true
+    }
   }
 }, {
   "id" : "fd0f9436-a0fb-48ab-8411-e36cbb5b6a2b",
@@ -99725,11 +99725,11 @@
   "under_pressure" : true,
   "related_events" : [ "0fe87b4f-b57f-4d20-b7ec-2adf8d959461" ],
   "clearance" : {
+    "left_foot" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
-    },
-    "left_foot" : true
+    }
   }
 }, {
   "id" : "cff4cefe-9454-445c-9a8d-b6050741160a",
@@ -104557,157 +104557,14 @@
       "name" : "Left Foot"
     },
     "freeze_frame" : [ {
-      "location" : [ 107.3, 40.5 ],
+      "location" : [ 108.8, 40.3 ],
       "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
+        "id" : 15555,
+        "name" : "Lauren Hemp"
       },
       "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 112.4, 46.0 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 113.0, 40.4 ],
-      "player" : {
-        "id" : 15563,
-        "name" : "Charlie Wellings"
-      },
-      "position" : {
-        "id" : 21,
-        "name" : "Left Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 116.6, 36.2 ],
-      "player" : {
-        "id" : 35407,
-        "name" : "Ga-Eul Jeon"
-      },
-      "position" : {
-        "id" : 19,
-        "name" : "Center Attacking Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 118.9, 38.0 ],
-      "player" : {
-        "id" : 4637,
-        "name" : "Ellie Roebuck"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.5, 16.7 ],
-      "player" : {
-        "id" : 10172,
-        "name" : "Jill Scott"
-      },
-      "position" : {
-        "id" : 12,
-        "name" : "Right Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 104.8, 1.2 ],
-      "player" : {
-        "id" : 17274,
-        "name" : "Poppy Pattinson"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 106.0, 8.3 ],
-      "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniëls"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 101.3, 25.1 ],
-      "player" : {
-        "id" : 10188,
-        "name" : "Caroline Weir"
-      },
-      "position" : {
-        "id" : 11,
-        "name" : "Left Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 107.8, 31.4 ],
-      "player" : {
-        "id" : 4658,
-        "name" : "Keira Walsh"
-      },
-      "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 112.2, 33.3 ],
-      "player" : {
-        "id" : 10180,
-        "name" : "Ellen White"
-      },
-      "position" : {
-        "id" : 24,
-        "name" : "Left Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.8, 16.7 ],
-      "player" : {
-        "id" : 10099,
-        "name" : "Tessa Wullaert"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.9, 42.4 ],
-      "player" : {
-        "id" : 4643,
-        "name" : "Georgia Stanway"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.5, 37.7 ],
-      "player" : {
-        "id" : 10185,
-        "name" : "Stephanie Houghton"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
+        "id" : 16,
+        "name" : "Left Midfield"
       },
       "teammate" : false
     }, {
@@ -104722,16 +104579,159 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 108.8, 40.3 ],
+      "location" : [ 109.5, 37.7 ],
       "player" : {
-        "id" : 15555,
-        "name" : "Lauren Hemp"
+        "id" : 10185,
+        "name" : "Stephanie Houghton"
       },
       "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
+        "id" : 3,
+        "name" : "Right Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 111.9, 42.4 ],
+      "player" : {
+        "id" : 4643,
+        "name" : "Georgia Stanway"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 111.8, 16.7 ],
+      "player" : {
+        "id" : 10099,
+        "name" : "Tessa Wullaert"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 112.2, 33.3 ],
+      "player" : {
+        "id" : 10180,
+        "name" : "Ellen White"
+      },
+      "position" : {
+        "id" : 24,
+        "name" : "Left Center Forward"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.8, 31.4 ],
+      "player" : {
+        "id" : 4658,
+        "name" : "Keira Walsh"
+      },
+      "position" : {
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 101.3, 25.1 ],
+      "player" : {
+        "id" : 10188,
+        "name" : "Caroline Weir"
+      },
+      "position" : {
+        "id" : 11,
+        "name" : "Left Defensive Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 106.0, 8.3 ],
+      "player" : {
+        "id" : 10093,
+        "name" : "Yana Daniëls"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.8, 1.2 ],
+      "player" : {
+        "id" : 17274,
+        "name" : "Poppy Pattinson"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.5, 16.7 ],
+      "player" : {
+        "id" : 10172,
+        "name" : "Jill Scott"
+      },
+      "position" : {
+        "id" : 12,
+        "name" : "Right Midfield"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 118.9, 38.0 ],
+      "player" : {
+        "id" : 4637,
+        "name" : "Ellie Roebuck"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 116.6, 36.2 ],
+      "player" : {
+        "id" : 35407,
+        "name" : "Ga-Eul Jeon"
+      },
+      "position" : {
+        "id" : 19,
+        "name" : "Center Attacking Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 113.0, 40.4 ],
+      "player" : {
+        "id" : 15563,
+        "name" : "Charlie Wellings"
+      },
+      "position" : {
+        "id" : 21,
+        "name" : "Left Wing"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 112.4, 46.0 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 107.3, 40.5 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -107922,6 +107922,39 @@
       "name" : "Blocked"
     },
     "freeze_frame" : [ {
+      "location" : [ 106.8, 44.7 ],
+      "player" : {
+        "id" : 17274,
+        "name" : "Poppy Pattinson"
+      },
+      "position" : {
+        "id" : 6,
+        "name" : "Left Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 105.3, 31.0 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 93.6, 28.9 ],
+      "player" : {
+        "id" : 10099,
+        "name" : "Tessa Wullaert"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
+    }, {
       "location" : [ 111.6, 34.9 ],
       "player" : {
         "id" : 16381,
@@ -107963,39 +107996,6 @@
       "position" : {
         "id" : 21,
         "name" : "Left Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 93.6, 28.9 ],
-      "player" : {
-        "id" : 10099,
-        "name" : "Tessa Wullaert"
-      },
-      "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 105.3, 31.0 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 106.8, 44.7 ],
-      "player" : {
-        "id" : 17274,
-        "name" : "Poppy Pattinson"
-      },
-      "position" : {
-        "id" : 6,
-        "name" : "Left Back"
       },
       "teammate" : false
     } ]
@@ -114825,11 +114825,11 @@
   "under_pressure" : true,
   "related_events" : [ "3a0ea930-9415-457a-8d9c-a7dd886c3254" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "120227b1-7aae-4118-b5d9-ae2c635f1ffe",
@@ -125033,11 +125033,11 @@
   "under_pressure" : true,
   "related_events" : [ "fa0e848e-7b1d-4a0b-843b-a6697cf67a91" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "85eba8c6-2257-48c8-8f58-39e242b9365b",
@@ -125094,11 +125094,11 @@
       "id" : 61,
       "name" : "Corner"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "5d0189e0-3be7-4f3f-97f5-a1325149a036",
@@ -125504,11 +125504,11 @@
   "under_pressure" : true,
   "related_events" : [ "7b3f304a-edae-4da5-8941-22b12cd78ff5" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "e2bdb738-a3ff-4d4e-9fce-3e13c3013fad",
@@ -125647,11 +125647,11 @@
   "under_pressure" : true,
   "related_events" : [ "e2bdb738-a3ff-4d4e-9fce-3e13c3013fad" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "d2dce804-b7a0-43cf-81c3-4ba1ff4bfb4c",
@@ -125975,11 +125975,11 @@
   "duration" : 0.0,
   "under_pressure" : true,
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "2476350f-e989-47a5-a7f7-c3d555b70eec",
@@ -126934,11 +126934,11 @@
   "under_pressure" : true,
   "related_events" : [ "2d244799-ccc0-4707-abb5-1f5ff5cc6335" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "6b0372cf-bdde-4e2b-b8e5-bbc7b1318669",
@@ -130496,69 +130496,14 @@
       "name" : "Normal"
     },
     "freeze_frame" : [ {
-      "location" : [ 104.1, 33.2 ],
+      "location" : [ 99.3, 46.9 ],
       "player" : {
-        "id" : 10099,
-        "name" : "Tessa Wullaert"
+        "id" : 10171,
+        "name" : "Frankie Brown"
       },
       "position" : {
-        "id" : 22,
-        "name" : "Right Center Forward"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 94.7, 21.4 ],
-      "player" : {
-        "id" : 15555,
-        "name" : "Lauren Hemp"
-      },
-      "position" : {
-        "id" : 16,
-        "name" : "Left Midfield"
-      },
-      "teammate" : true
-    }, {
-      "location" : [ 107.3, 30.8 ],
-      "player" : {
-        "id" : 15578,
-        "name" : "Faye Bryson"
-      },
-      "position" : {
-        "id" : 2,
-        "name" : "Right Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 117.7, 44.4 ],
-      "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.0, 41.8 ],
-      "player" : {
-        "id" : 15618,
-        "name" : "Jasmine Matthews"
-      },
-      "position" : {
-        "id" : 3,
-        "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 111.7, 51.2 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
+        "id" : 9,
+        "name" : "Right Defensive Midfield"
       },
       "teammate" : false
     }, {
@@ -130573,16 +130518,71 @@
       },
       "teammate" : false
     }, {
-      "location" : [ 99.3, 46.9 ],
+      "location" : [ 111.7, 51.2 ],
       "player" : {
-        "id" : 10171,
-        "name" : "Frankie Brown"
+        "id" : 16381,
+        "name" : "Gemma Evans"
       },
       "position" : {
-        "id" : 9,
-        "name" : "Right Defensive Midfield"
+        "id" : 5,
+        "name" : "Left Center Back"
       },
       "teammate" : false
+    }, {
+      "location" : [ 111.0, 41.8 ],
+      "player" : {
+        "id" : 15618,
+        "name" : "Jasmine Matthews"
+      },
+      "position" : {
+        "id" : 3,
+        "name" : "Right Center Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 117.7, 44.4 ],
+      "player" : {
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 107.3, 30.8 ],
+      "player" : {
+        "id" : 15578,
+        "name" : "Faye Bryson"
+      },
+      "position" : {
+        "id" : 2,
+        "name" : "Right Back"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 94.7, 21.4 ],
+      "player" : {
+        "id" : 15555,
+        "name" : "Lauren Hemp"
+      },
+      "position" : {
+        "id" : 16,
+        "name" : "Left Midfield"
+      },
+      "teammate" : true
+    }, {
+      "location" : [ 104.1, 33.2 ],
+      "player" : {
+        "id" : 10099,
+        "name" : "Tessa Wullaert"
+      },
+      "position" : {
+        "id" : 22,
+        "name" : "Right Center Forward"
+      },
+      "teammate" : true
     } ]
   }
 }, {
@@ -130697,11 +130697,11 @@
       "id" : 9,
       "name" : "Incomplete"
     },
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
-    },
-    "inswinging" : true
+    }
   }
 }, {
   "id" : "eb891943-f64b-4153-ac84-02315d9742b4",
@@ -130740,11 +130740,11 @@
   "under_pressure" : true,
   "related_events" : [ "35d5fc0f-ffce-44cc-85fb-43d5012f855c" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "509a107b-e398-4295-b70d-a85c668f9752",
@@ -130968,6 +130968,39 @@
       "name" : "Open Play"
     },
     "freeze_frame" : [ {
+      "location" : [ 118.6, 40.7 ],
+      "player" : {
+        "id" : 16376,
+        "name" : "Sophie Baggaley"
+      },
+      "position" : {
+        "id" : 1,
+        "name" : "Goalkeeper"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 109.6, 42.9 ],
+      "player" : {
+        "id" : 10093,
+        "name" : "Yana Daniëls"
+      },
+      "position" : {
+        "id" : 17,
+        "name" : "Right Wing"
+      },
+      "teammate" : false
+    }, {
+      "location" : [ 113.8, 39.9 ],
+      "player" : {
+        "id" : 16381,
+        "name" : "Gemma Evans"
+      },
+      "position" : {
+        "id" : 5,
+        "name" : "Left Center Back"
+      },
+      "teammate" : false
+    }, {
       "location" : [ 95.5, 58.2 ],
       "player" : {
         "id" : 4658,
@@ -131141,39 +131174,6 @@
       "position" : {
         "id" : 3,
         "name" : "Right Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 113.8, 39.9 ],
-      "player" : {
-        "id" : 16381,
-        "name" : "Gemma Evans"
-      },
-      "position" : {
-        "id" : 5,
-        "name" : "Left Center Back"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 109.6, 42.9 ],
-      "player" : {
-        "id" : 10093,
-        "name" : "Yana Daniëls"
-      },
-      "position" : {
-        "id" : 17,
-        "name" : "Right Wing"
-      },
-      "teammate" : false
-    }, {
-      "location" : [ 118.6, 40.7 ],
-      "player" : {
-        "id" : 16376,
-        "name" : "Sophie Baggaley"
-      },
-      "position" : {
-        "id" : 1,
-        "name" : "Goalkeeper"
       },
       "teammate" : false
     } ]
@@ -143159,11 +143159,11 @@
   "under_pressure" : true,
   "related_events" : [ "688a53e6-5ce6-4e18-be5a-cc0de8772ae2" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "6791746f-4c6d-4c2f-8417-fcdce6479cd4",
@@ -143467,11 +143467,11 @@
   "under_pressure" : true,
   "related_events" : [ "1d3a62dc-6c72-48bc-a298-09dcc922b8d4", "b598cc5a-cbed-4a58-8825-b1c6c856ffab" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
     },
-    "head" : true,
     "aerial_won" : true
   }
 }, {
@@ -144328,11 +144328,11 @@
       "name" : "High Pass"
     },
     "end_location" : [ 118.9, 42.5 ],
+    "inswinging" : true,
     "technique" : {
       "id" : 104,
       "name" : "Inswinging"
     },
-    "inswinging" : true,
     "body_part" : {
       "id" : 38,
       "name" : "Left Foot"
@@ -155353,11 +155353,11 @@
   "under_pressure" : true,
   "related_events" : [ "b1601107-ff9d-4205-b8c5-e4f33c961e4f" ],
   "clearance" : {
+    "head" : true,
     "body_part" : {
       "id" : 37,
       "name" : "Head"
-    },
-    "head" : true
+    }
   }
 }, {
   "id" : "f6618146-0da1-426e-aa53-30e80c4765a7",
@@ -155655,11 +155655,11 @@
   "under_pressure" : true,
   "related_events" : [ "76b5ff36-21f6-49f7-b8f5-820ecdf1d7e3" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "64ad2f0d-cb1d-4ea9-a819-d186462131bc",
@@ -156948,11 +156948,11 @@
   "under_pressure" : true,
   "related_events" : [ "9b5e7673-71bd-4299-b5f8-2ecd7267c633" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "5148aabf-cb06-407a-bca4-0e66a4e10955",
@@ -158738,11 +158738,11 @@
   "under_pressure" : true,
   "related_events" : [ "cca2b4b8-6564-4cfd-9868-30ac6fb77d82" ],
   "clearance" : {
+    "right_foot" : true,
     "body_part" : {
       "id" : 40,
       "name" : "Right Foot"
-    },
-    "right_foot" : true
+    }
   }
 }, {
   "id" : "fff9f9be-3f69-43f8-b97b-7eb270e4f028",
