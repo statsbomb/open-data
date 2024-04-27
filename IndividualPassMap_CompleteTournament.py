@@ -39,7 +39,7 @@ def plot_pass_maps(home_team, away_team, events, lineup):
     warnings.simplefilter("ignore", UserWarning)
 
     # Plot the 7 * 3 grid
-    fig, axs = pitch.grid(nrows=7, ncols=4, figheight=30,
+    fig, axs = pitch.grid(nrows=11, ncols=4, figheight=30,
                           endnote_height=0.03, endnote_space=0,
                           axis=False,
                           title_height=0.08, grid_height=0.84)
