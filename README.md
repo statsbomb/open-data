@@ -1,26 +1,32 @@
-# StatsBomb Open Data
+# xG-Prediction Model
 
-Welcome to the StatsBomb Open Data repository.
+Idea is to calculate xG of each shot taken, given is the location of each shot taken from in x,y coordinates, and also by calculating angles of each shot towards the goal post.
 
-StatsBomb are committed to sharing new data and research publicly to enhance understanding of the game of Football. We want to actively encourage new research and analysis at all levels. Therefore we have made certain leagues of StatsBomb Data freely available for public use for research projects and genuine interest in football analytics.
+The Field is divided to 120 x 80 units, and hence locating each shot from the Statsbomb open data.
+the xG model her predicts from the data of 58k+ shots and draw some conclusions over it.
 
-StatsBomb are hoping that by making data freely available, we will extend the wider football analytics community and attract new talent to the industry.
+## Setup
+To download the data and mounted in drive/MyDrive locattion.
+Then create a directory /MyDrive/xg-model and here storing the data in the ./data/raw/ directory.
+also creating a new directory in the /data/processed to store the processed data (csv) files, and then using these to access for further process.
 
-## Terms & Conditions
+## method
+shot distance and angles are calculated from the goal post, and then scaling the data and on further caliberating it for realistic results.
 
-If you publish, share or distribute any research, analysis or insights based on this data, please state the data source as StatsBomb and use our logo, available in our [Media Pack](https://statsbomb.com/media-pack/).
+## conclusion
+The data model here predicts the xG model as seen in the following charts:
+<img width="846" height="885" alt="image" src="https://github.com/user-attachments/assets/b3d06dd1-274b-4911-9f2d-b4da3240ad3e" />
 
-## Getting Started
+## drawing shot map
+I was very interested in the shot map as we see in the Fotmob, Sofascore and more such apps, so using this data I decided to build that too!
+here are the results;
+this is the shot map of all the data in events section (by the date it was formed):
+<img width="1198" height="875" alt="image" src="https://github.com/user-attachments/assets/7425ed43-c430-4e36-80fb-9dece00754d5" />
 
-The [data](./data/) is provided as JSON files exported from the StatsBomb Data API, in the following structure:
+here is one highlighting those which were shots on target (goals marked as blue):
+<img width="1247" height="857" alt="image" src="https://github.com/user-attachments/assets/c83567de-220e-45bb-8032-47957abb954c" />
 
-* Competition and seasons stored in [`competitions.json`](./data/competitions.json).
-* Matches for each competition and season, stored in [`matches`](./data/matches/). Each folder within is named for a competition ID, each file is named for a season ID within that competition.
-* Events and lineups for each match, stored in [`events`](./data/events/) and [`lineups`](./data/lineups/) respectively. Each file is named for a match ID.
-* StatsBomb 360 data for selected matches, stored in [`three-sixty`](./data/three-sixty/). Each file is named for a match ID.
 
-Some documentation about the meaning of different events and the format of the JSON can be found in the [`doc`](./doc) directory.
-
-## Careers
-
-If you're interested in football data, [StatsBomb is always hiring!](https://statsbomb.bamboohr.com/jobs/)
+### ps: what a freak messi was!
+this is the data for xG overperformers:
+<img width="1172" height="605" alt="image" src="https://github.com/user-attachments/assets/9e461709-95b4-4e35-a484-fb9ccd95b76f" />
