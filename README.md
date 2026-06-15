@@ -23,4 +23,4 @@ Some documentation about the meaning of different events and the format of the J
 
 ## Careers
 
-If you're interested in football data, [StatsBomb is always hiring!](https://statsbomb.bamboohr.com/jobs/)
+If you're interested in football data, [StatsBomb is always hiring!](https://www.hudl.com/jobs/search)
